@@ -1,0 +1,12 @@
+Primersumario:
+  generales:
+    numero:     000
+    nombre:     Generales
+  generales_1:
+    numero:     001
+    nombre:     Conocimiento
+Segundosumario:
+  generales_000:
+    id_primersumario:  generales
+    nombre:            GeneralesABC
+    numero:            100
