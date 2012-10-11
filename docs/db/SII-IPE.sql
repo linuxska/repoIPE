@@ -2,7 +2,7 @@
 -- pgDesigner 1.2.17
 --
 -- Project    : SII-IPE
--- Date       : 10/10/2012 11:08:34.003
+-- Date       : 10/10/2012 19:54:56.157
 -- Description: Sistema integral de informacion del instituto Practico Ebenezer.
 ------------------------------
 
@@ -10,6 +10,7 @@
 -- Start Tabla's declaration
 CREATE TABLE "libro" (
 "id" serial NOT NULL,
+"id_segundosumario" int NOT NULL,
 "titulo" character varying(512) NOT NULL,
 "nombreautor" character varying(128) NOT NULL,
 "apaterno_autor" character varying(64),
@@ -23,11 +24,12 @@ CREATE TABLE "libro" (
 "herejia" bool NOT NULL DEFAULT false,
 "cantidad" int,
 "numero_dewey" character varying(32) NOT NULL,
-"id_segundo_sumario" int NOT NULL
+"observaciones" character varying(512)
 ) WITHOUT OIDS;
 ALTER TABLE "libro" ADD CONSTRAINT "table1_pk" PRIMARY KEY("id");
 COMMENT ON TABLE "libro" IS 'Catálogo de libros de la Biblioteca del Instituto Practico Ebenezer.';
 COMMENT ON COLUMN "libro"."id" IS 'Identificador de la obra';
+COMMENT ON COLUMN "libro"."id_segundosumario" IS 'Numero Dewey 000.000-999.0';
 COMMENT ON COLUMN "libro"."titulo" IS 'Titulo de la obra.';
 COMMENT ON COLUMN "libro"."nombreautor" IS 'Nombre del autor de la obra.';
 COMMENT ON COLUMN "libro"."apaterno_autor" IS 'Apellido paterno del autor de la Obra.';
@@ -40,29 +42,34 @@ COMMENT ON COLUMN "libro"."tema_secuandario" IS 'Tema secuandario de la obra';
 COMMENT ON COLUMN "libro"."tema_terciario" IS 'Tema terciario de la obra';
 COMMENT ON COLUMN "libro"."cantidad" IS 'Cantidad de ejemplares en la Bibliteca del IPE.';
 COMMENT ON COLUMN "libro"."numero_dewey" IS 'Numero Dewey generado "automaticamente" para cada obra.';
-COMMENT ON COLUMN "libro"."id_segundo_sumario" IS 'Numero Dewey 000.000-999.0';
+COMMENT ON COLUMN "libro"."observaciones" IS 'Observaciones del libro';
 
 CREATE TABLE "primersumario" (
 "id" serial NOT NULL,
 "numero" int(3) NOT NULL,
-"nombre" character varying(128) NOT NULL
+"nombre" character varying(128) NOT NULL,
+"descripcion" character varying(512)
 ) WITHOUT OIDS;
 ALTER TABLE "primersumario" ADD CONSTRAINT "primersumario_pk" PRIMARY KEY("id");
 COMMENT ON COLUMN "primersumario"."id" IS 'Identificador de la Categoria';
 COMMENT ON COLUMN "primersumario"."numero" IS 'Numero Dewey de la clasificacion.';
 COMMENT ON COLUMN "primersumario"."nombre" IS 'Nombre para la clasificacion';
+COMMENT ON COLUMN "primersumario"."descripcion" IS 'Descripcion del tema';
+CREATE UNIQUE INDEX "primersumario_idx1" ON "primersumario" USING btree ("id","numero","nombre");
 
 CREATE TABLE "segundosumario" (
 "id" serial NOT NULL,
+"id_primersumario" int NOT NULL,
 "numero" int NOT NULL,
 "nombre" character varying(128) NOT NULL,
-"id_primersumario" int NOT NULL
+"descripcion" character varying(512)
 ) WITHOUT OIDS;
 ALTER TABLE "segundosumario" ADD CONSTRAINT "segundosumario_pk" PRIMARY KEY("id");
 COMMENT ON COLUMN "segundosumario"."id" IS 'Identificador de la Categoria';
+COMMENT ON COLUMN "segundosumario"."id_primersumario" IS 'Id foraneo del primer sumario';
 COMMENT ON COLUMN "segundosumario"."numero" IS 'Numero Dewey de la clasificacion.';
 COMMENT ON COLUMN "segundosumario"."nombre" IS 'Nombre para la clasificacion';
-COMMENT ON COLUMN "segundosumario"."id_primersumario" IS 'Id foraneo del primer sumario';
+COMMENT ON COLUMN "segundosumario"."descripcion" IS 'Decripcion del decimal';
 
 CREATE TABLE "alumno" (
 "id" serial NOT NULL,
@@ -289,12 +296,78 @@ ALTER TABLE "lista" ADD CONSTRAINT "lista_pk" PRIMARY KEY("id");
 COMMENT ON TABLE "lista" IS 'Alumnos inscritos en un curso.';
 COMMENT ON COLUMN "lista"."id" IS 'Clave de la lista.';
 
+CREATE TABLE "book" (
+"id" serial NOT NULL,
+"id_second_sum" int NOT NULL,
+"title" character varying(512) NOT NULL,
+"author_name" character varying(128) NOT NULL,
+"author_lastname" character varying(64),
+"author_mothername" character varying(64),
+"year_publication" int(4),
+"editorial" character varying(128),
+"isbn" character varying(32),
+"primary_theme" character varying(64),
+"secundary_theme" character varying(64),
+"tertiary_theme" character varying(64),
+"heresy" bool NOT NULL DEFAULT false,
+"amount" int,
+"dewey_number" character varying(32) NOT NULL,
+"observations" character varying(512)
+) WITHOUT OIDS;
+ALTER TABLE "book" ADD CONSTRAINT "book_pk" PRIMARY KEY("id");
+COMMENT ON TABLE "book" IS 'Catálogo de libros ingles de la Biblioteca del Instituto Practico Ebenezer.';
+COMMENT ON COLUMN "book"."id" IS 'Identificador de la obra';
+COMMENT ON COLUMN "book"."id_second_sum" IS 'Numero Dewey 000.000-999.0';
+COMMENT ON COLUMN "book"."title" IS 'Title of the book';
+COMMENT ON COLUMN "book"."author_name" IS 'Name the author of the work.';
+COMMENT ON COLUMN "book"."author_lastname" IS 'Lastname of the author';
+COMMENT ON COLUMN "book"."author_mothername" IS 'Apellido materno del autor.';
+COMMENT ON COLUMN "book"."year_publication" IS 'Ano que se publico el libro.';
+COMMENT ON COLUMN "book"."editorial" IS 'Editorial que saco el libro.';
+COMMENT ON COLUMN "book"."isbn" IS 'Numero ISBN de la obra.';
+COMMENT ON COLUMN "book"."primary_theme" IS 'Tema de la obra';
+COMMENT ON COLUMN "book"."secundary_theme" IS 'Tema secuandario de la obra';
+COMMENT ON COLUMN "book"."tertiary_theme" IS 'Tema terciario de la obra';
+COMMENT ON COLUMN "book"."amount" IS 'Cantidad de ejemplares en la Bibliteca del IPE.';
+COMMENT ON COLUMN "book"."dewey_number" IS 'Numero Dewey generado "automaticamente" para cada obra.';
+
+CREATE TABLE "secondsummary" (
+"id" serial NOT NULL,
+"id_firstsummary" int NOT NULL,
+"number" int NOT NULL,
+"name" character varying(128) NOT NULL,
+"description" character varying(512)
+) WITHOUT OIDS;
+ALTER TABLE "secondsummary" ADD CONSTRAINT "secondsummary_pk" PRIMARY KEY("id");
+COMMENT ON COLUMN "secondsummary"."id" IS 'Identificador de la Categoria';
+COMMENT ON COLUMN "secondsummary"."id_firstsummary" IS 'Id foraneo del primer sumario';
+COMMENT ON COLUMN "secondsummary"."number" IS 'Numero Dewey de la clasificacion.';
+COMMENT ON COLUMN "secondsummary"."name" IS 'Nombre para la clasificacion';
+COMMENT ON COLUMN "secondsummary"."description" IS 'Decripcion del decimal';
+
+CREATE TABLE "firstsummary" (
+"id" serial NOT NULL,
+"number" int(3) NOT NULL,
+"name" character varying(128) NOT NULL,
+"description" character varying(512)
+) WITHOUT OIDS;
+ALTER TABLE "firstsummary" ADD CONSTRAINT "firstsummary_pk" PRIMARY KEY("id");
+COMMENT ON COLUMN "firstsummary"."id" IS 'Identificador de la Categoria';
+COMMENT ON COLUMN "firstsummary"."number" IS 'Numero Dewey de la clasificacion.';
+COMMENT ON COLUMN "firstsummary"."name" IS 'Nombre para la clasificacion';
+COMMENT ON COLUMN "firstsummary"."description" IS 'Descripcion del tema';
+CREATE UNIQUE INDEX "primersumario_idx1" ON "firstsummary" USING btree ("id","numero","nombre");
+
 -- End Tabla's declaration
 
 -- Start Relación's declaration
-ALTER TABLE "libro" ADD CONSTRAINT "libro_fkey1" FOREIGN KEY ("id_segundo_sumario") REFERENCES "segundosumario"("id") ON UPDATE CASCADE ON DELETE CASCADE;
+ALTER TABLE "libro" ADD CONSTRAINT "libro_fkey1" FOREIGN KEY ("id_segundosumario") REFERENCES "segundosumario"("id") ON UPDATE CASCADE ON DELETE RESTRICT;
 
-ALTER TABLE "segundosumario" ADD CONSTRAINT "segundosumario_fkey1" FOREIGN KEY ("id_primersumario") REFERENCES "primersumario"("id") ON UPDATE CASCADE ON DELETE CASCADE;
+ALTER TABLE "segundosumario" ADD CONSTRAINT "segundosumario_fkey1" FOREIGN KEY ("id_primersumario") REFERENCES "primersumario"("id") ON UPDATE CASCADE ON DELETE RESTRICT;
+
+ALTER TABLE "secondsummary" ADD CONSTRAINT "secondsummary_fkey1" FOREIGN KEY ("id_firstsummary") REFERENCES "firstsummary"("id") ON UPDATE CASCADE ON DELETE RESTRICT;
+
+ALTER TABLE "book" ADD CONSTRAINT "book_fkey1" FOREIGN KEY ("id") REFERENCES "secondsummary"("id_firstsummary") ON UPDATE CASCADE ON DELETE RESTRICT;
 
 -- End Relación's declaration
 
