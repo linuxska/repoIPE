@@ -1,0 +1,185 @@
+propel:
+  _attributes:
+    package: lib.model
+    defaultIdMethod: native
+  alumno:
+    _attributes: { phpName: Alumno }
+    id: { phpName: Id, type: INTEGER, primaryKey: true, autoIncrement: true, required: true }
+    nombre: { phpName: Nombre, type: VARCHAR, size: '64', required: true }
+    a_paterno: { phpName: APaterno, type: VARCHAR, size: '64', required: true }
+    a_materno: { phpName: AMaterno, type: VARCHAR, size: '64', required: true }
+    sexo: { phpName: Sexo, type: VARCHAR, size: '9', required: true }
+    direccion: { phpName: Direccion, type: VARCHAR, size: '64', required: true }
+    colonia: { phpName: Colonia, type: VARCHAR, size: '64', required: true }
+    ciudad: { phpName: Ciudad, type: VARCHAR, size: '64', required: true }
+    estado: { phpName: Estado, type: VARCHAR, size: '64', required: true }
+    cp: { phpName: Cp, type: VARCHAR, size: '5', required: false }
+    pais: { phpName: Pais, type: VARCHAR, size: '64', required: false }
+    telefono: { phpName: Telefono, type: VARCHAR, size: '12', required: true, defaultValue: 'NULL' }
+    celular: { phpName: Celular, type: VARCHAR, size: '12', required: false, defaultValue: 'NULL' }
+    e_mail: { phpName: EMail, type: VARCHAR, size: '128', required: true, defaultValue: 'NULL' }
+    fecha_nacimiento: { phpName: FechaNacimiento, type: DATE, required: true }
+    estado_civil: { phpName: EstadoCivil, type: VARCHAR, size: '32', required: true }
+    padres_nombres: { phpName: PadresNombres, type: VARCHAR, size: '256', required: false }
+    padres_direccion: { phpName: PadresDireccion, type: VARCHAR, size: '64', required: false }
+    padres_colonia: { phpName: PadresColonia, type: VARCHAR, size: '64', required: false }
+    padres_ciudad: { phpName: PadresCiudad, type: VARCHAR, size: '64', required: false }
+    padres_estado: { phpName: PadresEstado, type: VARCHAR, size: '64', required: false }
+    padres_cp: { phpName: PadresCp, type: VARCHAR, size: '5', required: false }
+    padres_pais: { phpName: PadresPais, type: VARCHAR, size: '64', required: false }
+    padres_telefono: { phpName: PadresTelefono, type: VARCHAR, size: '12', required: false }
+    padres_celular: { phpName: PadresCelular, type: VARCHAR, size: '12', required: false }
+    padres_email: { phpName: PadresEmail, type: VARCHAR, size: '128', required: false }
+    pastor_nombre: { phpName: PastorNombre, type: VARCHAR, size: '128', required: false }
+    pastor_direccion: { phpName: PastorDireccion, type: VARCHAR, size: '64', required: false }
+    pastor_colonia: { phpName: PastorColonia, type: VARCHAR, size: '64', required: false }
+    pastor_ciudad: { phpName: PastorCiudad, type: VARCHAR, size: '64', required: false }
+    pastor_estado: { phpName: PastorEstado, type: VARCHAR, size: '64', required: false }
+    pastor_cp: { phpName: PastorCp, type: VARCHAR, size: '5', required: false }
+    pastor_pais: { phpName: PastorPais, type: VARCHAR, size: '64', required: false }
+    pastor_telefono: { phpName: PastorTelefono, type: VARCHAR, size: '12', required: false }
+    pastor_celular: { phpName: PastorCelular, type: VARCHAR, size: '12', required: false }
+    pastor_email: { phpName: PastorEmail, type: VARCHAR, size: '128', required: false }
+    iglesia_nombre: { phpName: IglesiaNombre, type: VARCHAR, size: '128', required: false }
+    iglesia_direccion: { phpName: IglesiaDireccion, type: VARCHAR, size: '128', required: false }
+    iglesia_colonia: { phpName: IglesiaColonia, type: VARCHAR, size: '64', required: false }
+    iglesia_estado: { phpName: IglesiaEstado, type: VARCHAR, size: '64', required: false }
+    iglesia_cp: { phpName: IglesiaCp, type: VARCHAR, size: '5', required: false }
+    iglesia_pais: { phpName: IglesiaPais, type: VARCHAR, size: '64', required: false }
+    iglesia_telefono: { phpName: IglesiaTelefono, type: VARCHAR, size: '12', required: false }
+    iglesia_email: { phpName: IglesiaEmail, type: VARCHAR, size: '128', required: false }
+    iglesia_web: { phpName: IglesiaWeb, type: VARCHAR, size: '128', required: false }
+    emergencia_nombre: { phpName: EmergenciaNombre, type: VARCHAR, size: '128', required: false }
+    emergencia_direccion: { phpName: EmergenciaDireccion, type: VARCHAR, size: '64', required: false }
+    emergencia_colonia: { phpName: EmergenciaColonia, type: VARCHAR, size: '64', required: false }
+    emergencia_ciudad: { phpName: EmergenciaCiudad, type: VARCHAR, size: '64', required: false }
+    emergencia_estado: { phpName: EmergenciaEstado, type: VARCHAR, size: '64', required: false }
+    emergencia_telefono: { phpName: EmergenciaTelefono, type: VARCHAR, size: '12', required: false }
+    emergencia_celular: { phpName: EmergenciaCelular, type: VARCHAR, size: '12', required: false }
+    fecha_conversion: { phpName: FechaConversion, type: DATE, required: true }
+    fecha_bautismo: { phpName: FechaBautismo, type: DATE, required: true }
+    fecha_llamamiento: { phpName: FechaLlamamiento, type: DATE, required: true }
+    testimonio_salvacion: { phpName: TestimonioSalvacion, type: LONGVARCHAR, required: true }
+    testimonio_llamado: { phpName: TestimonioLlamado, type: LONGVARCHAR, required: true }
+    actividades_iglesia: { phpName: ActividadesIglesia, type: LONGVARCHAR, required: true }
+    primaria_nombre: { phpName: PrimariaNombre, type: VARCHAR, size: '64', required: false }
+    primaria_ciudad: { phpName: PrimariaCiudad, type: VARCHAR, size: '64', required: false }
+    primaria_final: { phpName: PrimariaFinal, type: DATE, required: false }
+    secundaria_nombre: { phpName: SecundariaNombre, type: VARCHAR, size: '64', required: false }
+    secuandaria_ciudad: { phpName: SecuandariaCiudad, type: VARCHAR, size: '64', required: false }
+    secundaria_final: { phpName: SecundariaFinal, type: DATE, required: false }
+    prepa_nombre: { phpName: PrepaNombre, type: VARCHAR, size: '64', required: false }
+    prepa_ciudad: { phpName: PrepaCiudad, type: VARCHAR, size: '64', required: false }
+    otra_nombre: { phpName: OtraNombre, type: VARCHAR, size: '64', required: false }
+    otra_ciudad: { phpName: OtraCiudad, type: VARCHAR, size: '64', required: false }
+    otra_fecha: { phpName: OtraFecha, type: DATE, required: false }
+    insti_nombre: { phpName: InstiNombre, type: VARCHAR, size: '64', required: false }
+    insti_ciudad: { phpName: InstiCiudad, type: VARCHAR, size: '64', required: false }
+    insti_fecha: { phpName: InstiFecha, type: VARCHAR, size: '64', required: false }
+    drogas: { phpName: Drogas, type: BOOLEAN, required: true }
+    alcohol: { phpName: Alcohol, type: BOOLEAN, required: true }
+    medicina_especial: { phpName: MedicinaEspecial, type: BOOLEAN, required: true }
+    medicamento_actual: { phpName: MedicamentoActual, type: BOOLEAN, required: true }
+    situacion_medica: { phpName: SituacionMedica, type: LONGVARCHAR, required: true }
+    trabajo_secular: { phpName: TrabajoSecular, type: LONGVARCHAR, required: false }
+    inscrito: { phpName: Inscrito, type: BOOLEAN, required: true }
+    foto: { phpName: Foto, type: VARCHAR, size: '256', required: false }
+  book:
+    _attributes: { phpName: Book }
+    id: { phpName: Id, type: INTEGER, primaryKey: true, autoIncrement: true, required: true }
+    id_second_sum: { phpName: IdSecondSum, type: INTEGER, required: true, foreignTable: secondsummary, foreignReference: id, onDelete: RESTRICT, onUpdate: CASCADE }
+    title: { phpName: Title, type: VARCHAR, size: '512', required: true }
+    author_name: { phpName: AuthorName, type: VARCHAR, size: '128', required: true }
+    author_lastname: { phpName: AuthorLastname, type: VARCHAR, size: '64', required: false }
+    author_mothername: { phpName: AuthorMothername, type: VARCHAR, size: '64', required: false }
+    year_publication: { phpName: YearPublication, type: VARCHAR, size: '4', required: false }
+    editorial: { phpName: Editorial, type: VARCHAR, size: '128', required: false }
+    isbn: { phpName: Isbn, type: VARCHAR, size: '32', required: false }
+    primary_theme: { phpName: PrimaryTheme, type: VARCHAR, size: '64', required: false }
+    secundary_theme: { phpName: SecundaryTheme, type: VARCHAR, size: '64', required: false }
+    tertiary_theme: { phpName: TertiaryTheme, type: VARCHAR, size: '64', required: false }
+    heresy: { phpName: Heresy, type: BOOLEAN, required: true, defaultValue: false }
+    amount: { phpName: Amount, type: INTEGER, required: false }
+    dewey_number: { phpName: DeweyNumber, type: VARCHAR, size: '32', required: true }
+    observations: { phpName: Observations, type: VARCHAR, size: '512', required: false }
+  curso:
+    _attributes: { phpName: Curso }
+    id: { phpName: Id, type: INTEGER, primaryKey: true, autoIncrement: true, required: true }
+    id_materia: { phpName: IdMateria, type: INTEGER, required: true }
+    id_profesor: { phpName: IdProfesor, type: INTEGER, required: true }
+    id_salon: { phpName: IdSalon, type: INTEGER, required: true }
+    id_periodo: { phpName: IdPeriodo, type: INTEGER, required: true }
+    hora_inicio: { phpName: HoraInicio, type: TIME, required: true }
+    hora_final: { phpName: HoraFinal, type: TIME, required: true }
+    anno: { phpName: Anno, type: VARCHAR, size: '4', required: true }
+    estado: { phpName: Estado, type: BOOLEAN, required: true, defaultValue: true }
+  firstsummary:
+    _attributes: { phpName: Firstsummary }
+    id: { phpName: Id, type: INTEGER, primaryKey: true, autoIncrement: true, required: true }
+    number: { phpName: Number, type: VARCHAR, size: '3', required: true }
+    name: { phpName: Name, type: VARCHAR, size: '128', required: true }
+    description: { phpName: Description, type: VARCHAR, size: '512', required: false }
+    _uniques: { firstsummary_idx1: [number, name] }
+  libro:
+    _attributes: { phpName: Libro }
+    id: { phpName: Id, type: INTEGER, primaryKey: true, autoIncrement: true, required: true }
+    id_segundosumario: { phpName: IdSegundosumario, type: INTEGER, required: true, foreignTable: segundosumario, foreignReference: id, onDelete: RESTRICT, onUpdate: CASCADE }
+    titulo: { phpName: Titulo, type: VARCHAR, size: '512', required: true }
+    nombreautor: { phpName: Nombreautor, type: VARCHAR, size: '128', required: true }
+    apaterno_autor: { phpName: ApaternoAutor, type: VARCHAR, size: '64', required: false }
+    amaterno_autor: { phpName: AmaternoAutor, type: VARCHAR, size: '64', required: false }
+    ano_publicacion: { phpName: AnoPublicacion, type: VARCHAR, size: '4', required: false }
+    editorial: { phpName: Editorial, type: VARCHAR, size: '128', required: false }
+    isbn: { phpName: Isbn, type: VARCHAR, size: '32', required: false }
+    tema_primario: { phpName: TemaPrimario, type: VARCHAR, size: '64', required: false }
+    tema_secuandario: { phpName: TemaSecuandario, type: VARCHAR, size: '64', required: false }
+    tema_terciario: { phpName: TemaTerciario, type: VARCHAR, size: '64', required: false }
+    herejia: { phpName: Herejia, type: BOOLEAN, required: true, defaultValue: false }
+    cantidad: { phpName: Cantidad, type: INTEGER, required: false }
+    numero_dewey: { phpName: NumeroDewey, type: VARCHAR, size: '32', required: true }
+    observaciones: { phpName: Observaciones, type: VARCHAR, size: '512', required: false }
+  lista:
+    _attributes: { phpName: Lista }
+    id: { phpName: Id, type: INTEGER, primaryKey: true, autoIncrement: true, required: true }
+  primersumario:
+    _attributes: { phpName: Primersumario }
+    id: { phpName: Id, type: INTEGER, primaryKey: true, autoIncrement: true, required: true }
+    numero: { phpName: Numero, type: VARCHAR, size: '3', required: true }
+    nombre: { phpName: Nombre, type: VARCHAR, size: '128', required: true }
+    descripcion: { phpName: Descripcion, type: VARCHAR, size: '512', required: false }
+    _uniques: { primersumario_idx1: [numero, nombre] }
+  profesor:
+    _attributes: { phpName: Profesor }
+    id: { phpName: Id, type: INTEGER, primaryKey: true, autoIncrement: true, required: true }
+    rfc: { phpName: Rfc, type: VARCHAR, size: '15', required: true }
+    nombre: { phpName: Nombre, type: VARCHAR, size: '64', required: true }
+    a_paterno: { phpName: APaterno, type: VARCHAR, size: '64', required: true }
+    a_materno: { phpName: AMaterno, type: VARCHAR, size: '64', required: true }
+    direccion: { phpName: Direccion, type: VARCHAR, size: '64', required: true }
+    colonia: { phpName: Colonia, type: VARCHAR, size: '64', required: true }
+    ciudad: { phpName: Ciudad, type: VARCHAR, size: '64', required: true }
+    estado: { phpName: Estado, type: VARCHAR, size: '64', required: true }
+    cp: { phpName: Cp, type: VARCHAR, size: '5', required: true }
+    sexo: { phpName: Sexo, type: VARCHAR, size: '9', required: true }
+    telefono: { phpName: Telefono, type: VARCHAR, size: '12', required: false }
+    celular: { phpName: Celular, type: VARCHAR, size: '12', required: false }
+    email: { phpName: Email, type: VARCHAR, size: '128', required: true }
+    foto: { phpName: Foto, type: VARCHAR, size: '256', required: false }
+    activo: { phpName: Activo, type: BOOLEAN, required: true, defaultValue: true }
+    observaciones: { phpName: Observaciones, type: LONGVARCHAR, required: false }
+  secondsummary:
+    _attributes: { phpName: Secondsummary }
+    id: { phpName: Id, type: INTEGER, primaryKey: true, autoIncrement: true, required: true }
+    id_firstsummary: { phpName: IdFirstsummary, type: INTEGER, required: true, foreignTable: firstsummary, foreignReference: id, onDelete: RESTRICT, onUpdate: CASCADE }
+    number: { phpName: Number, type: VARCHAR, size: '6', required: true }
+    name: { phpName: Name, type: VARCHAR, size: '128', required: true }
+    description: { phpName: Description, type: VARCHAR, size: '512', required: false }
+    _uniques: { secondsummary_idx1: [id_firstsummary, number] }
+  segundosumario:
+    _attributes: { phpName: Segundosumario }
+    id: { phpName: Id, type: INTEGER, primaryKey: true, autoIncrement: true, required: true }
+    id_primersumario: { phpName: IdPrimersumario, type: INTEGER, required: true, foreignTable: primersumario, foreignReference: id, onDelete: RESTRICT, onUpdate: CASCADE }
+    numero: { phpName: Numero, type: VARCHAR, size: '6', required: true }
+    nombre: { phpName: Nombre, type: VARCHAR, size: '128', required: true }
+    descripcion: { phpName: Descripcion, type: VARCHAR, size: '512', required: false }
+    _uniques: { segundosumario_idx1: [id_primersumario, numero] }

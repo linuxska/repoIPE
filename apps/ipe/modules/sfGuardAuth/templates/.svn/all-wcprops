@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/42/trunk/apps/ibf/modules/sfGuardAuth/templates
+END
+secureSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/42/trunk/apps/ibf/modules/sfGuardAuth/templates/secureSuccess.php
+END
+signinSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/42/trunk/apps/ibf/modules/sfGuardAuth/templates/signinSuccess.php
+END

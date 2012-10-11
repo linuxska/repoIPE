@@ -1,16 +1,74 @@
+
+libro:
+  class: sfPropelRouteCollection
+  options:
+    model:                Libro
+    module:               adminlibro
+    prefix_path:          /adminlibro
+    column:               id
+    with_wildcard_routes: true
+
+segundosumario:
+  class: sfPropelRouteCollection
+  options:
+    model:                Segundosumario
+    module:               admindecimales
+    prefix_path:          /admindecimales
+    column:               id
+    with_wildcard_routes: true
+
+primersumario:
+  class: sfPropelRouteCollection
+  options:
+    model:                Primersumario
+    module:               adminprimersumario
+    prefix_path:          /adminprimersumario
+    column:               id
+    with_wildcard_routes: true
+
+homepage:
+  url:   /
+  param: { module: ipe, action: index }
+
+legal:
+  url:   /
+  param: { module: ipe, action: index }
+
+about:
+  url:   /
+  param: { module: ipe, action: index }
+
+download_manual:
+  url:   /download/manual.:sf_format
+  param: { module: ipe, action: DownloadManual, sf_format: pdf}
+
+
+change_password:
+  url:              /changepassword
+  param:            { module: ibf, action: ChangePasswordShow }
+change_password_do:
+  url:              /dochangepassword
+  param:            { module: ibf, action: ChangePassword }
+
+recover_password:
+  url:              /recoverpassword
+  param:            { module: ibf, action: RecoverPasswordShow }
+recover_password_do:
+  url:              /dorecoverpassword
+  param:            { module: ibf, action: RecoverPassword }
+
+
 # You can find more information about this file on the symfony website:
 # http://www.symfony-project.org/reference/1_4/en/10-Routing
 
-# default rules
-homepage:
-  url:   /
-  param: { module: default, action: index }
+sf_guard_signin:
+  url:   /login
+  param: { module: sfGuardAuth, action: signin }
 
-# generic rules
-# please, remove them by adding more specific rules
-default_index:
-  url:   /:module
-  param: { action: index }
+sf_guard_signout:
+  url:   /logout
+  param: { module: sfGuardAuth, action: signout }
 
-default:
-  url:   /:module/:action/*
+sf_guard_password:
+  url:   /request_password
+  param: { module: sfGuardAuth, action: password }
