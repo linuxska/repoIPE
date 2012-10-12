@@ -13,13 +13,32 @@
         <li class="app <?php echo in_array('sf_guard_user', explode('/', $sf_request->getUri())) ? "selected" : "" ?>"><a href="<?php echo url_for('@sf_guard_user') ?>" class="alternate">Usuarios</a></li>
         <li class="app <?php echo in_array('sf_guard_group', explode('/', $sf_request->getUri())) ? "selected" : "" ?>"><a href="<?php echo url_for('@sf_guard_group') ?>" class="alternate">Grupos</a></li>
         <li class="app last <?php echo in_array('sf_guard_permission', explode('/', $sf_request->getUri())) ? "selected" : "" ?>"><a href="<?php echo url_for('@sf_guard_permission') ?>" class="alternate">Permisos</a></li>
-        <li class="menu_sub_role">
-            <ul class="menu_sub">
-                <li class ="menu_sub_header"><a class="alternate" href="<?php echo url_for('@homepage') ?>"></a>Modulos</li>
-                <li class="app <?php echo in_array('libro', explode('/', $sf_request->getUri())) ? "selected" : "" ?>"><a href="<?php echo url_for('@libro') ?>" class="alternate">Catalogo Libros</a></li>
-                <li class="app <?php echo in_array('primersumario', explode('/', $sf_request->getUri())) ? "selected" : "" ?>"><a href="<?php echo url_for('@primersumario') ?>" class="alternate">Generales</a></li>
-                <li class="app <?php echo in_array('segundosumario', explode('/', $sf_request->getUri())) ? "selected" : "" ?>"><a href="<?php echo url_for('@segundosumario') ?>" class="alternate">Secundarios</a></li>
-            </ul>
+        
+        <li class="menu_role">
+        <ul class="menu_sub">
+                <li class ="menu_sub_header"><a class="alternate" href="<?php echo url_for('@homepage') ?>"></a>Biblioteca I.P.E. [ingles]</li>
+                <li class="app <?php echo in_array('libro', explode('/', $sf_request->getUri())) ? "selected" : "" ?>"><a href="<?php echo url_for('@libro') ?>" class="alternate">Book Stock</a></li>
+                <li class="app <?php echo in_array('primersumario', explode('/', $sf_request->getUri())) ? "selected" : "" ?>"><a href="<?php echo url_for('@primersumario') ?>" class="alternate">General Summary</a></li>
+                <li class="app last <?php echo in_array('segundosumario', explode('/', $sf_request->getUri())) ? "selected" : "" ?>"><a href="<?php echo url_for('@segundosumario') ?>" class="alternate">Decimales</a></li>
+        </ul>
+        </li>
+        
+        <li class="menu_role">
+        <ul class="menu_sub">
+                <li class ="menu_sub_header"><a class="alternate" href="<?php echo url_for('@homepage') ?>"></a>Biblioteca Hno Wokaty</li>
+                <li class="app <?php echo in_array('libro', explode('/', $sf_request->getUri())) ? "selected" : "" ?>"><a href="<?php echo url_for('@libro') ?>" class="alternate">Catalogo de libros</a></li>
+                <li class="app <?php echo in_array('primersumario', explode('/', $sf_request->getUri())) ? "selected" : "" ?>"><a href="<?php echo url_for('@primersumario') ?>" class="alternate">General Summary</a></li>
+                <li class="app last <?php echo in_array('segundosumario', explode('/', $sf_request->getUri())) ? "selected" : "" ?>"><a href="<?php echo url_for('@segundosumario') ?>" class="alternate">Decimales</a></li>
+        </ul>
+        </li>
+        
+        <li class="menu_role">
+        <ul class="menu_sub">
+                <li class ="menu_sub_header"><a class="alternate" href="<?php echo url_for('@homepage') ?>"></a>Biblioteca I.P.E.</li>
+                <li class="app <?php echo in_array('libro', explode('/', $sf_request->getUri())) ? "selected" : "" ?>"><a href="<?php echo url_for('@libro') ?>" class="alternate">Catalogo de libros</a></li>
+                <li class="app <?php echo in_array('primersumario', explode('/', $sf_request->getUri())) ? "selected" : "" ?>"><a href="<?php echo url_for('@primersumario') ?>" class="alternate">Indice General</a></li>
+                <li class="app <?php echo in_array('segundosumario', explode('/', $sf_request->getUri())) ? "selected" : "" ?>"><a href="<?php echo url_for('@segundosumario') ?>" class="alternate">Decimales</a></li>
+        </ul>
         </li>
     </ul>
 </li>

@@ -24,7 +24,7 @@
         if ($sf_user->hasCredential('academico')) {
             include_partial('ipe/menuAcademico');
         }
-        if ($sf_user->hasCredential('adminbiblioteca')) {
+        if ($sf_user->hasCredential('bibliotecaadmin')) {
             include_partial('ipe/menuAdminbiblioteca');
         }
         if ($sf_user->hasCredential('biblioteca')) {

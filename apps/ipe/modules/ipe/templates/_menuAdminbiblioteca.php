@@ -7,13 +7,29 @@
  * es parte de la URI solicitada se resalta la aplicación.
  */
 ?>
+
 <li class="menu_role">
-    <ul class="menu_sub">
+
             <ul class="menu_sub">
-                <li class ="menu_sub_header"><a class="alternate" href="<?php echo url_for('@homepage') ?>"></a>Modulos</li>
-                <li class="app <?php echo in_array('libro', explode('/', $sf_request->getUri())) ? "selected" : "" ?>"><a href="<?php echo url_for('@libro') ?>" class="alternate">Catalogo Libros</a></li>
-                <li class="app <?php echo in_array('primersumario', explode('/', $sf_request->getUri())) ? "selected" : "" ?>"><a href="<?php echo url_for('@primersumario') ?>" class="alternate">Dir. de Iglesias</a></li>
-                <li class="app <?php echo in_array('segundosumario', explode('/', $sf_request->getUri())) ? "selected" : "" ?>"><a href="<?php echo url_for('@segundosumario') ?>" class="alternate">Ministerios</a></li>
+                <li class ="menu_sub_header"><a class="alternate" href="<?php echo url_for('@homepage') ?>"></a>Biblioteca I.P.E. [ingles]</li>
+                <li class="app <?php echo in_array('libro', explode('/', $sf_request->getUri())) ? "selected" : "" ?>"><a href="<?php echo url_for('@libro') ?>" class="alternate">Book Stock</a></li>
+                <li class="app <?php echo in_array('primersumario', explode('/', $sf_request->getUri())) ? "selected" : "" ?>"><a href="<?php echo url_for('@primersumario') ?>" class="alternate">General Summary</a></li>
+                <li class="app last <?php echo in_array('segundosumario', explode('/', $sf_request->getUri())) ? "selected" : "" ?>"><a href="<?php echo url_for('@segundosumario') ?>" class="alternate">Decimales</a></li>
             </ul>
-    </ul>
+</li>
+<li class="menu_role">
+            <ul class="menu_sub">
+                <li class ="menu_sub_header"><a class="alternate" href="<?php echo url_for('@homepage') ?>"></a>Biblioteca Hno Wokaty</li>
+                <li class="app <?php echo in_array('libro', explode('/', $sf_request->getUri())) ? "selected" : "" ?>"><a href="<?php echo url_for('@libro') ?>" class="alternate">Catalogo de libros</a></li>
+                <li class="app <?php echo in_array('primersumario', explode('/', $sf_request->getUri())) ? "selected" : "" ?>"><a href="<?php echo url_for('@primersumario') ?>" class="alternate">General Summary</a></li>
+                <li class="app last <?php echo in_array('segundosumario', explode('/', $sf_request->getUri())) ? "selected" : "" ?>"><a href="<?php echo url_for('@segundosumario') ?>" class="alternate">Decimales</a></li>
+            </ul>
+            </li>
+<li class="menu_role">
+            <ul class="menu_sub">
+                <li class ="menu_sub_header"><a class="alternate" href="<?php echo url_for('@homepage') ?>"></a>Biblioteca I.P.E.</li>
+                <li class="app <?php echo in_array('libro', explode('/', $sf_request->getUri())) ? "selected" : "" ?>"><a href="<?php echo url_for('@libro') ?>" class="alternate">Catalogo de libros</a></li>
+                <li class="app <?php echo in_array('primersumario', explode('/', $sf_request->getUri())) ? "selected" : "" ?>"><a href="<?php echo url_for('@primersumario') ?>" class="alternate">Indice General</a></li>
+                <li class="app <?php echo in_array('segundosumario', explode('/', $sf_request->getUri())) ? "selected" : "" ?>"><a href="<?php echo url_for('@segundosumario') ?>" class="alternate">Decimales</a></li>
+            </ul>
 </li>

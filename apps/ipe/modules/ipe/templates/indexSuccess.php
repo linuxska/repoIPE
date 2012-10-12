@@ -22,7 +22,7 @@
             consultar el funcionamiento del sistema.</dd>
         <dd><strong><a href="<?php echo url_for('@download_manual')?>">Manual de usuario</a>.</strong></dd>
         <dt>Ayuda</dt>
-        <dd>Si tiene dudas y el manual de usuario (Pendiente) no se las resuelve por favor póngase en contacto con
+        <dd>Si tiene dudas y el manual de usuario (Pendiente por desarrollar) no se las resuelve por favor póngase en contacto con
         el administrador en la siguiente dirección de correo electrónico
         <strong><a href="mailto:admin@abricolabs.net">admin@abricolabs.net</a></strong>.</dd>
         <dd>Si cree que ha encontrado un error en el sistema por favor póngase en contacto con

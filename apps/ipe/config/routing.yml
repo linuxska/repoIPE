@@ -45,17 +45,17 @@ download_manual:
 
 change_password:
   url:              /changepassword
-  param:            { module: ibf, action: ChangePasswordShow }
+  param:            { module: ipe, action: ChangePasswordShow }
 change_password_do:
   url:              /dochangepassword
-  param:            { module: ibf, action: ChangePassword }
+  param:            { module: ipe, action: ChangePassword }
 
 recover_password:
   url:              /recoverpassword
-  param:            { module: ibf, action: RecoverPasswordShow }
+  param:            { module: ipe, action: RecoverPasswordShow }
 recover_password_do:
   url:              /dorecoverpassword
-  param:            { module: ibf, action: RecoverPassword }
+  param:            { module: ipe, action: RecoverPassword }
 
 
 # You can find more information about this file on the symfony website:
