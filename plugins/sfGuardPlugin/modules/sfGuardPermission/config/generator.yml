@@ -12,10 +12,10 @@ generator:
 
     config:
       list:
-        title: Permission list
+        title: Lista de permisos
 
       edit:
-        title: Editing Permission "%%name%%"
+        title: Editando permisos de "%%name%%"
 
       new:
-        title: New Permission
+        title: Nuevos permisos

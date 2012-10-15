@@ -12,10 +12,10 @@ generator:
 
     config:
       list:
-        title: Group list
+        title: Lista de los grupos
 
       edit:
-        title: Editing Group "%%name%%"
+        title: Editando el Grupo "%%name%%"
 
       new:
-        title: New Group
+        title: Nuevo Grupo

@@ -1,3 +1,7 @@
+#sf_admin_container .sf_admin_list table{
+    width:100%;
+}
+
 #sf_admin_container a
 {
   color: #464646;
@@ -75,7 +79,7 @@
 #sf_admin_container .radio_list li, #sf_admin_container .checkbox_list li
 {
   list-style: none;
-  display: inline;
+  display: block;/*inline;*/
 }
 
 #sf_admin_container .double_list_select, #sf_admin_container .double_list_select-selected
@@ -102,8 +106,17 @@
 
 #sf_admin_bar
 {
-  float: right;
-  margin-left: 20px;
+   float: none;
+}
+
+#sf_admin_bar table
+{
+ width: 100%;
+}
+
+.sf_admin_filter form table tr td select
+{
+ width: 200px;
 }
 
 .sf_admin_pagination
@@ -268,4 +281,10 @@
 {
   text-align: center;
 }
-
+div.centrado{
+text-align: center;
+}
+div.centrado table {
+margin: 0 auto;
+text-align: left;
+}

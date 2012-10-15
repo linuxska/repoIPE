@@ -15,9 +15,9 @@ propel:
     estado: { phpName: Estado, type: VARCHAR, size: '64', required: true }
     cp: { phpName: Cp, type: VARCHAR, size: '5', required: false }
     pais: { phpName: Pais, type: VARCHAR, size: '64', required: false }
-    telefono: { phpName: Telefono, type: VARCHAR, size: '12', required: true, defaultValue: 'NULL' }
-    celular: { phpName: Celular, type: VARCHAR, size: '12', required: false, defaultValue: 'NULL' }
-    e_mail: { phpName: EMail, type: VARCHAR, size: '128', required: true, defaultValue: 'NULL' }
+    telefono: { phpName: Telefono, type: VARCHAR, size: '12', required: true }
+    celular: { phpName: Celular, type: VARCHAR, size: '12', required: false }
+    e_mail: { phpName: EMail, type: VARCHAR, size: '128', required: true }
     fecha_nacimiento: { phpName: FechaNacimiento, type: DATE, required: true }
     estado_civil: { phpName: EstadoCivil, type: VARCHAR, size: '32', required: true }
     padres_nombres: { phpName: PadresNombres, type: VARCHAR, size: '256', required: false }
@@ -87,19 +87,19 @@ propel:
   book:
     _attributes: { phpName: Book }
     id: { phpName: Id, type: INTEGER, primaryKey: true, autoIncrement: true, required: true }
-    id_second_sum: { phpName: IdSecondSum, type: INTEGER, required: true, foreignTable: secondsummary, foreignReference: id, onDelete: RESTRICT, onUpdate: CASCADE }
+    id_decimal: { phpName: IdDecimal, type: INTEGER, required: true, foreignTable: decimalen, foreignReference: id, onDelete: RESTRICT, onUpdate: CASCADE }
     title: { phpName: Title, type: VARCHAR, size: '512', required: true }
-    author_name: { phpName: AuthorName, type: VARCHAR, size: '128', required: true }
+    author_firstname: { phpName: AuthorFirstname, type: VARCHAR, size: '128', required: true }
     author_lastname: { phpName: AuthorLastname, type: VARCHAR, size: '64', required: false }
-    author_mothername: { phpName: AuthorMothername, type: VARCHAR, size: '64', required: false }
-    year_publication: { phpName: YearPublication, type: VARCHAR, size: '4', required: false }
-    editorial: { phpName: Editorial, type: VARCHAR, size: '128', required: false }
+    year: { phpName: Year, type: VARCHAR, size: '4', required: false }
+    publishing_house: { phpName: PublishingHouse, type: VARCHAR, size: '128', required: false }
     isbn: { phpName: Isbn, type: VARCHAR, size: '32', required: false }
-    primary_theme: { phpName: PrimaryTheme, type: VARCHAR, size: '64', required: false }
-    secundary_theme: { phpName: SecundaryTheme, type: VARCHAR, size: '64', required: false }
-    tertiary_theme: { phpName: TertiaryTheme, type: VARCHAR, size: '64', required: false }
+    volume: { phpName: Volume, type: VARCHAR, size: '2', required: false }
+    primary_subject: { phpName: PrimarySubject, type: VARCHAR, size: '64', required: false }
+    secondary_subject: { phpName: SecondarySubject, type: VARCHAR, size: '64', required: false }
+    tertiary_subject: { phpName: TertiarySubject, type: VARCHAR, size: '64', required: false }
     heresy: { phpName: Heresy, type: BOOLEAN, required: true, defaultValue: false }
-    amount: { phpName: Amount, type: INTEGER, required: false }
+    quantity: { phpName: Quantity, type: INTEGER, required: false }
     dewey_number: { phpName: DeweyNumber, type: VARCHAR, size: '32', required: true }
     observations: { phpName: Observations, type: VARCHAR, size: '512', required: false }
   curso:
@@ -113,23 +113,44 @@ propel:
     hora_final: { phpName: HoraFinal, type: TIME, required: true }
     anno: { phpName: Anno, type: VARCHAR, size: '4', required: true }
     estado: { phpName: Estado, type: BOOLEAN, required: true, defaultValue: true }
-  firstsummary:
-    _attributes: { phpName: Firstsummary }
+  decimal:
+    _attributes: { phpName: Decimal }
     id: { phpName: Id, type: INTEGER, primaryKey: true, autoIncrement: true, required: true }
-    number: { phpName: Number, type: VARCHAR, size: '3', required: true }
+    id_entero: { phpName: IdEntero, type: INTEGER, required: true, foreignTable: entero, foreignReference: id, onDelete: RESTRICT, onUpdate: CASCADE }
+    numero: { phpName: Numero, type: INTEGER, required: true }
+    nombre: { phpName: Nombre, type: VARCHAR, size: '128', required: true }
+    descripcion: { phpName: Descripcion, type: VARCHAR, size: '512', required: false }
+  decimalen:
+    _attributes: { phpName: Decimalen }
+    id: { phpName: Id, type: INTEGER, primaryKey: true, autoIncrement: true, required: true }
+    id_integer: { phpName: IdInteger, type: INTEGER, required: true, foreignTable: integer, foreignReference: id, onDelete: RESTRICT, onUpdate: CASCADE }
+    number: { phpName: Number, type: INTEGER, required: true }
     name: { phpName: Name, type: VARCHAR, size: '128', required: true }
     description: { phpName: Description, type: VARCHAR, size: '512', required: false }
-    _uniques: { firstsummary_idx1: [number, name] }
+    _uniques: { decimalen_idx1: [number] }
+  entero:
+    _attributes: { phpName: Entero }
+    id: { phpName: Id, type: INTEGER, primaryKey: true, autoIncrement: true, required: true }
+    numero: { phpName: Numero, type: INTEGER, required: true }
+    nombre: { phpName: Nombre, type: VARCHAR, size: '128', required: true }
+    descripcion: { phpName: Descripcion, type: VARCHAR, size: '512', required: false }
+  integer:
+    _attributes: { phpName: Integer }
+    id: { phpName: Id, type: INTEGER, primaryKey: true, autoIncrement: true, required: true }
+    number: { phpName: Number, type: INTEGER, required: true }
+    name: { phpName: Name, type: VARCHAR, size: '128', required: true }
+    description: { phpName: Description, type: VARCHAR, size: '512', required: false }
   libro:
     _attributes: { phpName: Libro }
     id: { phpName: Id, type: INTEGER, primaryKey: true, autoIncrement: true, required: true }
-    id_segundosumario: { phpName: IdSegundosumario, type: INTEGER, required: true, foreignTable: segundosumario, foreignReference: id, onDelete: RESTRICT, onUpdate: CASCADE }
+    id_decimal: { phpName: IdDecimal, type: INTEGER, required: true, foreignTable: decimal, foreignReference: id, onDelete: RESTRICT, onUpdate: CASCADE }
     titulo: { phpName: Titulo, type: VARCHAR, size: '512', required: true }
     nombreautor: { phpName: Nombreautor, type: VARCHAR, size: '128', required: true }
     apaterno_autor: { phpName: ApaternoAutor, type: VARCHAR, size: '64', required: false }
     amaterno_autor: { phpName: AmaternoAutor, type: VARCHAR, size: '64', required: false }
     ano_publicacion: { phpName: AnoPublicacion, type: VARCHAR, size: '4', required: false }
     editorial: { phpName: Editorial, type: VARCHAR, size: '128', required: false }
+    tomo: { phpName: Tomo, type: VARCHAR, size: '2', required: false }
     isbn: { phpName: Isbn, type: VARCHAR, size: '32', required: false }
     tema_primario: { phpName: TemaPrimario, type: VARCHAR, size: '64', required: false }
     tema_secuandario: { phpName: TemaSecuandario, type: VARCHAR, size: '64', required: false }
@@ -141,13 +162,6 @@ propel:
   lista:
     _attributes: { phpName: Lista }
     id: { phpName: Id, type: INTEGER, primaryKey: true, autoIncrement: true, required: true }
-  primersumario:
-    _attributes: { phpName: Primersumario }
-    id: { phpName: Id, type: INTEGER, primaryKey: true, autoIncrement: true, required: true }
-    numero: { phpName: Numero, type: VARCHAR, size: '3', required: true }
-    nombre: { phpName: Nombre, type: VARCHAR, size: '128', required: true }
-    descripcion: { phpName: Descripcion, type: VARCHAR, size: '512', required: false }
-    _uniques: { primersumario_idx1: [numero, nombre] }
   profesor:
     _attributes: { phpName: Profesor }
     id: { phpName: Id, type: INTEGER, primaryKey: true, autoIncrement: true, required: true }
@@ -167,19 +181,21 @@ propel:
     foto: { phpName: Foto, type: VARCHAR, size: '256', required: false }
     activo: { phpName: Activo, type: BOOLEAN, required: true, defaultValue: true }
     observaciones: { phpName: Observaciones, type: LONGVARCHAR, required: false }
-  secondsummary:
-    _attributes: { phpName: Secondsummary }
+  wk_book:
+    _attributes: { phpName: WkBook }
     id: { phpName: Id, type: INTEGER, primaryKey: true, autoIncrement: true, required: true }
-    id_firstsummary: { phpName: IdFirstsummary, type: INTEGER, required: true, foreignTable: firstsummary, foreignReference: id, onDelete: RESTRICT, onUpdate: CASCADE }
-    number: { phpName: Number, type: VARCHAR, size: '6', required: true }
-    name: { phpName: Name, type: VARCHAR, size: '128', required: true }
-    description: { phpName: Description, type: VARCHAR, size: '512', required: false }
-    _uniques: { secondsummary_idx1: [id_firstsummary, number] }
-  segundosumario:
-    _attributes: { phpName: Segundosumario }
-    id: { phpName: Id, type: INTEGER, primaryKey: true, autoIncrement: true, required: true }
-    id_primersumario: { phpName: IdPrimersumario, type: INTEGER, required: true, foreignTable: primersumario, foreignReference: id, onDelete: RESTRICT, onUpdate: CASCADE }
-    numero: { phpName: Numero, type: VARCHAR, size: '6', required: true }
-    nombre: { phpName: Nombre, type: VARCHAR, size: '128', required: true }
-    descripcion: { phpName: Descripcion, type: VARCHAR, size: '512', required: false }
-    _uniques: { segundosumario_idx1: [id_primersumario, numero] }
+    id_decimal: { phpName: IdDecimal, type: INTEGER, required: true, foreignTable: decimalen, foreignReference: id, onDelete: RESTRICT, onUpdate: CASCADE }
+    title: { phpName: Title, type: VARCHAR, size: '512', required: true }
+    author_firstname: { phpName: AuthorFirstname, type: VARCHAR, size: '128', required: true }
+    author_lastname: { phpName: AuthorLastname, type: VARCHAR, size: '64', required: false }
+    year: { phpName: Year, type: VARCHAR, size: '4', required: false }
+    publishing_house: { phpName: PublishingHouse, type: VARCHAR, size: '128', required: false }
+    isbn: { phpName: Isbn, type: VARCHAR, size: '32', required: false }
+    volume: { phpName: Volume, type: VARCHAR, size: '2', required: false }
+    primary_subject: { phpName: PrimarySubject, type: VARCHAR, size: '64', required: false }
+    secondary_subject: { phpName: SecondarySubject, type: VARCHAR, size: '64', required: false }
+    tertiary_subject: { phpName: TertiarySubject, type: VARCHAR, size: '64', required: false }
+    heresy: { phpName: Heresy, type: BOOLEAN, required: true, defaultValue: false }
+    quantity: { phpName: Quantity, type: INTEGER, required: false }
+    dewey_number: { phpName: DeweyNumber, type: VARCHAR, size: '32', required: true }
+    observations: { phpName: Observations, type: VARCHAR, size: '512', required: false }

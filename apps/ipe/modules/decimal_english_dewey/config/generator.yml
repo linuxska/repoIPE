@@ -1,0 +1,21 @@
+generator:
+  class: sfPropelGenerator
+  param:
+    model_class:           Decimalen
+    theme:                 admin
+    non_verbose_templates: true
+    with_show:             false
+    singular:              Decimalen
+    plural:                Decimalens
+    route_prefix:          decimalen
+    with_propel_route:     1
+    actions_base_class:    sfActions
+
+    config:
+      actions: ~
+      fields:  ~
+      list:    ~
+      filter:  ~
+      form:    ~
+      edit:    ~
+      new:     ~

@@ -5,44 +5,44 @@
  *
  * @package    ipe
  * @subpackage filter
- * @author     Your name here
+ * @author     Abraham Rafael Rico Moreno
  */
 abstract class BaseBookFormFilter extends BaseFormFilterPropel
 {
   public function setup()
   {
     $this->setWidgets(array(
-      'id_second_sum'     => new sfWidgetFormPropelChoice(array('model' => 'Secondsummary', 'add_empty' => true)),
+      'id_decimal'        => new sfWidgetFormPropelChoice(array('model' => 'Decimalen', 'add_empty' => true)),
       'title'             => new sfWidgetFormFilterInput(array('with_empty' => false)),
-      'author_name'       => new sfWidgetFormFilterInput(array('with_empty' => false)),
+      'author_firstname'  => new sfWidgetFormFilterInput(array('with_empty' => false)),
       'author_lastname'   => new sfWidgetFormFilterInput(),
-      'author_mothername' => new sfWidgetFormFilterInput(),
-      'year_publication'  => new sfWidgetFormFilterInput(),
-      'editorial'         => new sfWidgetFormFilterInput(),
+      'year'              => new sfWidgetFormFilterInput(),
+      'publishing_house'  => new sfWidgetFormFilterInput(),
       'isbn'              => new sfWidgetFormFilterInput(),
-      'primary_theme'     => new sfWidgetFormFilterInput(),
-      'secundary_theme'   => new sfWidgetFormFilterInput(),
-      'tertiary_theme'    => new sfWidgetFormFilterInput(),
+      'volume'            => new sfWidgetFormFilterInput(),
+      'primary_subject'   => new sfWidgetFormFilterInput(),
+      'secondary_subject' => new sfWidgetFormFilterInput(),
+      'tertiary_subject'  => new sfWidgetFormFilterInput(),
       'heresy'            => new sfWidgetFormChoice(array('choices' => array('' => 'yes or no', 1 => 'yes', 0 => 'no'))),
-      'amount'            => new sfWidgetFormFilterInput(),
+      'quantity'          => new sfWidgetFormFilterInput(),
       'dewey_number'      => new sfWidgetFormFilterInput(array('with_empty' => false)),
       'observations'      => new sfWidgetFormFilterInput(),
     ));
 
     $this->setValidators(array(
-      'id_second_sum'     => new sfValidatorPropelChoice(array('required' => false, 'model' => 'Secondsummary', 'column' => 'id')),
+      'id_decimal'        => new sfValidatorPropelChoice(array('required' => false, 'model' => 'Decimalen', 'column' => 'id')),
       'title'             => new sfValidatorPass(array('required' => false)),
-      'author_name'       => new sfValidatorPass(array('required' => false)),
+      'author_firstname'  => new sfValidatorPass(array('required' => false)),
       'author_lastname'   => new sfValidatorPass(array('required' => false)),
-      'author_mothername' => new sfValidatorPass(array('required' => false)),
-      'year_publication'  => new sfValidatorPass(array('required' => false)),
-      'editorial'         => new sfValidatorPass(array('required' => false)),
+      'year'              => new sfValidatorPass(array('required' => false)),
+      'publishing_house'  => new sfValidatorPass(array('required' => false)),
       'isbn'              => new sfValidatorPass(array('required' => false)),
-      'primary_theme'     => new sfValidatorPass(array('required' => false)),
-      'secundary_theme'   => new sfValidatorPass(array('required' => false)),
-      'tertiary_theme'    => new sfValidatorPass(array('required' => false)),
+      'volume'            => new sfValidatorPass(array('required' => false)),
+      'primary_subject'   => new sfValidatorPass(array('required' => false)),
+      'secondary_subject' => new sfValidatorPass(array('required' => false)),
+      'tertiary_subject'  => new sfValidatorPass(array('required' => false)),
       'heresy'            => new sfValidatorChoice(array('required' => false, 'choices' => array('', 1, 0))),
-      'amount'            => new sfValidatorSchemaFilter('text', new sfValidatorInteger(array('required' => false))),
+      'quantity'          => new sfValidatorSchemaFilter('text', new sfValidatorInteger(array('required' => false))),
       'dewey_number'      => new sfValidatorPass(array('required' => false)),
       'observations'      => new sfValidatorPass(array('required' => false)),
     ));
@@ -63,19 +63,19 @@ abstract class BaseBookFormFilter extends BaseFormFilterPropel
   {
     return array(
       'id'                => 'Number',
-      'id_second_sum'     => 'ForeignKey',
+      'id_decimal'        => 'ForeignKey',
       'title'             => 'Text',
-      'author_name'       => 'Text',
+      'author_firstname'  => 'Text',
       'author_lastname'   => 'Text',
-      'author_mothername' => 'Text',
-      'year_publication'  => 'Text',
-      'editorial'         => 'Text',
+      'year'              => 'Text',
+      'publishing_house'  => 'Text',
       'isbn'              => 'Text',
-      'primary_theme'     => 'Text',
-      'secundary_theme'   => 'Text',
-      'tertiary_theme'    => 'Text',
+      'volume'            => 'Text',
+      'primary_subject'   => 'Text',
+      'secondary_subject' => 'Text',
+      'tertiary_subject'  => 'Text',
       'heresy'            => 'Boolean',
-      'amount'            => 'Number',
+      'quantity'          => 'Number',
       'dewey_number'      => 'Text',
       'observations'      => 'Text',
     );

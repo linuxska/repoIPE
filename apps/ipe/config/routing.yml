@@ -1,28 +1,63 @@
-
 libro:
   class: sfPropelRouteCollection
   options:
     model:                Libro
-    module:               adminlibro
-    prefix_path:          /adminlibro
+    module:               libros
+    prefix_path:          /libros
     column:               id
     with_wildcard_routes: true
 
-segundosumario:
+entero:
   class: sfPropelRouteCollection
   options:
-    model:                Segundosumario
-    module:               admindecimales
-    prefix_path:          /admindecimales
+    model:                Entero
+    module:               numeros_dewey
+    prefix_path:          /numeros_dewey
     column:               id
     with_wildcard_routes: true
 
-primersumario:
+decimal:
   class: sfPropelRouteCollection
   options:
-    model:                Primersumario
-    module:               adminprimersumario
-    prefix_path:          /adminprimersumario
+    model:                Decimal
+    module:               decimal_dewey
+    prefix_path:          /decimal_dewey
+    column:               id
+    with_wildcard_routes: true
+
+book:
+  class: sfPropelRouteCollection
+  options:
+    model:                Book
+    module:               books
+    prefix_path:          /books
+    column:               id
+    with_wildcard_routes: true
+
+wk_book:
+  class: sfPropelRouteCollection
+  options:
+    model:                WkBook
+    module:               wokaty_books
+    prefix_path:          /wokaty_books
+    column:               id
+    with_wildcard_routes: true
+
+integer:
+  class: sfPropelRouteCollection
+  options:
+    model:                Integer
+    module:               numbers_dewey
+    prefix_path:          /numbers_dewey
+    column:               id
+    with_wildcard_routes: true
+
+decimalen:
+  class: sfPropelRouteCollection
+  options:
+    model:                Decimalen
+    module:               decimal_english_dewey
+    prefix_path:          /decimal_english_dewey
     column:               id
     with_wildcard_routes: true
 

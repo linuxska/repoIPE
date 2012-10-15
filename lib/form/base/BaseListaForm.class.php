@@ -7,7 +7,7 @@
  *
  * @package    ipe
  * @subpackage form
- * @author     Your name here
+ * @author     Abraham Rafael Rico Moreno
  */
 abstract class BaseListaForm extends BaseFormPropel
 {

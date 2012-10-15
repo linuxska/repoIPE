@@ -5,7 +5,7 @@
  *
  * @package    ipe
  * @subpackage filter
- * @author     Your name here
+ * @author     Abraham Rafael Rico Moreno
  */
 class ProfesorFormFilter extends BaseProfesorFormFilter
 {

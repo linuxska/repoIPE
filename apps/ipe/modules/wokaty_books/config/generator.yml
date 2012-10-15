@@ -1,0 +1,21 @@
+generator:
+  class: sfPropelGenerator
+  param:
+    model_class:           WkBook
+    theme:                 admin
+    non_verbose_templates: true
+    with_show:             false
+    singular:              WkBook
+    plural:                WkBooks
+    route_prefix:          wk_book
+    with_propel_route:     1
+    actions_base_class:    sfActions
+
+    config:
+      actions: ~
+      fields:  ~
+      list:    ~
+      filter:  ~
+      form:    ~
+      edit:    ~
+      new:     ~

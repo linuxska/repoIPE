@@ -5,7 +5,7 @@
  *
  * @package    ipe
  * @subpackage form
- * @author     Your name here
+ * @author     Abraham Rafael Rico Moreno
  */
 class ListaForm extends BaseListaForm
 {

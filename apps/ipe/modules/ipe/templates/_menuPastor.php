@@ -1,6 +1,6 @@
 <?php
 /*
- * Menú de acciones para el actor Profesor
+ * Menú de acciones para el actor Pastor
  * esperada para cada módulo. Si el nombre del módulo (que se encuentra en la URI)
  * es parte de la URI solicitada se resalta la aplicación.
  */
