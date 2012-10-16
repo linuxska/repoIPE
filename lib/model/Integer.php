@@ -19,6 +19,6 @@
 class Integer extends BaseInteger {
 
 	public function __toString() {
-        return sprintf("%s, %s", $this->getNumero(),$this->getNombre());
+        return sprintf("%s, %s", $this->getNumber(),$this->getName());
     }
 } // Integer

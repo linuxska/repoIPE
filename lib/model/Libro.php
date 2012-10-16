@@ -29,4 +29,23 @@ class Libro extends BaseLibro {
 		parent::__construct();
 	}
 
+	public  function getNombrecompleto()
+	{
+		return sprintf("%s %s %s",  $this->getApaternoAutor(), $this->getNombreautor(), $this->getAmaternoAutor());
+	}
+	public  function getClasificacion()
+	{
+		$decimal = DecimalPeer::retrieveByPK($this->getIdDecimal());
+		$entero = EnteroPeer::retrieveByPK($decimal->getIdEntero());
+		if($entero->getNumero()<10)
+			return sprintf("00%s.%s %s %s",$entero->getNumero(), $decimal->getNumero(), $entero->getNombre(), $decimal->getNombre());
+		elseif ($entero->getNumero()<100)
+			return sprintf("0%s.%s %s %s",$entero->getNumero(), $decimal->getNumero(), $entero->getNombre(), $decimal->getNombre());
+		elseif($entero->getNumero()<100)
+			return sprintf("%s.%s %s %s",$entero->getNumero(), $decimal->getNumero(), $entero->getNombre(), $decimal->getNombre());
+
+	}	
+
+    
+	
 } // Libro

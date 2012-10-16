@@ -13,9 +13,26 @@ generator:
 
     config:
       actions: ~
-      fields:  ~
-      list:    ~
-      filter:  ~
+      fields:  
+        id_decimal:        { label: Clasificación  }
+        titulo:            { label: Titulo del libro }
+        nombreautor:       { label: Nombre de autor }
+        apaterno_autor:    { label: Apellido paterno }
+        amaterno_autor:    { label: Apellido materno }
+        ano_publicacion:   { label: Año de publicación }
+        editorial:         { label: Editorial }
+        isbn:              { label: ISBN }
+      list:    
+        title: Catalogo del libros
+        display: [ =clasificacion, numero_dewey, titulo, tomo, =nombrecompleto, ano_publicacion, isbn, herejia, tema_primario, cantidad]
+        fields:  
+        max_per_page: 25
+      filter:  
+        display: [id_decimal, numero_dewey, titulo, nombreautor, apaterno_autor, ano_publicacion, isbn, tema_primario, herejia ]
       form:    ~
-      edit:    ~
-      new:     ~
+      edit:    
+        title: Editar el libro %%titulo%% de %%nombreautor%%
+        fields:  
+           isbn:              { label: ISBN }
+      new:
+        title: Añadir nuevo libro

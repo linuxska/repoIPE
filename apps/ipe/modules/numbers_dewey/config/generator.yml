@@ -13,9 +13,16 @@ generator:
 
     config:
       actions: ~
-      fields:  ~
-      list:    ~
-      filter:  ~
+      fields:  
+        number:        { label: Dewey Number }
+      list:    
+        title: Catalogue of Dewey Numbers (Integer)
+        display: [number, name, description]
+        max_per_page: 50
+      filter:  
+        display: [number, name]
       form:    ~
-      edit:    ~
-      new:     ~
+      edit:    
+        title: Edit the number  %%number%% 
+      new:     
+        title: New number

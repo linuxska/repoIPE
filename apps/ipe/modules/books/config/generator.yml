@@ -13,10 +13,31 @@ generator:
 
     config:
       actions: ~
-      fields:  ~
-      list:    ~
-      filter:  ~
+      fields:  
+        id_decimal:        { label: Clasification }
+        title:             { label: Title of the Book}
+        author_firstname:  { label: Author name  }
+        author_lastname:   { label: Author lastname }
+        year:              { label: Year  }
+        publishing_house:  { label: Publishing house  }
+        isbn:              { label: ISBN }
+        name:              { label: Full name }
+      list:    
+        title: Catalog of Books
+        display: [=clasificacion,title, =name, volume, dewey_number, isbn, heresy, year, primary_subject, quantity]
+        fields:  
+        max_per_page: 50
+      filter:  
+        display: [id_decimal, title, author_firstname, author_lastname, dewey_number, isbn, year, primary_subject, heresy]
       form:    ~
-      edit:    ~
+      edit:    
+        title: Edit book  %%title%% of %%author_firstname%%
+        fields:  
+           title:             { label: Title }
+           author_firstname:  { label: Name  }
+           author_lastname:   { label: Lastname }
+           year:              { label: Year  }
+           publishing_house:  { label: Publishing house  }
+           isbn:              { label: ISBN }
       new:
-        title: Capturar nuevo libro
+        title: New book

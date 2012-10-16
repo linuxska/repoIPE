@@ -6,15 +6,15 @@
     <?php echo $form->renderGlobalErrors() ?>
   <?php endif; ?>
 
-  <form action="<?php echo url_for('casa_collection', array('action' => 'filter')) ?>" method="post">
+  <form action="<?php echo url_for('entero_collection', array('action' => 'filter')) ?>" method="post">
     <table cellspacing="0">
       <tbody>
                         <?php $first = true ?>
                 <?php $action = true ?>
                 <?php $i = 0 ?>
                 <?php $widgets_total = count($configuration->getFormFilterFields($form)) ?>
-                <?php const WIDGET_PER_ROW = 5 ?>
-                <?php const MODEL = "casa" ?>
+                <?php const WIDGET_PER_ROW = 2 ?>
+                <?php const MODEL = "entero" ?>
 
                 <tr><td style="background-color:#E7EEF6;font-weight:bold;border:1px solid #DDD;" colspan="<?php echo WIDGET_PER_ROW + 1 ?>">Filtrar</td></tr>
                 <?php foreach ($configuration->getFormFilterFields($form) as $name => $field) : ?>

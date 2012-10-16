@@ -18,8 +18,33 @@
  */
 class Decimalen extends BaseDecimalen {
 
+		
 	public function __toString() {
-        return sprintf("%s, %s", $this->getNumero(),$this->getNombre());
+		if ($this->getInteger()->getNumber()<10)
+        return sprintf("00%s.%s %s -> %s", $this->getInteger()->getNumber(), $this->getNumber(), $this->getInteger()->getName(), $this->getName());
+    	else if ($this->getInteger()->getName()<100)
+    	return sprintf("0%s.%s %s -> %s", $this->getInteger()->getNumber(), $this->getNumber(), $this->getInteger()->getName(), $this->getName());
+    	else
+    	return sprintf("%s.%s %s -> %s", $this->getInteger()->getNumber(), $this->getNumber(), $this->getInteger()->getName(), $this->getName());	
     }
+
+    public function getDecimal()
+	{
+		return sprintf(".%s",  $this->getNumber());
+	}
+
+	public function getGeneral()
+	{
+		if ($this->getInteger()->getNumber()<10)
+			return sprintf("00%s %s",  $this->getInteger()->getNumber(), $this->getInteger()->getName());
+		elseif($this->getInteger()->getNumber()<100)
+			return sprintf("0%s %s",  $this->getInteger()->getNumber(), $this->getInteger()->getName());
+		elseif($this->getInteger()->getNumber()<1000)
+			return sprintf("%s %s",  $this->getInteger()->getNumber(), $this->getInteger()->getName());
+	
+	}  
+
+	
+   
 
 } // Decimalen

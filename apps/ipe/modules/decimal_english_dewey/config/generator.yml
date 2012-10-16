@@ -13,9 +13,18 @@ generator:
 
     config:
       actions: ~
-      fields:  ~
-      list:    ~
-      filter:  ~
+      fields:  
+        number:        { label: Decimal number }
+        id_integer:    { label: General Dewey }
+        name:          { label: Decimal name }
+      list:    
+        title: Catalog of Sub-catego Dewey decimal
+        display: [=general, =decimal, name, description]
+        max_per_page: 50
+      filter:  
+        display: [id_integer,number, name]
       form:    ~
-      edit:    ~
-      new:     ~
+      edit:    
+        title: Edit the decimal  %%number%% 
+      new:     
+        title: New subcategoria (Decimal)

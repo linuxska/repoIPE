@@ -12,8 +12,8 @@
             <ul class="menu_sub">
                 <li class ="menu_sub_header"><a class="alternate" href="<?php echo url_for('@homepage') ?>"></a>Biblioteca I.P.E. [ingles]</li>
                 <li class="app <?php echo in_array('book', explode('/', $sf_request->getUri())) ? "selected" : "" ?>"><a href="<?php echo url_for('@book') ?>" class="alternate">Book Stock</a></li>
-                <li class="app <?php echo in_array('integer', explode('/', $sf_request->getUri())) ? "selected" : "" ?>"><a href="<?php echo url_for('@integer') ?>" class="alternate">General Summary</a></li>
-                <li class="app last <?php echo in_array('decimalen', explode('/', $sf_request->getUri())) ? "selected" : "" ?>"><a href="<?php echo url_for('@decimalen') ?>" class="alternate">Decimales EN</a></li>
+                <li class="app <?php echo in_array('integer', explode('/', $sf_request->getUri())) ? "selected" : "" ?>"><a href="<?php echo url_for('@integer') ?>" class="alternate">Dewey Category`s</a></li>
+                <li class="app last <?php echo in_array('decimalen', explode('/', $sf_request->getUri())) ? "selected" : "" ?>"><a href="<?php echo url_for('@decimalen') ?>" class="alternate">Subcategorys</a></li>
             </ul>
     </li>
 
@@ -28,8 +28,8 @@
             <ul class="menu_sub">
                 <li class ="menu_sub_header"><a class="alternate" href="<?php echo url_for('@homepage') ?>"></a>Biblioteca I.P.E.</li>
                 <li class="app <?php echo in_array('libro', explode('/', $sf_request->getUri())) ? "selected" : "" ?>"><a href="<?php echo url_for('@libro') ?>" class="alternate">Catalogo de libros IPE</a></li>
-                <li class="app <?php echo in_array('entero', explode('/', $sf_request->getUri())) ? "selected" : "" ?>"><a href="<?php echo url_for('@entero') ?>" class="alternate">Numero General Dewey</a></li>
-                <li class="app <?php echo in_array('decimal', explode('/', $sf_request->getUri())) ? "selected" : "" ?>"><a href="<?php echo url_for('@decimal') ?>" class="alternate">Decimales Dewey</a></li>
+                <li class="app <?php echo in_array('entero', explode('/', $sf_request->getUri())) ? "selected" : "" ?>"><a href="<?php echo url_for('@entero') ?>" class="alternate">Categorias Dewey</a></li>
+                <li class="app <?php echo in_array('decimal', explode('/', $sf_request->getUri())) ? "selected" : "" ?>"><a href="<?php echo url_for('@decimal') ?>" class="alternate">Subcategorias </a></li>
             </ul>
-    </li>        
+    </li>   
        

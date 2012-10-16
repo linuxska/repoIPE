@@ -13,9 +13,19 @@ generator:
 
     config:
       actions: ~
-      fields:  ~
-      list:    ~
-      filter:  ~
+      fields:  
+        numero:        { label: Numero decimal  }
+        id_entero:     { label: Numeros Generales  }
+        nombre:        { label: Nombre decimal  }
+        descripcion:   { label: Descripción  }
+      list:    
+        title: Catalogo de los decimales
+        display: [ =general, =Numerodecimal, nombre, descripcion]
+        max_per_page: 50
+      filter:  
+        display: [id_entero, numero, nombre]
       form:    ~
-      edit:    ~
-      new:     ~
+      edit:    
+        title: Editar el decimal  %%numero%% 
+      new:     
+        title: Nuevo numero decimal

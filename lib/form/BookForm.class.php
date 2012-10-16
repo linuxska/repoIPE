@@ -11,5 +11,6 @@ class BookForm extends BaseBookForm
 {
   public function configure()
   {
+  	
   }
 }
