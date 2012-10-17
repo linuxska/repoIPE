@@ -38,7 +38,7 @@ class Decimal extends BaseDecimal {
 			return sprintf("00%s %s",  $this->getEntero()->getNumero(), $this->getEntero()->getNombre());
 		elseif($this->getEntero()->getNumero()<100)
 			return sprintf("0%s %s",  $this->getEntero()->getNumero(), $this->getEntero()->getNombre());
-		elseif($this->getEntero()->getNumero()<1000)
+		else
 			return sprintf("%s %s",  $this->getEntero()->getNumero(), $this->getEntero()->getNombre());
 	
 	}    

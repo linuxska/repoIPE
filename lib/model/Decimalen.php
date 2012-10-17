@@ -18,7 +18,6 @@
  */
 class Decimalen extends BaseDecimalen {
 
-		
 	public function __toString() {
 		if ($this->getInteger()->getNumber()<10)
         return sprintf("00%s.%s %s -> %s", $this->getInteger()->getNumber(), $this->getNumber(), $this->getInteger()->getName(), $this->getName());
@@ -39,7 +38,7 @@ class Decimalen extends BaseDecimalen {
 			return sprintf("00%s %s",  $this->getInteger()->getNumber(), $this->getInteger()->getName());
 		elseif($this->getInteger()->getNumber()<100)
 			return sprintf("0%s %s",  $this->getInteger()->getNumber(), $this->getInteger()->getName());
-		elseif($this->getInteger()->getNumber()<1000)
+		else
 			return sprintf("%s %s",  $this->getInteger()->getNumber(), $this->getInteger()->getName());
 	
 	}  
