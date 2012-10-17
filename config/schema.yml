@@ -15,9 +15,9 @@ propel:
     estado: { phpName: Estado, type: VARCHAR, size: '64', required: true }
     cp: { phpName: Cp, type: VARCHAR, size: '5', required: false }
     pais: { phpName: Pais, type: VARCHAR, size: '64', required: false }
-    telefono: { phpName: Telefono, type: VARCHAR, size: '12', required: true }
-    celular: { phpName: Celular, type: VARCHAR, size: '12', required: false }
-    e_mail: { phpName: EMail, type: VARCHAR, size: '128', required: true }
+    telefono: { phpName: Telefono, type: VARCHAR, size: '12', required: true, defaultValue: 'NULL' }
+    celular: { phpName: Celular, type: VARCHAR, size: '12', required: false, defaultValue: 'NULL' }
+    e_mail: { phpName: EMail, type: VARCHAR, size: '128', required: true, defaultValue: 'NULL' }
     fecha_nacimiento: { phpName: FechaNacimiento, type: DATE, required: true }
     estado_civil: { phpName: EstadoCivil, type: VARCHAR, size: '32', required: true }
     padres_nombres: { phpName: PadresNombres, type: VARCHAR, size: '256', required: false }
@@ -127,7 +127,7 @@ propel:
     number: { phpName: Number, type: INTEGER, required: true }
     name: { phpName: Name, type: VARCHAR, size: '128', required: true }
     description: { phpName: Description, type: VARCHAR, size: '512', required: false }
-    _uniques: { decimalen_idx1: [number] }
+    _uniques: { decimalen_idx1: [number, name] }
   entero:
     _attributes: { phpName: Entero }
     id: { phpName: Id, type: INTEGER, primaryKey: true, autoIncrement: true, required: true }

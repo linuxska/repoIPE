@@ -1,0 +1,27 @@
+<?php
+// Escribe un fichero en un array. 
+$lineas = file('/Users/linuxska/Desktop/SistemaBibilotecaIPE/MilGenerales.txt');
+
+
+// Recorre nuestro array, mostrare la linea con dos valores
+// Del numero dewey <numero,$linea>___<nombre,$tema>
+//http://stackoverflow.com/questions/7211820/update-built-in-vim-on-mac-os-x
+
+
+foreach ($lineas as $num_linea => $linea) {
+	
+	$var= strlen($linea); // idea de encontra el ultimo
+		 //echo ($linea);
+	//Eliminar espacios
+	echo substr_replace($linea, ",'", 3, 0);
+	//Correr primero
+	//echo substr_replace($linea, 'INSERT INTO entero(numero, nombre, descripcion) VALUES (', 0, 0);
+	//Correr despues
+	//echo substr_replace($linea, "',null);\n", -1, $var);
+
+//Base de datos
+//LINE 242: "colonia" character varying(64) NOT NULL CHECK (.),
+//LINE 282: "anno" int(4) NOT NULL,
+
+	}
+?>

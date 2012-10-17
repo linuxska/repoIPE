@@ -1,4 +1,4 @@
-------------------------------
+﻿------------------------------
 -- pgDesigner 1.2.17
 --
 -- Project    : SII-IPE
@@ -239,7 +239,7 @@ CREATE TABLE "profesor" (
 "a_paterno" character varying(64) NOT NULL,
 "a_materno" character varying(64) NOT NULL,
 "direccion" character varying(64) NOT NULL,
-"colonia" character varying(64) NOT NULL CHECK (.),
+"colonia" character varying(64) NOT NULL,
 "ciudad" character varying(64) NOT NULL,
 "estado" character varying(64) NOT NULL,
 "cp" character varying(5) NOT NULL,
@@ -279,7 +279,7 @@ CREATE TABLE "curso" (
 "id_periodo" int NOT NULL,
 "hora_inicio" time NOT NULL,
 "hora_final" time NOT NULL,
-"anno" int(4) NOT NULL,
+"anno" character varying(4) NOT NULL,
 "estado" boolean NOT NULL DEFAULT true
 ) WITHOUT OIDS;
 ALTER TABLE "curso" ADD CONSTRAINT "curso_pk" PRIMARY KEY("id");

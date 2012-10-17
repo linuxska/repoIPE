@@ -30,7 +30,7 @@ abstract class BaseDecimalenForm extends BaseFormPropel
     ));
 
     $this->validatorSchema->setPostValidator(
-      new sfValidatorPropelUnique(array('model' => 'Decimalen', 'column' => array('number')))
+      new sfValidatorPropelUnique(array('model' => 'Decimalen', 'column' => array('number', 'name')))
     );
 
     $this->widgetSchema->setNameFormat('decimalen[%s]');
