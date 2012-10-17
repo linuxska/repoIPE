@@ -1,0 +1,5996 @@
+Integer:
+  Integer_2:
+    number: 1
+    name: Knowledge
+  Integer_3:
+    number: 2
+    name: 'The book'
+  Integer_4:
+    number: 3
+    name: Systems
+  Integer_5:
+    number: 4
+    name: 'Data processing and computer science'
+  Integer_6:
+    number: 5
+    name: 'Computer programming programs and data'
+  Integer_7:
+    number: 6
+    name: 'Special computer methods'
+  Integer_8:
+    number: 7
+    name: Unassigned
+  Integer_9:
+    number: 8
+    name: Unassigned
+  Integer_10:
+    number: 9
+    name: Unassigned
+  Integer_11:
+    number: 10
+    name: Bibliography
+  Integer_12:
+    number: 11
+    name: Bibliographies
+  Integer_13:
+    number: 12
+    name: 'Bibliographies of individuals'
+  Integer_14:
+    number: 13
+    name: Unassigned
+  Integer_15:
+    number: 14
+    name: 'Of anonymous and pseudonymous works'
+  Integer_16:
+    number: 15
+    name: 'Bibliographies of works from specific places'
+  Integer_17:
+    number: 16
+    name: 'Bibliographies of works on specific subjects'
+  Integer_18:
+    number: 17
+    name: 'General subject catalogs'
+  Integer_19:
+    number: 18
+    name: 'Catalogs arranged by author date etc.'
+  Integer_20:
+    number: 19
+    name: 'Dictionary catalogs'
+  Integer_21:
+    number: 20
+    name: 'Library and information sciences'
+  Integer_22:
+    number: 21
+    name: 'Library relationships'
+  Integer_23:
+    number: 22
+    name: 'Administration of physical plant'
+  Integer_24:
+    number: 23
+    name: 'Personnel management'
+  Integer_25:
+    number: 24
+    name: Unassigned
+  Integer_26:
+    number: 25
+    name: 'Library operations'
+  Integer_27:
+    number: 26
+    name: 'Libraries for specific subjects'
+  Integer_28:
+    number: 27
+    name: 'General libraries'
+  Integer_29:
+    number: 28
+    name: 'Reading and use of other information media'
+  Integer_30:
+    number: 29
+    name: Unassigned
+  Integer_31:
+    number: 30
+    name: 'General encyclopedic works'
+  Integer_32:
+    number: 31
+    name: 'Encyclopedias in American English'
+  Integer_33:
+    number: 32
+    name: 'Encyclopedias in English'
+  Integer_34:
+    number: 33
+    name: 'In other Germanic languages'
+  Integer_35:
+    number: 34
+    name: 'Encyclopedias in French Occitan and Catalan'
+  Integer_36:
+    number: 35
+    name: 'In Italian Romanian and related languages'
+  Integer_37:
+    number: 36
+    name: 'Encyclopedias in Spanish and Portuguese'
+  Integer_38:
+    number: 37
+    name: 'Encyclopedias in Slavic languages'
+  Integer_39:
+    number: 38
+    name: 'Encyclopedias in Scandinavian languages'
+  Integer_40:
+    number: 39
+    name: 'Encyclopedias in other languages'
+  Integer_41:
+    number: 40
+    name: Unassigned
+  Integer_42:
+    number: 41
+    name: Unassigned
+  Integer_43:
+    number: 42
+    name: Unassigned
+  Integer_44:
+    number: 43
+    name: Unassigned
+  Integer_45:
+    number: 44
+    name: Unassigned
+  Integer_46:
+    number: 45
+    name: Unassigned
+  Integer_47:
+    number: 46
+    name: Unassigned
+  Integer_48:
+    number: 47
+    name: Unassigned
+  Integer_49:
+    number: 48
+    name: Unassigned
+  Integer_50:
+    number: 49
+    name: Unassigned
+  Integer_51:
+    number: 50
+    name: 'General serial publications'
+  Integer_52:
+    number: 51
+    name: 'Serials in American English'
+  Integer_53:
+    number: 52
+    name: 'Serials in English'
+  Integer_54:
+    number: 53
+    name: 'Serials in other Germanic languages'
+  Integer_55:
+    number: 54
+    name: 'Serials in French Occitan and Catalan'
+  Integer_56:
+    number: 55
+    name: 'In Italian Romanian and related languages'
+  Integer_57:
+    number: 56
+    name: 'Serials in Spanish and Portuguese'
+  Integer_58:
+    number: 57
+    name: 'Serials in Slavic languages'
+  Integer_59:
+    number: 58
+    name: 'Serials in Scandinavian languages'
+  Integer_60:
+    number: 59
+    name: 'Serials in other languages'
+  Integer_61:
+    number: 60
+    name: 'General organizations and museum science'
+  Integer_62:
+    number: 61
+    name: 'Organizations in North America'
+  Integer_63:
+    number: 62
+    name: 'Organizations in British Isles in England'
+  Integer_64:
+    number: 63
+    name: 'Organizations in central Europe in Germany'
+  Integer_65:
+    number: 64
+    name: 'Organizations in France and Monaco'
+  Integer_66:
+    number: 65
+    name: 'Organizations in Italy and adjacent islands'
+  Integer_67:
+    number: 66
+    name: 'In Iberian Peninsula and adjacent islands'
+  Integer_68:
+    number: 67
+    name: 'Organizations in eastern Europe in Russia'
+  Integer_69:
+    number: 68
+    name: 'Organizations in other geographic areas'
+  Integer_70:
+    number: 69
+    name: 'Museum science'
+  Integer_71:
+    number: 70
+    name: 'News media journalism and publishing'
+  Integer_72:
+    number: 71
+    name: 'Newspapers in North America'
+  Integer_73:
+    number: 72
+    name: 'Newspapers in British Isles in England'
+  Integer_74:
+    number: 73
+    name: 'Newspapers in central Europe in Germany'
+  Integer_75:
+    number: 74
+    name: 'Newspapers in France and Monaco'
+  Integer_76:
+    number: 75
+    name: 'Newspapers in Italy and adjacent islands'
+  Integer_77:
+    number: 76
+    name: 'In Iberian Peninsula and adjacent islands'
+  Integer_78:
+    number: 77
+    name: 'Newspapers in eastern Europe in Russia'
+  Integer_79:
+    number: 78
+    name: 'Newspapers in Scandinavia'
+  Integer_80:
+    number: 79
+    name: 'Newspapers in other geographic areas'
+  Integer_81:
+    number: 80
+    name: 'General collections'
+  Integer_82:
+    number: 81
+    name: 'Collections in American English'
+  Integer_83:
+    number: 82
+    name: 'Collections in English'
+  Integer_84:
+    number: 83
+    name: 'Collections in other Germanic languages'
+  Integer_85:
+    number: 84
+    name: 'Collections in French Occitan and Catalan'
+  Integer_86:
+    number: 85
+    name: 'In Italian Romanian and related languages'
+  Integer_87:
+    number: 86
+    name: 'Collections in Spanish and Portuguese'
+  Integer_88:
+    number: 87
+    name: 'Collections in Slavic languages'
+  Integer_89:
+    number: 88
+    name: 'Collections in Scandinavian languages'
+  Integer_90:
+    number: 89
+    name: 'Collections in other languages'
+  Integer_91:
+    number: 90
+    name: 'Manuscripts and rare books'
+  Integer_92:
+    number: 91
+    name: Manuscripts
+  Integer_93:
+    number: 92
+    name: 'Block books'
+  Integer_94:
+    number: 93
+    name: Incunabula
+  Integer_95:
+    number: 94
+    name: 'Printed books'
+  Integer_96:
+    number: 95
+    name: 'Books notable for bindings'
+  Integer_97:
+    number: 96
+    name: 'Books notable for illustrations'
+  Integer_98:
+    number: 97
+    name: 'Books notable for ownership or origin'
+  Integer_99:
+    number: 98
+    name: 'Prohibited works forgeries and hoaxes'
+  Integer_100:
+    number: 99
+    name: 'Books notable for format'
+  Integer_101:
+    number: 100
+    name: 'Philosophy and psychology'
+  Integer_102:
+    number: 101
+    name: 'Theory of philosophy'
+  Integer_103:
+    number: 102
+    name: Miscellany
+  Integer_104:
+    number: 103
+    name: 'Dictionaries and encyclopedias'
+  Integer_105:
+    number: 104
+    name: Unassigned
+  Integer_106:
+    number: 105
+    name: 'Serial publications'
+  Integer_107:
+    number: 106
+    name: 'Organizations and management'
+  Integer_108:
+    number: 107
+    name: 'Education research and related topics'
+  Integer_109:
+    number: 108
+    name: 'Kinds of persons treatment'
+  Integer_110:
+    number: 109
+    name: 'Historical and collected persons treatment'
+  Integer_111:
+    number: 110
+    name: Metaphysics
+  Integer_112:
+    number: 111
+    name: Ontology
+  Integer_113:
+    number: 112
+    name: Unassigned
+  Integer_114:
+    number: 113
+    name: Cosmology
+  Integer_115:
+    number: 114
+    name: Space
+  Integer_116:
+    number: 115
+    name: Time
+  Integer_117:
+    number: 116
+    name: Change
+  Integer_118:
+    number: 117
+    name: Structure
+  Integer_119:
+    number: 118
+    name: 'Force and energy'
+  Integer_120:
+    number: 119
+    name: 'Number and quantity'
+  Integer_121:
+    number: 120
+    name: 'Epistemology causation and humankind'
+  Integer_122:
+    number: 121
+    name: Epistemology
+  Integer_123:
+    number: 122
+    name: Causation
+  Integer_124:
+    number: 123
+    name: 'Determinism and indeterminism'
+  Integer_125:
+    number: 124
+    name: Teleology
+  Integer_126:
+    number: 125
+    name: Unassigned
+  Integer_127:
+    number: 126
+    name: 'The self'
+  Integer_128:
+    number: 127
+    name: 'The unconscious and the subconscious'
+  Integer_129:
+    number: 128
+    name: Humankind
+  Integer_130:
+    number: 129
+    name: 'Origin and destiny of individual souls'
+  Integer_131:
+    number: 130
+    name: 'Parapsychology and occultism'
+  Integer_132:
+    number: 131
+    name: 'Parapsychological and occult methods'
+  Integer_133:
+    number: 132
+    name: Unassigned
+  Integer_134:
+    number: 133
+    name: 'Specific topics in parapsychology and occultism'
+  Integer_135:
+    number: 134
+    name: Unassigned
+  Integer_136:
+    number: 135
+    name: 'Dreams and mysteries'
+  Integer_137:
+    number: 136
+    name: Unassigned
+  Integer_138:
+    number: 137
+    name: 'Divinatory graphology'
+  Integer_139:
+    number: 138
+    name: Physiognomy
+  Integer_140:
+    number: 139
+    name: Phrenology
+  Integer_141:
+    number: 140
+    name: 'Specific philosophical schools'
+  Integer_142:
+    number: 141
+    name: 'Idealism and related systems'
+  Integer_143:
+    number: 142
+    name: 'Critical philosophy'
+  Integer_144:
+    number: 143
+    name: 'Bergsonism and intuitionism'
+  Integer_145:
+    number: 144
+    name: 'Humanism and related systems'
+  Integer_146:
+    number: 145
+    name: Sensationalism
+  Integer_147:
+    number: 146
+    name: 'Naturalism and related systems'
+  Integer_148:
+    number: 147
+    name: 'Pantheism and related systems'
+  Integer_149:
+    number: 148
+    name: 'Eclecticism liberalism and traditionalism'
+  Integer_150:
+    number: 149
+    name: 'Other philosophical systems '
+  Integer_151:
+    number: 150
+    name: Psychology
+  Integer_152:
+    number: 151
+    name: Unassigned
+  Integer_153:
+    number: 152
+    name: 'Perception movement emotions and drives'
+  Integer_154:
+    number: 153
+    name: 'Mental processes and intelligence'
+  Integer_155:
+    number: 154
+    name: 'Subconscious and altered states'
+  Integer_156:
+    number: 155
+    name: 'Differential and developmental psychology'
+  Integer_157:
+    number: 156
+    name: 'Comparative psychology'
+  Integer_158:
+    number: 157
+    name: Unassigned
+  Integer_159:
+    number: 158
+    name: 'Applied psychology'
+  Integer_160:
+    number: 159
+    name: Unassigned
+  Integer_161:
+    number: 160
+    name: Logic
+  Integer_162:
+    number: 161
+    name: Induction
+  Integer_163:
+    number: 162
+    name: Deduction
+  Integer_164:
+    number: 163
+    name: Unassigned
+  Integer_165:
+    number: 164
+    name: Unassigned
+  Integer_166:
+    number: 165
+    name: 'Fallacies and sources of error'
+  Integer_167:
+    number: 166
+    name: Syllogisms
+  Integer_168:
+    number: 167
+    name: Hypotheses
+  Integer_169:
+    number: 168
+    name: 'Argument and persuasion'
+  Integer_170:
+    number: 169
+    name: Analogy
+  Integer_171:
+    number: 170
+    name: Ethics
+  Integer_172:
+    number: 171
+    name: 'Ethical systems'
+  Integer_173:
+    number: 172
+    name: 'Political ethics'
+  Integer_174:
+    number: 173
+    name: 'Ethics of family relationships'
+  Integer_175:
+    number: 174
+    name: 'Occupational ethics'
+  Integer_176:
+    number: 175
+    name: 'Ethics of recreation and leisure'
+  Integer_177:
+    number: 176
+    name: 'Ethics of sex and reproduction'
+  Integer_178:
+    number: 177
+    name: 'Ethics of social relations'
+  Integer_179:
+    number: 178
+    name: 'Ethics of consumption'
+  Integer_180:
+    number: 179
+    name: 'Other ethical norms'
+  Integer_181:
+    number: 180
+    name: 'Ancient medieval and eastern philosophy'
+  Integer_182:
+    number: 181
+    name: 'Eastern philosophy'
+  Integer_183:
+    number: 182
+    name: 'Pre-Socratic Greek philosophies'
+  Integer_184:
+    number: 183
+    name: 'Socratic and related philosophies'
+  Integer_185:
+    number: 184
+    name: 'Platonic philosophy'
+  Integer_186:
+    number: 185
+    name: 'Aristotelian philosophy'
+  Integer_187:
+    number: 186
+    name: 'Skeptic and Neoplatonic philosophies'
+  Integer_188:
+    number: 187
+    name: 'Epicurean philosophy'
+  Integer_189:
+    number: 188
+    name: 'Stoic philosophy'
+  Integer_190:
+    number: 189
+    name: 'Medieval western philosophy'
+  Integer_191:
+    number: 190
+    name: 'Modern western philosophy'
+  Integer_192:
+    number: 191
+    name: 'Philosophy of United States and Canada'
+  Integer_193:
+    number: 192
+    name: 'Philosophy of British Isles'
+  Integer_194:
+    number: 193
+    name: 'Philosophy of Germany and Austria'
+  Integer_195:
+    number: 194
+    name: 'Philosophy of France'
+  Integer_196:
+    number: 195
+    name: 'Philosophy of Italy'
+  Integer_197:
+    number: 196
+    name: 'Philosophy of Spain and Portugal'
+  Integer_198:
+    number: 197
+    name: 'Philosophy of former Soviet Union'
+  Integer_199:
+    number: 198
+    name: 'Philosophy of Scandinavia'
+  Integer_200:
+    number: 199
+    name: 'Philosophy in other geographic areas'
+  Integer_201:
+    number: 200
+    name: Religion
+  Integer_202:
+    number: 201
+    name: 'Religious mythology and social theology'
+  Integer_203:
+    number: 202
+    name: Doctrines
+  Integer_204:
+    number: 203
+    name: 'Public worship and other practices'
+  Integer_205:
+    number: 204
+    name: 'Religious experience life and practice'
+  Integer_206:
+    number: 205
+    name: 'Religious ethics'
+  Integer_207:
+    number: 206
+    name: 'Leaders and organization'
+  Integer_208:
+    number: 207
+    name: 'Missions and religious education'
+  Integer_209:
+    number: 208
+    name: Sources
+  Integer_210:
+    number: 209
+    name: 'Sects and reform movements'
+  Integer_211:
+    number: 210
+    name: 'Philosophy and theory of religion'
+  Integer_212:
+    number: 211
+    name: 'Concepts of God'
+  Integer_213:
+    number: 212
+    name: 'Existence knowability and attributes of God'
+  Integer_214:
+    number: 213
+    name: Creation
+  Integer_215:
+    number: 214
+    name: Theodicy
+  Integer_216:
+    number: 215
+    name: 'Science and religion'
+  Integer_217:
+    number: 216
+    name: Unassigned
+  Integer_218:
+    number: 217
+    name: Unassigned
+  Integer_219:
+    number: 218
+    name: Humankind
+  Integer_220:
+    number: 219
+    name: Unassigned
+  Integer_221:
+    number: 220
+    name: Bible
+  Integer_222:
+    number: 221
+    name: 'Old Testament (Tanakh)'
+  Integer_223:
+    number: 222
+    name: 'Historical books of Old Testament'
+  Integer_224:
+    number: 223
+    name: 'Poetic books of Old Testament'
+  Integer_225:
+    number: 224
+    name: 'Prophetic books of Old Testament'
+  Integer_226:
+    number: 225
+    name: 'New Testament'
+  Integer_227:
+    number: 226
+    name: 'Gospels and Acts'
+  Integer_228:
+    number: 227
+    name: Epistles
+  Integer_229:
+    number: 228
+    name: 'Revelation (Apocalypse)'
+  Integer_230:
+    number: 229
+    name: 'Apocrypha and pseudepigrapha'
+  Integer_231:
+    number: 230
+    name: 'Christianity and Christian theology'
+  Integer_232:
+    number: 231
+    name: God
+  Integer_233:
+    number: 232
+    name: 'Jesus Christ and his family'
+  Integer_234:
+    number: 233
+    name: Humankind
+  Integer_235:
+    number: 234
+    name: 'Salvation and grace'
+  Integer_236:
+    number: 235
+    name: 'Spiritual beings'
+  Integer_237:
+    number: 236
+    name: Eschatology
+  Integer_238:
+    number: 237
+    name: Unassigned
+  Integer_239:
+    number: 238
+    name: 'Creeds and catechisms'
+  Integer_240:
+    number: 239
+    name: 'Apologetics and polemics'
+  Integer_241:
+    number: 240
+    name: 'Christian moral and devotional theology'
+  Integer_242:
+    number: 241
+    name: 'Christian ethics'
+  Integer_243:
+    number: 242
+    name: 'Devotional literature'
+  Integer_244:
+    number: 243
+    name: 'Evangelistic writings for individuals'
+  Integer_245:
+    number: 244
+    name: Unassigned
+  Integer_246:
+    number: 245
+    name: Unassigned
+  Integer_247:
+    number: 246
+    name: 'Use of art in Christianity'
+  Integer_248:
+    number: 247
+    name: 'Church furnishings and articles'
+  Integer_249:
+    number: 248
+    name: 'Christian experience practice and life'
+  Integer_250:
+    number: 249
+    name: 'Christian observances in family life'
+  Integer_251:
+    number: 250
+    name: 'Christian orders and local church'
+  Integer_252:
+    number: 251
+    name: Preaching
+  Integer_253:
+    number: 252
+    name: 'Texts of sermons'
+  Integer_254:
+    number: 253
+    name: 'Pastoral office and work'
+  Integer_255:
+    number: 254
+    name: 'Parish administration'
+  Integer_256:
+    number: 255
+    name: 'Religious congregations and orders'
+  Integer_257:
+    number: 256
+    name: Unassigned
+  Integer_258:
+    number: 257
+    name: Unassigned
+  Integer_259:
+    number: 258
+    name: Unassigned
+  Integer_260:
+    number: 259
+    name: 'Pastoral care of families and kinds of persons'
+  Integer_261:
+    number: 260
+    name: 'Social and ecclesiastical theology'
+  Integer_262:
+    number: 261
+    name: 'Social theology'
+  Integer_263:
+    number: 262
+    name: Ecclesiology
+  Integer_264:
+    number: 263
+    name: 'Days times and places of observance'
+  Integer_265:
+    number: 264
+    name: 'Public worship'
+  Integer_266:
+    number: 265
+    name: 'Sacraments other rites and acts'
+  Integer_267:
+    number: 266
+    name: Missions
+  Integer_268:
+    number: 267
+    name: 'Associations for religious work'
+  Integer_269:
+    number: 268
+    name: 'Religious education'
+  Integer_270:
+    number: 269
+    name: 'Spiritual renewal'
+  Integer_271:
+    number: 270
+    name: 'History of Christianity and Christian church'
+  Integer_272:
+    number: 271
+    name: 'Religious orders in church history'
+  Integer_273:
+    number: 272
+    name: 'Persecutions in church history'
+  Integer_274:
+    number: 273
+    name: 'Doctrinal controversies and heresies'
+  Integer_275:
+    number: 274
+    name: 'History of Christianity in Europe'
+  Integer_276:
+    number: 275
+    name: 'History of Christianity in Asia'
+  Integer_277:
+    number: 276
+    name: 'History of Christianity in Africa'
+  Integer_278:
+    number: 277
+    name: 'History of Christianity in North America'
+  Integer_279:
+    number: 278
+    name: 'History of Christianity in South America'
+  Integer_280:
+    number: 279
+    name: 'History of Christianity in other areas'
+  Integer_281:
+    number: 280
+    name: 'Christian denominations and sects'
+  Integer_282:
+    number: 281
+    name: 'Early church and Eastern churches'
+  Integer_283:
+    number: 282
+    name: 'Roman Catholic Church'
+  Integer_284:
+    number: 283
+    name: 'Anglican churches'
+  Integer_285:
+    number: 284
+    name: 'Protestants of Continental origin'
+  Integer_286:
+    number: 285
+    name: 'Presbyterian Reformed and Congregational'
+  Integer_287:
+    number: 286
+    name: 'Baptist Disciples of Christ and Adventist'
+  Integer_288:
+    number: 287
+    name: 'Methodist and related churches'
+  Integer_289:
+    number: 288
+    name: Unassigned
+  Integer_290:
+    number: 289
+    name: 'Other denominations and sects'
+  Integer_291:
+    number: 290
+    name: 'Other religions'
+  Integer_292:
+    number: 291
+    name: Unassigned
+  Integer_293:
+    number: 292
+    name: 'Greek and Roman religion'
+  Integer_294:
+    number: 293
+    name: 'Germanic religion'
+  Integer_295:
+    number: 294
+    name: 'Religions of Indic origin'
+  Integer_296:
+    number: 295
+    name: Zoroastrianism
+  Integer_297:
+    number: 296
+    name: Judaism
+  Integer_298:
+    number: 297
+    name: 'Islam Babism and Bahai Faith'
+  Integer_299:
+    number: 298
+    name: '(Optional number)'
+  Integer_300:
+    number: 299
+    name: 'Religions not provided for elsewhere'
+  Integer_301:
+    number: 300
+    name: 'Social sciences'
+  Integer_302:
+    number: 301
+    name: 'Sociology and anthropology'
+  Integer_303:
+    number: 302
+    name: 'Social interaction'
+  Integer_304:
+    number: 303
+    name: 'Social processes'
+  Integer_305:
+    number: 304
+    name: 'Factors affecting social behavior'
+  Integer_306:
+    number: 305
+    name: 'Social groups'
+  Integer_307:
+    number: 306
+    name: 'Culture and institutions'
+  Integer_308:
+    number: 307
+    name: Communities
+  Integer_309:
+    number: 308
+    name: Unassigned
+  Integer_310:
+    number: 309
+    name: Unassigned
+  Integer_311:
+    number: 310
+    name: 'Collections of general statistics'
+  Integer_312:
+    number: 311
+    name: Unassigned
+  Integer_313:
+    number: 312
+    name: Unassigned
+  Integer_314:
+    number: 313
+    name: Unassigned
+  Integer_315:
+    number: 314
+    name: 'General statistics of Europe'
+  Integer_316:
+    number: 315
+    name: 'General statistics of Asia'
+  Integer_317:
+    number: 316
+    name: 'General statistics of Africa'
+  Integer_318:
+    number: 317
+    name: 'General statistics of North America'
+  Integer_319:
+    number: 318
+    name: 'General statistics of South America'
+  Integer_320:
+    number: 319
+    name: 'General statistics of other areas'
+  Integer_321:
+    number: 320
+    name: 'Political science'
+  Integer_322:
+    number: 321
+    name: 'Systems of governments and states'
+  Integer_323:
+    number: 322
+    name: 'Relation of state to organized groups'
+  Integer_324:
+    number: 323
+    name: 'Civil and political rights'
+  Integer_325:
+    number: 324
+    name: 'The political process'
+  Integer_326:
+    number: 325
+    name: 'International migration and colonization'
+  Integer_327:
+    number: 326
+    name: 'Slavery and emancipation'
+  Integer_328:
+    number: 327
+    name: 'International relations'
+  Integer_329:
+    number: 328
+    name: 'The legislative process'
+  Integer_330:
+    number: 329
+    name: Unassigned
+  Integer_331:
+    number: 330
+    name: Economics
+  Integer_332:
+    number: 331
+    name: 'Labor economics'
+  Integer_333:
+    number: 332
+    name: 'Financial economics'
+  Integer_334:
+    number: 333
+    name: 'Economics of land and energy'
+  Integer_335:
+    number: 334
+    name: Cooperatives
+  Integer_336:
+    number: 335
+    name: 'Socialism and related systems'
+  Integer_337:
+    number: 336
+    name: 'Public finance'
+  Integer_338:
+    number: 337
+    name: 'International economics'
+  Integer_339:
+    number: 338
+    name: Production
+  Integer_340:
+    number: 339
+    name: 'Macroeconomics and related topics'
+  Integer_341:
+    number: 340
+    name: Law
+  Integer_342:
+    number: 341
+    name: 'Law of nations'
+  Integer_343:
+    number: 342
+    name: 'Constitutional and administrative law'
+  Integer_344:
+    number: 343
+    name: 'Military tax trade and industrial law'
+  Integer_345:
+    number: 344
+    name: 'Labor social education and cultural law'
+  Integer_346:
+    number: 345
+    name: 'Criminal law'
+  Integer_347:
+    number: 346
+    name: 'Private law'
+  Integer_348:
+    number: 347
+    name: 'Civil procedure and courts'
+  Integer_349:
+    number: 348
+    name: 'Laws regulations and cases'
+  Integer_350:
+    number: 349
+    name: 'Law of specific jurisdictions and areas'
+  Integer_351:
+    number: 350
+    name: 'Public administration and military science'
+  Integer_352:
+    number: 351
+    name: 'Public administration'
+  Integer_353:
+    number: 352
+    name: 'General considerations of public administration'
+  Integer_354:
+    number: 353
+    name: 'Specific fields of public administration'
+  Integer_355:
+    number: 354
+    name: 'Administration of economy and environment'
+  Integer_356:
+    number: 355
+    name: 'Military science'
+  Integer_357:
+    number: 356
+    name: 'Infantry forces and warfare'
+  Integer_358:
+    number: 357
+    name: 'Mounted forces and warfare'
+  Integer_359:
+    number: 358
+    name: 'Air and other specialized forces'
+  Integer_360:
+    number: 359
+    name: 'Sea forces and warfare'
+  Integer_361:
+    number: 360
+    name: 'Social problems and services associations'
+  Integer_362:
+    number: 361
+    name: 'Social problems and social welfare in general'
+  Integer_363:
+    number: 362
+    name: 'Social welfare problems and services'
+  Integer_364:
+    number: 363
+    name: 'Other social problems and services'
+  Integer_365:
+    number: 364
+    name: Criminology
+  Integer_366:
+    number: 365
+    name: 'Penal and related institutions'
+  Integer_367:
+    number: 366
+    name: Associations
+  Integer_368:
+    number: 367
+    name: 'General clubs'
+  Integer_369:
+    number: 368
+    name: Insurance
+  Integer_370:
+    number: 369
+    name: 'Miscellaneous kinds of associations'
+  Integer_371:
+    number: 370
+    name: Education
+  Integer_372:
+    number: 371
+    name: 'Schools and their activities special education'
+  Integer_373:
+    number: 372
+    name: 'Elementary education'
+  Integer_374:
+    number: 373
+    name: 'Secondary education'
+  Integer_375:
+    number: 374
+    name: 'Adult education'
+  Integer_376:
+    number: 375
+    name: Curricula
+  Integer_377:
+    number: 376
+    name: Unassigned
+  Integer_378:
+    number: 377
+    name: Unassigned
+  Integer_379:
+    number: 378
+    name: 'Higher education'
+  Integer_380:
+    number: 379
+    name: 'Public policy issues in education'
+  Integer_381:
+    number: 380
+    name: 'Commerce communications and transportation'
+  Integer_382:
+    number: 381
+    name: Commerce
+  Integer_383:
+    number: 382
+    name: 'International commerce'
+  Integer_384:
+    number: 383
+    name: 'Postal communication'
+  Integer_385:
+    number: 384
+    name: 'Communications telecommunication'
+  Integer_386:
+    number: 385
+    name: 'Railroad transportation'
+  Integer_387:
+    number: 386
+    name: 'Inland waterway and ferry transportation'
+  Integer_388:
+    number: 387
+    name: 'Water air and space transportation'
+  Integer_389:
+    number: 388
+    name: 'Transportation ground transportation'
+  Integer_390:
+    number: 389
+    name: 'Metrology and standardization'
+  Integer_391:
+    number: 390
+    name: 'Customs etiquette and folklore'
+  Integer_392:
+    number: 391
+    name: 'Costume and personal appearance'
+  Integer_393:
+    number: 392
+    name: 'Customs of life cycle and domestic life'
+  Integer_394:
+    number: 393
+    name: 'Death customs'
+  Integer_395:
+    number: 394
+    name: 'General customs'
+  Integer_396:
+    number: 395
+    name: 'Etiquette (Manners)'
+  Integer_397:
+    number: 396
+    name: Unassigned
+  Integer_398:
+    number: 397
+    name: Unassigned
+  Integer_399:
+    number: 398
+    name: Folklore
+  Integer_400:
+    number: 399
+    name: 'Customs of war and diplomacy'
+  Integer_401:
+    number: 400
+    name: Language
+  Integer_402:
+    number: 401
+    name: 'Philosophy and theory'
+  Integer_403:
+    number: 402
+    name: Miscellany
+  Integer_404:
+    number: 403
+    name: 'Dictionaries and encyclopedias'
+  Integer_405:
+    number: 404
+    name: 'Special topics'
+  Integer_406:
+    number: 405
+    name: 'Serial publications'
+  Integer_407:
+    number: 406
+    name: 'Organizations and management'
+  Integer_408:
+    number: 407
+    name: 'Education research and related topics'
+  Integer_409:
+    number: 408
+    name: 'Kinds of persons treatment'
+  Integer_410:
+    number: 409
+    name: 'Geographic and persons treatment'
+  Integer_411:
+    number: 410
+    name: Linguistics
+  Integer_412:
+    number: 411
+    name: 'Writing systems'
+  Integer_413:
+    number: 412
+    name: Etymology
+  Integer_414:
+    number: 413
+    name: Dictionaries
+  Integer_415:
+    number: 414
+    name: 'Phonology and phonetics'
+  Integer_416:
+    number: 415
+    name: Grammar
+  Integer_417:
+    number: 416
+    name: Unassigned
+  Integer_418:
+    number: 417
+    name: 'Dialectology and historical linguistics'
+  Integer_419:
+    number: 418
+    name: 'Standard usage and applied linguistics'
+  Integer_420:
+    number: 419
+    name: 'Sign languages'
+  Integer_421:
+    number: 420
+    name: 'English and Old English'
+  Integer_422:
+    number: 421
+    name: 'English writing system and phonology'
+  Integer_423:
+    number: 422
+    name: 'English etymology'
+  Integer_424:
+    number: 423
+    name: 'English dictionaries'
+  Integer_425:
+    number: 424
+    name: Unassigned
+  Integer_426:
+    number: 425
+    name: 'English grammar'
+  Integer_427:
+    number: 426
+    name: Unassigned
+  Integer_428:
+    number: 427
+    name: 'English language variations'
+  Integer_429:
+    number: 428
+    name: 'Standard English usage'
+  Integer_430:
+    number: 429
+    name: 'Old English (Anglo-Saxon)'
+  Integer_431:
+    number: 430
+    name: 'Germanic languages German'
+  Integer_432:
+    number: 431
+    name: 'German writing systems and phonology'
+  Integer_433:
+    number: 432
+    name: 'German etymology'
+  Integer_434:
+    number: 433
+    name: 'German dictionaries'
+  Integer_435:
+    number: 434
+    name: Unassigned
+  Integer_436:
+    number: 435
+    name: 'German grammar'
+  Integer_437:
+    number: 436
+    name: Unassigned
+  Integer_438:
+    number: 437
+    name: 'German language variations'
+  Integer_439:
+    number: 438
+    name: 'Standard German usage'
+  Integer_440:
+    number: 439
+    name: 'Other Germanic languages'
+  Integer_441:
+    number: 440
+    name: 'Romance languages French'
+  Integer_442:
+    number: 441
+    name: 'French writing systems and phonology'
+  Integer_443:
+    number: 442
+    name: 'French etymology'
+  Integer_444:
+    number: 443
+    name: 'French dictionaries'
+  Integer_445:
+    number: 444
+    name: Unassigned
+  Integer_446:
+    number: 445
+    name: 'French grammar'
+  Integer_447:
+    number: 446
+    name: Unassigned
+  Integer_448:
+    number: 447
+    name: 'French language variations'
+  Integer_449:
+    number: 448
+    name: 'Standard French usage'
+  Integer_450:
+    number: 449
+    name: 'Occitan and Catalan'
+  Integer_451:
+    number: 450
+    name: 'Italian Romanian and related languages'
+  Integer_452:
+    number: 451
+    name: 'Italian writing systems and phonology'
+  Integer_453:
+    number: 452
+    name: 'Italian etymology'
+  Integer_454:
+    number: 453
+    name: 'Italian dictionaries'
+  Integer_455:
+    number: 454
+    name: Unassigned
+  Integer_456:
+    number: 455
+    name: 'Italian grammar'
+  Integer_457:
+    number: 456
+    name: Unassigned
+  Integer_458:
+    number: 457
+    name: 'Italian language variations'
+  Integer_459:
+    number: 458
+    name: 'Standard Italian usage'
+  Integer_460:
+    number: 459
+    name: 'Romanian and related languages'
+  Integer_461:
+    number: 460
+    name: 'Spanish and Portuguese languages'
+  Integer_462:
+    number: 461
+    name: 'Spanish writing systems and phonology'
+  Integer_463:
+    number: 462
+    name: 'Spanish etymology'
+  Integer_464:
+    number: 463
+    name: 'Spanish dictionaries'
+  Integer_465:
+    number: 464
+    name: Unassigned
+  Integer_466:
+    number: 465
+    name: 'Spanish grammar'
+  Integer_467:
+    number: 466
+    name: Unassigned
+  Integer_468:
+    number: 467
+    name: 'Spanish language variations'
+  Integer_469:
+    number: 468
+    name: 'Standard Spanish usage'
+  Integer_470:
+    number: 469
+    name: Portuguese
+  Integer_471:
+    number: 470
+    name: 'Italic languages Latin'
+  Integer_472:
+    number: 471
+    name: 'Classical Latin writing and phonology'
+  Integer_473:
+    number: 472
+    name: 'Classical Latin etymology'
+  Integer_474:
+    number: 473
+    name: 'Classical Latin dictionaries'
+  Integer_475:
+    number: 474
+    name: Unassigned
+  Integer_476:
+    number: 475
+    name: 'Classical Latin grammar'
+  Integer_477:
+    number: 476
+    name: Unassigned
+  Integer_478:
+    number: 477
+    name: 'Old postclassical and Vulgar Latin'
+  Integer_479:
+    number: 478
+    name: 'Classical Latin usage'
+  Integer_480:
+    number: 479
+    name: 'Other Italic languages'
+  Integer_481:
+    number: 480
+    name: 'Hellenic languages classical Greek'
+  Integer_482:
+    number: 481
+    name: 'Classical Greek writing and phonology'
+  Integer_483:
+    number: 482
+    name: 'Classical Greek etymology'
+  Integer_484:
+    number: 483
+    name: 'Classical Greek dictionaries'
+  Integer_485:
+    number: 484
+    name: Unassigned
+  Integer_486:
+    number: 485
+    name: 'Classical Greek grammar'
+  Integer_487:
+    number: 486
+    name: Unassigned
+  Integer_488:
+    number: 487
+    name: 'Preclassical and postclassical Greek'
+  Integer_489:
+    number: 488
+    name: 'Classical Greek usage'
+  Integer_490:
+    number: 489
+    name: 'Other Hellenic languages'
+  Integer_491:
+    number: 490
+    name: 'Other languages'
+  Integer_492:
+    number: 491
+    name: 'East Indo-European and Celtic languages'
+  Integer_493:
+    number: 492
+    name: 'Afro-Asiatic languages Semitic languages'
+  Integer_494:
+    number: 493
+    name: 'Non-Semitic Afro-Asiatic languages'
+  Integer_495:
+    number: 494
+    name: 'Altaic Uralic Hyperborean and Dravidian'
+  Integer_496:
+    number: 495
+    name: 'Languages of East and Southeast Asia'
+  Integer_497:
+    number: 496
+    name: 'African languages'
+  Integer_498:
+    number: 497
+    name: 'North American native languages'
+  Integer_499:
+    number: 498
+    name: 'South American native languages'
+  Integer_500:
+    number: 499
+    name: 'Austronesian and other languages'
+  Integer_501:
+    number: 500
+    name: 'Natural Sciences and Mathemetics'
+  Integer_502:
+    number: 501
+    name: 'Philosophy and theory'
+  Integer_503:
+    number: 502
+    name: Miscellany
+  Integer_504:
+    number: 503
+    name: 'Dictionaries and encyclopedias'
+  Integer_505:
+    number: 504
+    name: Unassigned
+  Integer_506:
+    number: 505
+    name: 'Serial publications'
+  Integer_507:
+    number: 506
+    name: 'Organizations and management'
+  Integer_508:
+    number: 507
+    name: 'Education research and related topics'
+  Integer_509:
+    number: 508
+    name: 'Natural history'
+  Integer_510:
+    number: 509
+    name: 'Historical geographic and persons treatment'
+  Integer_511:
+    number: 510
+    name: Mathematics
+  Integer_512:
+    number: 511
+    name: 'General principles of mathematics'
+  Integer_513:
+    number: 512
+    name: Algebra
+  Integer_514:
+    number: 513
+    name: Arithmetic
+  Integer_515:
+    number: 514
+    name: Topology
+  Integer_516:
+    number: 515
+    name: Analysis
+  Integer_517:
+    number: 516
+    name: Geometry
+  Integer_518:
+    number: 517
+    name: Unassigned
+  Integer_519:
+    number: 518
+    name: 'Numerical analysis'
+  Integer_520:
+    number: 519
+    name: 'Probabilities and applied mathematics'
+  Integer_521:
+    number: 520
+    name: 'Astronomy and allied sciences'
+  Integer_522:
+    number: 521
+    name: 'Celestial mechanics'
+  Integer_523:
+    number: 522
+    name: 'Techniques equipment and materials'
+  Integer_524:
+    number: 523
+    name: 'Specific celestial bodies and phenomena'
+  Integer_525:
+    number: 524
+    name: Unassigned
+  Integer_526:
+    number: 525
+    name: 'Earth (Astronomical geography)'
+  Integer_527:
+    number: 526
+    name: 'Mathematical geography'
+  Integer_528:
+    number: 527
+    name: 'Celestial navigation'
+  Integer_529:
+    number: 528
+    name: Ephemerides
+  Integer_530:
+    number: 529
+    name: Chronology
+  Integer_531:
+    number: 530
+    name: Physics
+  Integer_532:
+    number: 531
+    name: 'Classical mechanics solid mechanics'
+  Integer_533:
+    number: 532
+    name: 'Fluid mechanics liquid mechanics'
+  Integer_534:
+    number: 533
+    name: 'Gas mechanics'
+  Integer_535:
+    number: 534
+    name: 'Sound and related vibrations'
+  Integer_536:
+    number: 535
+    name: 'Light and infrared and ultraviolet phenomena'
+  Integer_537:
+    number: 536
+    name: Heat
+  Integer_538:
+    number: 537
+    name: 'Electricity and electronics'
+  Integer_539:
+    number: 538
+    name: Magnetism
+  Integer_540:
+    number: 539
+    name: 'Modern physics'
+  Integer_541:
+    number: 540
+    name: 'Chemistry and allied sciences'
+  Integer_542:
+    number: 541
+    name: 'Physical chemistry'
+  Integer_543:
+    number: 542
+    name: 'Techniques equipment and materials'
+  Integer_544:
+    number: 543
+    name: 'Analytical chemistry'
+  Integer_545:
+    number: 544
+    name: Unassigned
+  Integer_546:
+    number: 545
+    name: Unassigned
+  Integer_547:
+    number: 546
+    name: 'Inorganic chemistry'
+  Integer_548:
+    number: 547
+    name: 'Organic chemistry'
+  Integer_549:
+    number: 548
+    name: Crystallography
+  Integer_550:
+    number: 549
+    name: Mineralogy
+  Integer_551:
+    number: 550
+    name: 'Earth sciences'
+  Integer_552:
+    number: 551
+    name: 'Geology hydrology and meteorology'
+  Integer_553:
+    number: 552
+    name: Petrology
+  Integer_554:
+    number: 553
+    name: 'Economic geology'
+  Integer_555:
+    number: 554
+    name: 'Earth sciences of Europe'
+  Integer_556:
+    number: 555
+    name: 'Earth sciences of Asia'
+  Integer_557:
+    number: 556
+    name: 'Earth sciences of Africa'
+  Integer_558:
+    number: 557
+    name: 'Earth sciences of North America'
+  Integer_559:
+    number: 558
+    name: 'Earth sciences of South America'
+  Integer_560:
+    number: 559
+    name: 'Earth sciences of other areas'
+  Integer_561:
+    number: 560
+    name: 'Paleontology paleozoology'
+  Integer_562:
+    number: 561
+    name: 'Paleobotany fossil microorganisms'
+  Integer_563:
+    number: 562
+    name: 'Fossil invertebrates'
+  Integer_564:
+    number: 563
+    name: 'Fossil marine and seashore invertebrates'
+  Integer_565:
+    number: 564
+    name: 'Fossil mollusks and molluscoids'
+  Integer_566:
+    number: 565
+    name: 'Fossil arthropods'
+  Integer_567:
+    number: 566
+    name: 'Fossil chordates'
+  Integer_568:
+    number: 567
+    name: 'Fossil cold-blooded vertebrates fossil fishes'
+  Integer_569:
+    number: 568
+    name: 'Fossil birds'
+  Integer_570:
+    number: 569
+    name: 'Fossil mammals'
+  Integer_571:
+    number: 570
+    name: 'Life sciences biology'
+  Integer_572:
+    number: 571
+    name: 'Physiology and related subjects'
+  Integer_573:
+    number: 572
+    name: Biochemistry
+  Integer_574:
+    number: 573
+    name: 'Specific physiological systems in animals'
+  Integer_575:
+    number: 574
+    name: Unassigned
+  Integer_576:
+    number: 575
+    name: 'Specific parts of and systems in plants'
+  Integer_577:
+    number: 576
+    name: 'Genetics and evolution'
+  Integer_578:
+    number: 577
+    name: Ecology
+  Integer_579:
+    number: 578
+    name: 'Natural history of organisms'
+  Integer_580:
+    number: 579
+    name: 'Microorganisms fungi and algae'
+  Integer_581:
+    number: 580
+    name: 'Plants (Botany)'
+  Integer_582:
+    number: 581
+    name: 'Specific topics in natural history'
+  Integer_583:
+    number: 582
+    name: 'Plants noted for characteristics and flowers'
+  Integer_584:
+    number: 583
+    name: Dicotyledons
+  Integer_585:
+    number: 584
+    name: Monocotyledons
+  Integer_586:
+    number: 585
+    name: 'Gymnosperms conifers'
+  Integer_587:
+    number: 586
+    name: 'Seedless plants'
+  Integer_588:
+    number: 587
+    name: 'Vascular seedless plants'
+  Integer_589:
+    number: 588
+    name: Bryophytes
+  Integer_590:
+    number: 589
+    name: Unassigned
+  Integer_591:
+    number: 590
+    name: 'Animals (Zoology)'
+  Integer_592:
+    number: 591
+    name: 'Specific topics in natural history'
+  Integer_593:
+    number: 592
+    name: Invertebrates
+  Integer_594:
+    number: 593
+    name: 'Marine and seashore invertebrates'
+  Integer_595:
+    number: 594
+    name: 'Mollusks and molluscoids'
+  Integer_596:
+    number: 595
+    name: Arthropods
+  Integer_597:
+    number: 596
+    name: Chordates
+  Integer_598:
+    number: 597
+    name: 'Cold-blooded vertebrates fishes'
+  Integer_599:
+    number: 598
+    name: Birds
+  Integer_600:
+    number: 599
+    name: Mammals
+  Integer_601:
+    number: 600
+    name: Technology
+  Integer_602:
+    number: 601
+    name: 'Philosophy and theory'
+  Integer_603:
+    number: 602
+    name: Miscellany
+  Integer_604:
+    number: 603
+    name: 'Dictionaries and encyclopedias'
+  Integer_605:
+    number: 604
+    name: 'Special topics'
+  Integer_606:
+    number: 605
+    name: 'Serial publications'
+  Integer_607:
+    number: 606
+    name: Organizations
+  Integer_608:
+    number: 607
+    name: 'Education research and related topics'
+  Integer_609:
+    number: 608
+    name: 'Inventions and patents'
+  Integer_610:
+    number: 609
+    name: 'Historical geographic and persons treatment'
+  Integer_611:
+    number: 610
+    name: 'Medicine and health'
+  Integer_612:
+    number: 611
+    name: 'Human anatomy cytology and histology'
+  Integer_613:
+    number: 612
+    name: 'Human physiology'
+  Integer_614:
+    number: 613
+    name: 'Personal health and safety'
+  Integer_615:
+    number: 614
+    name: 'Incidence and prevention of disease'
+  Integer_616:
+    number: 615
+    name: 'Pharmacology and therapeutics'
+  Integer_617:
+    number: 616
+    name: Diseases
+  Integer_618:
+    number: 617
+    name: 'Surgery and related medical specialties'
+  Integer_619:
+    number: 618
+    name: 'Gynecology obstetrics pediatrics and geriatrics'
+  Integer_620:
+    number: 619
+    name: Unassigned
+  Integer_621:
+    number: 620
+    name: 'Engineering and allied operations'
+  Integer_622:
+    number: 621
+    name: 'Applied physics'
+  Integer_623:
+    number: 622
+    name: 'Mining and related operations'
+  Integer_624:
+    number: 623
+    name: 'Military and nautical engineering'
+  Integer_625:
+    number: 624
+    name: 'Civil engineering'
+  Integer_626:
+    number: 625
+    name: 'Engineering of railroads and roads'
+  Integer_627:
+    number: 626
+    name: Unassigned
+  Integer_628:
+    number: 627
+    name: 'Hydraulic engineering'
+  Integer_629:
+    number: 628
+    name: 'Sanitary and municipal engineering'
+  Integer_630:
+    number: 629
+    name: 'Other branches of engineering'
+  Integer_631:
+    number: 630
+    name: 'Agriculture and related technologies'
+  Integer_632:
+    number: 631
+    name: 'Techniques equipment and materials'
+  Integer_633:
+    number: 632
+    name: 'Plant injuries diseases and pests'
+  Integer_634:
+    number: 633
+    name: 'Field and plantation crops'
+  Integer_635:
+    number: 634
+    name: 'Orchards fruits and forestry'
+  Integer_636:
+    number: 635
+    name: 'Garden crops (Horticulture)'
+  Integer_637:
+    number: 636
+    name: 'Animal husbandry'
+  Integer_638:
+    number: 637
+    name: 'Processing dairy and related products'
+  Integer_639:
+    number: 638
+    name: 'Insect culture'
+  Integer_640:
+    number: 639
+    name: 'Hunting fishing and conservation'
+  Integer_641:
+    number: 640
+    name: 'Home and family management'
+  Integer_642:
+    number: 641
+    name: 'Food and drink'
+  Integer_643:
+    number: 642
+    name: 'Meals and table service'
+  Integer_644:
+    number: 643
+    name: 'Housing and household equipment'
+  Integer_645:
+    number: 644
+    name: 'Household utilities'
+  Integer_646:
+    number: 645
+    name: 'Household furnishings'
+  Integer_647:
+    number: 646
+    name: 'Sewing clothing and personal living'
+  Integer_648:
+    number: 647
+    name: 'Management of public households'
+  Integer_649:
+    number: 648
+    name: Housekeeping
+  Integer_650:
+    number: 649
+    name: 'Child rearing and home care of persons'
+  Integer_651:
+    number: 650
+    name: 'Management and auxiliary services'
+  Integer_652:
+    number: 651
+    name: 'Office services'
+  Integer_653:
+    number: 652
+    name: 'Processes of written communication'
+  Integer_654:
+    number: 653
+    name: Shorthand
+  Integer_655:
+    number: 654
+    name: Unassigned
+  Integer_656:
+    number: 655
+    name: Unassigned
+  Integer_657:
+    number: 656
+    name: Unassigned
+  Integer_658:
+    number: 657
+    name: Accounting
+  Integer_659:
+    number: 658
+    name: 'General management'
+  Integer_660:
+    number: 659
+    name: 'Advertising and public relations'
+  Integer_661:
+    number: 660
+    name: 'Chemical engineering'
+  Integer_662:
+    number: 661
+    name: 'Industrial chemicals'
+  Integer_663:
+    number: 662
+    name: 'Explosives fuels and related products'
+  Integer_664:
+    number: 663
+    name: 'Beverage technology'
+  Integer_665:
+    number: 664
+    name: 'Food technology'
+  Integer_666:
+    number: 665
+    name: 'Industrial oils fats waxes and gases'
+  Integer_667:
+    number: 666
+    name: 'Ceramic and allied technologies'
+  Integer_668:
+    number: 667
+    name: 'Cleaning color and coating technologies'
+  Integer_669:
+    number: 668
+    name: 'Technology of other organic products'
+  Integer_670:
+    number: 669
+    name: Metallurgy
+  Integer_671:
+    number: 670
+    name: Manufacturing
+  Integer_672:
+    number: 671
+    name: 'Metalworking and primary metal products'
+  Integer_673:
+    number: 672
+    name: 'Iron steel and other iron alloys'
+  Integer_674:
+    number: 673
+    name: 'Nonferrous metals'
+  Integer_675:
+    number: 674
+    name: 'Lumber processing wood products and cork'
+  Integer_676:
+    number: 675
+    name: 'Leather and fur processing'
+  Integer_677:
+    number: 676
+    name: 'Pulp and paper technology'
+  Integer_678:
+    number: 677
+    name: Textiles
+  Integer_679:
+    number: 678
+    name: 'Elastomers and elastomer products'
+  Integer_680:
+    number: 679
+    name: 'Other products of specific materials'
+  Integer_681:
+    number: 680
+    name: 'Manufacture for specific uses'
+  Integer_682:
+    number: 681
+    name: 'Precision instruments and other devices'
+  Integer_683:
+    number: 682
+    name: 'Small forge work (Blacksmithing)'
+  Integer_684:
+    number: 683
+    name: 'Hardware and household appliances'
+  Integer_685:
+    number: 684
+    name: 'Furnishings and home workshops'
+  Integer_686:
+    number: 685
+    name: 'Leather fur goods and related products'
+  Integer_687:
+    number: 686
+    name: 'Printing and related activities'
+  Integer_688:
+    number: 687
+    name: 'Clothing and accessories'
+  Integer_689:
+    number: 688
+    name: 'Other final products and packaging'
+  Integer_690:
+    number: 689
+    name: Unassigned
+  Integer_691:
+    number: 690
+    name: Buildings
+  Integer_692:
+    number: 691
+    name: 'Building materials'
+  Integer_693:
+    number: 692
+    name: 'Auxiliary construction practices'
+  Integer_694:
+    number: 693
+    name: 'Specific materials and purposes'
+  Integer_695:
+    number: 694
+    name: 'Wood construction and carpentry'
+  Integer_696:
+    number: 695
+    name: 'Roof covering'
+  Integer_697:
+    number: 696
+    name: Utilities
+  Integer_698:
+    number: 697
+    name: 'Heating ventilating and air-conditioning'
+  Integer_699:
+    number: 698
+    name: 'Detail finishing'
+  Integer_700:
+    number: 699
+    name: Unassigned
+  Integer_701:
+    number: 700
+    name: 'The arts fine and decorative arts'
+  Integer_702:
+    number: 701
+    name: 'Philosophy of fine and decorative arts'
+  Integer_703:
+    number: 702
+    name: 'Miscellany of fine and decorative arts'
+  Integer_704:
+    number: 703
+    name: 'Dictionaries of fine and decorative arts'
+  Integer_705:
+    number: 704
+    name: 'Special topics in fine and decorative arts'
+  Integer_706:
+    number: 705
+    name: 'Serial publications of fine and decorative arts'
+  Integer_707:
+    number: 706
+    name: 'Organizations and management'
+  Integer_708:
+    number: 707
+    name: 'Education research and related topics'
+  Integer_709:
+    number: 708
+    name: 'Galleries museums and private collections'
+  Integer_710:
+    number: 709
+    name: 'Historical geographic and persons treatment'
+  Integer_711:
+    number: 710
+    name: 'Civic and landscape art'
+  Integer_712:
+    number: 711
+    name: 'Area planning'
+  Integer_713:
+    number: 712
+    name: 'Landscape architecture'
+  Integer_714:
+    number: 713
+    name: 'Landscape architecture of trafficways'
+  Integer_715:
+    number: 714
+    name: 'Water features'
+  Integer_716:
+    number: 715
+    name: 'Woody plants'
+  Integer_717:
+    number: 716
+    name: 'Herbaceous plants'
+  Integer_718:
+    number: 717
+    name: 'Structures in landscape architecture'
+  Integer_719:
+    number: 718
+    name: 'Landscape design of cemeteries'
+  Integer_720:
+    number: 719
+    name: 'Natural landscapes'
+  Integer_721:
+    number: 720
+    name: Architecture
+  Integer_722:
+    number: 721
+    name: 'Architectural structure'
+  Integer_723:
+    number: 722
+    name: 'Architecture to ca. 300'
+  Integer_724:
+    number: 723
+    name: 'Architecture from ca. 300 to 1399'
+  Integer_725:
+    number: 724
+    name: 'Architecture from 1400'
+  Integer_726:
+    number: 725
+    name: 'Public structures'
+  Integer_727:
+    number: 726
+    name: 'Buildings for religious purposes'
+  Integer_728:
+    number: 727
+    name: 'Buildings for education and research'
+  Integer_729:
+    number: 728
+    name: 'Residential and related buildings'
+  Integer_730:
+    number: 729
+    name: 'Design and decoration'
+  Integer_731:
+    number: 730
+    name: 'Plastic arts sculpture'
+  Integer_732:
+    number: 731
+    name: 'Processes forms and subjects of sculpture'
+  Integer_733:
+    number: 732
+    name: 'Sculpture to ca. 500'
+  Integer_734:
+    number: 733
+    name: 'Greek Etruscan and Roman sculpture'
+  Integer_735:
+    number: 734
+    name: 'Sculpture from ca. 500 to 1399'
+  Integer_736:
+    number: 735
+    name: 'Sculpture from 1400'
+  Integer_737:
+    number: 736
+    name: 'Carving and carvings'
+  Integer_738:
+    number: 737
+    name: 'Numismatics and sigillography'
+  Integer_739:
+    number: 738
+    name: 'Ceramic arts'
+  Integer_740:
+    number: 739
+    name: 'Art metalwork'
+  Integer_741:
+    number: 740
+    name: 'Drawing and decorative arts'
+  Integer_742:
+    number: 741
+    name: 'Drawing and drawings'
+  Integer_743:
+    number: 742
+    name: Perspective
+  Integer_744:
+    number: 743
+    name: 'Drawing and drawings by subject'
+  Integer_745:
+    number: 744
+    name: Unassigned
+  Integer_746:
+    number: 745
+    name: 'Decorative arts'
+  Integer_747:
+    number: 746
+    name: 'Textile arts'
+  Integer_748:
+    number: 747
+    name: 'Interior decoration'
+  Integer_749:
+    number: 748
+    name: Glass
+  Integer_750:
+    number: 749
+    name: 'Furniture and accessories'
+  Integer_751:
+    number: 750
+    name: 'Painting and paintings'
+  Integer_752:
+    number: 751
+    name: 'Techniques equipment materials and forms'
+  Integer_753:
+    number: 752
+    name: Color
+  Integer_754:
+    number: 753
+    name: 'Symbolism allegory mythology and legend'
+  Integer_755:
+    number: 754
+    name: 'Genre paintings'
+  Integer_756:
+    number: 755
+    name: Religion
+  Integer_757:
+    number: 756
+    name: Unassigned
+  Integer_758:
+    number: 757
+    name: 'Human figures'
+  Integer_759:
+    number: 758
+    name: 'Other subjects'
+  Integer_760:
+    number: 759
+    name: 'Historical geographic and persons treatment'
+  Integer_761:
+    number: 760
+    name: 'Graphic arts printmaking and prints'
+  Integer_762:
+    number: 761
+    name: 'Relief processes (Block printing)'
+  Integer_763:
+    number: 762
+    name: Unassigned
+  Integer_764:
+    number: 763
+    name: 'Lithographic processes'
+  Integer_765:
+    number: 764
+    name: 'Chromolithography and serigraphy'
+  Integer_766:
+    number: 765
+    name: 'Metal engraving'
+  Integer_767:
+    number: 766
+    name: 'Mezzotinting aquatinting and related processes'
+  Integer_768:
+    number: 767
+    name: 'Etching and drypoint'
+  Integer_769:
+    number: 768
+    name: Unassigned
+  Integer_770:
+    number: 769
+    name: Prints
+  Integer_771:
+    number: 770
+    name: 'Photography photographs and computer art'
+  Integer_772:
+    number: 771
+    name: 'Techniques equipment and materials'
+  Integer_773:
+    number: 772
+    name: 'Metallic salt processes'
+  Integer_774:
+    number: 773
+    name: 'Pigment processes of printing'
+  Integer_775:
+    number: 774
+    name: Holography
+  Integer_776:
+    number: 775
+    name: 'Digital photography'
+  Integer_777:
+    number: 776
+    name: 'Computer art (Digital art)'
+  Integer_778:
+    number: 777
+    name: Unassigned
+  Integer_779:
+    number: 778
+    name: 'Fields and kinds of photography'
+  Integer_780:
+    number: 779
+    name: Photographs
+  Integer_781:
+    number: 780
+    name: Music
+  Integer_782:
+    number: 781
+    name: 'General principles and musical forms'
+  Integer_783:
+    number: 782
+    name: 'Vocal music'
+  Integer_784:
+    number: 783
+    name: 'Music for single voices the voice'
+  Integer_785:
+    number: 784
+    name: 'Instruments and instrumental ensembles'
+  Integer_786:
+    number: 785
+    name: 'Ensembles with one instrument per part'
+  Integer_787:
+    number: 786
+    name: 'Keyboard and other instruments'
+  Integer_788:
+    number: 787
+    name: 'Stringed instruments'
+  Integer_789:
+    number: 788
+    name: 'Wind instruments'
+  Integer_790:
+    number: 789
+    name: '(Optional number)'
+  Integer_791:
+    number: 790
+    name: 'Recreational and performing arts'
+  Integer_792:
+    number: 791
+    name: 'Public performances'
+  Integer_793:
+    number: 792
+    name: 'Stage presentations'
+  Integer_794:
+    number: 793
+    name: 'Indoor games and amusements'
+  Integer_795:
+    number: 794
+    name: 'Indoor games of skill'
+  Integer_796:
+    number: 795
+    name: 'Games of chance'
+  Integer_797:
+    number: 796
+    name: 'Athletic and outdoor sports and games'
+  Integer_798:
+    number: 797
+    name: 'Aquatic and air sports'
+  Integer_799:
+    number: 798
+    name: 'Equestrian sports and animal racing'
+  Integer_800:
+    number: 799
+    name: 'Fishing hunting and shooting'
+  Integer_801:
+    number: 800
+    name: 'Literature and rhetoric'
+  Integer_802:
+    number: 801
+    name: 'Philosophy and theory'
+  Integer_803:
+    number: 802
+    name: Miscellany
+  Integer_804:
+    number: 803
+    name: 'Dictionaries and encyclopedias'
+  Integer_805:
+    number: 804
+    name: Unassigned
+  Integer_806:
+    number: 805
+    name: 'Serial publications'
+  Integer_807:
+    number: 806
+    name: 'Organizations and management'
+  Integer_808:
+    number: 807
+    name: 'Education research and related topics'
+  Integer_809:
+    number: 808
+    name: 'Rhetoric and collections of literature'
+  Integer_810:
+    number: 809
+    name: 'History description and criticism'
+  Integer_811:
+    number: 810
+    name: 'American literature in English'
+  Integer_812:
+    number: 811
+    name: 'American poetry in English'
+  Integer_813:
+    number: 812
+    name: 'American drama in English'
+  Integer_814:
+    number: 813
+    name: 'American fiction in English'
+  Integer_815:
+    number: 814
+    name: 'American essays in English'
+  Integer_816:
+    number: 815
+    name: 'American speeches in English'
+  Integer_817:
+    number: 816
+    name: 'American letters in English'
+  Integer_818:
+    number: 817
+    name: 'American humor and satire in English'
+  Integer_819:
+    number: 818
+    name: 'American miscellaneous writings'
+  Integer_820:
+    number: 819
+    name: '(Optional number)'
+  Integer_821:
+    number: 820
+    name: 'English and Old English literatures'
+  Integer_822:
+    number: 821
+    name: 'English poetry'
+  Integer_823:
+    number: 822
+    name: 'English drama'
+  Integer_824:
+    number: 823
+    name: 'English fiction'
+  Integer_825:
+    number: 824
+    name: 'English essays'
+  Integer_826:
+    number: 825
+    name: 'English speeches'
+  Integer_827:
+    number: 826
+    name: 'English letters'
+  Integer_828:
+    number: 827
+    name: 'English humor and satire'
+  Integer_829:
+    number: 828
+    name: 'English miscellaneous writings'
+  Integer_830:
+    number: 829
+    name: 'Old English (Anglo-Saxon)'
+  Integer_831:
+    number: 830
+    name: 'Literatures of Germanic languages'
+  Integer_832:
+    number: 831
+    name: 'German poetry'
+  Integer_833:
+    number: 832
+    name: 'German drama'
+  Integer_834:
+    number: 833
+    name: 'German fiction'
+  Integer_835:
+    number: 834
+    name: 'German essays'
+  Integer_836:
+    number: 835
+    name: 'German speeches'
+  Integer_837:
+    number: 836
+    name: 'German letters'
+  Integer_838:
+    number: 837
+    name: 'German humor and satire'
+  Integer_839:
+    number: 838
+    name: 'German miscellaneous writings'
+  Integer_840:
+    number: 839
+    name: 'Other Germanic literatures'
+  Integer_841:
+    number: 840
+    name: 'Literatures of Romance languages'
+  Integer_842:
+    number: 841
+    name: 'French poetry'
+  Integer_843:
+    number: 842
+    name: 'French drama'
+  Integer_844:
+    number: 843
+    name: 'French fiction'
+  Integer_845:
+    number: 844
+    name: 'French essays'
+  Integer_846:
+    number: 845
+    name: 'French speeches'
+  Integer_847:
+    number: 846
+    name: 'French letters'
+  Integer_848:
+    number: 847
+    name: 'French humor and satire'
+  Integer_849:
+    number: 848
+    name: 'French miscellaneous writings'
+  Integer_850:
+    number: 849
+    name: 'Occitan and Catalan literatures'
+  Integer_851:
+    number: 850
+    name: 'Italian Romanian and related literatures'
+  Integer_852:
+    number: 851
+    name: 'Italian poetry'
+  Integer_853:
+    number: 852
+    name: 'Italian drama'
+  Integer_854:
+    number: 853
+    name: 'Italian fiction'
+  Integer_855:
+    number: 854
+    name: 'Italian essays'
+  Integer_856:
+    number: 855
+    name: 'Italian speeches'
+  Integer_857:
+    number: 856
+    name: 'Italian letters'
+  Integer_858:
+    number: 857
+    name: 'Italian humor and satire'
+  Integer_859:
+    number: 858
+    name: 'Italian miscellaneous writings'
+  Integer_860:
+    number: 859
+    name: 'Romanian and related literatures'
+  Integer_861:
+    number: 860
+    name: 'Spanish and Portuguese literatures'
+  Integer_862:
+    number: 861
+    name: 'Spanish poetry'
+  Integer_863:
+    number: 862
+    name: 'Spanish drama'
+  Integer_864:
+    number: 863
+    name: 'Spanish fiction'
+  Integer_865:
+    number: 864
+    name: 'Spanish essays'
+  Integer_866:
+    number: 865
+    name: 'Spanish speeches'
+  Integer_867:
+    number: 866
+    name: 'Spanish letters'
+  Integer_868:
+    number: 867
+    name: 'Spanish humor and satire'
+  Integer_869:
+    number: 868
+    name: 'Spanish miscellaneous writings'
+  Integer_870:
+    number: 869
+    name: 'Portuguese literature'
+  Integer_871:
+    number: 870
+    name: 'Italic literatures Latin literature'
+  Integer_872:
+    number: 871
+    name: 'Latin poetry'
+  Integer_873:
+    number: 872
+    name: 'Latin dramatic poetry and drama'
+  Integer_874:
+    number: 873
+    name: 'Latin epic poetry and fiction'
+  Integer_875:
+    number: 874
+    name: 'Latin lyric poetry'
+  Integer_876:
+    number: 875
+    name: 'Latin speeches'
+  Integer_877:
+    number: 876
+    name: 'Latin letters'
+  Integer_878:
+    number: 877
+    name: 'Latin humor and satire'
+  Integer_879:
+    number: 878
+    name: 'Latin miscellaneous writings'
+  Integer_880:
+    number: 879
+    name: 'Literatures of other Italic languages'
+  Integer_881:
+    number: 880
+    name: 'Hellenic literatures classical Greek'
+  Integer_882:
+    number: 881
+    name: 'Classical Greek poetry'
+  Integer_883:
+    number: 882
+    name: 'Classical Greek dramatic poetry and drama'
+  Integer_884:
+    number: 883
+    name: 'Classical Greek epic poetry and fiction'
+  Integer_885:
+    number: 884
+    name: 'Classical Greek lyric poetry'
+  Integer_886:
+    number: 885
+    name: 'Classical Greek speeches'
+  Integer_887:
+    number: 886
+    name: 'Classical Greek letters'
+  Integer_888:
+    number: 887
+    name: 'Classical Greek humor and satire'
+  Integer_889:
+    number: 888
+    name: 'Classical Greek miscellaneous writings'
+  Integer_890:
+    number: 889
+    name: 'Modern Greek literature'
+  Integer_891:
+    number: 890
+    name: 'Literatures of other languages'
+  Integer_892:
+    number: 891
+    name: 'East Indo-European and Celtic literatures'
+  Integer_893:
+    number: 892
+    name: 'Afro-Asiatic literatures Semitic literatures'
+  Integer_894:
+    number: 893
+    name: 'Non-Semitic Afro-Asiatic literatures'
+  Integer_895:
+    number: 894
+    name: 'Altaic Uralic Hyperborean and Dravidian'
+  Integer_896:
+    number: 895
+    name: 'Literatures of East and Southeast Asia'
+  Integer_897:
+    number: 896
+    name: 'African literatures'
+  Integer_898:
+    number: 897
+    name: 'North American native literatures'
+  Integer_899:
+    number: 898
+    name: 'South American native literatures'
+  Integer_900:
+    number: 899
+    name: 'Austronesian and other literatures'
+  Integer_901:
+    number: 900
+    name: 'History and geography'
+  Integer_902:
+    number: 901
+    name: 'Philosophy and theory'
+  Integer_903:
+    number: 902
+    name: Miscellany
+  Integer_904:
+    number: 903
+    name: 'Dictionaries and encyclopedias'
+  Integer_905:
+    number: 904
+    name: 'Collected accounts of events'
+  Integer_906:
+    number: 905
+    name: 'Serial publications'
+  Integer_907:
+    number: 906
+    name: 'Organizations and management'
+  Integer_908:
+    number: 907
+    name: 'Education research and related topics'
+  Integer_909:
+    number: 908
+    name: 'Kinds of persons treatment'
+  Integer_910:
+    number: 909
+    name: 'World history'
+  Integer_911:
+    number: 910
+    name: 'Geography and travel'
+  Integer_912:
+    number: 911
+    name: 'Historical geography'
+  Integer_913:
+    number: 912
+    name: 'Atlases maps charts and plans'
+  Integer_914:
+    number: 913
+    name: 'Geography of and travel in ancient world'
+  Integer_915:
+    number: 914
+    name: 'Geography of and travel in Europe'
+  Integer_916:
+    number: 915
+    name: 'Geography of and travel in Asia'
+  Integer_917:
+    number: 916
+    name: 'Geography of and travel in Africa'
+  Integer_918:
+    number: 917
+    name: 'Geography of and travel in North America'
+  Integer_919:
+    number: 918
+    name: 'Geography of and travel in South America'
+  Integer_920:
+    number: 919
+    name: 'Geography of and travel in other areas'
+  Integer_921:
+    number: 920
+    name: 'Biography genealogy and insignia'
+  Integer_922:
+    number: 921
+    name: '(Optional number)'
+  Integer_923:
+    number: 922
+    name: '(Optional number)'
+  Integer_924:
+    number: 923
+    name: '(Optional number)'
+  Integer_925:
+    number: 924
+    name: '(Optional number)'
+  Integer_926:
+    number: 925
+    name: '(Optional number)'
+  Integer_927:
+    number: 926
+    name: '(Optional number)'
+  Integer_928:
+    number: 927
+    name: '(Optional number)'
+  Integer_929:
+    number: 928
+    name: '(Optional number)'
+  Integer_930:
+    number: 929
+    name: 'Genealogy names and insignia'
+  Integer_931:
+    number: 930
+    name: 'History of ancient world to ca. 499'
+  Integer_932:
+    number: 931
+    name: 'China to 420'
+  Integer_933:
+    number: 932
+    name: 'Egypt to 640'
+  Integer_934:
+    number: 933
+    name: 'Palestine to 70'
+  Integer_935:
+    number: 934
+    name: 'India to 647'
+  Integer_936:
+    number: 935
+    name: 'Mesopotamia and Iranian Plateau to 637'
+  Integer_937:
+    number: 936
+    name: 'Europe north and west of Italy to ca. 499'
+  Integer_938:
+    number: 937
+    name: 'Italy and adjacent territories to 476'
+  Integer_939:
+    number: 938
+    name: 'Greece to 323'
+  Integer_940:
+    number: 939
+    name: 'Other parts of ancient world to ca. 640'
+  Integer_941:
+    number: 940
+    name: 'History of Europe'
+  Integer_942:
+    number: 941
+    name: 'British Isles'
+  Integer_943:
+    number: 942
+    name: 'England and Wales'
+  Integer_944:
+    number: 943
+    name: 'Central Europe Germany'
+  Integer_945:
+    number: 944
+    name: 'France and Monaco'
+  Integer_946:
+    number: 945
+    name: 'Italian Peninsula and adjacent islands'
+  Integer_947:
+    number: 946
+    name: 'Iberian Peninsula and adjacent islands'
+  Integer_948:
+    number: 947
+    name: 'Eastern Europe Russia'
+  Integer_949:
+    number: 948
+    name: Scandinavia
+  Integer_950:
+    number: 949
+    name: 'Other parts of Europe'
+  Integer_951:
+    number: 950
+    name: 'History of Asia Far East'
+  Integer_952:
+    number: 951
+    name: 'China and adjacent areas'
+  Integer_953:
+    number: 952
+    name: Japan
+  Integer_954:
+    number: 953
+    name: 'Arabian Peninsula and adjacent areas'
+  Integer_955:
+    number: 954
+    name: 'South Asia India'
+  Integer_956:
+    number: 955
+    name: Iran
+  Integer_957:
+    number: 956
+    name: 'Middle East (Near East)'
+  Integer_958:
+    number: 957
+    name: 'Siberia (Asiatic Russia)'
+  Integer_959:
+    number: 958
+    name: 'Central Asia'
+  Integer_960:
+    number: 959
+    name: 'Southeast Asia'
+  Integer_961:
+    number: 960
+    name: 'History of Africa'
+  Integer_962:
+    number: 961
+    name: 'Tunisia and Libya'
+  Integer_963:
+    number: 962
+    name: 'Egypt and Sudan'
+  Integer_964:
+    number: 963
+    name: 'Ethiopia and Eritrea'
+  Integer_965:
+    number: 964
+    name: 'Northwest African coast and offshore islands'
+  Integer_966:
+    number: 965
+    name: Algeria
+  Integer_967:
+    number: 966
+    name: 'West Africa and offshore islands'
+  Integer_968:
+    number: 967
+    name: 'Central Africa and offshore islands'
+  Integer_969:
+    number: 968
+    name: 'Southern Africa Republic of South Africa'
+  Integer_970:
+    number: 969
+    name: 'South Indian Ocean islands'
+  Integer_971:
+    number: 970
+    name: 'History of North America'
+  Integer_972:
+    number: 971
+    name: Canada
+  Integer_973:
+    number: 972
+    name: 'Middle America Mexico'
+  Integer_974:
+    number: 973
+    name: 'United States'
+  Integer_975:
+    number: 974
+    name: 'Northeastern United States'
+  Integer_976:
+    number: 975
+    name: 'Southeastern United States'
+  Integer_977:
+    number: 976
+    name: 'South central United States'
+  Integer_978:
+    number: 977
+    name: 'North central United States'
+  Integer_979:
+    number: 978
+    name: 'Western United States'
+  Integer_980:
+    number: 979
+    name: 'Great Basin and Pacific Slope region'
+  Integer_981:
+    number: 980
+    name: 'History of South America'
+  Integer_982:
+    number: 981
+    name: Brazil
+  Integer_983:
+    number: 982
+    name: Argentina
+  Integer_984:
+    number: 983
+    name: Chile
+  Integer_985:
+    number: 984
+    name: Bolivia
+  Integer_986:
+    number: 985
+    name: Peru
+  Integer_987:
+    number: 986
+    name: 'Colombia and Ecuador'
+  Integer_988:
+    number: 987
+    name: Venezuela
+  Integer_989:
+    number: 988
+    name: Guiana
+  Integer_990:
+    number: 989
+    name: 'Paraguay and Uruguay'
+  Integer_991:
+    number: 990
+    name: 'History of other areas'
+  Integer_992:
+    number: 991
+    name: Unassigned
+  Integer_993:
+    number: 992
+    name: Unassigned
+  Integer_994:
+    number: 993
+    name: 'New Zealand'
+  Integer_995:
+    number: 994
+    name: Australia
+  Integer_996:
+    number: 995
+    name: 'Melanesia New Guinea'
+  Integer_997:
+    number: 996
+    name: 'Other parts of Pacific Polynesia'
+  Integer_998:
+    number: 997
+    name: 'Atlantic Ocean islands'
+  Integer_999:
+    number: 998
+    name: 'Arctic islands and Antarctica'
+  Integer_1000:
+    number: 999
+    name: 'Extraterrestrial world'
+Entero:
+  Entero_1:
+    numero: 1
+    nombre: Conocimiento
+  Entero_2:
+    numero: 2
+    nombre: 'El libro'
+  Entero_3:
+    numero: 3
+    nombre: Sistemas
+  Entero_4:
+    numero: 4
+    nombre: 'Procesamiento de datos. Ciencia de los computadores'
+  Entero_5:
+    numero: 5
+    nombre: 'Programación, programas, datos de computador'
+  Entero_6:
+    numero: 6
+    nombre: 'Métodos especiales de computador'
+  Entero_7:
+    numero: 7
+    nombre: 'No asignado'
+  Entero_8:
+    numero: 8
+    nombre: 'No asignado'
+  Entero_9:
+    numero: 9
+    nombre: 'No asignado'
+  Entero_10:
+    numero: 10
+    nombre: Bibliografía
+  Entero_11:
+    numero: 11
+    nombre: Bibliografías
+  Entero_12:
+    numero: 12
+    nombre: 'Bibliografías y catálogos de individuos'
+  Entero_13:
+    numero: 13
+    nombre: 'Bibliografías y catálogos de obras por categorías específicas de autores'
+  Entero_14:
+    numero: 14
+    nombre: 'Bibliografías y catálogos de obras anónimas y seudónimas'
+  Entero_15:
+    numero: 15
+    nombre: 'Bibliografías y catálogos de obras de lugares específicos'
+  Entero_16:
+    numero: 16
+    nombre: 'Bibliografías y catálogos de obras sobre temas específicos o en disciplinas específicas'
+  Entero_17:
+    numero: 17
+    nombre: 'Catálogos generales por materia'
+  Entero_18:
+    numero: 18
+    nombre: 'Catálogos ordenados por autor, asiento principal, fecha o número de registro'
+  Entero_19:
+    numero: 19
+    nombre: 'Catálogos diccionario'
+  Entero_20:
+    numero: 20
+    nombre: 'Bibliotecología y ciencias de la información'
+  Entero_21:
+    numero: 21
+    nombre: 'Relaciones de bibliotecas, archivos, centros de información'
+  Entero_22:
+    numero: 22
+    nombre: 'Administración de la planta física'
+  Entero_23:
+    numero: 23
+    nombre: 'Administración de personal'
+  Entero_24:
+    numero: 24
+    nombre: 'No asignado'
+  Entero_25:
+    numero: 25
+    nombre: 'Operaciones de bibliotecas, archivos, centros de información'
+  Entero_26:
+    numero: 26
+    nombre: 'Bibliotecas, archivos, centros de información dedicados a disciplinas y temas'
+  Entero_27:
+    numero: 27
+    nombre: 'Bibliotecas, archivos, centros de información generales'
+  Entero_28:
+    numero: 28
+    nombre: 'Lectura y uso de otros medios de información'
+  Entero_29:
+    numero: 29
+    nombre: 'No asignado'
+  Entero_30:
+    numero: 30
+    nombre: 'Obras enciclopédicas generales'
+  Entero_31:
+    numero: 31
+    nombre: 'Enciclopedias en lengua inglesa norteamericana'
+  Entero_32:
+    numero: 32
+    nombre: 'Obras enciclopédicas generales en inglés'
+  Entero_33:
+    numero: 33
+    nombre: 'Obras enciclopédicas generales en otras lenguas germánicas'
+  Entero_34:
+    numero: 34
+    nombre: 'Obras enciclopédicas generales en francés, provenzal, catalán'
+  Entero_35:
+    numero: 35
+    nombre: 'Obras enciclopédicas generales en italiano, sardo, dalmático, rumano, retorromano'
+  Entero_36:
+    numero: 36
+    nombre: 'Obras enciclopédicas generales en español y portugués'
+  Entero_37:
+    numero: 37
+    nombre: 'Obras enciclopédicas generales en lenguas eslavas'
+  Entero_38:
+    numero: 38
+    nombre: 'Obras enciclopédicas generales en lenguas escandinavas'
+  Entero_39:
+    numero: 39
+    nombre: 'Obras enciclopédicas generales en lenguas itálicas, helénicas, otras lenguas'
+  Entero_40:
+    numero: 40
+    nombre: 'No asignado'
+  Entero_41:
+    numero: 41
+    nombre: 'No asignado'
+  Entero_42:
+    numero: 42
+    nombre: 'No asignado'
+  Entero_43:
+    numero: 43
+    nombre: 'No asignado'
+  Entero_44:
+    numero: 44
+    nombre: 'No asignado'
+  Entero_45:
+    numero: 45
+    nombre: 'No asignado'
+  Entero_46:
+    numero: 46
+    nombre: 'No asignado'
+  Entero_47:
+    numero: 47
+    nombre: 'No asignado'
+  Entero_48:
+    numero: 48
+    nombre: 'No asignado'
+  Entero_49:
+    numero: 49
+    nombre: 'No asignado'
+  Entero_50:
+    numero: 50
+    nombre: 'Publicaciones seriadas generales'
+  Entero_51:
+    numero: 51
+    nombre: 'Publicaciones seriadas en lengua inglesa norteamericana'
+  Entero_52:
+    numero: 52
+    nombre: 'Publicaciones seriadas generales en inglés'
+  Entero_53:
+    numero: 53
+    nombre: 'Publicaciones seriadas generales en otras lenguas germánicas'
+  Entero_54:
+    numero: 54
+    nombre: 'Publicaciones seriadas generales en francés, provenzal, catalán'
+  Entero_55:
+    numero: 55
+    nombre: 'Publicaciones seriadas generales enitaliano, sardo, dalmático, rumano,'
+  Entero_56:
+    numero: 56
+    nombre: 'Publicaciones seriadas generales en español y portugués'
+  Entero_57:
+    numero: 57
+    nombre: 'Publicaciones seriadas generales en lenguas eslavas'
+  Entero_58:
+    numero: 58
+    nombre: 'Publicaciones seriadas generales en lenguas escandinavas'
+  Entero_59:
+    numero: 59
+    nombre: 'Publicaciones seriadas generales en lenguas itálicas, helénicas, otras lenguas'
+  Entero_60:
+    numero: 60
+    nombre: 'Organizaciones generales y museología'
+  Entero_61:
+    numero: 61
+    nombre: 'Organizaciones generales en América del Norte'
+  Entero_62:
+    numero: 62
+    nombre: 'Organizaciones generales en las Islas Británicas. En Inglaterra'
+  Entero_63:
+    numero: 63
+    nombre: 'Organizaciones generales en Europa Central. En Alemania 36'
+  Entero_64:
+    numero: 64
+    nombre: 'Organizaciones generales en Francia y Mónaco'
+  Entero_65:
+    numero: 65
+    nombre: 'Organizaciones generales en Italia y territorios adyacentes'
+  Entero_66:
+    numero: 66
+    nombre: 'Organizaciones generales en la Península Ibérica e islas adyacentes. En España'
+  Entero_67:
+    numero: 67
+    nombre: 'Organizaciones generales en Europa oriental. En Rusia'
+  Entero_68:
+    numero: 68
+    nombre: 'Organizaciones generales en otras áreas geográficas'
+  Entero_69:
+    numero: 69
+    nombre: 'Museología (Ciencia de los museos)'
+  Entero_70:
+    numero: 70
+    nombre: 'Medios documentales, medios educativos, medios noticiosos; periodismo;'
+  Entero_71:
+    numero: 71
+    nombre: 'Periodismo y periódicos en América del Norte'
+  Entero_72:
+    numero: 72
+    nombre: 'Periodismo y periódicos en las Islas Británicas. En Inglaterra'
+  Entero_73:
+    numero: 73
+    nombre: 'Periodismo y periódicos en Europa central. En Alemania'
+  Entero_74:
+    numero: 74
+    nombre: 'Periodismo y periódicos en Francia y Mónaco'
+  Entero_75:
+    numero: 75
+    nombre: 'Periodismo y periódicos en Italia y territorios adyacentes'
+  Entero_76:
+    numero: 76
+    nombre: 'Periodismo y periódicos en la Península Ibérica e islas adyacentes. En España'
+  Entero_77:
+    numero: 77
+    nombre: 'Periodismo y periódicos en Europa Oriental. En Rusia'
+  Entero_78:
+    numero: 78
+    nombre: 'Periodismo y periódicos en Escandinavia'
+  Entero_79:
+    numero: 79
+    nombre: 'Periodismo y periódicos en otras áreas geográficas'
+  Entero_80:
+    numero: 80
+    nombre: 'Colecciones generales'
+  Entero_81:
+    numero: 81
+    nombre: 'Colecciones en lengua inglesa norteamericana'
+  Entero_82:
+    numero: 82
+    nombre: 'Colecciones generales en inglés'
+  Entero_83:
+    numero: 83
+    nombre: 'Colecciones generales en otras lenguas germánicas'
+  Entero_84:
+    numero: 84
+    nombre: 'Colecciones generales en francés, provenzal, catalán'
+  Entero_85:
+    numero: 85
+    nombre: 'Colecciones generales en italiano, sardo, dalmático, rumano, retorromano'
+  Entero_86:
+    numero: 86
+    nombre: 'Colecciones generales en español y portugués'
+  Entero_87:
+    numero: 87
+    nombre: 'Colecciones generales en lenguas eslavas'
+  Entero_88:
+    numero: 88
+    nombre: 'Colecciones generales en lenguas escandinavas'
+  Entero_89:
+    numero: 89
+    nombre: 'Colecciones generales en lenguas itálicas, helénicas, otras lenguas'
+  Entero_90:
+    numero: 90
+    nombre: 'Manuscritos, libros raros, otros materiales impresos raros'
+  Entero_91:
+    numero: 91
+    nombre: Manuscritos
+  Entero_92:
+    numero: 92
+    nombre: 'Libros xilográficos'
+  Entero_93:
+    numero: 93
+    nombre: Incunables
+  Entero_94:
+    numero: 94
+    nombre: 'Libros impresos'
+  Entero_95:
+    numero: 95
+    nombre: 'Libros notables por su encuadernación'
+  Entero_96:
+    numero: 96
+    nombre: 'Libros notables por las ilustraciones y materiales'
+  Entero_97:
+    numero: 97
+    nombre: 'Libros notables por su propietario u origen'
+  Entero_98:
+    numero: 98
+    nombre: 'Obras prohibidas, falsificaciones, imposturas'
+  Entero_99:
+    numero: 99
+    nombre: 'Libros notables por su formato'
+  Entero_100:
+    numero: 100
+    nombre: 'Filosofía, fenómenos paranormales, psicología'
+  Entero_101:
+    numero: 101
+    nombre: 'Teoría de la filosofía'
+  Entero_102:
+    numero: 102
+    nombre: 'Subdivisiones comunes de la filosofía'
+  Entero_103:
+    numero: 103
+    nombre: 'No asignado'
+  Entero_104:
+    numero: 104
+    nombre: 'No asignado'
+  Entero_105:
+    numero: 105
+    nombre: 'No asignado'
+  Entero_106:
+    numero: 106
+    nombre: 'No asignado'
+  Entero_107:
+    numero: 107
+    nombre: 'No asignado'
+  Entero_108:
+    numero: 108
+    nombre: 'No asignado'
+  Entero_109:
+    numero: 109
+    nombre: 'Tratamiento histórico y colectivo de personas de la filosofía'
+  Entero_110:
+    numero: 110
+    nombre: Metafísica
+  Entero_111:
+    numero: 111
+    nombre: Ontología
+  Entero_112:
+    numero: 112
+    nombre: 'No asignado'
+  Entero_113:
+    numero: 113
+    nombre: 'Cosmología (Filosofía de la naturaleza)'
+  Entero_114:
+    numero: 114
+    nombre: Espacio
+  Entero_115:
+    numero: 115
+    nombre: Tiempo
+  Entero_116:
+    numero: 116
+    nombre: Cambio
+  Entero_117:
+    numero: 117
+    nombre: Estructura
+  Entero_118:
+    numero: 118
+    nombre: 'Fuerza y energía'
+  Entero_119:
+    numero: 119
+    nombre: 'Número y cantidad'
+  Entero_120:
+    numero: 120
+    nombre: 'Epistemología, causalidad, género humano'
+  Entero_121:
+    numero: 121
+    nombre: 'Epistemología (Teoría del conocimiento)'
+  Entero_122:
+    numero: 122
+    nombre: Causalidad
+  Entero_123:
+    numero: 123
+    nombre: 'Determinismo e indeterminismo'
+  Entero_124:
+    numero: 124
+    nombre: Teleología
+  Entero_125:
+    numero: 125
+    nombre: 'No asignado'
+  Entero_126:
+    numero: 126
+    nombre: 'El yo'
+  Entero_127:
+    numero: 127
+    nombre: 'El inconsciente y el subconsciente'
+  Entero_128:
+    numero: 128
+    nombre: 'Género humano'
+  Entero_129:
+    numero: 129
+    nombre: 'Origen y destino de las almas individuales'
+  Entero_130:
+    numero: 130
+    nombre: 'Fenómenos paranormales'
+  Entero_131:
+    numero: 131
+    nombre: 'Métodos parapsicológicos y ocultos para lograr bienestar, felicidad, éxito'
+  Entero_132:
+    numero: 132
+    nombre: 'No asignado'
+  Entero_133:
+    numero: 133
+    nombre: 'Parapsicología y ocultismo'
+  Entero_134:
+    numero: 134
+    nombre: 'No asignado'
+  Entero_135:
+    numero: 135
+    nombre: 'Sueños y misterios'
+  Entero_136:
+    numero: 136
+    nombre: 'No asignado'
+  Entero_137:
+    numero: 137
+    nombre: 'Grafología adivinatoria'
+  Entero_138:
+    numero: 138
+    nombre: Fisionomía
+  Entero_139:
+    numero: 139
+    nombre: Frenología
+  Entero_140:
+    numero: 140
+    nombre: 'Escuelas y posiciones filosóficas específicas'
+  Entero_141:
+    numero: 141
+    nombre: 'Idealismo, sistemas y doctrinas relacionados'
+  Entero_142:
+    numero: 142
+    nombre: 'Filosofía crítica'
+  Entero_143:
+    numero: 143
+    nombre: 'Bergsonismo e intuicionismo'
+  Entero_144:
+    numero: 144
+    nombre: 'Humanismo y sistemas y doctrinas relacionados'
+  Entero_145:
+    numero: 145
+    nombre: Sensacionalismo
+  Entero_146:
+    numero: 146
+    nombre: 'Naturalismo y sistemas y doctrinas relacionados'
+  Entero_147:
+    numero: 147
+    nombre: 'Panteísmo y sistemas y doctrinas relacionados'
+  Entero_148:
+    numero: 148
+    nombre: 'Dogmatismo, eclecticismo, liberalismo, sincretismo, tradicionalismo'
+  Entero_149:
+    numero: 149
+    nombre: 'Otros sistemas y doctrinas filosóficos'
+  Entero_150:
+    numero: 150
+    nombre: Psicología
+  Entero_151:
+    numero: 151
+    nombre: 'No asignado'
+  Entero_152:
+    numero: 152
+    nombre: 'Percepción sensorial, movimiento, emociones, impulsos fisiológicos'
+  Entero_153:
+    numero: 153
+    nombre: 'Procesos mentales conscientes e inteligencia'
+  Entero_154:
+    numero: 154
+    nombre: 'Subconsciente y estados y procesos alterados'
+  Entero_155:
+    numero: 155
+    nombre: 'Psicología diferencial y del desarrollo'
+  Entero_156:
+    numero: 156
+    nombre: 'Psicología comparada'
+  Entero_157:
+    numero: 157
+    nombre: 'No asignado'
+  Entero_158:
+    numero: 158
+    nombre: 'Psicología aplicada'
+  Entero_159:
+    numero: 159
+    nombre: 'No asignado'
+  Entero_160:
+    numero: 160
+    nombre: Lógica
+  Entero_161:
+    numero: 161
+    nombre: Inducción
+  Entero_162:
+    numero: 162
+    nombre: Deducción
+  Entero_163:
+    numero: 163
+    nombre: 'No asignado'
+  Entero_164:
+    numero: 164
+    nombre: 'No asignado'
+  Entero_165:
+    numero: 165
+    nombre: 'Falacias y fuentes de error'
+  Entero_166:
+    numero: 166
+    nombre: Silogismos
+  Entero_167:
+    numero: 167
+    nombre: Hipótesis
+  Entero_168:
+    numero: 168
+    nombre: 'Argumento y persuasión'
+  Entero_169:
+    numero: 169
+    nombre: Analogía
+  Entero_170:
+    numero: 170
+    nombre: 'Ética (Filosofía moral)'
+  Entero_171:
+    numero: 171
+    nombre: 'Sistemas éticos'
+  Entero_172:
+    numero: 172
+    nombre: 'Ética política'
+  Entero_173:
+    numero: 173
+    nombre: 'Ética de las relaciones familiares'
+  Entero_174:
+    numero: 174
+    nombre: Éticaocupacional
+  Entero_175:
+    numero: 175
+    nombre: 'Ética de la recreación, del ocio, de las representaciones publicas, de la comunicación'
+  Entero_176:
+    numero: 176
+    nombre: 'Ética del sexo y de la reproducción'
+  Entero_177:
+    numero: 177
+    nombre: 'Ética de las relaciones sociales'
+  Entero_178:
+    numero: 178
+    nombre: 'Ética del consumo'
+  Entero_179:
+    numero: 179
+    nombre: 'Otras normas éticas'
+  Entero_180:
+    numero: 180
+    nombre: 'Filosofía antigua, medieval, oriental'
+  Entero_181:
+    numero: 181
+    nombre: 'Filosofía oriental'
+  Entero_182:
+    numero: 182
+    nombre: 'Filosofías griegas presocráticas'
+  Entero_183:
+    numero: 183
+    nombre: 'Filosofías sofista, socrática, griegas relacionadas'
+  Entero_184:
+    numero: 184
+    nombre: 'Filosofía platónica'
+  Entero_185:
+    numero: 185
+    nombre: 'Filosofía aristotélica'
+  Entero_186:
+    numero: 186
+    nombre: 'Filosofía escéptica y neoplatónica'
+  Entero_187:
+    numero: 187
+    nombre: 'Filosofía epicúrea'
+  Entero_188:
+    numero: 188
+    nombre: 'Filosofía estoica'
+  Entero_189:
+    numero: 189
+    nombre: 'Filosofía medieval occidental'
+  Entero_190:
+    numero: 190
+    nombre: 'Filosofía moderna occidental y otra filosofía no-oriental'
+  Entero_191:
+    numero: 191
+    nombre: 'Estados Unidos y Canadá'
+  Entero_192:
+    numero: 192
+    nombre: 'Islas Británicas'
+  Entero_193:
+    numero: 193
+    nombre: 'Alemania y Austria'
+  Entero_194:
+    numero: 194
+    nombre: Francia
+  Entero_195:
+    numero: 195
+    nombre: Italia
+  Entero_196:
+    numero: 196
+    nombre: 'España y Portugal'
+  Entero_197:
+    numero: 197
+    nombre: 'Anterior Unión Soviética'
+  Entero_198:
+    numero: 198
+    nombre: Escandinavia
+  Entero_199:
+    numero: 199
+    nombre: 'Otras áreas geográficas'
+  Entero_200:
+    numero: 200
+    nombre: Religión
+  Entero_201:
+    numero: 201
+    nombre: 'Filosofía y teoría del Cristianismo'
+  Entero_202:
+    numero: 202
+    nombre: 'Subdivisiones comunes del Cristianismo'
+  Entero_203:
+    numero: 203
+    nombre: 'Diccionarios, enciclopedias'
+  Entero_204:
+    numero: 204
+    nombre: 'Temas especiales'
+  Entero_205:
+    numero: 205
+    nombre: 'Publicaciones en serie del Cristianismo'
+  Entero_206:
+    numero: 206
+    nombre: 'Organizaciones del Cristianismo'
+  Entero_207:
+    numero: 207
+    nombre: 'Educación, investigación, temas relacionados con el Cristianismo'
+  Entero_208:
+    numero: 208
+    nombre: 'Cristianismo en relación con clases de personas'
+  Entero_209:
+    numero: 209
+    nombre: 'Tratamiento histórico,geográfico, de personas del Cristianismo y del pensamiento'
+  Entero_210:
+    numero: 210
+    nombre: 'Filosofía y teoría de la religión'
+  Entero_211:
+    numero: 211
+    nombre: 'Concepto de Dios'
+  Entero_212:
+    numero: 212
+    nombre: 'Existencia, sapiencia, atributos de Dios'
+  Entero_213:
+    numero: 213
+    nombre: Creación
+  Entero_214:
+    numero: 214
+    nombre: Teodicea
+  Entero_215:
+    numero: 215
+    nombre: 'Ciencia y religión'
+  Entero_216:
+    numero: 216
+    nombre: 'El bien y el mal'
+  Entero_217:
+    numero: 217
+    nombre: 'Culto y oración'
+  Entero_218:
+    numero: 218
+    nombre: 'Género humano'
+  Entero_219:
+    numero: 219
+    nombre: 'No asignado'
+  Entero_220:
+    numero: 220
+    nombre: 'La Biblia'
+  Entero_221:
+    numero: 221
+    nombre: 'Antiguo Testamento (Tanakh)'
+  Entero_222:
+    numero: 222
+    nombre: 'Libros históricos del Antiguo Testamento'
+  Entero_223:
+    numero: 223
+    nombre: 'Libros poéticos del Antiguo Testamento'
+  Entero_224:
+    numero: 224
+    nombre: 'Libros proféticos del Antiguo Testamento'
+  Entero_225:
+    numero: 225
+    nombre: 'Nuevo Testamento'
+  Entero_226:
+    numero: 226
+    nombre: 'Evangelios y Hechos de los Apóstoles'
+  Entero_227:
+    numero: 227
+    nombre: Epístolas
+  Entero_228:
+    numero: 228
+    nombre: 'Revelación (Apocalipsis)'
+  Entero_229:
+    numero: 229
+    nombre: 'Apócrifos, seudoepígrafes, obras intertestamentarias'
+  Entero_230:
+    numero: 230
+    nombre: 'Cristianismo. Teología cristiana'
+  Entero_231:
+    numero: 231
+    nombre: Dios
+  Entero_232:
+    numero: 232
+    nombre: 'Jesucristo y su familia. Cristología'
+  Entero_233:
+    numero: 233
+    nombre: 'Género humano'
+  Entero_234:
+    numero: 234
+    nombre: 'Salvación (Soteriología) y gracia'
+  Entero_235:
+    numero: 235
+    nombre: 'Seres espirituales'
+  Entero_236:
+    numero: 236
+    nombre: Escatología
+  Entero_237:
+    numero: 237
+    nombre: 'No asignado'
+  Entero_238:
+    numero: 238
+    nombre: 'Credos, confesiones de fe, alianzas, catecismos'
+  Entero_239:
+    numero: 239
+    nombre: 'Apologética y polémicas'
+  Entero_240:
+    numero: 240
+    nombre: 'Moral cristiana y teología piadosa'
+  Entero_241:
+    numero: 241
+    nombre: 'Teología moral'
+  Entero_242:
+    numero: 242
+    nombre: 'Literatura piadosa'
+  Entero_243:
+    numero: 243
+    nombre: 'Escritos evangelizadores para individuos y familias'
+  Entero_244:
+    numero: 244
+    nombre: 'No asignado'
+  Entero_245:
+    numero: 245
+    nombre: 'Textos de himnos para uso piadoso de individuos y familias'
+  Entero_246:
+    numero: 246
+    nombre: 'Uso del arte en el Cristianismo'
+  Entero_247:
+    numero: 247
+    nombre: 'Mobiliario eclesiástico y artículos relacionados'
+  Entero_248:
+    numero: 248
+    nombre: 'Experiencia, práctica, vida cristianas'
+  Entero_249:
+    numero: 249
+    nombre: 'Observancias cristianas en la vida familiar'
+  Entero_250:
+    numero: 250
+    nombre: 'Iglesia cristiana local y órdenes religiosas cristianas'
+  Entero_251:
+    numero: 251
+    nombre: 'Predicación (Homilética)'
+  Entero_252:
+    numero: 252
+    nombre: 'Textos de sermones'
+  Entero_253:
+    numero: 253
+    nombre: 'Oficio y trabajo pastorales (Teología pastoral)'
+  Entero_254:
+    numero: 254
+    nombre: 'Administración de la parroquia'
+  Entero_255:
+    numero: 255
+    nombre: 'Congregaciones y órdenes religiosas'
+  Entero_256:
+    numero: 256
+    nombre: 'No asignado'
+  Entero_257:
+    numero: 257
+    nombre: 'No asignado'
+  Entero_258:
+    numero: 258
+    nombre: 'No asignado'
+  Entero_259:
+    numero: 259
+    nombre: 'Atención pastoral de familias, de clases específicas de personas'
+  Entero_260:
+    numero: 260
+    nombre: 'Teología social y eclesiástica cristiana'
+  Entero_261:
+    numero: 261
+    nombre: 'Teología social y relaciones y actitudes interreligiosas'
+  Entero_262:
+    numero: 262
+    nombre: Eclesiología
+  Entero_263:
+    numero: 263
+    nombre: 'Días, épocas, lugares de observancia religiosa'
+  Entero_264:
+    numero: 264
+    nombre: 'Culto público'
+  Entero_265:
+    numero: 265
+    nombre: 'Sacramentos, otros ritos y actos'
+  Entero_266:
+    numero: 266
+    nombre: Misiones
+  Entero_267:
+    numero: 267
+    nombre: 'Asociaciones para trabajo religioso'
+  Entero_268:
+    numero: 268
+    nombre: 'Educación religiosa'
+  Entero_269:
+    numero: 269
+    nombre: 'Renovación espiritual'
+  Entero_270:
+    numero: 270
+    nombre: 'Tratamiento histórico, geográfico, de personas del cristianismo. Historia'
+  Entero_271:
+    numero: 271
+    nombre: 'Congregaciones y órdenes religiosas en la historia de la iglesia'
+  Entero_272:
+    numero: 272
+    nombre: 'Persecuciones en la historia general de la iglesia'
+  Entero_273:
+    numero: 273
+    nombre: 'Controversias y herejías doctrinales en la historia general de la iglesia'
+  Entero_274:
+    numero: 274
+    nombre: 'Historia del cristianismo en Europa'
+  Entero_275:
+    numero: 275
+    nombre: 'Historia del cristianismo en Asia'
+  Entero_276:
+    numero: 276
+    nombre: 'Historia del cristianismo en África'
+  Entero_277:
+    numero: 277
+    nombre: 'Historia del cristianismo en América del Norte'
+  Entero_278:
+    numero: 278
+    nombre: 'Historia del cristianismo en América del Sur'
+  Entero_279:
+    numero: 279
+    nombre: 'Historia del cristianismo en otras áreas'
+  Entero_280:
+    numero: 280
+    nombre: 'Confesiones y sectas de la iglesia cristiana'
+  Entero_281:
+    numero: 281
+    nombre: 'Iglesia temprana e iglesias orientales'
+  Entero_282:
+    numero: 282
+    nombre: 'Iglesia Católica Romana'
+  Entero_283:
+    numero: 283
+    nombre: 'Iglesias anglicanas'
+  Entero_284:
+    numero: 284
+    nombre: 'Confesiones protestantes de origen continental y agrupaciones relacionadas'
+  Entero_285:
+    numero: 285
+    nombre: 'Iglesias presbiterianas, iglesias reformadas con sede en América, iglesias'
+  Entero_286:
+    numero: 286
+    nombre: 'Iglesias bautistas, de los Discípulos de Cristo, adventistas'
+  Entero_287:
+    numero: 287
+    nombre: 'Iglesias metodistas; iglesias relacionadas con el metodismo'
+  Entero_288:
+    numero: 288
+    nombre: 'No asignado'
+  Entero_289:
+    numero: 289
+    nombre: 'Otras confesiones y sectas'
+  Entero_290:
+    numero: 290
+    nombre: 'Religión comparada y otras religiones diferentes del Cristianismo'
+  Entero_291:
+    numero: 291
+    nombre: 'Religión comparada'
+  Entero_292:
+    numero: 292
+    nombre: 'Religión clásica (griega y romana)'
+  Entero_293:
+    numero: 293
+    nombre: 'Religión germánica'
+  Entero_294:
+    numero: 294
+    nombre: 'Religiones de origen índico'
+  Entero_295:
+    numero: 295
+    nombre: 'Zoroastrismo (Mazdeísmo, Parsismo)'
+  Entero_296:
+    numero: 296
+    nombre: Judaísmo
+  Entero_297:
+    numero: 297
+    nombre: 'Islamismo, babismo, fe bahai'
+  Entero_298:
+    numero: 298
+    nombre: 'No asignado permanentemente'
+  Entero_299:
+    numero: 299
+    nombre: 'Otras religiones'
+  Entero_300:
+    numero: 300
+    nombre: 'Ciencias sociales'
+  Entero_301:
+    numero: 301
+    nombre: 'Sociología y antropología'
+  Entero_302:
+    numero: 302
+    nombre: 'Interacción social'
+  Entero_303:
+    numero: 303
+    nombre: 'Procesos sociales'
+  Entero_304:
+    numero: 304
+    nombre: 'Factores que afectan el comportamiento social'
+  Entero_305:
+    numero: 305
+    nombre: 'Grupos sociales'
+  Entero_306:
+    numero: 306
+    nombre: 'Cultura e instituciones'
+  Entero_307:
+    numero: 307
+    nombre: Comunidades
+  Entero_308:
+    numero: 308
+    nombre: 'No asignado'
+  Entero_309:
+    numero: 309
+    nombre: 'No asignado'
+  Entero_310:
+    numero: 310
+    nombre: 'Colecciones de estadística general'
+  Entero_311:
+    numero: 311
+    nombre: 'No asignado'
+  Entero_312:
+    numero: 312
+    nombre: 'No asignado'
+  Entero_313:
+    numero: 313
+    nombre: 'No asignado'
+  Entero_314:
+    numero: 314
+    nombre: 'Estadísticas generales de Europa'
+  Entero_315:
+    numero: 315
+    nombre: 'Estadísticas generales de Asia'
+  Entero_316:
+    numero: 316
+    nombre: 'Estadísticas generales de África'
+  Entero_317:
+    numero: 317
+    nombre: 'Estadísticas generales de América del Norte'
+  Entero_318:
+    numero: 318
+    nombre: 'Estadísticas generales de América del Sur'
+  Entero_319:
+    numero: 319
+    nombre: 'Estadísticas generales de otras áreas'
+  Entero_320:
+    numero: 320
+    nombre: 'Ciencia política (Política y gobierno)'
+  Entero_321:
+    numero: 321
+    nombre: 'Sistemas de gobiernos y de estados'
+  Entero_322:
+    numero: 322
+    nombre: 'Relación del estado con grupos organizados y sus miembros'
+  Entero_323:
+    numero: 323
+    nombre: 'Derechos civiles y políticos'
+  Entero_324:
+    numero: 324
+    nombre: 'El proceso político'
+  Entero_325:
+    numero: 325
+    nombre: 'Migración y colonización internacionales'
+  Entero_326:
+    numero: 326
+    nombre: 'Esclavitud y emancipación'
+  Entero_327:
+    numero: 327
+    nombre: 'Relaciones internacionales'
+  Entero_328:
+    numero: 328
+    nombre: 'El proceso legislativo'
+  Entero_329:
+    numero: 329
+    nombre: 'No asignado'
+  Entero_330:
+    numero: 330
+    nombre: Economía
+  Entero_331:
+    numero: 331
+    nombre: 'Economía laboral'
+  Entero_332:
+    numero: 332
+    nombre: 'Economía financiera'
+  Entero_333:
+    numero: 333
+    nombre: 'Economía de la tierra y de la energía'
+  Entero_334:
+    numero: 334
+    nombre: Cooperativas
+  Entero_335:
+    numero: 335
+    nombre: 'Socialismo y sistemas relacionados'
+  Entero_336:
+    numero: 336
+    nombre: 'Finanzas públicas'
+  Entero_337:
+    numero: 337
+    nombre: 'Economía internacional'
+  Entero_338:
+    numero: 338
+    nombre: Producción
+  Entero_339:
+    numero: 339
+    nombre: 'Macroeconomía y temas relacionados'
+  Entero_340:
+    numero: 340
+    nombre: Derecho
+  Entero_341:
+    numero: 341
+    nombre: 'Derecho internacional'
+  Entero_342:
+    numero: 342
+    nombre: 'Derecho constitucional y administrativo'
+  Entero_343:
+    numero: 343
+    nombre: 'Derecho militar, de defensa, de bienes públicos, de finanzas públicas, tributario,'
+  Entero_344:
+    numero: 344
+    nombre: 'Derecho laboral, de servicio social,educativo, cultural'
+  Entero_345:
+    numero: 345
+    nombre: 'Derecho penal'
+  Entero_346:
+    numero: 346
+    nombre: 'Derecho privado'
+  Entero_347:
+    numero: 347
+    nombre: 'Procedimiento y tribunales civiles'
+  Entero_348:
+    numero: 348
+    nombre: 'Leyes (Estatutos), reglamentaciones, jurisprudencia'
+  Entero_349:
+    numero: 349
+    nombre: 'Derecho de jurisdicciones, áreas, regiones socioeconómicas específicas'
+  Entero_350:
+    numero: 350
+    nombre: 'Administración pública y ciencia militar'
+  Entero_351:
+    numero: 351
+    nombre: 'Administración pública'
+  Entero_352:
+    numero: 352
+    nombre: 'Consideraciones generales sobre administración pública'
+  Entero_353:
+    numero: 353
+    nombre: 'Campos específicos de la administración pública'
+  Entero_354:
+    numero: 354
+    nombre: 'Administración pública de la economía y del medio ambiente'
+  Entero_355:
+    numero: 355
+    nombre: 'Ciencia militar'
+  Entero_356:
+    numero: 356
+    nombre: 'Fuerzas y combate de infantería'
+  Entero_357:
+    numero: 357
+    nombre: 'Fuerzas y combate montados'
+  Entero_358:
+    numero: 358
+    nombre: 'Fuerzas y combate aéreas y otras fuerzas especializadas; ingeniería y servicios'
+  Entero_359:
+    numero: 359
+    nombre: 'Fuerzas y combate marítimos (navales)'
+  Entero_360:
+    numero: 360
+    nombre: 'Problemas y servicios sociales; asociaciones'
+  Entero_361:
+    numero: 361
+    nombre: 'Problemas sociales y bienestar social en general'
+  Entero_362:
+    numero: 362
+    nombre: 'Problemas y servicios de bienestar social'
+  Entero_363:
+    numero: 363
+    nombre: 'Otros problemas y servicios sociales'
+  Entero_364:
+    numero: 364
+    nombre: Criminología
+  Entero_365:
+    numero: 365
+    nombre: 'Instituciones penales y relacionadas'
+  Entero_366:
+    numero: 366
+    nombre: Asociaciones
+  Entero_367:
+    numero: 367
+    nombre: 'Clubes de carácter general'
+  Entero_368:
+    numero: 368
+    nombre: Seguros
+  Entero_369:
+    numero: 369
+    nombre: 'Clases varias de asociaciones'
+  Entero_370:
+    numero: 370
+    nombre: Educación
+  Entero_371:
+    numero: 371
+    nombre: 'Escuelas y sus actividades; educación especial'
+  Entero_372:
+    numero: 372
+    nombre: 'Educación primaria'
+  Entero_373:
+    numero: 373
+    nombre: 'Educación secundaria'
+  Entero_374:
+    numero: 374
+    nombre: 'Educación de adultos'
+  Entero_375:
+    numero: 375
+    nombre: Currículos
+  Entero_376:
+    numero: 376
+    nombre: 'Educación de la mujer'
+  Entero_377:
+    numero: 377
+    nombre: 'Escuelas religiosas'
+  Entero_378:
+    numero: 378
+    nombre: 'Educación superior'
+  Entero_379:
+    numero: 379
+    nombre: 'Asuntos de política pública en educación'
+  Entero_380:
+    numero: 380
+    nombre: 'Comercio, comunicaciones, transporte'
+  Entero_381:
+    numero: 381
+    nombre: 'Comercio interno (Comercio doméstico)'
+  Entero_382:
+    numero: 382
+    nombre: 'Comercio internacional (Comercio exterior)'
+  Entero_383:
+    numero: 383
+    nombre: 'Comunicación postal'
+  Entero_384:
+    numero: 384
+    nombre: 'Comunicaciones. Telecomunicación'
+  Entero_385:
+    numero: 385
+    nombre: 'Transporte ferroviario'
+  Entero_386:
+    numero: 386
+    nombre: 'Transporte por vía acuática interior y en transbordador'
+  Entero_387:
+    numero: 387
+    nombre: 'Transporte acuático, aéreo, espacial'
+  Entero_388:
+    numero: 388
+    nombre: 'Transporte. Transporte terrestre'
+  Entero_389:
+    numero: 389
+    nombre: 'Metrología y estandarización'
+  Entero_390:
+    numero: 390
+    nombre: 'Costumbres, etiqueta, folclor'
+  Entero_391:
+    numero: 391
+    nombre: 'Traje y apariencia personal'
+  Entero_392:
+    numero: 392
+    nombre: 'Costumbres del ciclo de vida y de la vida doméstica'
+  Entero_393:
+    numero: 393
+    nombre: 'Costumbres mortuorias'
+  Entero_394:
+    numero: 394
+    nombre: 'Costumbres generales'
+  Entero_395:
+    numero: 395
+    nombre: 'Etiqueta (Modales)'
+  Entero_396:
+    numero: 396
+    nombre: 'No asignado'
+  Entero_397:
+    numero: 397
+    nombre: 'No asignado'
+  Entero_398:
+    numero: 398
+    nombre: Folclor
+  Entero_399:
+    numero: 399
+    nombre: 'Costumbres de guerra y diplomacia'
+  Entero_400:
+    numero: 400
+    nombre: Lenguas
+  Entero_401:
+    numero: 401
+    nombre: 'Filosofía y teoría'
+  Entero_402:
+    numero: 402
+    nombre: Miscelánea
+  Entero_403:
+    numero: 403
+    nombre: 'Diccionarios, enciclopedias, concordancias'
+  Entero_404:
+    numero: 404
+    nombre: 'Temas especiales'
+  Entero_405:
+    numero: 405
+    nombre: 'Subdivisiones comunes'
+  Entero_406:
+    numero: 406
+    nombre: 'Subdivisiones comunes'
+  Entero_407:
+    numero: 407
+    nombre: 'Educación, investigación, temas relacionados'
+  Entero_408:
+    numero: 408
+    nombre: 'Tratamiento de la lengua en relación con clases de personas'
+  Entero_409:
+    numero: 409
+    nombre: 'Tratamiento geográfico y de personas'
+  Entero_410:
+    numero: 410
+    nombre: Lingüística
+  Entero_411:
+    numero: 411
+    nombre: 'Sistemas de escritura'
+  Entero_412:
+    numero: 412
+    nombre: Etimología
+  Entero_413:
+    numero: 413
+    nombre: Diccionarios
+  Entero_414:
+    numero: 414
+    nombre: 'Fonología y fonética'
+  Entero_415:
+    numero: 415
+    nombre: Gramática
+  Entero_416:
+    numero: 416
+    nombre: 'No asignado'
+  Entero_417:
+    numero: 417
+    nombre: 'Dialectología y lingüística histórica (diacrónica)'
+  Entero_418:
+    numero: 418
+    nombre: 'Uso estándar (Lingüística prescriptita) Lingüística aplicada'
+  Entero_419:
+    numero: 419
+    nombre: 'Lenguaje verbal estructurado diferente del hablado y escrito'
+  Entero_420:
+    numero: 420
+    nombre: 'Inglés e inglés antiguo (anglosajón)'
+  Entero_421:
+    numero: 421
+    nombre: 'Sistema de escritura, fonología, fonética del inglés estándar'
+  Entero_422:
+    numero: 422
+    nombre: 'Etimología y diccionarios del inglés estándar'
+  Entero_423:
+    numero: 423
+    nombre: 'Etimología y diccionarios del inglés estándar'
+  Entero_424:
+    numero: 424
+    nombre: 'No asignado'
+  Entero_425:
+    numero: 425
+    nombre: 'Gramática del inglés estándar'
+  Entero_426:
+    numero: 426
+    nombre: 'No asignado'
+  Entero_427:
+    numero: 427
+    nombre: 'Variaciones históricas y geográficas, variaciones modernas no geográficas'
+  Entero_428:
+    numero: 428
+    nombre: 'Uso del inglés estándar (Lingüística prescriptita) Lingüística aplicada'
+  Entero_429:
+    numero: 429
+    nombre: 'Inglés antiguo (Anglosajón)'
+  Entero_430:
+    numero: 430
+    nombre: 'Lenguas germánicas (teutónicas). Alemán'
+  Entero_431:
+    numero: 431
+    nombre: 'Sistemas de escritura, fonología, fonética, etimología, diccionarios del alemán'
+  Entero_432:
+    numero: 432
+    nombre: 'Sistemas de escritura, fonología, fonética, etimología, diccionarios del alemán'
+  Entero_433:
+    numero: 433
+    nombre: 'Sistemas de escritura, fonología, fonética, etimología, diccionarios del alemán'
+  Entero_434:
+    numero: 434
+    nombre: 'No asignado'
+  Entero_435:
+    numero: 435
+    nombre: 'Gramática del alemán estándar'
+  Entero_436:
+    numero: 436
+    nombre: 'No asignado'
+  Entero_437:
+    numero: 437
+    nombre: 'Variaciones históricas y geográficas, variaciones modernas no geográficas'
+  Entero_438:
+    numero: 438
+    nombre: 'Uso del alemán estándar (Lingüística prescriptita) Lingüística aplicada'
+  Entero_439:
+    numero: 439
+    nombre: 'Otras lenguas germánicas (teutónicas) 152'
+  Entero_440:
+    numero: 440
+    nombre: 'Lenguas romances. Francés'
+  Entero_441:
+    numero: 441
+    nombre: 'Sistemas de escritura, fonología, fonética, etimología, diccionarios del francés'
+  Entero_442:
+    numero: 442
+    nombre: 'Sistemas de escritura, fonología, fonética, etimología, diccionarios del francés'
+  Entero_443:
+    numero: 443
+    nombre: 'Sistemas de escritura, fonología, fonética, etimología, diccionarios del francés'
+  Entero_444:
+    numero: 444
+    nombre: 'No asignado'
+  Entero_445:
+    numero: 445
+    nombre: 'Gramática del francés estándar'
+  Entero_446:
+    numero: 446
+    nombre: 'No asignado'
+  Entero_447:
+    numero: 447
+    nombre: 'Variaciones históricas y geográficas, variaciones modernas no geográficas'
+  Entero_448:
+    numero: 448
+    nombre: 'Uso del francés estándar (Lingüística prescriptita) Lingüística aplicada'
+  Entero_449:
+    numero: 449
+    nombre: 'Provenzal (Langue d’oc) francoprovenzal, catalán'
+  Entero_450:
+    numero: 450
+    nombre: 'Lenguas italiana, sarda, dalmática, rumana, retorrománica'
+  Entero_451:
+    numero: 451
+    nombre: 'Sistema de escritura, fonología, fonética, etimología, diccionarios del italiano estándar'
+  Entero_452:
+    numero: 452
+    nombre: 'Sistema de escritura, fonología, fonética, etimología, diccionarios del italiano estándar'
+  Entero_453:
+    numero: 453
+    nombre: 'Sistema de escritura, fonología, fonética, etimología, diccionarios del italiano estándar'
+  Entero_454:
+    numero: 454
+    nombre: 'No asignado'
+  Entero_455:
+    numero: 455
+    nombre: 'Gramática del italiano estándar'
+  Entero_456:
+    numero: 456
+    nombre: 'No asignado'
+  Entero_457:
+    numero: 457
+    nombre: 'Variaciones históricas y geográficas, variaciones modernas no geográficas'
+  Entero_458:
+    numero: 458
+    nombre: 'Uso del italiano estándar (Lingüística prescriptita) Lingüística aplicada'
+  Entero_459:
+    numero: 459
+    nombre: 'Rumano y retorromano'
+  Entero_460:
+    numero: 460
+    nombre: 'Lenguas española y portuguesa'
+  Entero_461:
+    numero: 461
+    nombre: 'Sistema de escritura, fonología, fonética, etimología, diccionarios del español estándar'
+  Entero_462:
+    numero: 462
+    nombre: 'Sistema de escritura, fonología, fonética, etimología, diccionarios del español estándar'
+  Entero_463:
+    numero: 463
+    nombre: 'Sistema de escritura, fonología, fonética, etimología, diccionarios del español estándar'
+  Entero_464:
+    numero: 464
+    nombre: 'No asignado'
+  Entero_465:
+    numero: 465
+    nombre: 'Gramática del español estándar'
+  Entero_466:
+    numero: 466
+    nombre: 'No asignado'
+  Entero_467:
+    numero: 467
+    nombre: 'Variaciones históricas y geográficas, variaciones modernas no geográficas'
+  Entero_468:
+    numero: 468
+    nombre: 'Uso del español estándar (Lingüística prescriptita) Lingüística aplicada'
+  Entero_469:
+    numero: 469
+    nombre: Portugués
+  Entero_470:
+    numero: 470
+    nombre: 'Lenguas itálicas. Latín'
+  Entero_471:
+    numero: 471
+    nombre: 'Sistema de escritura, fonología, fonética, etimología, diccionarios del latín clásico'
+  Entero_472:
+    numero: 472
+    nombre: 'Sistema de escritura, fonología, fonética, etimología, diccionarios del latín clásico'
+  Entero_473:
+    numero: 473
+    nombre: 'Sistema de escritura, fonología, fonética, etimología, diccionarios del latín clásico'
+  Entero_474:
+    numero: 474
+    nombre: 'No asignado'
+  Entero_475:
+    numero: 475
+    nombre: 'Gramática del latín clásico'
+  Entero_476:
+    numero: 476
+    nombre: 'No asignado'
+  Entero_477:
+    numero: 477
+    nombre: 'Latín arcaico (preclásico), postclásico, vulgar'
+  Entero_478:
+    numero: 478
+    nombre: 'Uso del latín clásico (Lingüística prescriptita) Lingüística aplicada'
+  Entero_479:
+    numero: 479
+    nombre: 'Otras lenguas itálicas'
+  Entero_480:
+    numero: 480
+    nombre: 'Lenguas helénicas. Griego clásico'
+  Entero_481:
+    numero: 481
+    nombre: 'Sistema de escritura, fonología, fonética, etimología, diccionarios del griego clásico'
+  Entero_482:
+    numero: 482
+    nombre: 'Sistema de escritura, fonología, fonética, etimología, diccionarios del griego clásico'
+  Entero_483:
+    numero: 483
+    nombre: 'Sistema de escritura, fonología, fonética, etimología, diccionarios del griego clásico'
+  Entero_484:
+    numero: 484
+    nombre: 'No asignado'
+  Entero_485:
+    numero: 485
+    nombre: 'Gramática del griego clásico'
+  Entero_486:
+    numero: 486
+    nombre: 'No asignado'
+  Entero_487:
+    numero: 487
+    nombre: 'Griego preclásico y postclásico'
+  Entero_488:
+    numero: 488
+    nombre: 'Uso del griego clásico (Lingüística prescriptita) Lingüística aplicada'
+  Entero_489:
+    numero: 489
+    nombre: 'Otras lenguas helénicas'
+  Entero_490:
+    numero: 490
+    nombre: 'Otras lenguas'
+  Entero_491:
+    numero: 491
+    nombre: 'Lenguas indoeuropeas orientales y célticas'
+  Entero_492:
+    numero: 492
+    nombre: 'Lenguas afroasiáticas (Camitosemíticas) Lenguas semíticas'
+  Entero_493:
+    numero: 493
+    nombre: 'Lenguas afroasiáticas no semíticas'
+  Entero_494:
+    numero: 494
+    nombre: 'Lenguas altaicas, urálicas, hiperbóreas, dravídicas'
+  Entero_495:
+    numero: 495
+    nombre: 'Lenguas del Asia oriental y sudoriental. Lenguas chinotibetanas'
+  Entero_496:
+    numero: 496
+    nombre: 'Lenguas africanas'
+  Entero_497:
+    numero: 497
+    nombre: 'Lenguas nativas norteamericanas'
+  Entero_498:
+    numero: 498
+    nombre: 'Lenguas nativas sudamericanas'
+  Entero_499:
+    numero: 499
+    nombre: 'Lenguas no austronesias de Oceanía, lenguas austronesias, lenguas varias 158'
+  Entero_500:
+    numero: 500
+    nombre: 'Ciencias naturales y matemáticas'
+  Entero_501:
+    numero: 501
+    nombre: 'Filosofía y teoría'
+  Entero_502:
+    numero: 502
+    nombre: Miscelánea
+  Entero_503:
+    numero: 503
+    nombre: 'Subdivisiones comunes'
+  Entero_504:
+    numero: 504
+    nombre: 'Subdivisiones comunes'
+  Entero_505:
+    numero: 505
+    nombre: 'Subdivisiones comunes'
+  Entero_506:
+    numero: 506
+    nombre: 'Subdivisiones comunes'
+  Entero_507:
+    numero: 507
+    nombre: 'Educación, investigación, temas relacionados'
+  Entero_508:
+    numero: 508
+    nombre: 'Historia natural'
+  Entero_509:
+    numero: 509
+    nombre: 'Tratamiento histórico, geográfico de personas'
+  Entero_510:
+    numero: 510
+    nombre: Matemáticas
+  Entero_511:
+    numero: 511
+    nombre: 'Principios generales de las matemáticas'
+  Entero_512:
+    numero: 512
+    nombre: 'Álgebra, teoría de los números'
+  Entero_513:
+    numero: 513
+    nombre: Aritmética
+  Entero_514:
+    numero: 514
+    nombre: Topología
+  Entero_515:
+    numero: 515
+    nombre: Análisis
+  Entero_516:
+    numero: 516
+    nombre: Geometría
+  Entero_517:
+    numero: 517
+    nombre: 'No asignado'
+  Entero_518:
+    numero: 518
+    nombre: 'No asignado'
+  Entero_519:
+    numero: 519
+    nombre: 'Probabilidades y matemáticas aplicadas'
+  Entero_520:
+    numero: 520
+    nombre: 'Astronomía y ciencias afines'
+  Entero_521:
+    numero: 521
+    nombre: 'Mecánica celeste'
+  Entero_522:
+    numero: 522
+    nombre: 'Técnicas, procedimientos, aparatos, equipo, materiales'
+  Entero_523:
+    numero: 523
+    nombre: 'Cuerpos y fenómenos celestes específicos'
+  Entero_524:
+    numero: 524
+    nombre: 'No asignado'
+  Entero_525:
+    numero: 525
+    nombre: 'La tierra (Geografía astronómica)'
+  Entero_526:
+    numero: 526
+    nombre: 'Geografía matemática'
+  Entero_527:
+    numero: 527
+    nombre: 'Navegación celeste'
+  Entero_528:
+    numero: 528
+    nombre: Efemérides
+  Entero_529:
+    numero: 529
+    nombre: Cronología
+  Entero_530:
+    numero: 530
+    nombre: Física
+  Entero_531:
+    numero: 531
+    nombre: 'Mecánica clásica. Mecánica de sólidos'
+  Entero_532:
+    numero: 532
+    nombre: 'Mecánica de fluidos. Mecánica de líquidos'
+  Entero_533:
+    numero: 533
+    nombre: 'Neumática (Mecánica de gases)'
+  Entero_534:
+    numero: 534
+    nombre: 'Sonido y vibraciones relacionadas'
+  Entero_535:
+    numero: 535
+    nombre: 'Luz y fenómenos parafóticos'
+  Entero_536:
+    numero: 536
+    nombre: Calor
+  Entero_537:
+    numero: 537
+    nombre: 'Electricidad y electrónica'
+  Entero_538:
+    numero: 538
+    nombre: Magnetismo
+  Entero_539:
+    numero: 539
+    nombre: 'Física moderna'
+  Entero_540:
+    numero: 540
+    nombre: 'Química y ciencias afines'
+  Entero_541:
+    numero: 541
+    nombre: 'Química física y teórica'
+  Entero_542:
+    numero: 542
+    nombre: 'Técnicas, procedimientos, aparatos, equipos, materiales'
+  Entero_543:
+    numero: 543
+    nombre: 'Química analítica'
+  Entero_544:
+    numero: 544
+    nombre: 'Análisis cualitativo'
+  Entero_545:
+    numero: 545
+    nombre: 'Análisis cuantitativo'
+  Entero_546:
+    numero: 546
+    nombre: 'Química inorgánica'
+  Entero_547:
+    numero: 547
+    nombre: 'Química orgánica'
+  Entero_548:
+    numero: 548
+    nombre: Cristalografía
+  Entero_549:
+    numero: 549
+    nombre: Mineralogía
+  Entero_550:
+    numero: 550
+    nombre: 'Ciencias de la tierra'
+  Entero_551:
+    numero: 551
+    nombre: 'Geología, hidrología, meteorología'
+  Entero_552:
+    numero: 552
+    nombre: Petrología
+  Entero_553:
+    numero: 553
+    nombre: 'Geología económica'
+  Entero_554:
+    numero: 554
+    nombre: 'Ciencias de la tierra por continentes, países, localidades específicos en el mundo'
+  Entero_555:
+    numero: 555
+    nombre: 'Ciencias de la tierra por continentes, países, localidades específicos en el mundo'
+  Entero_556:
+    numero: 556
+    nombre: 'Ciencias de la tierra por continentes, países, localidades específicos en el mundo'
+  Entero_557:
+    numero: 557
+    nombre: 'Ciencias de la tierra por continentes, países, localidades específicos en el mundo'
+  Entero_558:
+    numero: 558
+    nombre: 'Ciencias de la tierra por continentes, países, localidades específicos en el mundo'
+  Entero_559:
+    numero: 559
+    nombre: 'Ciencias de la tierra por continentes, países, localidades específicos en el mundo'
+  Entero_560:
+    numero: 560
+    nombre: 'Paleontología. Paleozoología'
+  Entero_561:
+    numero: 561
+    nombre: 'Paleobotánica; microorganismos, hongos, algas fósiles'
+  Entero_562:
+    numero: 562
+    nombre: 'Invertebrados fósiles'
+  Entero_563:
+    numero: 563
+    nombre: 'Invertebrados fósiles varios marinos y del litoral'
+  Entero_564:
+    numero: 564
+    nombre: 'Mollusca (Moluscos) y Molluscoidea (Moluscoideos) fósiles'
+  Entero_565:
+    numero: 565
+    nombre: 'Arthropoda (Artrópodos) fósiles'
+  Entero_566:
+    numero: 566
+    nombre: 'Chordata (Cordados) fósiles'
+  Entero_567:
+    numero: 567
+    nombre: 'Vertebrados fósiles de sangre fría. Pisces (Peces) fósiles'
+  Entero_568:
+    numero: 568
+    nombre: 'Aves (Pájaros) fósiles'
+  Entero_569:
+    numero: 569
+    nombre: 'Mammalia (Mamíferos) fósiles'
+  Entero_570:
+    numero: 570
+    nombre: 'Ciencias de la vida. Biología'
+  Entero_571:
+    numero: 571
+    nombre: 'Fisiología y temas relacionados'
+  Entero_572:
+    numero: 572
+    nombre: Bioquímica
+  Entero_573:
+    numero: 573
+    nombre: 'Sistemas fisiológicos específicos en animales, histología y fisiología regionales'
+  Entero_574:
+    numero: 574
+    nombre: 'No asignado'
+  Entero_575:
+    numero: 575
+    nombre: 'Partes específicas de y sistemas fisiológicos en plantas'
+  Entero_576:
+    numero: 576
+    nombre: 'Genética y evolución'
+  Entero_577:
+    numero: 577
+    nombre: Ecología
+  Entero_578:
+    numero: 578
+    nombre: 'Historia natural de los organismos y temas relacionados'
+  Entero_579:
+    numero: 579
+    nombre: 'Microorganismos, hongos, algas'
+  Entero_580:
+    numero: 580
+    nombre: Plantas
+  Entero_581:
+    numero: 581
+    nombre: 'Temás específicos es historia natural de las plantas'
+  Entero_582:
+    numero: 582
+    nombre: 'Plantas destacadas por características vegetativas y flores específicas'
+  Entero_583:
+    numero: 583
+    nombre: 'Magnoliopsida (Dicotiledóneas)'
+  Entero_584:
+    numero: 584
+    nombre: 'Liliopsida (Monocotiledóneas)'
+  Entero_585:
+    numero: 585
+    nombre: 'Pinophyta (Gimnospermas) Confiérales (Coníferas)'
+  Entero_586:
+    numero: 586
+    nombre: 'Cryptogamia (Criptógamas, Plantas sin semillas)'
+  Entero_587:
+    numero: 587
+    nombre: 'Pteridophyta (Pteridofitas, Plantas vasculares sin semillas)'
+  Entero_588:
+    numero: 588
+    nombre: 'Briophyta (Briofitas)'
+  Entero_589:
+    numero: 589
+    nombre: Thallobionta
+  Entero_590:
+    numero: 590
+    nombre: Animales
+  Entero_591:
+    numero: 591
+    nombre: 'Temas específicos en historia natural de los animales'
+  Entero_592:
+    numero: 592
+    nombre: Invertebrados
+  Entero_593:
+    numero: 593
+    nombre: 'Invertebrados varios marinos y del litoral'
+  Entero_594:
+    numero: 594
+    nombre: 'Mollusca (Moluscos) y Molluscoidea (Moluscoideos)'
+  Entero_595:
+    numero: 595
+    nombre: 'Arthropoda (Artrópodos)'
+  Entero_596:
+    numero: 596
+    nombre: 'Chordata (Cordados)'
+  Entero_597:
+    numero: 597
+    nombre: 'Vertebrados de sangre fría. Pises (Peces)'
+  Entero_598:
+    numero: 598
+    nombre: 'Aves (Pájaros)'
+  Entero_599:
+    numero: 599
+    nombre: 'Mammalia (Mamíferos)'
+  Entero_600:
+    numero: 600
+    nombre: 'Tecnología (Ciencias aplicadas)'
+  Entero_601:
+    numero: 601
+    nombre: 'Filosofía y teoría'
+  Entero_602:
+    numero: 602
+    nombre: Miscelánea
+  Entero_603:
+    numero: 603
+    nombre: 'Diccionarios, enciclopedias, concordancias'
+  Entero_604:
+    numero: 604
+    nombre: 'Dibujo técnico, tecnología de materiales peligrosos, historia y descripción en'
+  Entero_605:
+    numero: 605
+    nombre: 'Publicaciones seriadas'
+  Entero_606:
+    numero: 606
+    nombre: Organizaciones
+  Entero_607:
+    numero: 607
+    nombre: 'Educación, investigación, temas relacionados'
+  Entero_608:
+    numero: 608
+    nombre: 'Invenciones y patentes'
+  Entero_609:
+    numero: 609
+    nombre: 'Tratamiento histórico, geográfico, de personas'
+  Entero_610:
+    numero: 610
+    nombre: 'Ciencias médicas. Medicina'
+  Entero_611:
+    numero: 611
+    nombre: 'Anatomía humana, citología (biología celular), histología (biología tisular)'
+  Entero_612:
+    numero: 612
+    nombre: 'Fisiología humana'
+  Entero_613:
+    numero: 613
+    nombre: 'Promoción de la salud'
+  Entero_614:
+    numero: 614
+    nombre: 'Medicina forense, incidencia de enfermedades, medicina preventiva pública'
+  Entero_615:
+    numero: 615
+    nombre: 'Farmacología y terapéutica'
+  Entero_616:
+    numero: 616
+    nombre: Enfermedades
+  Entero_617:
+    numero: 617
+    nombre: 'Ramas varias de la medicina. Cirugía'
+  Entero_618:
+    numero: 618
+    nombre: 'Otras ramas de la medicina. Ginecología y obstetricia'
+  Entero_619:
+    numero: 619
+    nombre: 'Medicina experimental'
+  Entero_620:
+    numero: 620
+    nombre: 'Ingeniería y operaciones afines'
+  Entero_621:
+    numero: 621
+    nombre: 'Física aplicada'
+  Entero_622:
+    numero: 622
+    nombre: 'Minería y operaciones relacionadas'
+  Entero_623:
+    numero: 623
+    nombre: 'Ingeniería militar y náutica'
+  Entero_624:
+    numero: 624
+    nombre: 'Ingeniería civil'
+  Entero_625:
+    numero: 625
+    nombre: 'Ingeniería de ferrocarriles y de carreteras'
+  Entero_626:
+    numero: 626
+    nombre: 'No asignado'
+  Entero_627:
+    numero: 627
+    nombre: 'Ingeniería hidráulica'
+  Entero_628:
+    numero: 628
+    nombre: 'Ingeniería sanitaria y municipal. Ingeniería de la protección del medio ambiente'
+  Entero_629:
+    numero: 629
+    nombre: 'Otras ramas de la ingeniería'
+  Entero_630:
+    numero: 630
+    nombre: 'Agricultura y tecnologías relacionadas'
+  Entero_631:
+    numero: 631
+    nombre: 'Técnicas específicas; aparatos, equipo, materiales'
+  Entero_632:
+    numero: 632
+    nombre: 'Lesiones, enfermedades, plagas vegetales'
+  Entero_633:
+    numero: 633
+    nombre: 'Cultivos de campo y de plantación'
+  Entero_634:
+    numero: 634
+    nombre: 'Huertos, frutas, silvicultura'
+  Entero_635:
+    numero: 635
+    nombre: 'Cultivos hortícolas (Horticultura) Hortalizas'
+  Entero_636:
+    numero: 636
+    nombre: 'Producción animal (Zootecnia)'
+  Entero_637:
+    numero: 637
+    nombre: 'Procesamiento lechero y productos relacionados'
+  Entero_638:
+    numero: 638
+    nombre: 'Cultivo de insectos'
+  Entero_639:
+    numero: 639
+    nombre: 'Caza, pesca, conservación, tecnologías relacionadas'
+  Entero_640:
+    numero: 640
+    nombre: 'Economía doméstica y vida familiar'
+  Entero_641:
+    numero: 641
+    nombre: 'Alimentos y bebidas'
+  Entero_642:
+    numero: 642
+    nombre: 'Comidas y servicio a la mesa'
+  Entero_643:
+    numero: 643
+    nombre: 'Vivienda y equipo de la casa'
+  Entero_644:
+    numero: 644
+    nombre: 'Servicios de la casa'
+  Entero_645:
+    numero: 645
+    nombre: 'Dotaciones de la casa'
+  Entero_646:
+    numero: 646
+    nombre: 'Costura, vestuario, manejo de la vida personal y familiar'
+  Entero_647:
+    numero: 647
+    nombre: 'Gerencia de viviendas públicas (Manejo de vivienda institucional)'
+  Entero_648:
+    numero: 648
+    nombre: 'Cuidado de la casa'
+  Entero_649:
+    numero: 649
+    nombre: 'Crianza de niños; atención domiciliaria de personas con enfermedades y'
+  Entero_650:
+    numero: 650
+    nombre: 'Gerencia y servicios auxiliares'
+  Entero_651:
+    numero: 651
+    nombre: 'Servicios de oficina'
+  Entero_652:
+    numero: 652
+    nombre: 'Procesos de comunicación escrita'
+  Entero_653:
+    numero: 653
+    nombre: Taquigrafía
+  Entero_654:
+    numero: 654
+    nombre: 'No asignado'
+  Entero_655:
+    numero: 655
+    nombre: 'No asignado'
+  Entero_656:
+    numero: 656
+    nombre: 'No asignado'
+  Entero_657:
+    numero: 657
+    nombre: Contabilidad
+  Entero_658:
+    numero: 658
+    nombre: 'Gerencia general'
+  Entero_659:
+    numero: 659
+    nombre: 'Publicidad y relaciones públicas'
+  Entero_660:
+    numero: 660
+    nombre: 'Ingeniería química y tecnologías relacionadas'
+  Entero_661:
+    numero: 661
+    nombre: 'Tecnología de químicos industriales'
+  Entero_662:
+    numero: 662
+    nombre: 'Tecnología de explosivos, combustibles, productos relacionados'
+  Entero_663:
+    numero: 663
+    nombre: 'Tecnología de bebidas'
+  Entero_664:
+    numero: 664
+    nombre: 'Tecnología de alimentos'
+  Entero_665:
+    numero: 665
+    nombre: 'Tecnología de aceites, grasas, ceras, gases industriales'
+  Entero_666:
+    numero: 666
+    nombre: 'Cerámica y tecnología afines'
+  Entero_667:
+    numero: 667
+    nombre: 'Limpieza, color, revestimiento, tecnologías relacionadas'
+  Entero_668:
+    numero: 668
+    nombre: 'Tecnología de otros productos orgánicos'
+  Entero_669:
+    numero: 669
+    nombre: Metalurgia
+  Entero_670:
+    numero: 670
+    nombre: Manufactura
+  Entero_671:
+    numero: 671
+    nombre: 'Procesos de metalistería y productos metálicos primarios'
+  Entero_672:
+    numero: 672
+    nombre: 'Hierro, acero, otras aleaciones ferrosas'
+  Entero_673:
+    numero: 673
+    nombre: 'Metales no ferrosos'
+  Entero_674:
+    numero: 674
+    nombre: 'Procesamiento de madera aserrada, productos de madera, corcho'
+  Entero_675:
+    numero: 675
+    nombre: 'Procesamiento del cuero y de la piel'
+  Entero_676:
+    numero: 676
+    nombre: 'Tecnología de la pulpa y del papel'
+  Entero_677:
+    numero: 677
+    nombre: Textiles
+  Entero_678:
+    numero: 678
+    nombre: 'Elastómeros y productos elastoméricos'
+  Entero_679:
+    numero: 679
+    nombre: 'Otros productos de clases específicas de materiales'
+  Entero_680:
+    numero: 680
+    nombre: 'Manufactura de productos para usos específicos'
+  Entero_681:
+    numero: 681
+    nombre: 'Instrumentos de precisión y otros dispositivos'
+  Entero_682:
+    numero: 682
+    nombre: 'Trabajos de forja pequeña (Herrería)'
+  Entero_683:
+    numero: 683
+    nombre: 'Ferretería y aparatos de la casa'
+  Entero_684:
+    numero: 684
+    nombre: 'Muebles y talleres de hogar'
+  Entero_685:
+    numero: 685
+    nombre: 'Artículos de cuero y de piel, y productos relacionados'
+  Entero_686:
+    numero: 686
+    nombre: 'Imprenta y actividades relacionadas'
+  Entero_687:
+    numero: 687
+    nombre: 'Vestuario y accesorios'
+  Entero_688:
+    numero: 688
+    nombre: 'Otros productos acabados, y tecnología de empaque'
+  Entero_689:
+    numero: 689
+    nombre: 'No asignado'
+  Entero_690:
+    numero: 690
+    nombre: Construcción
+  Entero_691:
+    numero: 691
+    nombre: 'Materiales de construcción'
+  Entero_692:
+    numero: 692
+    nombre: 'Prácticas auxiliares de construcción'
+  Entero_693:
+    numero: 693
+    nombre: 'Construcción en tipos específicos de materiales y para propósitos específicos'
+  Entero_694:
+    numero: 694
+    nombre: 'Construcción en madera. Carpintería'
+  Entero_695:
+    numero: 695
+    nombre: 'Cubiertas para techos'
+  Entero_696:
+    numero: 696
+    nombre: 'Servicios públicos'
+  Entero_697:
+    numero: 697
+    nombre: 'Ingeniería de calefacción, de ventilación, de aire acondicionado'
+  Entero_698:
+    numero: 698
+    nombre: 'Acabado detallado'
+  Entero_699:
+    numero: 699
+    nombre: 'No asignado'
+  Entero_700:
+    numero: 700
+    nombre: 'Las artes. Bellas artes y artes decorativas'
+  Entero_701:
+    numero: 701
+    nombre: 'Filosofía y teoría de las bellas artes y artes decorativas'
+  Entero_702:
+    numero: 702
+    nombre: 'Miscelánea de las bellas artes y artes decorativas'
+  Entero_703:
+    numero: 703
+    nombre: 'Diccionarios, enciclopedias, concordancias de las bellas artes y artes decorativas'
+  Entero_704:
+    numero: 704
+    nombre: 'Temas especiales en las bellas artes y artes decorativas. Historia y descripción en'
+  Entero_705:
+    numero: 705
+    nombre: 'Subdivisiones comunes de las bellas artes y artes decorativas'
+  Entero_706:
+    numero: 706
+    nombre: 'Subdivisiones comunes de las bellas artes y artes decorativas'
+  Entero_707:
+    numero: 707
+    nombre: 'Educación, investigación, temas relacionados con las bellas artes y artes decorativas'
+  Entero_708:
+    numero: 708
+    nombre: 'Galerías, museos, colecciones privadas de las bellas artes y artes decorativas'
+  Entero_709:
+    numero: 709
+    nombre: 'Tratamiento histórico, geográfico, de personas de las bellas artes y artes decorativas'
+  Entero_710:
+    numero: 710
+    nombre: 'Urbanismo y arte paisajístico'
+  Entero_711:
+    numero: 711
+    nombre: 'Planificación del espacio (Urbanismo)'
+  Entero_712:
+    numero: 712
+    nombre: 'Arquitectura paisajística (Diseño paisajístico)'
+  Entero_713:
+    numero: 713
+    nombre: 'Arquitectura paisajística de las vías de tráfico'
+  Entero_714:
+    numero: 714
+    nombre: 'Elementos acuáticos en arquitectura paisajística'
+  Entero_715:
+    numero: 715
+    nombre: 'Plantas leñosas en arquitectura paisajística'
+  Entero_716:
+    numero: 716
+    nombre: 'Plantas herbáceas en arquitectura paisajística'
+  Entero_717:
+    numero: 717
+    nombre: 'Estructuras en arquitectura paisajística'
+  Entero_718:
+    numero: 718
+    nombre: 'Diseño paisajístico de cementerios'
+  Entero_719:
+    numero: 719
+    nombre: 'Paisajes naturales'
+  Entero_720:
+    numero: 720
+    nombre: Arquitectura
+  Entero_721:
+    numero: 721
+    nombre: 'Estructura arquitectónica'
+  Entero_722:
+    numero: 722
+    nombre: 'Arquitectura desde el período más antiguo hasta ca. 300'
+  Entero_723:
+    numero: 723
+    nombre: 'Arquitectura desde ca. 300 hasta 1399'
+  Entero_724:
+    numero: 724
+    nombre: 'Arquitectura desde 1400'
+  Entero_725:
+    numero: 725
+    nombre: 'Estructuras públicas'
+  Entero_726:
+    numero: 726
+    nombre: 'Edificios para propósitos religiosos y relacionados'
+  Entero_727:
+    numero: 727
+    nombre: 'Edificios para propósitos educativos e investigativos'
+  Entero_728:
+    numero: 728
+    nombre: 'Edificios residenciales y relacionados'
+  Entero_729:
+    numero: 729
+    nombre: 'Diseño y decoración de estructuras y accesorios'
+  Entero_730:
+    numero: 730
+    nombre: 'Artes plásticas. Escultura'
+  Entero_731:
+    numero: 731
+    nombre: 'Procesos, formas, temas de la escultura'
+  Entero_732:
+    numero: 732
+    nombre: 'Escultura desde el período más antiguo hasta ca. 500, escultura de pueblos iletrados'
+  Entero_733:
+    numero: 733
+    nombre: 'Escultura griega, etrusca, romana'
+  Entero_734:
+    numero: 734
+    nombre: 'Escultura desde'
+  Entero_735:
+    numero: 735
+    nombre: 'Escultura desde'
+  Entero_736:
+    numero: 736
+    nombre: 'Talla y tallados'
+  Entero_737:
+    numero: 737
+    nombre: 'Numismática y sigilografía'
+  Entero_738:
+    numero: 738
+    nombre: 'Artes cerámicas'
+  Entero_739:
+    numero: 739
+    nombre: 'Metalísteria artística'
+  Entero_740:
+    numero: 740
+    nombre: 'Dibujo y artes decorativas'
+  Entero_741:
+    numero: 741
+    nombre: 'Dibujo y dibujos'
+  Entero_742:
+    numero: 742
+    nombre: 'Perspectiva en dibujo'
+  Entero_743:
+    numero: 743
+    nombre: 'Dibujo y dibujos por tema'
+  Entero_744:
+    numero: 744
+    nombre: 'No asignado'
+  Entero_745:
+    numero: 745
+    nombre: 'Artes decorativas'
+  Entero_746:
+    numero: 746
+    nombre: 'Artes textiles'
+  Entero_747:
+    numero: 747
+    nombre: 'Decoración de interiores'
+  Entero_748:
+    numero: 748
+    nombre: Vidrio
+  Entero_749:
+    numero: 749
+    nombre: 'Muebles y accesorios'
+  Entero_750:
+    numero: 750
+    nombre: 'Pintura y pinturas'
+  Entero_751:
+    numero: 751
+    nombre: 'Técnicas, procedimientos, aparatos, equipo, materiales, formas'
+  Entero_752:
+    numero: 752
+    nombre: Color
+  Entero_753:
+    numero: 753
+    nombre: 'Simbolismo, alegoría, mitología, leyenda'
+  Entero_754:
+    numero: 754
+    nombre: 'Pinturas de género'
+  Entero_755:
+    numero: 755
+    nombre: Religión
+  Entero_756:
+    numero: 756
+    nombre: 'No asignado'
+  Entero_757:
+    numero: 757
+    nombre: 'Figuras humanas'
+  Entero_758:
+    numero: 758
+    nombre: 'Otros temas'
+  Entero_759:
+    numero: 759
+    nombre: 'Tratamiento histórico, geográfico, de personas'
+  Entero_760:
+    numero: 760
+    nombre: 'Artes gráficas. Arte de grabar y grabados'
+  Entero_761:
+    numero: 761
+    nombre: 'Procesos en relieve (Impresión de planchas de madera)'
+  Entero_762:
+    numero: 762
+    nombre: 'No asignado'
+  Entero_763:
+    numero: 763
+    nombre: 'Procesos litográficos (planográficos)'
+  Entero_764:
+    numero: 764
+    nombre: 'Cromolitografía y serigrafía'
+  Entero_765:
+    numero: 765
+    nombre: 'Grabado en metal'
+  Entero_766:
+    numero: 766
+    nombre: 'Media tinta, aguatinta, procesos relacionados'
+  Entero_767:
+    numero: 767
+    nombre: 'Aguafuerte y grabado a punta seca'
+  Entero_768:
+    numero: 768
+    nombre: 'No asignado'
+  Entero_769:
+    numero: 769
+    nombre: Grabados
+  Entero_770:
+    numero: 770
+    nombre: 'Fotografía y fotografías'
+  Entero_771:
+    numero: 771
+    nombre: 'Técnicas, procedimientos, aparatos, equipo, materiales'
+  Entero_772:
+    numero: 772
+    nombre: 'Procesos con sales metálicas'
+  Entero_773:
+    numero: 773
+    nombre: 'Procesos de pigmentación de la impresión'
+  Entero_774:
+    numero: 774
+    nombre: Holografía
+  Entero_775:
+    numero: 775
+    nombre: 'No asignados'
+  Entero_776:
+    numero: 776
+    nombre: 'No asignados'
+  Entero_777:
+    numero: 777
+    nombre: 'No asignados'
+  Entero_778:
+    numero: 778
+    nombre: 'Campos específicos y clases especiales de fotografía; cinematografía.'
+  Entero_779:
+    numero: 779
+    nombre: Fotografías
+  Entero_780:
+    numero: 780
+    nombre: Música
+  Entero_781:
+    numero: 781
+    nombre: 'Principios generales y formas musicales'
+  Entero_782:
+    numero: 782
+    nombre: 'Música vocal'
+  Entero_783:
+    numero: 783
+    nombre: 'Música para voces individuales. La voz'
+  Entero_784:
+    numero: 784
+    nombre: 'Instrumento y conjuntos instrumentales y su música'
+  Entero_785:
+    numero: 785
+    nombre: 'Conjuntos con un solo instrumento por parte'
+  Entero_786:
+    numero: 786
+    nombre: 'Instrumentos de teclado, mecánicos, electrofónicos, de percusión'
+  Entero_787:
+    numero: 787
+    nombre: 'Instrumentos de cuerda (Cordófonos) Instrumentos de cuerda de arco'
+  Entero_788:
+    numero: 788
+    nombre: 'Instrumentos de viento (Aerófonos)'
+  Entero_789:
+    numero: 789
+    nombre: 'Compositores y tradiciones de la música'
+  Entero_790:
+    numero: 790
+    nombre: 'Artes recreativas y de la actuación'
+  Entero_791:
+    numero: 791
+    nombre: 'Representaciones públicas'
+  Entero_792:
+    numero: 792
+    nombre: 'Presentaciones escénicas'
+  Entero_793:
+    numero: 793
+    nombre: 'Juegos y diversiones bajo techo'
+  Entero_794:
+    numero: 794
+    nombre: 'Juegos de destreza bajo techo'
+  Entero_795:
+    numero: 795
+    nombre: 'Juegos de suerte 311'
+  Entero_796:
+    numero: 796
+    nombre: 'Deportes y juegos atléticos y al aire libre'
+  Entero_797:
+    numero: 797
+    nombre: 'Deportes acuáticos y aéreos 313'
+  Entero_798:
+    numero: 798
+    nombre: 'Deportes ecuestres y carreras de animales'
+  Entero_799:
+    numero: 799
+    nombre: 'Pesca, caza, tiro 314'
+  Entero_800:
+    numero: 800
+    nombre: 'Literatura (Belles-lettres) y retórica'
+  Entero_801:
+    numero: 801
+    nombre: 'Filosofía y teoría'
+  Entero_802:
+    numero: 802
+    nombre: 'Subdivisiones comunes'
+  Entero_803:
+    numero: 803
+    nombre: 'Subdivisiones comunes'
+  Entero_804:
+    numero: 804
+    nombre: 'No asignado'
+  Entero_805:
+    numero: 805
+    nombre: 'Publicaciones seriadas'
+  Entero_806:
+    numero: 806
+    nombre: 'Subdivisiones comunes'
+  Entero_807:
+    numero: 807
+    nombre: 'Subdivisiones comunes'
+  Entero_808:
+    numero: 808
+    nombre: 'Retórica y colección de textos literarios de más de dos literaturas'
+  Entero_809:
+    numero: 809
+    nombre: 'Historia, descripción, evaluación crítica de más de dos literaturas'
+  Entero_810:
+    numero: 810
+    nombre: 'Literatura norteamericana en inglés 316'
+  Entero_811:
+    numero: 811
+    nombre: 'Géneros específicos de la literaturanorteamericana en inglés'
+  Entero_812:
+    numero: 812
+    nombre: 'Géneros específicos de la literaturanorteamericana en inglés'
+  Entero_813:
+    numero: 813
+    nombre: 'Géneros específicos de la literaturanorteamericana en inglés'
+  Entero_814:
+    numero: 814
+    nombre: 'Géneros específicos de la literaturanorteamericana en inglés'
+  Entero_815:
+    numero: 815
+    nombre: 'Géneros específicos de la literaturanorteamericana en inglés'
+  Entero_816:
+    numero: 816
+    nombre: 'Géneros específicos de la literaturanorteamericana en inglés'
+  Entero_817:
+    numero: 817
+    nombre: 'Géneros específicos de la literaturanorteamericana en inglés'
+  Entero_818:
+    numero: 818
+    nombre: 'Géneros específicos de la literaturanorteamericana en inglés'
+  Entero_819:
+    numero: 819
+    nombre: 'Literaturas norteamericanas en inglés que no requieren énfasis local'
+  Entero_820:
+    numero: 820
+    nombre: 'Literatura inglesa e inglesa antigua (anglosajona)'
+  Entero_821:
+    numero: 821
+    nombre: 'Poesía inglesa'
+  Entero_822:
+    numero: 822
+    nombre: 'Teatro inglés'
+  Entero_823:
+    numero: 823
+    nombre: 'Otros géneros específicos de la literatura inglesa'
+  Entero_824:
+    numero: 824
+    nombre: 'Otros géneros específicos de la literatura inglesa'
+  Entero_825:
+    numero: 825
+    nombre: 'Otros géneros específicos de la literatura inglesa'
+  Entero_826:
+    numero: 826
+    nombre: 'Otros géneros específicos de la literatura inglesa'
+  Entero_827:
+    numero: 827
+    nombre: 'Otros géneros específicos de la literatura inglesa'
+  Entero_828:
+    numero: 828
+    nombre: 'Escritos varios ingleses'
+  Entero_829:
+    numero: 829
+    nombre: 'Literatura inglesa antigua (anglosajona)'
+  Entero_830:
+    numero: 830
+    nombre: 'Literaturas de las lenguas germánicas (teutónicas). Literatura alemana'
+  Entero_831:
+    numero: 831
+    nombre: 'Géneros específicos de la literatura alemana'
+  Entero_832:
+    numero: 832
+    nombre: 'Géneros específicos de la literatura alemana'
+  Entero_833:
+    numero: 833
+    nombre: 'Géneros específicos de la literatura alemana'
+  Entero_834:
+    numero: 834
+    nombre: 'Géneros específicos de la literatura alemana'
+  Entero_835:
+    numero: 835
+    nombre: 'Géneros específicos de la literatura alemana'
+  Entero_836:
+    numero: 836
+    nombre: 'Géneros específicos de la literatura alemana'
+  Entero_837:
+    numero: 837
+    nombre: 'Otras literaturas germánicas (teutónicas)'
+  Entero_838:
+    numero: 838
+    nombre: 'Géneros específicos de la literatura alemana'
+  Entero_839:
+    numero: 839
+    nombre: 'Géneros específicos de la literatura alemana'
+  Entero_840:
+    numero: 840
+    nombre: 'Literaturas de las lenguas romances. Literatura francesa'
+  Entero_841:
+    numero: 841
+    nombre: 'Géneros específicos de la literatura francesa'
+  Entero_842:
+    numero: 842
+    nombre: 'Géneros específicos de la literatura francesa'
+  Entero_843:
+    numero: 843
+    nombre: 'Géneros específicos de la literatura francesa'
+  Entero_844:
+    numero: 844
+    nombre: 'Géneros específicos de la literatura francesa'
+  Entero_845:
+    numero: 845
+    nombre: 'Géneros específicos de la literatura francesa'
+  Entero_846:
+    numero: 846
+    nombre: 'Géneros específicos de la literatura francesa'
+  Entero_847:
+    numero: 847
+    nombre: 'Géneros específicos de la literatura francesa'
+  Entero_848:
+    numero: 848
+    nombre: 'Escritos varios franceses'
+  Entero_849:
+    numero: 849
+    nombre: 'Literaturas provenzal (langue d’oc), francoprovenzal, catalana'
+  Entero_850:
+    numero: 850
+    nombre: 'Literaturas de las lenguas italiana, sarda, dalmática, rumana,'
+  Entero_851:
+    numero: 851
+    nombre: 'Géneros específicos de la literatura italiana'
+  Entero_852:
+    numero: 852
+    nombre: 'Géneros específicos de la literatura italiana'
+  Entero_853:
+    numero: 853
+    nombre: 'Géneros específicos de la literatura italiana'
+  Entero_854:
+    numero: 855
+    nombre: 'Géneros específicos de la literatura italiana'
+  Entero_855:
+    numero: 855
+    nombre: 'Géneros específicos de la literatura italiana'
+  Entero_856:
+    numero: 856
+    nombre: 'Géneros específicos de la literatura italiana'
+  Entero_857:
+    numero: 857
+    nombre: 'Géneros específicos de la literatura italiana'
+  Entero_858:
+    numero: 858
+    nombre: 'Géneros específicos de la literatura italiana'
+  Entero_859:
+    numero: 859
+    nombre: 'Literaturas rumana y retorromana'
+  Entero_860:
+    numero: 860
+    nombre: 'Literatura de las lenguas española y portuguesa'
+  Entero_861:
+    numero: 861
+    nombre: 'Géneros específicos de la literatura española'
+  Entero_862:
+    numero: 862
+    nombre: 'Géneros específicos de la literatura española319'
+  Entero_863:
+    numero: 863
+    nombre: 'Géneros específicos de la literatura española319'
+  Entero_864:
+    numero: 864
+    nombre: 'Géneros específicos de la literatura española319'
+  Entero_865:
+    numero: 865
+    nombre: 'Géneros específicos de la literatura española319'
+  Entero_866:
+    numero: 866
+    nombre: 'Géneros específicos de la literatura española319'
+  Entero_867:
+    numero: 867
+    nombre: 'Géneros específicos de la literatura española319'
+  Entero_868:
+    numero: 868
+    nombre: 'Escritos varios españoles'
+  Entero_869:
+    numero: 869
+    nombre: 'Literatura portuguesa'
+  Entero_870:
+    numero: 870
+    nombre: 'Literaturas de las lenguas itálicas. Literatura latina'
+  Entero_871:
+    numero: 871
+    nombre: 'Poesía latina'
+  Entero_872:
+    numero: 872
+    nombre: 'Poesía y teatro dramáticos latinos'
+  Entero_873:
+    numero: 873
+    nombre: 'Poesía y novelística épicas latinas'
+  Entero_874:
+    numero: 874
+    nombre: 'Poesía lírica latina'
+  Entero_875:
+    numero: 875
+    nombre: 'Discursos latinos'
+  Entero_876:
+    numero: 876
+    nombre: 'Cartas latinas'
+  Entero_877:
+    numero: 877
+    nombre: 'Humor y sátira latinos'
+  Entero_878:
+    numero: 878
+    nombre: 'Escritos varios latinos'
+  Entero_879:
+    numero: 879
+    nombre: 'Literaturas de otras lenguas itálicas'
+  Entero_880:
+    numero: 880
+    nombre: 'Literaturas de las lenguas helénicas. Literatura griega clásica'
+  Entero_881:
+    numero: 881
+    nombre: 'Poesía griega clásica'
+  Entero_882:
+    numero: 882
+    nombre: 'Poesía y teatro dramáticos griegos clásicos'
+  Entero_883:
+    numero: 883
+    nombre: 'Poesía y novelística épicas griegas clásicas'
+  Entero_884:
+    numero: 884
+    nombre: 'Poesía lírica griega clásica'
+  Entero_885:
+    numero: 885
+    nombre: 'Discursos griegos clásicos'
+  Entero_886:
+    numero: 886
+    nombre: 'Cartas griegas clásicas320'
+  Entero_887:
+    numero: 887
+    nombre: 'Humor y sátira griegos clásicos'
+  Entero_888:
+    numero: 888
+    nombre: 'Escritos varios griegos clásicos'
+  Entero_889:
+    numero: 889
+    nombre: 'Literatura griega moderna'
+  Entero_890:
+    numero: 890
+    nombre: 'Literaturas de otras lenguas y de familias de lenguas específicas'
+  Entero_891:
+    numero: 891
+    nombre: 'Literaturas indoeuropeas orientales y célticas'
+  Entero_892:
+    numero: 892
+    nombre: 'Literaturas afroasiáticas (camitosemíticas) Literaturas semíticas'
+  Entero_893:
+    numero: 893
+    nombre: 'Literaturas afroasiáticas no semíticas'
+  Entero_894:
+    numero: 894
+    nombre: 'Literaturas altaicas, urálicas, hiperbóreas, dravídicas'
+  Entero_895:
+    numero: 895
+    nombre: 'Literaturas del Asia oriental y sudoriental. Literaturas chinotibetanas'
+  Entero_896:
+    numero: 896
+    nombre: 'Literaturas africanas'
+  Entero_897:
+    numero: 897
+    nombre: 'Literaturas de las lenguas nativas norteamericanas'
+  Entero_898:
+    numero: 898
+    nombre: 'Literaturas de las lenguas nativas sudamericanas'
+  Entero_899:
+    numero: 899
+    nombre: 'Literaturas de las lenguas no austronesias de Oceanía, de las lenguas austronesias, de'
+  Entero_900:
+    numero: 900
+    nombre: 'Geografía, historia y disciplinas auxiliares'
+  Entero_901:
+    numero: 901
+    nombre: 'Filosofía y teoría de la historia'
+  Entero_902:
+    numero: 902
+    nombre: 'Miscelánea de historia'
+  Entero_903:
+    numero: 903
+    nombre: 'Diccionarios, enciclopedias, concordancias de la historia'
+  Entero_904:
+    numero: 904
+    nombre: 'Relatos colectivos de acontecimientos'
+  Entero_905:
+    numero: 905
+    nombre: 'Subdivisiones comunes de historia'
+  Entero_906:
+    numero: 906
+    nombre: 'Subdivisiones comunes de historia'
+  Entero_907:
+    numero: 907
+    nombre: 'Educación, investigación, temas relacionados con la historia'
+  Entero_908:
+    numero: 908
+    nombre: 'Historia en relación con clases de personas'
+  Entero_909:
+    numero: 909
+    nombre: 'Historia universal'
+  Entero_910:
+    numero: 910
+    nombre: 'Geografía y viajes'
+  Entero_911:
+    numero: 911
+    nombre: 'Geografía histórica'
+  Entero_912:
+    numero: 912
+    nombre: 'Representaciones gráficas de la superficie de la tierra y de los mundos extraterrestres'
+  Entero_913:
+    numero: 913
+    nombre: 'No asignado'
+  Entero_914:
+    numero: 914
+    nombre: 'No asignado'
+  Entero_915:
+    numero: 915
+    nombre: 'No asignado'
+  Entero_916:
+    numero: 916
+    nombre: 'No asignado'
+  Entero_917:
+    numero: 917
+    nombre: 'No asignado'
+  Entero_918:
+    numero: 918
+    nombre: 'No asignado'
+  Entero_919:
+    numero: 919
+    nombre: 'Geografía de y viajes en otras partes del mundo y en mundos extraterrestres.'
+  Entero_920:
+    numero: 920
+    nombre: 'Biografía, genealogía, insignias'
+  Entero_921:
+    numero: 921
+    nombre: 'Filósofos y psicólogos'
+  Entero_922:
+    numero: 922
+    nombre: 'Líderes, pensadores, trabajadores religiosos'
+  Entero_923:
+    numero: 923
+    nombre: 'Personas en ciencias sociales'
+  Entero_924:
+    numero: 924
+    nombre: 'Filólogos y lexicógrafos'
+  Entero_925:
+    numero: 925
+    nombre: Científicos
+  Entero_926:
+    numero: 926
+    nombre: 'Personas en tecnología'
+  Entero_927:
+    numero: 927
+    nombre: 'Personas en las artes y en recreación'
+  Entero_928:
+    numero: 928
+    nombre: 'Personas en literatura, historia, biografía, genealogía'
+  Entero_929:
+    numero: 929
+    nombre: 'Genealogía, nombres, insignias'
+  Entero_930:
+    numero: 930
+    nombre: 'Historia del mundo antiguo'
+  Entero_931:
+    numero: 931
+    nombre: China
+  Entero_932:
+    numero: 932
+    nombre: Egipto
+  Entero_933:
+    numero: 933
+    nombre: Palestina
+  Entero_934:
+    numero: 934
+    nombre: India
+  Entero_935:
+    numero: 935
+    nombre: 'Mesopotamia y Meseta Iraní hasta'
+  Entero_936:
+    numero: 936
+    nombre: 'Europa del norte y al occidente de la Península Itálica'
+  Entero_937:
+    numero: 937
+    nombre: 'Península Itálica y territorios adyacentes'
+  Entero_938:
+    numero: 938
+    nombre: Grecia
+  Entero_939:
+    numero: 939
+    nombre: 'Otras partes del mundo antiguo'
+  Entero_940:
+    numero: 940
+    nombre: 'Historia general de Europa. Europa occidental'
+  Entero_941:
+    numero: 941
+    nombre: 'Islas Británicas'
+  Entero_942:
+    numero: 942
+    nombre: 'Inglaterra y Gales'
+  Entero_943:
+    numero: 943
+    nombre: 'Europa central. Alemania'
+  Entero_944:
+    numero: 944
+    nombre: 'Francia y Mónaco'
+  Entero_945:
+    numero: 945
+    nombre: 'Península Itálica e islas adyacentes. Italia'
+  Entero_946:
+    numero: 946
+    nombre: 'Península Ibérica e islas adyacentes. España'
+  Entero_947:
+    numero: 947
+    nombre: 'Europa oriental. Rusia'
+  Entero_948:
+    numero: 948
+    nombre: Escandinavia
+  Entero_949:
+    numero: 949
+    nombre: 'Otras partes de Europa'
+  Entero_950:
+    numero: 950
+    nombre: 'Historia general de Asia. Oriente. Lejano Oriente'
+  Entero_951:
+    numero: 951
+    nombre: 'China y áreas adyacentes'
+  Entero_952:
+    numero: 952
+    nombre: Japón
+  Entero_953:
+    numero: 953
+    nombre: 'Península de Arabia y áreas adyacentes'
+  Entero_954:
+    numero: 954
+    nombre: 'Asia del Sur. India'
+  Entero_955:
+    numero: 955
+    nombre: 'Irán 335'
+  Entero_956:
+    numero: 956
+    nombre: 'Oriente Medio (Cercano Oriente)'
+  Entero_957:
+    numero: 957
+    nombre: 'Siberia (Rusia asiática)'
+  Entero_958:
+    numero: 958
+    nombre: 'Asia central'
+  Entero_959:
+    numero: 959
+    nombre: 'Asia sudoriental'
+  Entero_960:
+    numero: 960
+    nombre: 'Historia general de África'
+  Entero_961:
+    numero: 961
+    nombre: 'Túnez y Libia'
+  Entero_962:
+    numero: 962
+    nombre: 'Egipto y Sudán'
+  Entero_963:
+    numero: 963
+    nombre: 'Etiopía y Eritrea'
+  Entero_964:
+    numero: 964
+    nombre: 'Costa noroccidental africana e islas cercanas. Marruecos 337'
+  Entero_965:
+    numero: 965
+    nombre: Argelia
+  Entero_966:
+    numero: 966
+    nombre: 'África occidental e islas cercanas'
+  Entero_967:
+    numero: 967
+    nombre: 'África central e islas cercanas'
+  Entero_968:
+    numero: 968
+    nombre: 'África del Sur. República de Sudáfrica'
+  Entero_969:
+    numero: 969
+    nombre: 'Islas del Océano Índico Sur'
+  Entero_970:
+    numero: 970
+    nombre: 'Historia general de América del Norte'
+  Entero_971:
+    numero: 971
+    nombre: Canadá
+  Entero_972:
+    numero: 972
+    nombre: 'Mesoamérica (América Media) México'
+  Entero_973:
+    numero: 973
+    nombre: 'Estados Unidos'
+  Entero_974:
+    numero: 974
+    nombre: 'Nororiente de Estados Unidos (Nueva Inglaterra y estados del Atlántico medio)'
+  Entero_975:
+    numero: 975
+    nombre: 'Sudoriente de Estados Unidos (Estados del Atlántico sur)'
+  Entero_976:
+    numero: 976
+    nombre: 'Centro-sur de Estados Unidos. Estados de la Costa del Golfo'
+  Entero_977:
+    numero: 977
+    nombre: 'Centro-norte de Estados Unidos. Estados de los Grandes Lagos'
+  Entero_978:
+    numero: 978
+    nombre: 'Occidente de Estados Unidos'
+  Entero_979:
+    numero: 979
+    nombre: 'Región de la Gran Cuenca y de la Vertiente del Pacífico de los Estados Unidos.'
+  Entero_980:
+    numero: 980
+    nombre: 'Historia general de América del Sur'
+  Entero_981:
+    numero: 981
+    nombre: Brasil
+  Entero_982:
+    numero: 982
+    nombre: Argentina
+  Entero_983:
+    numero: 983
+    nombre: Chile
+  Entero_984:
+    numero: 984
+    nombre: Bolivia
+  Entero_985:
+    numero: 985
+    nombre: Perú
+  Entero_986:
+    numero: 986
+    nombre: 'Colombia y Ecuador'
+  Entero_987:
+    numero: 987
+    nombre: Venezuela
+  Entero_988:
+    numero: 988
+    nombre: Guayanas
+  Entero_989:
+    numero: 989
+    nombre: 'Paraguay y Uruguay'
+  Entero_990:
+    numero: 990
+    nombre: 'Historia general de otras partes del mundo, de mundos extraterrestres.'
+  Entero_991:
+    numero: 991
+    nombre: 'No asignados'
+  Entero_992:
+    numero: 992
+    nombre: 'No asignado'
+  Entero_993:
+    numero: 993
+    nombre: 'Nueva Zelanda'
+  Entero_994:
+    numero: 994
+    nombre: Australia
+  Entero_995:
+    numero: 995
+    nombre: 'Melanesia. Nueva Guinea'
+  Entero_996:
+    numero: 996
+    nombre: 'Otras Partes del Oceáno Pacífico. Polinesia'
+  Entero_997:
+    numero: 997
+    nombre: 'Islas del Océano Atlántico'
+  Entero_998:
+    numero: 998
+    nombre: 'Islas árticas y Antártida'
+  Entero_999:
+    numero: 999
+    nombre: 'Mundos extraterrestre'

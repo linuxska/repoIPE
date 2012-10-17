@@ -1,6 +1,6 @@
 <?php
 // Escribe un fichero en un array. 
-$lineas = file('/Users/linuxska/Desktop/SistemaBibilotecaIPE/MilGenerales.txt');
+$lineas = file('/Users/linuxska/sfproject/repoIPE/docs/SistemaBibilotecaIPE/MilGenerales.txt');
 
 
 // Recorre nuestro array, mostrare la linea con dos valores
@@ -13,11 +13,11 @@ foreach ($lineas as $num_linea => $linea) {
 	$var= strlen($linea); // idea de encontra el ultimo
 		 //echo ($linea);
 	//Eliminar espacios
-	echo substr_replace($linea, ",'", 3, 0);
+	//echo substr_replace($linea, ",'", 3, 0);
 	//Correr primero
-	//echo substr_replace($linea, 'INSERT INTO entero(numero, nombre, descripcion) VALUES (', 0, 0);
+	//echo substr_replace($linea, 'INSERT INTO "integer"("number", name, description) VALUES (', 0, 0);
 	//Correr despues
-	//echo substr_replace($linea, "',null);\n", -1, $var);
+	echo substr_replace($linea, "',null);\n", -1, $var);
 
 //Base de datos
 //LINE 242: "colonia" character varying(64) NOT NULL CHECK (.),
