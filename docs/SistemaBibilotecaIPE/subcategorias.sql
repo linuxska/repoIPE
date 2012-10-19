@@ -1199,7 +1199,7 @@ Incluye inmortalidad
 220  La Biblia 
 Escrituras sagradas del Judaísmo y del Cristianismo 
 220.1-220.9 Generalidades 
-.1    Orígenes y autenticidad 
+.1       Orígenes y autenticidad 
 .12   Canon 
 .13   Inspiración 
 .15   Profecía y profecías bíblicas 61
@@ -10502,7 +10502,8 @@ Islas del Océano Pacífico
 .95   Vanuatu 
 .97   Nueva Caledonia 
 996 Otras Partes del Oceáno Pacífico. Polinesia 
-.1 Islas del Oceáno Pacífico centro-sudoccidental, e islas apartadas del Oceáno Pacífico 
+.1 Islas del Oceáno Pacífico centro-sudoccidental, e islas apartadas del Oceáno Pacífico                         
+sudoriental 
 .11   Fidji 
 .12   Tonga (Islas Friendly) 
 .13   Samoa norteamericana 
@@ -10513,7 +10514,8 @@ Islas del Océano Pacífico
 .2      Islas del Oceáno Pacífico sudcentral 
 .3      Islas del Oceáno Pacífico centro-sudoriental 
 .4      Islas Line (Islas Ecuatoriales) 
-.5 Islas del Oceáno Pacífico centro-occidental (Micronesia) Terriotorio en Fideicomiso de las islas del Pacífico 
+.5 Islas del Oceáno Pacífico centro-occidental (Micronesia) Terriotorio en Fideicomiso de las 
+islas del Pacífico 
 .6      Estados Federados de Micronesia y República de Palau 
 .7      Islas Marianas 
 .8      Islas de Micronesia oriental 
@@ -10527,8 +10529,6 @@ Islas del Océano Pacífico
 .1      Islas Falkland, islas Georgia del Sur y Sandwich del Sur, Isla Bouvet 
 .11  Islas Falkland (Islas Malvinas) 
 .3      Santa Helena y dependencias 
-sas
 998 Islas árticas y Antártida 
 .2      Groenlandia 
 999 Mundos extraterrestres
-abs

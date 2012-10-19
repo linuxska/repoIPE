@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database name="propel" package="lib.model" defaultIdMethod="native">
+
+  <table name="alumno">
+    <column name="id" phpName="Id" type="INTEGER" primaryKey="true" autoIncrement="true" required="true" />
+    <column name="nombre" phpName="Nombre" type="VARCHAR" size="64" required="true" />
+    <column name="a_paterno" phpName="APaterno" type="VARCHAR" size="64" required="true" />
+    <column name="a_materno" phpName="AMaterno" type="VARCHAR" size="64" required="true" />
+    <column name="sexo" phpName="Sexo" type="VARCHAR" size="9" required="true" />
+    <column name="direccion" phpName="Direccion" type="VARCHAR" size="64" required="true" />
+    <column name="colonia" phpName="Colonia" type="VARCHAR" size="64" required="true" />
+    <column name="ciudad" phpName="Ciudad" type="VARCHAR" size="64" required="true" />
+    <column name="estado" phpName="Estado" type="VARCHAR" size="64" required="true" />
+    <column name="cp" phpName="Cp" type="VARCHAR" size="5" required="false" />
+    <column name="pais" phpName="Pais" type="VARCHAR" size="64" required="false" />
+    <column name="telefono" phpName="Telefono" type="VARCHAR" size="12" required="true" defaultValue="NULL" />
+    <column name="celular" phpName="Celular" type="VARCHAR" size="12" required="false" defaultValue="NULL" />
+    <column name="e_mail" phpName="EMail" type="VARCHAR" size="128" required="true" defaultValue="NULL" />
+    <column name="fecha_nacimiento" phpName="FechaNacimiento" type="DATE" required="true" />
+    <column name="estado_civil" phpName="EstadoCivil" type="VARCHAR" size="32" required="true" />
+    <column name="padres_nombres" phpName="PadresNombres" type="VARCHAR" size="256" required="false" />
+    <column name="padres_direccion" phpName="PadresDireccion" type="VARCHAR" size="64" required="false" />
+    <column name="padres_colonia" phpName="PadresColonia" type="VARCHAR" size="64" required="false" />
+    <column name="padres_ciudad" phpName="PadresCiudad" type="VARCHAR" size="64" required="false" />
+    <column name="padres_estado" phpName="PadresEstado" type="VARCHAR" size="64" required="false" />
+    <column name="padres_cp" phpName="PadresCp" type="VARCHAR" size="5" required="false" />
+    <column name="padres_pais" phpName="PadresPais" type="VARCHAR" size="64" required="false" />
+    <column name="padres_telefono" phpName="PadresTelefono" type="VARCHAR" size="12" required="false" />
+    <column name="padres_celular" phpName="PadresCelular" type="VARCHAR" size="12" required="false" />
+    <column name="padres_email" phpName="PadresEmail" type="VARCHAR" size="128" required="false" />
+    <column name="pastor_nombre" phpName="PastorNombre" type="VARCHAR" size="128" required="false" />
+    <column name="pastor_direccion" phpName="PastorDireccion" type="VARCHAR" size="64" required="false" />
+    <column name="pastor_colonia" phpName="PastorColonia" type="VARCHAR" size="64" required="false" />
+    <column name="pastor_ciudad" phpName="PastorCiudad" type="VARCHAR" size="64" required="false" />
+    <column name="pastor_estado" phpName="PastorEstado" type="VARCHAR" size="64" required="false" />
+    <column name="pastor_cp" phpName="PastorCp" type="VARCHAR" size="5" required="false" />
+    <column name="pastor_pais" phpName="PastorPais" type="VARCHAR" size="64" required="false" />
+    <column name="pastor_telefono" phpName="PastorTelefono" type="VARCHAR" size="12" required="false" />
+    <column name="pastor_celular" phpName="PastorCelular" type="VARCHAR" size="12" required="false" />
+    <column name="pastor_email" phpName="PastorEmail" type="VARCHAR" size="128" required="false" />
+    <column name="iglesia_nombre" phpName="IglesiaNombre" type="VARCHAR" size="128" required="false" />
+    <column name="iglesia_direccion" phpName="IglesiaDireccion" type="VARCHAR" size="128" required="false" />
+    <column name="iglesia_colonia" phpName="IglesiaColonia" type="VARCHAR" size="64" required="false" />
+    <column name="iglesia_estado" phpName="IglesiaEstado" type="VARCHAR" size="64" required="false" />
+    <column name="iglesia_cp" phpName="IglesiaCp" type="VARCHAR" size="5" required="false" />
+    <column name="iglesia_pais" phpName="IglesiaPais" type="VARCHAR" size="64" required="false" />
+    <column name="iglesia_telefono" phpName="IglesiaTelefono" type="VARCHAR" size="12" required="false" />
+    <column name="iglesia_email" phpName="IglesiaEmail" type="VARCHAR" size="128" required="false" />
+    <column name="iglesia_web" phpName="IglesiaWeb" type="VARCHAR" size="128" required="false" />
+    <column name="emergencia_nombre" phpName="EmergenciaNombre" type="VARCHAR" size="128" required="false" />
+    <column name="emergencia_direccion" phpName="EmergenciaDireccion" type="VARCHAR" size="64" required="false" />
+    <column name="emergencia_colonia" phpName="EmergenciaColonia" type="VARCHAR" size="64" required="false" />
+    <column name="emergencia_ciudad" phpName="EmergenciaCiudad" type="VARCHAR" size="64" required="false" />
+    <column name="emergencia_estado" phpName="EmergenciaEstado" type="VARCHAR" size="64" required="false" />
+    <column name="emergencia_telefono" phpName="EmergenciaTelefono" type="VARCHAR" size="12" required="false" />
+    <column name="emergencia_celular" phpName="EmergenciaCelular" type="VARCHAR" size="12" required="false" />
+    <column name="fecha_conversion" phpName="FechaConversion" type="DATE" required="true" />
+    <column name="fecha_bautismo" phpName="FechaBautismo" type="DATE" required="true" />
+    <column name="fecha_llamamiento" phpName="FechaLlamamiento" type="DATE" required="true" />
+    <column name="testimonio_salvacion" phpName="TestimonioSalvacion" type="LONGVARCHAR" required="true" />
+    <column name="testimonio_llamado" phpName="TestimonioLlamado" type="LONGVARCHAR" required="true" />
+    <column name="actividades_iglesia" phpName="ActividadesIglesia" type="LONGVARCHAR" required="true" />
+    <column name="primaria_nombre" phpName="PrimariaNombre" type="VARCHAR" size="64" required="false" />
+    <column name="primaria_ciudad" phpName="PrimariaCiudad" type="VARCHAR" size="64" required="false" />
+    <column name="primaria_final" phpName="PrimariaFinal" type="DATE" required="false" />
+    <column name="secundaria_nombre" phpName="SecundariaNombre" type="VARCHAR" size="64" required="false" />
+    <column name="secuandaria_ciudad" phpName="SecuandariaCiudad" type="VARCHAR" size="64" required="false" />
+    <column name="secundaria_final" phpName="SecundariaFinal" type="DATE" required="false" />
+    <column name="prepa_nombre" phpName="PrepaNombre" type="VARCHAR" size="64" required="false" />
+    <column name="prepa_ciudad" phpName="PrepaCiudad" type="VARCHAR" size="64" required="false" />
+    <column name="otra_nombre" phpName="OtraNombre" type="VARCHAR" size="64" required="false" />
+    <column name="otra_ciudad" phpName="OtraCiudad" type="VARCHAR" size="64" required="false" />
+    <column name="otra_fecha" phpName="OtraFecha" type="DATE" required="false" />
+    <column name="insti_nombre" phpName="InstiNombre" type="VARCHAR" size="64" required="false" />
+    <column name="insti_ciudad" phpName="InstiCiudad" type="VARCHAR" size="64" required="false" />
+    <column name="insti_fecha" phpName="InstiFecha" type="VARCHAR" size="64" required="false" />
+    <column name="drogas" phpName="Drogas" type="BOOLEAN" required="true" />
+    <column name="alcohol" phpName="Alcohol" type="BOOLEAN" required="true" />
+    <column name="medicina_especial" phpName="MedicinaEspecial" type="BOOLEAN" required="true" />
+    <column name="medicamento_actual" phpName="MedicamentoActual" type="BOOLEAN" required="true" />
+    <column name="situacion_medica" phpName="SituacionMedica" type="LONGVARCHAR" required="true" />
+    <column name="trabajo_secular" phpName="TrabajoSecular" type="LONGVARCHAR" required="false" />
+    <column name="inscrito" phpName="Inscrito" type="BOOLEAN" required="true" />
+    <column name="foto" phpName="Foto" type="VARCHAR" size="256" required="false" />
+  </table>
+
+  <table name="book">
+    <column name="id" phpName="Id" type="INTEGER" primaryKey="true" autoIncrement="true" required="true" />
+    <column name="id_decimal" phpName="IdDecimal" type="INTEGER" required="true" />
+    <foreign-key foreignTable="decimalen" onDelete="RESTRICT" onUpdate="CASCADE">
+      <reference local="id_decimal" foreign="id" />
+    </foreign-key>
+    <column name="title" phpName="Title" type="VARCHAR" size="512" required="true" />
+    <column name="author_firstname" phpName="AuthorFirstname" type="VARCHAR" size="128" required="true" />
+    <column name="author_lastname" phpName="AuthorLastname" type="VARCHAR" size="64" required="false" />
+    <column name="year" phpName="Year" type="VARCHAR" size="4" required="false" />
+    <column name="publishing_house" phpName="PublishingHouse" type="VARCHAR" size="128" required="false" />
+    <column name="isbn" phpName="Isbn" type="VARCHAR" size="32" required="false" />
+    <column name="volume" phpName="Volume" type="VARCHAR" size="2" required="false" />
+    <column name="primary_subject" phpName="PrimarySubject" type="VARCHAR" size="64" required="false" />
+    <column name="secondary_subject" phpName="SecondarySubject" type="VARCHAR" size="64" required="false" />
+    <column name="tertiary_subject" phpName="TertiarySubject" type="VARCHAR" size="64" required="false" />
+    <column name="heresy" phpName="Heresy" type="BOOLEAN" required="true" defaultValue="" />
+    <column name="quantity" phpName="Quantity" type="INTEGER" required="false" />
+    <column name="dewey_number" phpName="DeweyNumber" type="VARCHAR" size="32" required="true" />
+    <column name="observations" phpName="Observations" type="VARCHAR" size="512" required="false" />
+  </table>
+
+  <table name="curso">
+    <column name="id" phpName="Id" type="INTEGER" primaryKey="true" autoIncrement="true" required="true" />
+    <column name="id_materia" phpName="IdMateria" type="INTEGER" required="true" />
+    <column name="id_profesor" phpName="IdProfesor" type="INTEGER" required="true" />
+    <column name="id_salon" phpName="IdSalon" type="INTEGER" required="true" />
+    <column name="id_periodo" phpName="IdPeriodo" type="INTEGER" required="true" />
+    <column name="hora_inicio" phpName="HoraInicio" type="TIME" required="true" />
+    <column name="hora_final" phpName="HoraFinal" type="TIME" required="true" />
+    <column name="anno" phpName="Anno" type="VARCHAR" size="4" required="true" />
+    <column name="estado" phpName="Estado" type="BOOLEAN" required="true" defaultValue="1" />
+  </table>
+
+  <table name="decimal">
+    <column name="id" phpName="Id" type="INTEGER" primaryKey="true" autoIncrement="true" required="true" />
+    <column name="id_entero" phpName="IdEntero" type="INTEGER" required="true" />
+    <foreign-key foreignTable="entero" onDelete="RESTRICT" onUpdate="CASCADE">
+      <reference local="id_entero" foreign="id" />
+    </foreign-key>
+    <column name="numero" phpName="Numero" type="INTEGER" required="true" />
+    <column name="nombre" phpName="Nombre" type="VARCHAR" size="128" required="true" />
+    <column name="descripcion" phpName="Descripcion" type="VARCHAR" size="512" required="false" />
+  </table>
+
+  <table name="decimalen">
+    <column name="id" phpName="Id" type="INTEGER" primaryKey="true" autoIncrement="true" required="true" />
+    <column name="id_integer" phpName="IdInteger" type="INTEGER" required="true" />
+    <foreign-key foreignTable="integer" onDelete="RESTRICT" onUpdate="CASCADE">
+      <reference local="id_integer" foreign="id" />
+    </foreign-key>
+    <column name="number" phpName="Number" type="INTEGER" required="true" />
+    <column name="name" phpName="Name" type="VARCHAR" size="128" required="true" />
+    <column name="description" phpName="Description" type="VARCHAR" size="512" required="false" />
+    <unique name="decimalen_idx1">
+      <unique-column name="number" />
+      <unique-column name="name" />
+    </unique>
+  </table>
+
+  <table name="entero">
+    <column name="id" phpName="Id" type="INTEGER" primaryKey="true" autoIncrement="true" required="true" />
+    <column name="numero" phpName="Numero" type="INTEGER" required="true" />
+    <column name="nombre" phpName="Nombre" type="VARCHAR" size="128" required="true" />
+    <column name="descripcion" phpName="Descripcion" type="VARCHAR" size="512" required="false" />
+  </table>
+
+  <table name="integer">
+    <column name="id" phpName="Id" type="INTEGER" primaryKey="true" autoIncrement="true" required="true" />
+    <column name="number" phpName="Number" type="INTEGER" required="true" />
+    <column name="name" phpName="Name" type="VARCHAR" size="128" required="true" />
+    <column name="description" phpName="Description" type="VARCHAR" size="512" required="false" />
+  </table>
+
+  <table name="libro">
+    <column name="id" phpName="Id" type="INTEGER" primaryKey="true" autoIncrement="true" required="true" />
+    <column name="id_decimal" phpName="IdDecimal" type="INTEGER" required="true" />
+    <foreign-key foreignTable="decimal" onDelete="RESTRICT" onUpdate="CASCADE">
+      <reference local="id_decimal" foreign="id" />
+    </foreign-key>
+    <column name="titulo" phpName="Titulo" type="VARCHAR" size="512" required="true" />
+    <column name="nombreautor" phpName="Nombreautor" type="VARCHAR" size="128" required="true" />
+    <column name="apaterno_autor" phpName="ApaternoAutor" type="VARCHAR" size="64" required="false" />
+    <column name="amaterno_autor" phpName="AmaternoAutor" type="VARCHAR" size="64" required="false" />
+    <column name="ano_publicacion" phpName="AnoPublicacion" type="VARCHAR" size="4" required="false" />
+    <column name="editorial" phpName="Editorial" type="VARCHAR" size="128" required="false" />
+    <column name="tomo" phpName="Tomo" type="VARCHAR" size="2" required="false" />
+    <column name="isbn" phpName="Isbn" type="VARCHAR" size="32" required="false" />
+    <column name="tema_primario" phpName="TemaPrimario" type="VARCHAR" size="64" required="false" />
+    <column name="tema_secuandario" phpName="TemaSecuandario" type="VARCHAR" size="64" required="false" />
+    <column name="tema_terciario" phpName="TemaTerciario" type="VARCHAR" size="64" required="false" />
+    <column name="herejia" phpName="Herejia" type="BOOLEAN" required="true" defaultValue="" />
+    <column name="cantidad" phpName="Cantidad" type="INTEGER" required="false" />
+    <column name="numero_dewey" phpName="NumeroDewey" type="VARCHAR" size="32" required="true" />
+    <column name="observaciones" phpName="Observaciones" type="VARCHAR" size="512" required="false" />
+  </table>
+
+  <table name="lista">
+    <column name="id" phpName="Id" type="INTEGER" primaryKey="true" autoIncrement="true" required="true" />
+  </table>
+
+  <table name="profesor">
+    <column name="id" phpName="Id" type="INTEGER" primaryKey="true" autoIncrement="true" required="true" />
+    <column name="rfc" phpName="Rfc" type="VARCHAR" size="15" required="true" />
+    <column name="nombre" phpName="Nombre" type="VARCHAR" size="64" required="true" />
+    <column name="a_paterno" phpName="APaterno" type="VARCHAR" size="64" required="true" />
+    <column name="a_materno" phpName="AMaterno" type="VARCHAR" size="64" required="true" />
+    <column name="direccion" phpName="Direccion" type="VARCHAR" size="64" required="true" />
+    <column name="colonia" phpName="Colonia" type="VARCHAR" size="64" required="true" />
+    <column name="ciudad" phpName="Ciudad" type="VARCHAR" size="64" required="true" />
+    <column name="estado" phpName="Estado" type="VARCHAR" size="64" required="true" />
+    <column name="cp" phpName="Cp" type="VARCHAR" size="5" required="true" />
+    <column name="sexo" phpName="Sexo" type="VARCHAR" size="9" required="true" />
+    <column name="telefono" phpName="Telefono" type="VARCHAR" size="12" required="false" />
+    <column name="celular" phpName="Celular" type="VARCHAR" size="12" required="false" />
+    <column name="email" phpName="Email" type="VARCHAR" size="128" required="true" />
+    <column name="foto" phpName="Foto" type="VARCHAR" size="256" required="false" />
+    <column name="activo" phpName="Activo" type="BOOLEAN" required="true" defaultValue="1" />
+    <column name="observaciones" phpName="Observaciones" type="LONGVARCHAR" required="false" />
+  </table>
+
+  <table name="wk_book">
+    <column name="id" phpName="Id" type="INTEGER" primaryKey="true" autoIncrement="true" required="true" />
+    <column name="id_decimal" phpName="IdDecimal" type="INTEGER" required="true" />
+    <foreign-key foreignTable="decimalen" onDelete="RESTRICT" onUpdate="CASCADE">
+      <reference local="id_decimal" foreign="id" />
+    </foreign-key>
+    <column name="title" phpName="Title" type="VARCHAR" size="512" required="true" />
+    <column name="author_firstname" phpName="AuthorFirstname" type="VARCHAR" size="128" required="true" />
+    <column name="author_lastname" phpName="AuthorLastname" type="VARCHAR" size="64" required="false" />
+    <column name="year" phpName="Year" type="VARCHAR" size="4" required="false" />
+    <column name="publishing_house" phpName="PublishingHouse" type="VARCHAR" size="128" required="false" />
+    <column name="isbn" phpName="Isbn" type="VARCHAR" size="32" required="false" />
+    <column name="volume" phpName="Volume" type="VARCHAR" size="2" required="false" />
+    <column name="primary_subject" phpName="PrimarySubject" type="VARCHAR" size="64" required="false" />
+    <column name="secondary_subject" phpName="SecondarySubject" type="VARCHAR" size="64" required="false" />
+    <column name="tertiary_subject" phpName="TertiarySubject" type="VARCHAR" size="64" required="false" />
+    <column name="heresy" phpName="Heresy" type="BOOLEAN" required="true" defaultValue="" />
+    <column name="quantity" phpName="Quantity" type="INTEGER" required="false" />
+    <column name="dewey_number" phpName="DeweyNumber" type="VARCHAR" size="32" required="true" />
+    <column name="observations" phpName="Observations" type="VARCHAR" size="512" required="false" />
+  </table>
+
+</database>

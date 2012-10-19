@@ -43,7 +43,7 @@ class Book extends BaseBook {
 			return sprintf("00%s.%s %s %s",$integer->getNumber(), $decimal->getNumber(), $integer->getName(), $decimal->getName());
 		elseif ($integer->getNumber()<100)
 			return sprintf("0%s.%s %s %s",$integer->getNumber(), $decimal->getNumber(), $integer->getName(), $decimal->getName());
-		elseif($integer->getNumber()<100)
+		elseif($integer->getNumber()<1000)
 			return sprintf("%s.%s %s %s",$integer->getNumber(), $decimal->getNumber(), $integer->getName(), $decimal->getName());
 
 	}	

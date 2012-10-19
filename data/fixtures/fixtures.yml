@@ -1,36 +1,3 @@
-sfGuardGroup:
-  sfGuardGroup_1:
-    name: administrador
-    description: "Administrador del sistema.\r\nLa mayoría de los menus."
-  sfGuardGroup_2:
-    name: bibliotecario
-    description: 'Administrara la Biblioteca'
-  sfGuardGroup_3:
-    name: becabiblioteca
-    description: 'Administrara solo el catalogo de las tres Bibliotecas.'
-  sfGuardGroup_4:
-    name: admin
-    description: MaximaAutoridad
-sfGuardPermission:
-  sfGuardPermission_1:
-    name: administrador
-    description: "administrador	 Administrador del sistema. La mayoría de los menus.\r\n\r\n"
-  sfGuardPermission_2:
-    name: bibliotecario
-    description: 'Administrara las Bibliotecas de IPE'
-  sfGuardPermission_3:
-    name: becabiblioteca
-    description: "Administrara solo el catalogo de las tres Bibliotecas.	\r\n"
-  sfGuardPermission_4:
-    name: admin
-    description: 'Maxima autoridad'
-sfGuardGroupPermission:
-  sfGuardGroupPermission_1_1:
-    group_id: sfGuardGroup_1
-    permission_id: sfGuardPermission_1
-  sfGuardGroupPermission_4_4:
-    group_id: sfGuardGroup_4
-    permission_id: sfGuardPermission_4
 sfGuardUser:
   sfGuardUser_4:
     username: eunice
@@ -101,6 +68,43 @@ sfGuardUser:
     last_login: '2012-10-17 03:19:43'
     is_active: true
     is_super_admin: false
+
+sfGuardPermission:
+  sfGuardPermission_1:
+    name: administrador
+    description: "administrador  Administrador del sistema. La mayoría de los menus.\r\n\r\n"
+  sfGuardPermission_2:
+    name: bibliotecario
+    description: 'Administrara las Bibliotecas de IPE'
+  sfGuardPermission_3:
+    name: becabiblioteca
+    description: "Administrara solo el catalogo de las tres Bibliotecas.  \r\n"
+  sfGuardPermission_4:
+    name: admin
+    description: 'Maxima autoridad'
+
+sfGuardGroup:
+  sfGuardGroup_1:
+    name: administrador
+    description: "Administrador del sistema.\r\nLa mayoría de los menus."
+  sfGuardGroup_2:
+    name: bibliotecario
+    description: 'Administrara la Biblioteca'
+  sfGuardGroup_3:
+    name: becabiblioteca
+    description: 'Administrara solo el catalogo de las tres Bibliotecas.'
+  sfGuardGroup_4:
+    name: admin
+    description: MaximaAutoridad
+
+sfGuardGroupPermission:
+  sfGuardGroupPermission_1_1:
+    group_id: sfGuardGroup_1
+    permission_id: sfGuardPermission_1
+  sfGuardGroupPermission_4_4:
+    group_id: sfGuardGroup_4
+    permission_id: sfGuardPermission_4
+
 sfGuardUserGroup:
   sfGuardUserGroup_2_1:
     user_id: sfGuardUser_2
@@ -126,6 +130,7 @@ sfGuardUserGroup:
   sfGuardUserGroup_8_2:
     user_id: sfGuardUser_8
     group_id: sfGuardGroup_2
+
 sfGuardUserPermission:
   sfGuardUserPermission_2_1:
     user_id: sfGuardUser_2
