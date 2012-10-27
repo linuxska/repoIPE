@@ -23,7 +23,7 @@ class Decimal extends BaseDecimal {
         return sprintf("00%s.%s %s -> %s", $this->getEntero()->getNumero(), $this->getNumero(), $this->getEntero()->getNombre(), $this->getNombre());
     	else if ($this->getEntero()->getNombre()<100)
     	return sprintf("0%s.%s %s -> %s", $this->getEntero()->getNumero(), $this->getNumero(), $this->getEntero()->getNombre(), $this->getNombre());
-    	else
+    	else if ($this->getEntero()->getNombre()<1000)
     	return sprintf("%s.%s %s -> %s", $this->getEntero()->getNumero(), $this->getNumero(), $this->getEntero()->getNombre(), $this->getNombre());	
     }
 

@@ -41,7 +41,7 @@ class Libro extends BaseLibro {
 			return sprintf("00%s.%s %s %s",$entero->getNumero(), $decimal->getNumero(), $entero->getNombre(), $decimal->getNombre());
 		elseif ($entero->getNumero()<100)
 			return sprintf("0%s.%s %s %s",$entero->getNumero(), $decimal->getNumero(), $entero->getNombre(), $decimal->getNombre());
-		elseif($entero->getNumero()<100)
+		elseif($entero->getNumero()<1000)
 			return sprintf("%s.%s %s %s",$entero->getNumero(), $decimal->getNumero(), $entero->getNombre(), $decimal->getNombre());
 
 	}	
