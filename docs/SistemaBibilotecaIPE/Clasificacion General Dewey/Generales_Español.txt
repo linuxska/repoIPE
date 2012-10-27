@@ -1,0 +1,540 @@
+111 Ontología 
+113 Cosmología Filosofía de la naturaleza 
+121 Epistemología Teoría del conocimiento 
+123 Determinismo e indeterminismo 
+128 Género humano 
+133 Parapsicología y ocultismo 
+135 Sueños y misterios 
+141 Idealismo, sistemas y doctrinas relacionados 
+142 Filosofía crítica 
+144 Humanismo y sistemas y doctrinas relacionados 
+146 Naturalismo y sistemas y doctrinas relacionados 
+147 Panteísmo y sistemas y doctrinas relacionados 
+149 Otros sistemas y doctrinas filosóficos 
+150 Psicología 
+152 Percepción sensorial, movimiento, emociones, impulsos fisiológicos 
+153 Procesos mentales conscientes e inteligencia 
+154 Subconsciente y estados y procesos alterados 
+155 Psicología diferencial y del desarrollo 
+156 Psicología comparada 
+158 Psicología aplicada 
+170 Ética Filosofía moral 
+171 Sistemas éticos 
+172 Ética política 
+174 Ética ocupacional 
+176 Ética del sexo y de la reproducción 
+177 Ética de las relaciones sociales 
+178 Ética del consumo 
+179 Otras normas éticas 
+180 Filosofía antigua, medieval, oriental 
+181 Filosofía oriental 
+182 Filosofías griegas presocráticas 
+183 Filosofías sofista, socrática, griegas relacionadas 
+186 Filosofía escéptica y neoplatónica 
+189 Filosofía medieval occidental 
+196 España y Portugal 
+198 Escandinavia 
+200 Religión 
+210 Filosofía y teoría de la religión 
+211 Concepto de Dios 
+212 Existencia, sapiencia, atributos de Dios 
+214 Teodicea 
+215 Ciencia y religión 
+220 Generalidades 
+220 Textos, versiones, traducciones 
+221 Antiguo Testamento Tanakh 
+222 Libros históricos del Antiguo Testamento 
+223 Libros poéticos del Antiguo Testamento 
+224 Libros proféticos del Antiguo Testamento 
+225 Nuevo Testamento 
+226 Evangelios y Hechos de los Apóstoles 
+226 Evangelios específicos 
+227 Epístolas 
+229 Apócrifos, seudoepígrafes, obras intertestamentarias 
+229 Seudoepígrafes, obras intertestamentarias 
+230 Cristianismo. Teología cristiana 
+231 Dios 
+232 Jesucristo y su familia. Cristología 
+233 Género humano 
+234 Salvación Soteriología y gracia 
+235 Seres espirituales 
+236 Escatología
+238 Credos, confesiones de fe, alianzas, catecismos 
+239 Apologética y polémicas 
+241 Teología moral 
+242 Literatura piadosa 
+243 Escritos evangelizadores para individuos y familias 
+245 Textos de himnos para uso piadoso de individuos y familias 
+246 Uso del arte en el Cristianismo 
+247 Mobiliario eclesiástico y artículos relacionados 
+248 Experiencia, práctica, vida cristianas 
+249 Observancias cristianas en la vida familiar 
+250 Iglesia cristiana local y órdenes religiosas cristianas 
+251 Predicación Homilética 
+252 Textos de sermones 
+253 Oficio y trabajo pastorales Teología pastoral 
+254 Administración de la parroquia 
+255 Congregaciones y órdenes religiosas 75
+259 Atención pastoral de familias, de clases específicas de personas 
+260 Teología social y eclesiástica cristiana 
+261 Teología social y relaciones y actitudes interreligiosas 
+262 Eclesiología 
+263 Días, épocas, lugares de observancia religiosa 
+264 Culto público 
+265 Sacramentos, otros ritos y actos 
+266 Misiones 
+267 Asociaciones para trabajo religioso 
+268 Educación religiosa 
+269 Renovación espiritual 
+270 Tratamiento histórico, geográfico, de personas del cristianismo. Historia 
+271 Congregaciones y órdenes religiosas en la historia de la iglesia 
+272 Persecuciones en la historia general de la iglesia 
+273 Controversias y herejías doctrinales en la historia general de la iglesia 
+280 Confesiones y sectas de la iglesia cristiana 
+281 Iglesia temprana e iglesias orientales 
+282 Iglesia Católica Romana 
+283 Iglesias anglicanas 
+284 Confesiones protestantes de origen continental y agrupaciones relacionadas 
+285 Iglesias presbiterianas, iglesias reformadas con sede en América, iglesias 
+286 Iglesias bautistas, de los Discípulos de Cristo, adventistas 
+287 Iglesias metodistas; iglesias relacionadas con el metodismo 
+289 Otras confesiones y sectas 
+291 Religión comparada 
+292 Religión clásica griega y romana 90
+294 Religiones de origen índico 
+296 Judaísmo 
+297 Islamismo, babismo, fe bahai 
+299 Otras religiones 
+301 Sociología y antropología 
+302 Interacción social 
+303 Procesos sociales
+304 Factores que afectan el comportamiento social 
+305 Grupos sociales 
+306 Cultura e instituciones 
+307 Comunidades 
+320 Ciencia política Política y gobierno 
+321 Sistemas de gobiernos y de estados 
+321 Sistemas de gobierno definidos según fuente o ejercicio de autoridad 
+322 Relación del estado con grupos organizados y sus miembros 
+323 Derechos civiles y políticos 
+324 El proceso político 
+325 Migración y colonización internacionales 
+326 Esclavitud y emancipación 
+327 Relaciones internacionales 
+328 El proceso legislativo 105
+330 Economía 
+331 Economía laboral 
+331 Fuerza laboral según características personales 
+332 Economía financiera 
+333 Economía de la tierra y de la energía 
+334 Cooperativas 
+335 Socialismo y sistemas relacionados 
+336 Finanzas públicas 
+337 Economía internacional 
+338 Producción 
+339 Macroeconomía y temas relacionados 
+340 Derecho 
+341 Derecho internacional 
+342 Derecho constitucional y administrativo  
+343 Derecho militar, de defensa, de bienes públicos, de finanzas públicas, tributario, 
+344 Derecho laboral, de servicio social, educativo, cultural 
+345 Derecho penal 
+346 Derecho privado 
+347 Procedimiento y tribunales civiles 
+348 Leyes Estatutos, reglamentaciones, jurisprudencia 
+349 Derecho de jurisdicciones, áreas, regiones socioeconómicas específicas 
+351 Administración pública 
+352 Consideraciones generales sobre administración pública 
+353 Campos específicos de la administración pública 
+354 Administración pública de la economía y del medio ambiente 
+355 Ciencia militar 
+356 Fuerzas y combate de infantería 
+357 Fuerzas y combate montados 
+358 Fuerzas y combate aéreas y otras fuerzas especializadas; ingeniería y servicios 
+359 Fuerzas y combate marítimos navales 
+361 Problemas sociales y bienestar social en general 
+362 Problemas y servicios de bienestar social 
+363 Otros problemas y servicios sociales 
+364 Criminología 
+365 Instituciones penales y relacionadas 
+366 Asociaciones 
+367 Clubes de carácter general 
+368 Seguros 
+369 Clases varias de asociaciones 
+370 Educación 
+371 Escuelas y sus actividades; educación especial 
+372 Educación primaria 
+373 Educación secundaria 
+374 Educación de adultos 
+378 Educación superior 
+379 Asuntos de política pública en educación 139
+380 Comercio, comunicaciones, transporte 
+381 Comercio interno Comercio doméstico 
+382 Comercio internacional Comercio exterior 
+383 Comunicaciones y transporte 
+384 Comunicaciones. Telecomunicación 
+385 Transporte ferroviario 
+386 Transporte por vía acuática interior y en transbordador 
+387 Transporte acuático, aéreo, espacial 
+388 Transporte. Transporte terrestre 
+389 Metrología y estandarización 
+390 Costumbres, etiqueta, folclor 145
+391 Costumbres 
+392 Costumbres del ciclo de vida y de la vida doméstica 
+393 Costumbres mortuorias 
+394 Costumbres generales 
+395 Etiqueta Modales 
+398 Folclor 
+401 Filosofía y teoría 
+402 Miscelánea 
+404 Temas especiales 
+408 Tratamiento de la lengua en relación con clases de personas 
+410 Lingüística 
+411 Sistemas de escritura 
+413 Diccionarios 
+414 Fonología y fonética 
+417 Dialectología y lingüística histórica diacrónica 
+418 Uso estándar Lingüística prescriptita Lingüística aplicada 
+421 Sistema de escritura, fonología, fonética del inglés estándar 
+427 Variaciones históricas y geográficas, variaciones modernas no geográficas 
+437 Variaciones históricas y geográficas, variaciones modernas no geográficas 
+439 Otras lenguas germánicas teutónicas 152
+447 Variaciones históricas y geográficas, variaciones modernas no geográficas 
+449 Provenzal Langue d’oc francoprovenzal, catalán 
+457 Variaciones históricas y geográficas, variaciones modernas no geográficas 
+459 Rumano y retorromano 
+467 Variaciones históricas y geográficas, variaciones modernas no geográficas 
+469 Portugués
+479 Otras lenguas itálicas 
+480 Lenguas helénicas. Griego clásico 
+487 Griego preclásico y postclásico 
+489 Otras lenguas helénicas 155
+491 Lenguas indoeuropeas orientales y célticas 
+492 Lenguas afroasiáticas Camitosemíticas Lenguas semíticas 
+495 Lenguas del Asia oriental y sudoriental. Lenguas chinotibetanas 
+496 Lenguas africanas 
+500 Ciencias naturales y matemáticas 
+502 Miscelánea 
+507 Educación, investigación, temas relacionados 
+508 Historia natural 
+511 Principios generales de las matemáticas 
+512 Álgebra, teoría de los números 
+513 Aritmética 
+514 Topología 
+515 Análisis 
+516 Geometría 
+519 Probabilidades y matemáticas aplicadas 
+521 Mecánica celeste 
+522 Técnicas, procedimientos, aparatos, equipo, materiales 
+523 Cuerpos y fenómenos celestes específicos 
+525 La tierra Geografía astronómica 
+526 Geografía matemática 
+527 Navegación celeste 
+528 Efemérides 
+529 Cronología 
+530 Física 
+531 Mecánica clásica. Mecánica de sólidos 
+532 Mecánica de fluidos. Mecánica de líquidos 
+533 Neumática Mecánica de gases 
+534 Sonido y vibraciones relacionadas 
+535 Luz y fenómenos parafóticos 
+536 Calor 
+537 Electricidad y electrónica 
+538 Magnetismo 
+539 Física moderna 
+540 Química y ciencias afines 
+542 Técnicas, procedimientos, aparatos, equipos, materiales 
+544 Análisis cualitativo 
+545 Análisis cuantitativo 176
+546 Química inorgánica 
+547 Química orgánica 
+548 Cristalografía 
+549 Mineralogía 
+550 Ciencias de la tierra 
+551 Geología, hidrología, meteorología 
+552 Petrología 182
+553 Geología económica 
+560 Paleontología. Paleozoología 
+561 Paleobotánica; microorganismos, hongos, algas fósiles 
+562 Invertebrados fósiles 
+563 Invertebrados fósiles varios marinos y del litoral 
+564 Mollusca Moluscos y Molluscoidea Moluscoideos fósiles 
+565 Arthropoda Artrópodos fósiles 
+567 Vertebrados fósiles de sangre fría. Pisces Peces fósiles 
+568 Aves Pájaros fósiles 
+569 Mammalia Mamíferos fósiles 
+570 Ciencias de la vida. Biología 
+571 Fisiología y temas relacionados 
+572 Bioquímica 
+573 Sistemas fisiológicos específicos en animales, histología y fisiología regionales 
+575 Partes específicas de y sistemas fisiológicos en plantas 
+576 Genética y evolución 
+577 Ecología 
+578 Historia natural de los organismos y temas relacionados 
+579 Microorganismos, hongos, algas 
+580 Plantas 
+581 Temás específicos es historia natural de las plantas 
+582 Plantas destacadas por características vegetativas y flores específicas 
+583 Magnoliopsida Dicotiledóneas 
+584 Liliopsida Monocotiledóneas 
+585 Pinophyta Gimnospermas Confiérales Coníferas 
+587 Pteridophyta Pteridofitas, Plantas vasculares sin semillas 
+588 Briophyta Briofitas 
+589 Thallobionta
+590 Animales 
+591 Temas específicos en historia natural de los animales 
+592 Grupos taxonómicos específicos de animales 
+593 Invertebrados varios marinos y del litoral 
+594 Mollusca Moluscos y Molluscoidea Moluscoideos 
+595 Arthropoda Artrópodos 
+596 Chordata Cordados 
+597 Vertebrados de sangre fría. Pises Peces 
+598 Aves Pájaros
+599 Mammalia Mamíferos 
+602 Miscelánea 
+604 Dibujo técnico, tecnología de materiales peligrosos, historia y descripción en 
+607 Educación, investigación, temas relacionados 
+608 Invenciones y patentes 
+610 Ciencias médicas. Medicina
+611 Anatomía humana, citología biología celular, histología biología tisular 
+612 Fisiología humana 
+613 Promoción de la salud 
+614 Medicina forense, incidencia de enfermedades, medicina preventiva pública 
+615 Farmacología y terapéutica 
+616 Enfermedades 
+617 Ramas varias de la medicina. Cirugía 
+618 Otras ramas de la medicina. Ginecología y obstetricia 
+619 Medicina experimental 
+620 Ingeniería y operaciones afines 222
+621 Física aplicada 
+622 Minería y operaciones relacionadas 
+623 Ingeniería militar y náutica 
+624 Ingeniería civil 
+625 Ingeniería de ferrocarriles y de carreteras 
+627 Ingeniería hidráulica 
+628 Ingeniería sanitaria y municipal. Ingeniería de la protección del medio ambiente 
+629 Otras ramas de la ingeniería 
+630 Agricultura y tecnologías relacionadas 
+631 Técnicas específicas; aparatos, equipo, materiales 
+632 Lesiones, enfermedades, plagas vegetales 
+633 Cultivos de campo y de plantación 
+634 Huertos, frutas, silvicultura 
+635 Cultivos hortícolas Horticultura Hortalizas 
+636 Producción animal Zootecnia 
+637 Procesamiento lechero y productos relacionados 
+638 Cultivo de insectos 
+639 Caza, pesca, conservación, tecnologías relacionadas 
+640 Economía doméstica y vida familiar 
+641 Alimentos y bebidas 
+642 Comidas y servicio a la mesa 
+643 Vivienda y equipo de la casa 
+644 Servicios de la casa 
+645 Dotaciones de la casa 
+646 Costura, vestuario, manejo de la vida personal y familiar 
+647 Gerencia de viviendas públicas Manejo de vivienda institucional 
+648 Cuidado de la casa 
+649 Crianza de niños; atención domiciliaria de personas con enfermedades y 
+650 Gerencia y servicios auxiliares 
+651 Servicios de oficina 
+652 Procesos de comunicación escrita 
+653 Taquigrafía 
+657 Contabilidad 
+658 Gerencia general 
+659 Publicidad y relaciones públicas 
+660 Ingeniería química y tecnologías relacionadas 
+661 Tecnología de químicos industriales 
+662 Tecnología de explosivos, combustibles, productos relacionados 
+663 Tecnología de bebidas 
+664 Tecnología de alimentos 
+665 Tecnología de aceites, grasas, ceras, gases industriales 
+666 Cerámica y tecnología afines 
+667 Limpieza, color, revestimiento, tecnologías relacionadas 
+668 Tecnología de otros productos orgánicos 
+669 Metalurgia 
+670 Manufactura 
+671 Procesos de metalistería y productos metálicos primarios 
+673 Metales no ferrosos 
+674 Procesamiento de madera aserrada, productos de madera, corcho 
+675 Procesamiento del cuero y de la piel 
+676 Tecnología de la pulpa y del papel 
+677 Textiles 
+678 Elastómeros y productos elastoméricos 
+679 Otros productos de clases específicas de materiales 
+681 Instrumentos de precisión y otros dispositivos 
+682 Trabajos de forja pequeña Herrería 
+683 Ferretería y aparatos de la casa 
+684 Muebles y talleres de hogar 
+685 Artículos de cuero y de piel, y productos relacionados 
+686 Imprenta y actividades relacionadas 
+687 Vestuario y accesorios 
+688 Otros productos acabados, y tecnología de empaque 
+690 Construcción 
+691 Materiales de construcción 
+692 Prácticas auxiliares de construcción 
+693 Construcción en tipos específicos de materiales y para propósitos específicos 
+694 Construcción en madera. Carpintería 271
+696 Servicios públicos 
+697 Ingeniería de calefacción, de ventilación, de aire acondicionado 
+698 Acabado detallado 
+700 Las artes. Bellas artes y artes decorativas 
+701 Filosofía y teoría de las bellas artes y artes decorativas 
+702 Miscelánea de las bellas artes y artes decorativas 
+704 Temas especiales en las bellas artes y artes decorativas. Historia y descripción en 
+707 Educación, investigación, temas relacionados con las bellas artes y artes decorativas 
+708 Galerías, museos, colecciones privadas de las bellas artes y artes decorativas 
+709 Tratamiento histórico, geográfico, de personas de las bellas artes y artes decorativas 274
+711 Planificación del espacio Urbanismo 
+712 Arquitectura paisajística Diseño paisajístico 
+715 Plantas leñosas en arquitectura paisajística 
+718 Diseño paisajístico de cementerios 
+719 Paisajes naturales 
+720 Arquitectura 
+721 Estructura arquitectónica 
+722 Arquitectura desde el período más antiguo hasta ca. 300 
+723 Arquitectura desde ca. 300 hasta 1399 
+724 Arquitectura desde 1400 
+725 Estructuras públicas 
+726 Edificios para propósitos religiosos y relacionados 
+727 Edificios para propósitos educativos e investigativos 
+728 Edificios residenciales y relacionados 
+729 Diseño y decoración de estructuras y accesorios 
+730 Artes plásticas. Escultura 
+731 Procesos, formas, temas de la escultura 
+732 Escultura desde el período más antiguo hasta ca. 500, escultura de pueblos iletrados 
+733 Escultura griega, etrusca, romana 
+734 Escultura desde ca. 500 hasta 1399 284
+735 Escultura desde 1400 
+736 Talla y tallados 
+737 Numismática y sigilografía 
+738 Artes cerámicas 
+739 Metalísteria artística 
+741 Dibujo y dibujos 
+743 Dibujo y dibujos por tema 
+745 Artes decorativas 288
+746 Artes textiles 
+747 Decoración de interiores 
+748 Vidrio 
+749 Muebles y accesorios 
+750 Pintura y pinturas 
+751 Técnicas, procedimientos, aparatos, equipo, materiales, formas 
+753 Simbolismo, alegoría, mitología, leyenda 
+757 Figuras humanas 
+758 Otros temas 
+759 Tratamiento histórico, geográfico, de personas 
+760 Artes gráficas. Arte de grabar y grabados 
+761 Procesos en relieve Impresión de planchas de madera 
+763 Procesos litográficos planográficos 
+764 Cromolitografía y serigrafía 
+765 Grabado en metal 
+766 Media tinta, aguatinta, procesos relacionados 
+767 Aguafuerte y grabado a punta seca 
+769 Grabados 
+770 Fotografía y fotografías 
+771 Técnicas, procedimientos, aparatos, equipo, materiales 
+772 Procesos con sales metálicas 
+773 Procesos de pigmentación de la impresión 
+778 Campos específicos y clases especiales de fotografía; cinematografía y producción de 
+780 Música 
+781 Principios generales y formas musicales 
+782 Música vocal 300
+783 Música para voces individuales. La voz 
+784 Instrumento y conjuntos instrumentales y su música 
+785 Conjuntos con un solo instrumento por parte 
+786 Instrumentos de teclado, mecánicos, electrofónicos, de percusión 
+787 Instrumentos de cuerda Cordófonos Instrumentos de cuerda de arco 
+788 Instrumentos de viento Aerófonos 
+789 Compositores y tradiciones de la música 
+790 Artes recreativas y de la actuación 
+791 Representaciones públicas 
+792 Presentaciones escénicas 
+793 Juegos y diversiones bajo techo 
+794 Juegos de destreza bajo techo 
+795 Juegos de suerte 311
+796 Deportes y juegos atléticos y al aire libre 
+797 Deportes acuáticos y aéreos 313
+798 Deportes ecuestres y carreras de animales 
+799 Pesca, caza, tiro 314
+801 Filosofía y teoría 
+808 Retórica y colección de textos literarios de más de dos literaturas 
+809 Historia, descripción, evaluación crítica de más de dos literaturas 
+810 Literatura norteamericana en inglés 316
+819 Literaturas norteamericanas en inglés que no requieren énfasis local 
+822 Teatro inglés 
+828 Escritos varios ingleses 
+829 Literatura inglesa antigua anglosajona 
+830 Literaturas de las lenguas germánicas teutónicas. Literatura alemana 
+839 Otras literaturas germánicas teutónicas 
+840 Literaturas de las lenguas romances. Literatura francesa 
+848 Escritos varios franceses 
+849 Literaturas provenzal langue d’oc, francoprovenzal, catalana 
+850 Literaturas de las lenguas italiana, sarda, dalmática, rumana, 
+859 Literaturas rumana y retorromana 
+860 Literatura de las lenguas española y portuguesa 
+870 Literaturas de las lenguas itálicas. Literatura latina
+879 Literaturas de otras lenguas itálicas 
+880 Literaturas de las lenguas helénicas. Literatura griega clásica 
+891 Literaturas indoeuropeas orientales y célticas 
+892 Literaturas afroasiáticas camitosemíticas Literaturas semíticas 
+894 Literaturas altaicas, urálicas, hiperbóreas, dravídicas 
+895 Literaturas del Asia oriental y sudoriental. Literaturas chinotibetanas 
+900 Geografía, historia y disciplinas auxiliares 
+902 Miscelánea de historia 
+904 Relatos colectivos de acontecimientos 
+907 Educación, investigación, temas relacionados con la historia 
+908 Historia en relación con clases de personas 
+909 Historia universal 
+910 Geografía y viajes 
+911 Geografía histórica 
+912 Representaciones gráficas de la superficie de la tierra y de los mundos extraterrestres 
+920 Biografía, genealogía, insignias 
+921 Filósofos y psicólogos 
+922 Líderes, pensadores, trabajadores religiosos 
+923 Personas en ciencias sociales 
+928 Personas en literatura, historia, biografía, genealogía 
+929 Genealogía, nombres, insignias 
+930 Historia del mundo antiguo; de continentes, países, localidades específicos; 
+936 Europa del norte y al occidente de la Península Itálica hasta ca. 499 
+939 Otras partes del mundo antiguo hasta ca. 640 
+940 Historia general de Europa. Europa occidental 
+941 Islas Británicas 
+943 Europa central. Alemania 
+944 Francia y Mónaco 
+945 Península Itálica e islas adyacentes. Italia 
+946 Península Ibérica e islas adyacentes. España 
+947 Europa oriental. Rusia 
+948 Escandinavia 
+949 Otras partes de Europa 
+950 Historia general de Asia. Oriente. Lejano Oriente 
+951 China y áreas adyacentes 
+953 Península de Arabia y áreas adyacentes 
+954 Asia del Sur. India 
+956 Oriente Medio Cercano Oriente 
+958 Asia central 
+959 Asia sudoriental 
+960 Historia general de África 
+961 Túnez y Libia 
+962 Egipto y Sudán 
+963 Etiopía y Eritrea 
+964 Costa noroccidental africana e islas cercanas. Marruecos 337
+965 Argelia 
+966 África occidental e islas cercanas 
+967 África central e islas cercanas 
+968 África del Sur. República de Sudáfrica 
+969 Islas del Océano Índico Sur 
+970 Historia general de América del Norte 
+971 Canadá 
+972 Mesoamérica América Media México 
+974 Nororiente de Estados Unidos Nueva Inglaterra y estados del Atlántico medio 
+975 Sudoriente de Estados Unidos Estados del Atlántico sur 
+976 Centro-sur de Estados Unidos. Estados de la Costa del Golfo 
+977 Centro-norte de Estados Unidos. Estados de los Grandes Lagos 
+978 Occidente de Estados Unidos 
+979 Región de la Gran Cuenca y de la Vertiente del Pacífico de los Estados Unidos
+980 Historia general de América del Sur 
+986 Colombia y Ecuador 
+988 Guayanas 
+989 Paraguay y Uruguay  
+995 Melanesia. Nueva Guinea 
+996 Otras Partes del Oceáno Pacífico. Polinesia 
+997 Islas del Océano Atlántico 
+998 Islas árticas y Antártida 

@@ -1,22 +1,40 @@
+000  Generalidades  
 001  Conocimiento 
+Incluye historia, descripción, evaluación crítica de la actividad intelectual en        
+general; incremento, modificación, diseminación de la información y del saber
+Clasifique aquí la discusión de ideas desde diversos campos 
 .1      Vida intelectual 
 .2      Saber y erudición 
 .3      Humanidades 
+Incluye el valor relativo de la ciencia frente a las humanidades 
 .4       Investigación; métodos  estadísticos 
+Clasifique aquí investigación evaluativa, obras que discuten qué es la investigación 
 .42   Métodos de investigación 
 .43  Métodos histórico, descriptivo, experimental 
 .44  Apoyo de e incentivos para la investigación 
 .9       Conocimiento controversial 
+Incluye el fin del mundo 
+Clasifique aquí obras interdisciplinarias sobre conocimiento controversial y fenómenos  
+paranormales 
 .94   Misterios 
 .95   Supercherías e imposturas 
 .96   Errores, engaños, supersticiones 
+002  El libro 
+Clasifique aquí bibliografía histórica, obras interdisciplinarias sobre el libro 
 003  Sistemas 
+Clasifique aquí investigación operativa; teoría, análisis, diseño, optimización de sistemas;       
+modelos simulación aplicados a sistemas del mundo real. 23
 .1       Identificación del sistema 
+Determinación de un modelo matemático para un sistema mediante la observación de sus 
+relaciones de entrada-salida 
 .2       Predicciones y pronósticos 
 .3       Modelos y simulación por computador
 .5       Teoría de la comunicación y control 
+Clasifique aquí cibernética, obras interdisciplinarias sobre el control y    
+estabilidad de los sistemas 
 .52   Teoría de la percepción 
 .54   Teoría de la información 
+Clasifique aquí teoría de la codificación 
 .56   Teoría de la decisión 
 .7       Clases de sistemas 
 .71  Sistemas a gran escala 
@@ -28,6 +46,11 @@
 .83  Sistemas de tiempo discreto 
 .85  Sistemas dinámicos 
 004  Procesamiento de datos. Ciencia de los computadores 
+Clasifique aquí selección y uso de equipos hardware de computador; computadores electrónicos; 
+computadores electrónicos digitales; sistemas de computadores computadores, sus dispositivos  
+periféricos, sus sistemas operativos; unidades centrales de procesamiento; confiabilidad del 
+computador, procesamiento interactivo, en línea; obras generales sobre equipos hardware y 
+programas de procesamiento electrónico de datos. 
 .1       Obras generales sobre tipos específicos de computadores 
 .11   Supercomputadores digitales 
 .12   Grandes computadores digitales Digital mainframe computers 
@@ -39,16 +62,23 @@
 .22   Arquitectura del computador 
 .24   Evaluación del desempeño 24
 .25   Análisis y diseño de sistemas, arquitectura del computador, evaluación del desempeño de 
+tipos específicos de computadores electrónicos 
 .3      Modalidades de procesamiento 
+Clasifique aquí computadores, procesadores, sistemas de computadores identificados por 
+sus modalidades de procesamiento; procesamiento centralizado 
 .32  Multiprogramación Multitareas 
 .33   Procesamiento en tiempo real 
 .35   Multiprocesamiento 
 .36   Procesamiento distribuido 
 .5       Almacenamiento 
+Incluye aspectos de equipo hardware de memoria virtual; obras generales sobre memoria 
+asociativa guiable por contenido y procesamiento asociativo 
 .53   Almacenamiento interno Memoria principal 
 .54   Memoria virtual 
 .56   Almacenamiento externo auxiliar 
 .6      Interfaces y comunicaciones 
+Equipo y técnicas para conectar computadores a dispositivos periféricos o a otros  
+computadores 
 .61   Interfaces y comunicaciones para tipos específicos de computadores electrónicos 
 .62   Protocolos normas para interfases y comunicaciones 
 .64  Clases de equipos hardware 
@@ -58,13 +88,20 @@
 .68  Redes locales Local-area networks 
 .69  Clases específicas de comunicaciones por computador 
 .7       Periféricos 
+Dispositivos de entrada, salida, almacenamiento que trabajan con un computador pero no 
+son parte de su unidad central de procesamiento o de su  almacenamiento interno 
 .71  Periféricos para computadores digitales 
 .75  Periféricos que combinan funciones de entrada y salida 
 .76  Periféricos de entrada 
 .77  Periféricos de salida 
 .9       Procesamiento no electrónico de datos 
+Automático y no automático 
+Incluye computadores analógicos no electrónicos 
 005  Programación, programas, datos de computador 25
+Clasifique aquí procesamiento de texto; confiabilidad, compatibilidad, transportabilidad,  
+reutilización, disponibilidad de software  
 .1       Programación 
+Clasifique aquí programación de la aplicación, ingeniería de software 
 .11  Técnicas especiales de programación 
 .12  Análisis y diseño de sistemas software 
 .13  Lenguajes de programación 
@@ -72,20 +109,27 @@
 .15  Preparación de la documentación del programa 
 .16  Mantenimiento del programa 
 .2       Programación para tipos específicos de computadores, para sistemas operativos específicos, 
+para interfaces específicas con el usuario 
 .21  Programación para supercomputadores digitales 
 .22  Programación para grandes computadores digitales mainframe computers 
 .24   Programación para minicomputadores digitales 
 .26  Programación para microcomputadores digitales 
 .27  Programación para modalidades de procesamiento 
 .28  Programación para sistemas operativos específicos y para interfaces específicas con el  
+usuario 
 .29  Programación para computadores híbridos 
 .3       Programas 
+Clasifique aquí programas de aplicación, hojas electrónicas de cálculo, programas  
+integrados, documentación del software, paquetes de software, obras generales  sobre  
+software y programas de soporte lógico inmodificable firmware, sobre aplicaciones y  
+programas de sistemas 
 .31   Programas para supercomputadores digitales 
 .32  Programas para grandes computadores digitales mainframe computers 
 .34   Programas para minicomputadores digitales 
 .36  Programas para microcomputadores digitales 
 .37  Programas para modalidades específicas de procesamiento 
 .38  Programas para sistemas operativos específicos y para interfaces específicas con el  
+usuario 
 .39  Programas para computadores híbridos y analógicos 
 .4       Programación y programas de sistemas 
 .42   Programación de sistemas 
@@ -93,13 +137,18 @@
 .44  Sistemas operativos para tipos específicos de computadores 
 .45   Traductores del lenguaje de programación 
 .6       Microprogramación y microprogramas 26
+Incluye programas de soporte lógico inmodificable firmware vistos como microprogramas, 
+desarrollo de programas de soporte lógico inmodificable firmware, lenguajes   
+microensambladores, microcódigo 
 .7       Datos en sistemas de computador 
 .71   Comunicaciones de datos  
+Clasifique aquí los drivers del dispositivo, la ejecución de interfaces 
 .72    Preparación y representación de datos, formatos de registro 
 .73   Estructura de datos 
 .74   Archivos de datos y bases de datos 
 .75   Tipos específicos de archivos de datos y  de bases de datos 
 .8       Seguridad de los datos 
+Clasifique aquí control de acceso 
 .82  Cifrado de datos Data encryption 
 .84  Virus de computador 
 .86  Copia de seguridad backup y recuperación de datos 
@@ -119,18 +168,24 @@
 .62  Equipos Hardware 
 .66  Programación 
 .67  Programación para tipos específicos de computadores, para sistemas operativos específicos, 
+para interfaces específicas con el usuario 
 .68  Programas 
 .69  Temas especiales de gráficos por computador  
 .7      Sistemas multimedio 27
 .72  Equipo Hardware 
 .76  Programación 
 .77  Programación para tipos específicos de computadores, para sistemas operativos, para  
+interfaces específicas con el usuario 
 .78  Programas 
+007-009 No asignado
 010  Bibliografía 
+Historia, identificación descripción de documentos impresos, manuscritos, audiovisuales,                                 
+legibles por máquina 
 .4       Temas especiales 
 .42   Bibliografía analítica descriptiva 
 .44   Bibliografía sistemática 
 011  Bibliografías 
+011.1-011.7 Bibliografías generales 
 .1       Bibliografías universales 
 .2       Bibliografías generales de obras publicadas en lenguas específicas 
 .3       Bibliografías generales de obras publicadas en formas específicas 
@@ -143,6 +198,7 @@
 .37   Medios visuales y audiovisuales 
 .38   Grabaciones sonoras  
 .4       Bibliografías generales de obras con características bibliográficas específicas diferentes de la                           
+forma 
 .42   Incunables 
 .44   Libros raros 
 .47   Separatas 
@@ -161,15 +217,27 @@
 .73  Los mejores libros 
 .75  Tesis y disertaciones académicas 
 .77  Programas de computador 
+012-016 Bibliografías y catálogos de individuos, de obras por categorías específicas de    
+autores, de obras anónimas y seudónimas, de obras de lugares específicos, de obras sobre 
+temas   específicos o en disciplinas específicas 
 012  Bibliografías y catálogos de individuos 
+Obras por o acerca de personas no claramente asociadas con un tema específico 
+Clasifique aquí biobibliografías 
 013  Bibliografías y catálogos de obras por categorías específicas de autores 
 .03-.87 Autores con características en común diferentes del lugar de residencia 
 .89  Autores que se ocupan de geografía, historia, disciplinas relacionadas 
 .9       Autores residentes en regiones, continentes, países, localidades específicos 
 014  Bibliografías y catálogos de obras anónimas y seudónimas 
 015  Bibliografías y catálogos de obras de lugares específicos 
+Clasifique aquí bibliografías y catálogos de tesis y disertaciones académicas para grados otorgados 
+en instituciones específicas y en instituciones en lugares específicos, catálogos de editores,     
+catálogos de ventas de imprentas universitarias y de colegios universitarios específicos 
 016  Bibliografías y catálogos de obras sobre temas específicos o en disciplinas específicas
+Clasifique bibliografías temáticas anotadas con anotaciones descriptivas que no dan         
+información significativa sobre el tema; índices 
 017-019 Catálogos generales 
+Clasifique aquí catálogos generales de publicaciones en serie y sus índices, catálogos  
+colectivos 
 017  Catálogos generales por materia29
 017.1-017.4 Catálogos clasificados 
 .1       Catálogos clasificados de bibliotecas no privadas 
@@ -187,7 +255,10 @@
 .62  Organizaciones no gubernamentales de carácter permanente 
 .7      Educación, investigación, temas relacionados 
 .9       Tratamiento histórico, geográfico, de personas 
+Clasifique aquí bibliotecología comparada; tratamiento histórico, geográfico, de personas de 
+la bibliotecología 
 021  Relaciones de bibliotecas, archivos, centros de información 
+Incluye su papel como centros de almacenamiento 
 .2       Relaciones con la comunidad 
 .24  Papel educativo 
 .26  Papel cultural 
@@ -197,10 +268,13 @@
 .64  Cooperación 
 .65  Redes, sistemas, consorcios 30
 .7       Promoción de bibliotecas, archivos, centros de información 
+Clasifique aquí relaciones públicas 
 .8       Relaciones con el gobierno 
 .82  Comisiones y juntas directivas 
 .83  Apoyo financiero 
 022  Administración de la planta física 
+Incluye sala de lectura y otras salas especiales, bibliotecas móviles 
+Clasifique aquí recintos de bibliotecas en edificios dedicados principalmente a otras actividades 
 .1       Localización y sede 
 .3       Edificios 
 .31  Edificios para clases específicas de instituciones 
@@ -215,9 +289,15 @@
 .4       Cargos administrativos 
 .7       Descripción del cargo 
 .8       Adiestramiento en servicio   
+Clasifique aquí cursos y programas internos 
 .9       Elementos de administración de personal 
+Incluye reclutamiento, selección, supervisión, relaciones empleador-empleado, evaluación 
+del desempeño, administración de salarios y sueldos; manuales, reglamentos, códigos de 
+personal 
 024 No asignado 31
 025  Operaciones de bibliotecas, archivos, centros de información 
+Clasifique aquí documentación proceso sistemático de recolección, organización,       
+almacenamiento, recuperación y diseminación de la información
 .1       Administración 
 .11  Finanzas 
 .12  Servicios de duplicación Reprografía  
@@ -225,15 +305,21 @@
 .19  Administración de tipos específicos de instituciones 
 .2       Adquisiciones y desarrollo de colecciones  
 .21  Desarrollo de colecciones 
+Clasifique aquí análisis, evaluación, manejo de la colección; desarrollo de colecciones en  
+forma cooperativa; políticas y procedimientos de selección 
 .23       Adquisición por compra 
 .26  Adquisición por canje, donación, depósito 
 .27  Adquisición y desarrollo de colecciones de materiales sobre disciplinas y temas específicos 
 .28  Adquisición y desarrollo de colecciones de materiales en formas especiales 
 .29  Adquisición y desarrollo de colecciones de materiales de áreas geográficas 
 .3       Análisis y control bibliográfico 
+Clasifique aquí obras generales sobre catalogación y clasificación, sobre indización, sobre 
+almacenamiento de la información 
 .31   El catálogo 
 .32  Catalogación descriptiva 
+Clasifique aquí códigos de catalogación descriptiva 
 .34   Catalogación, clasificación, indización de materiales especiales  
+Clasifique aquí materiales no libro 
 .35   Catalogación, clasificación, indización cooperativas 
 .39   Recatalogación, reclasificación, reindización 
 .4       Análisis y control por materia 
@@ -250,15 +336,24 @@
 .58  Estudios sobre uso de la biblioteca 
 32
 .6       Servicios de circulación 
+Préstamo y alquiler de materiales, mantenimiento de registros de préstamos y alquileres 
+Clasifique aquí suministro de documentos 
 .62  Préstamos interbibliotecarios 
 .7       Preparación física para almacenamiento y uso 
+Incluye encuadernación, rotulado, colocación de bolsillos, reparación y restauración 
 .8       Mantenimiento y preservación de las colecciones 
 .81  Ordenamiento físico y acceso a las colecciones 
 .82  Seguridad contra robo y otros riesgos 
 .84  Preservación 
 026-027 Clases específicas de instituciones 
 026  Bibliotecas, archivos, centros de información dedicados a disciplinas y temas 
+específicos 
+Clasifique aquí organizaciones de información y departamentos de bibliotecas y colecciones de 
+bibliotecas en disciplinas y temas específicos; obras generales sobre archivos, sobre bibliotecas 
+especializadas 
 027  Bibliotecas, archivos, centros de información generales 
+Clasifique aquí obras generales sobre bibliotecas, sobre centros de información, sobre bibliotecas 
+y centros de información dedicados a materiales especiales 
 .1       Bibliotecas privadas y de familia 
 .11-.19 Tratamiento geográfico 
 .2       Bibliotecas para socios o suscriptores 
@@ -266,10 +361,14 @@
 .3       Bibliotecas de alquiler 
 .31-.39 Tratamiento geográfico 
 .4       Bibliotecas públicas 
+Clasifique aquí sucursales de bibliotecas públicas, el uso de bibliobuses bibliotecas  
+ambulantes en bibliotecología pública 
 .43-.49 Tratamiento por continentes, países, localidades específicos 
 .5       Bibliotecas gubernamentales 
 .53-.59 Instituciones específicas 33
 .6       Bibliotecas para grupos y organizaciones especiales 
+Clasifique aquí servicios de biblioteca e información para grupos y organizaciones  
+especiales, para personas en condición social desventajosa 
 .62  Bibliotecas para grupos de edad específicos 
 .63  Bibliotecas para grupos minoritarios 
 .65  Bibliotecas gubernamentales para grupos especiales 
@@ -292,12 +391,16 @@
 .55  Intereses y hábitos de lectura de gente joven 
 .7       Uso de libros y otros medios de información como fuentes de información 
 .8       Uso de libros y otros medios de información como fuentes de recreación y            
+autoenriquecimiento 
 .9       Intereses y hábitos de lectura 
 029  No asignado  
 030  Obras enciclopédicas generales 
+Clasifique aquí anuarios de enciclopedias, libros de hechos varios, obras generales sobre  
+curiosidades 
 .9       Tratamiento histórico, geográfico, de personas 34
 031-039 Obras enciclopédicas generales en lenguas específicas y familias de lenguas 
 031  Enciclopedias en lengua inglesa norteamericana 
+Enciclopedias en lengua inglesa y libros de hechos varios originarios del hemisferio occidental  
 032  Obras enciclopédicas generales en inglés 
 033  Obras enciclopédicas generales en otras lenguas germánicas 
 034  Obras enciclopédicas generales en francés, provenzal, catalán 
@@ -323,16 +426,22 @@
 050  Publicaciones seriadas generales  
 .9       Tratamiento histórico, geográfico, de personas 
 051-059 Publicaciones seriadas generales en lenguas y familias de lenguas   
+específicas 35
 051  Publicaciones seriadas en lengua inglesa norteamericana 
 052  Publicaciones seriadas generales en inglés 
 053  Publicaciones seriadas generales en otras lenguas germánicas 
 054  Publicaciones seriadas generales en francés, provenzal, catalán
 055  Publicaciones seriadas generales en  italiano, sardo, dalmático, rumano, 
+retorromano 
 056  Publicaciones seriadas generales en español y portugués 
 057  Publicaciones seriadas generales en lenguas eslavas 
 058  Publicaciones seriadas generales en lenguas escandinavas 
 059  Publicaciones seriadas generales en lenguas itálicas, helénicas, otras lenguas 
 060  Organizaciones generales y museología 
+Organizaciones generales; academias, asociaciones, conferencias, congresos, fundaciones,       
+sociedades cuya actividad no se limita a un campo específico  
+Clasifique aquí obras interdisciplinarias sobre organizaciones; obras interdisciplinarias sobre  
+licencias, certificaciones, acreditaciones por organizaciones no gubernamentales 
 .4       Temas especiales 
 .42  Reglamentos generales de orden procedimiento parlamentario 
 .68   Administración 
@@ -352,6 +461,7 @@
 068  Organizaciones generales en otras áreas geográficas 
 069  Museología Ciencia de los museos 
 .1       Servicios del museo a los patrocinadores 
+Clasifique aquí organización de la producción 
 .13   Servicios de circulación 
 .15   Servicios de instrucción 
 .16  Servicios recreativos 
@@ -366,21 +476,28 @@
 .32  Aparatos audiovisuales 
 .33  Muebles 
 .4       Formación de colecciones y preparación de objetos de museo 
+Clasifique aquí manejo de la formación de colecciones y preparación de objetos de  
+museo, obras interdisciplinarias sobre formación de colecciones de objetos 
 .5       Colecciones y exposiciones de objetos de museo 
 .51  Selección, adquisición, eliminación 
 .52  Registro, inventario, indización 
 .53  Mantenimiento, conservación, preservación, restauración, exhibición, ordenamiento,  
+almacenamiento, transporte 
 .54  Prevención de robos e identificación de falsificaciones 
 .55  Colecciones para estudio 
 .56  Colecciones para préstamo y alquiler 
 .57  Colecciones de materiales secundarios 
 37
 .6       Gerencia de personal, reglamentación para los patrocinadores, relaciones con        
+otras organizaciones 
 .62  Reglamentaciones para patrocinadores 
 .63  Administración de personal 
 .68  Relaciones con otras organizaciones 
 070  Medios documentales, medios educativos, medios noticiosos; periodismo; 
+publicación 
 .1       Medios documentales, medios educativos, medios noticiosos 
+Clasifique aquí obras generales sobre periodismo y producción de clases específicas de  
+medios educativos, expositivos, noticiosos 
 .17   Medios impresos 
 .18   Películas cinematográficas 
 .19   Medios de difusión 
@@ -397,6 +514,8 @@
 .59  Clases de editores 
 .9       Tratamiento histórico y de personas del periodismo y de los periódicos 
 071-079 Tratamiento geográfico del periodismo y de los periódicos 
+Clasifique aquí periódicos generales específicos, sus índices, otras obras acerca de los  
+mismos 
 071  Periodismo y periódicos en América del Norte 
 .1       Periodismo y periódicos en Canadá 
 .3-.9       Periodismo y periódicos en Estados Unidos 
@@ -411,6 +530,7 @@
 078  Periodismo y periódicos en Escandinavia 
 079  Periodismo y periódicos en otras áreas geográficas 
 080  Colecciones generales 
+Clasifique aquí discursos, conferencias, ensayos, entrevistas, grafitos, citas 
 .9       Tratamiento histórico, geográfico, de personas 
 081-089 En lenguas específicas y familias de lenguas 
 081  Colecciones en lengua inglesa norteamericana 
@@ -428,61 +548,94 @@
 093  Incunables 
 094  Libros impresos 
 .2       Libros impresos antiguos 
+Hasta 1700 
 .4       Ediciones especiales 
+Incluye primeras ediciones, ediciones limitadas, obras maestras tipográficas 
 095  Libros notables por su encuadernación 
 096  Libros notables por las ilustraciones y materiales 
 .1       Libros notables por las ilustraciones 
+Clasifique manuscritos ilustrados en 091 
 .2       Libros notables por los materiales 
+Incluye hojas de vitela y seda, letras de plata y oro 
 097  Libros notables por su propietario u origen 
 098  Obras prohibidas, falsificaciones, imposturas 
 .1       Obras prohibidas 
 .11  Prohibidas por las autoridades religiosas 
 .12  Prohibidas por las autoridades civiles 
 .3       Falsificación e imposturas 
+099  Libros notables por su formato 
+Incluye libros en formas inusuales, ediciones miniatura 
+100  Filosofía, fenómenos paranormales, psicología 
+101  Teoría de la filosofía 
+Clasifique aquí obras sobre el concepto de filosofía, sobre la naturaleza de la tarea filosófica,        
+sobre el método de la filosofía 
+102-108 Subdivisiones comunes de la filosofía 
+109  Tratamiento histórico y colectivo de personas de la filosofía 40
+110  Metafísica 
 111  Ontología 
 .1       Existencia, esencia, sustancia, accidentes 
 .2       Universalidades 
 .5       El no ser, la nada 
 .6       Finito e infinito 
+Incluye lo absoluto 
 .8       Propiedades clásicas del ser 
 .82   Unidad 
+Incluye relaciones parte-todo, principio de identidad 
 .84   El bien y el mal 
 .85   Belleza 
+Clasifique aquí obras interdisciplinarias sobre estética 
 112 No asignado
 113  Cosmología Filosofía de la naturaleza 
+Incluye origen del universo cosmogonía, armonía cósmica 
 .8       Filosofía de la vida 
+Origen y naturaleza de la vida 
 114  Espacio 
+Clasifique aquí relación entre el espacio y la materia 
 115  Tiempo 
+Incluye eternidad, espacio y tiempo, espacio-tiempo, relación de tiempo y movimiento 
 116  Cambio 
+Incluye llegar a ser, ciclos, evolución, movimiento, proceso 
 117  Estructura 
+Incluye materia, forma, orden, caos 
 118  Fuerza y energía 
 119  Número y cantidad 
 120  Epistemología, causalidad, género humano 41
 121  Epistemología Teoría del conocimiento 
+Clasifique aquí obras generales sobre la verdad 
 .2       Posibilidad y límites del conocimiento 
+Incluye solipsismo y problema de otras mentes 
 .3       Origen, fuentes, formas del conocimiento 
+Incluye intuición, razón 
 .34  Percepción 
 .35  Sensación 
 .4       Estructura del conocimiento 
+Incluye conceptos, ideas 
 .5       Duda y negación 
 .6       Naturaleza de la indagación 
+Incluye creencia 
 .63        Certeza y probabilidad 
 .65   Evidencia y criterios 
 .68   Significado, interpretación, hermenéutica 
 .7       Fe 
 .8       Valor y teoría de los valores Axiología 
 122  Causalidad 
+Clasifique aquí el azar versus la causa 
 123  Determinismo e indeterminismo 
 .3       Azar 
 .5       Libertad 
 .7       Necesidad 
 124  Teleología 
+Diseño, propósito, causa final 
 125 No asignado 
 126  El yo  
+Clasifique aquí conciencia y personalidad 42
 127  El inconsciente y el subconsciente 
 128  Género humano 
+Clasifique aquí antropología filosófica, obras generales sobre filosofía de la vida humana, sobre 
+filosofía y psicología de la vida humana 
 .1       El alma 
 .2       La mente 
+Incluye relación mente-cuerpo 
 .3       Atributos y facultades 
 .33  Razón y racionalidad 
 .37  Emoción 
@@ -491,23 +644,31 @@
 .5       Muerte humana 
 .6      Cuerpo 
 129  Origen y destino de las almas individuales 
+Incluye encarnación, reencarnación, inmortalidad 
 130  Fenómenos paranormales 
 131  Métodos parapsicológicos y ocultos para lograr bienestar, felicidad, éxito 
 132 No asignado 
 133  Parapsicología y ocultismo 
+Clasifique aquí fraudes en ocultismo 
 .1       Apariciones 
+Clasifique aquí fantasmas     
 .12   Lugares encantados 
 .14   Clases específicas de apariciones 
 .2      Aspectos parapsicológicos y ocultos de cosas específicas  
 .25  Cosas naturales 
 .3       Artes adivinatorias 
+Clasifique aquí obras sobre le simbolismo de artes y objetos adivinatorios, obras generales 
+sobre métodos ocultos de predecir el futuro 43
 .32   Adivinación de la suerte mediante cristales y piedras; dowsing; adivinación de la suerte  
+mediante cartas, hojas de té y asientos de café; oráculos y sibilas 
 .33   Adivinación por símbolos 
 .4       Demonología y brujería 
+Clasifique aquí artes negras 
 .42  Demonología 
 .43  Magia y brujería 
 .44  Hechizos, maldiciones, encantamientos 
 .5       Astrología 
+Clasifique aquí simbolismo astrológico 
 .52  Signos del zodiaco 
 .53  Planetas, sol, luna 
 .54  Horóscopos 
@@ -515,6 +676,8 @@
 .56  Astrología horaria 
 .58  Aplicación de la astrología a temas específicos 
 .59  Tipos o escuelas de astrología que se originan en o se relacionan con un área específica; que 
+se originan en o se relacionan con un grupo racial, étnico, nacional específico; que se  
+originan en o se relacionan con una religión específica 
 .6       Quiromancia 
 .8       Fenómenos psíquicos   
 .82   Telepatía 
@@ -524,6 +687,8 @@
 .88  Psicoquinesis 
 .89  Magnetismo animal, hipnosis, percepción extrasensorial de animales, aura 
 .9       Espiritismo 
+Clasifique aquí  comunicación con espíritus extraterrestres, necromancia, obras  
+interdisciplinarias sobre espíritus seres no encarnados 
 .91  Profesión del médium Mediumship 
 .92  Fenómenos mediumnísticos específicos 
 .93  Mensajes psíquicos 
@@ -531,6 +696,7 @@
 134 No asignado 
 135  Sueños y misterios 
 .3       Sueños 
+Incluye libros de sueños 44
 .4       Tradiciones, rosacruces, herméticas, cabalísticas 
 .43  Rosacrucismo 
 .45  Hermetismo 
@@ -538,8 +704,12 @@
 136 No asignado 
 137  Grafología adivinatoria 
 138  Fisionomía
+Clasifique aquí obras generales sobre determinación del carácter o adivinación a partir de rasgos 
+físicos 
 139  Frenología 
+Determinación de las capacidades mentales a partir de estructuras del cráneo 
 140  Escuelas y posiciones filosóficas específicas 
+Incluye el concepto de ideología, de una visión del mundo, de un sistema de creencias 
 141  Idealismo, sistemas y doctrinas relacionados 
 .2       Platonismo moderno y neoplatonismo 
 .3       Trascendentalismo 
@@ -548,6 +718,7 @@
 .6       Romanticismo 
 142  Filosofía crítica 
 .3       Kantismo 
+Clasifique aquí neokantismo 
 .7       Fenomenología 
 .78   Existencialismo
 143  Bergsonismo e intuicionismo  
@@ -556,10 +727,13 @@
 .5       Instrumentalismo 
 .6       Utilitarismo 45
 145  Sensacionalismo 
+Clasifique aquí la ideología como el sistema basado en el análisis de las ideas en sus elementos 
+sensoriales 
 146  Naturalismo y sistemas y doctrinas relacionados 
 .3       Materialismo 
 .32  Materialismo dialéctico   
 .4       Positivismo Comtismo y sistemas relacionados 
+Clasifique aquí obras generales sobre el movimiento analítico 
 .42  Positivismo lógico Empirismo lógico 
 .44  Empirismo 
 .5       Atomismo 
@@ -572,13 +746,16 @@
 149  Otros sistemas y doctrinas filosóficos 
 .1       Nominalismo y conceptualismo 
 .2       Realismo 
+Clasifique aquí neorrealismo, realismo crítico 
 .3       Misticismo 
 .5       Optimismo 
+Clasifique aquí meliorismo 
 .6       Pesimismo 
 .7       Racionalismo y sistemas y doctrinas relacionados 
 .72  Agnosticismo 
 .73  Escepticismo 
 .8       Nihilismo 46
+Clasifique aquí fatalismo 
 .9       Otros sistemas y doctrinas 
 .91      Neoaristotelismo, neoescolasticismo, neotomismo 
 .94   Filosofías lingüísticas 
@@ -591,7 +768,10 @@
 .9       Tratamiento histórico, geográfico, de personas 
 151 No asignado 
 152  Percepción sensorial, movimiento, emociones, impulsos fisiológicos 
+Clasifique aquí obras generales sobre la psicología y neurofisiología de la percepción sensorial, 
+del movimiento, de las emociones, de los  impulsos fisiológicos 
 .1       Percepción sensorial 
+Clasifique aquí procesos y funciones receptivas, discriminación, umbrales 
 .14   Percepción visual 
 .15   Percepción auditiva 
 .16   Percepción sensorial química 
@@ -602,6 +782,8 @@
 .35   Movimientos voluntarios 
 .38   Funciones motoras especiales 
 .4       Emociones y sentimientos 
+Clasifique aquí afectos, actitudes, afectos, estados de ánimo, sentimientos; complejos  
+de emociones y sentimientos 
 .41  Amor y afecto 
 .42  Placer, alegría, goce, felicidad, éxtasis 
 .43  Ingenio y humor 
@@ -623,6 +805,8 @@
 .23  Conceptos y formación del concepto 
 .24  Abstracción 
 .3       Imaginación, imágenes, creatividad 
+Clasifique aquí sueños de vigilia, fantasías; ensueños considerados como aspectos de la  
+imaginación 
 .32   Imágenes 
 .35   Creatividad 
 .4       Pensamiento, el pensar, razonamiento, intuición, valor, juicio 
@@ -632,6 +816,7 @@
 .45    Valor 
 .46   Juicio 
 .6      Comunicación 
+Clasifique aquí aspectos individuales de la comunicación interpersonal 
 .68   Acto de escuchar 
 .69   Comunicación no verbal 
 .7       Procesos perceptivos 
@@ -639,6 +824,7 @@
 .74   Errores Ilusiones normales 
 .75   Tipos de percepción 
 .8       Voluntad Volición 
+Clasifique aquí intencionalidad, motivación, obras generales sobre impulsos 
 .83        Elección y decisión 48
 .85       Modificación de la voluntad. 
 .9       Inteligencia y aptitudes 
@@ -649,8 +835,11 @@
 .2       El subconsciente 
 .22   Id, ego, superego 
 .24   Actividades 
+Incluye complejos, conflictos, razonamiento, sublimación, transferencia 
 .3       Sueños de vigilia, fantasías, ensueños 
+Clasifique aquí conciencia secundaria 
 .4       Estados alterados de la conciencia 
+Incluye alteraciones debidas al uso de drogas; alucinaciones 
 .6       Fenómenos del sueño 
 .63   Los sueños 
 .64   Sonambulismo
@@ -660,6 +849,7 @@
 .77   Fenómenos hipnóticos 
 155  Psicología diferencial y del desarrollo 
 .2       Psicología individual 
+Clasifique aquí el yo; carácter, identidad, individualidad, personalidad 
 .22   Diferencias individuales 
 .23   Rasgos y determinantes del carácter y de la personalidad 
 .24   Adaptabilidad y ajuste 
@@ -672,11 +862,13 @@
 .33   Diferencias sexuales 
 .34   Relaciones sexuales 49
 .4       Psicología infantil 
+Hasta los once años de edad 
 .41  Temas generales 
 .42  Niños en grupos de edad específicos 
 .43   Niños por sexo 
 .44   Niños por situación social, tipo, parentesco 
 .45   Niños excepcionales; niños que se identifican por sus niveles social y económico, por su 
+nivel de desarrollo cultural, por su origen racial, étnico, nacional 
 .5       Psicología de la gente joven de doce a veinte años 
 .51   Temas generales 
 .53      Gente joven de doce a veinte años por sexo 
@@ -687,7 +879,9 @@
 .66   Personas en edad adulta media 
 .67   Personas en edad adulta tardía 
 .7       Psicología evolutiva 
+Incluye genética del comportamiento 
 .8       Etnopsicología y psicología nacional  
+Clasifique aquí psicología intercultural 
 .81   Personas iletradas 
 .82   Diferencias raciales y étnicas 
 .84   Grupos raciales y étnicos específicos 
@@ -700,31 +894,54 @@
 .95   Influencia del vestuario 
 .96   Influencia de ambientes restrictivos 
 156 Psicología comparada 50
+Comparación de la psicología humana y la psicología de otros organismos; estudio de otros     
+organismos para elucidar el comportamiento humano 
 .2      Psicología comparada de la percepción sensorial, del movimiento, de las emociones, de los 
+impulsos fisiológicos de los animales 
 .3      Procesos comparados mentales conscientes e inteligencia de los animales 
 .4      Estados y procesos comparados subconscientes y alterados de los animales 
 .5      Psicología comparada diferencial y del desarrollo de los animales 
 .9      Plantas
 157 No asignado 
 158  Psicología aplicada 
+Clasifique aquí aplicación de la psicología individual en general;  obras generales sobre como 
+mejorarse a si mismo y como convivir con otras personas; obras generales sobre  técnicas       
+psicológicas y parapsicológicas u ocultas para lograr  bienestar,  felicidad,  éxito personales 
 .1       Mejoramiento y análisis personales 
+Incluye análisis y mejoramiento de la personalidad 
+Clasifique aquí obras destinadas a lograr una persona mejor o evitar el fracaso, a resolver 
+problemas; o a ajustarse a una vida donde no logra las propias expectativas; obras sobre  
+sistemas o escuelas específicas de psicología aplicada escritas para personas que desean  
+mejorar o ser analizadas 
 .12   Mejoramiento y análisis  personales mediante la meditación 
 .2        Relaciones interpersonales 
+Clasifique aquí dominancia, intimidad; superación de la soledad; aplicación del  
+adiestramiento de la seguridad en si mismo, del adiestramiento de la sensibilidad, del  
+análisis transaccional 
 .24  Relaciones interpersonales con miembros de la familia 
 .25  Relaciones interpersonales con amigos y vecinos 
 .26  Relaciones interpersonales con compañeros de trabajo 
 .27  Relaciones interpersonales con  extraños 
 .3       Orientación y realización de entrevistas 
+Clasifique aquí comportamiento de ayuda 51
 .35  Orientación de grupo 
 .39  Realización de entrevistas 
 .4       Liderazgo  
 .5       Negociación 
 .6       Intereses vocacionales 
 .7       Psicología industrial 
+Obras enfocadas en la psicología del empleado individual en relación con el trabajo o al 
+tomar una perspectiva amplia que abarque los intereses de los empleados individuales, los 
+líderes de sindicatos, de la gerencia 
+Clasifique aquí psicología del trabajo 
 .72  Estrés de trabajo 
 .9       Sistemas y escuelas de psicología aplicada 
+Clasifique aquí obras sobre sistemas y escuelas de psicología aplicada escritas para asesores 
+y consejeros para ayudarles a asistir a otros en el mejoramiento o análisis personal 
 159 No asignado 
 160  Lógica
+Incluye contrafácticos, negación, interrogación,  tablas de verdad 
+Clasifique aquí modalidad, proposiciones 
 161  Inducción 
 162  Deducción 
 163 No asignado 
@@ -735,6 +952,7 @@
 168  Argumento y persuasión 
 169  Analogía 52
 170  Ética Filosofía moral 
+Clasifique aquí ética de temas y disciplinas específicos, obras interdisciplinarias sobre ética social 
 .4       Temas especiales
 .42  Metaética 
 .44   Ética normativa      
@@ -743,21 +961,29 @@
 171  Sistemas éticos 
 .1      Sistemas basados en la autoridad 
 .2       Sistemas basados en la intuición, en el sentido moral, en la razón 
+Incluye empirismo, existencialismo, humanismo, derecho natural, naturalismo, estoicismo 
 .3       Perfeccionismo 
+Sistemas y doctrinas basados en la autorrealización, desarrollo de la personalidad 
 .4       Hedonismo 
+Sistemas y doctrinas basados en el logro del placer o de la felicidad individuales 
 .5       Utilitarismo y consecuencialismo 
 .6       Sistemas basados en la conciencia 
+Incluye casuística, conflicto de deberes 
 .7       Sistemas basados en la biología, la genética, la evolución, la educación, los factores sociales 
+Incluye relativismo, ética comunista, ética sociobiológica, ética situacional  
 .8       Sistemas basados en el altruismo 
 .9       Sistemas basados en el egoísmo 
 172-179 Ética aplicada Ética social 
 172  Ética política 
 .1       Relaciones de los individuos con el estado 
 .2       Deberes del estado  53
+Clasifique aquí la justicia 
 .4       Relaciones internacionales 
+Incluye conducción de asuntos extranjeros, desarme, espionaje 
 .42  Guerra y paz 
 173  Ética de las relaciones familiares 
 174  Ética  ocupacional 
+Clasifique aquí ética económica, profesional; ética del trabajo 
 .1       Clero 
 .2       Profesiones médicas 
 .22  Juramento hipocrático 
@@ -765,18 +991,25 @@
 .25  Procedimientos innovadores 
 .26  Cuestiones económicas 
 .28  Experimentación 
+Incluye experimentación en sujetos humanos 
 .3       Profesiones legales 
 .4       Ética de los negocios
+Incluye espionaje industrial 
 .6       Negocios de juegos de azar  
 .9       Otras profesiones y ocupaciones 
 175  Ética de la recreación, del ocio, de las representaciones publicas, de la comunicación  
+Incluye ética de la danza, de las juegos de azar, de la música, de la televisión; espíritu deportivo, 
+juego limpio  
 176  Ética del sexo y de la reproducción 
+Incluye anticoncepción, castidad, celibato, homosexualidad, inseminación artificial, maternidad    
+sustituta, promiscuidad, relaciones premaritales y extramaritales, trasplante de embriones 
 .5       Prostitución 
 .7       Obscenidad y pornografía 
 .8       Obscenidad y pornografía en la literatura 54
 177  Ética de las relaciones sociales 
 .1       Cortesía, urbanidad, hospitalidad 
 .2       Conversación 
+Incluye chismografía  
 .3       Calumnia, adulación, veracidad, mentira 
 .4       Apariencia personal 
 .5       Esclavitud y prácticas discriminatorias 
@@ -784,22 +1017,32 @@
 .62  Amistad  
 .65  Cortejo 
 .7       Amor 
+Incluye benevolencia, bondad, caridad, filantropía, generosidad  liberalidad
 178  Ética del consumo 
+Clasifique aquí uso de los recursos naturales, de la riqueza 
 .1       Consumo de bebidas alcohólicas 
 .7       Consumo de tabaco 
 .8       Consumo de narcóticos 
 179  Otras normas éticas 
+Clasifique aquí crueldad 
 .1       Respeto por la vida y por la naturaleza  
+Clasifique aquí ética ambiental, ética ecológica 
 .2       Trato de los niños 
 .3       Trato de los animales 
+Incluye ética de la cacería, vegetarianismo 
 .4       Experimentación en animales 
+Incluye vivisección 
 .5       Procacidad, blasfemia, obscenidad en el lenguaje 55
 .6       Valentía y cobardía 
 .7      Respeto y falta de respeto por la vida humana
+Incluye eutanasia, duelos, genocidio, homicidio, pena capital, suicidio 
+Clasifique aquí obras generales sobre ética de la violencia, de la no violencia 
 .76   Aborto 
 .8       Vicios, defectos, debilidades 
 .9       Virtudes 
 180-190 Tratamiento histórico, geográfico, de personas de la filosofía 
+Clasifique aquí desarrollo, descripción, evaluación crítica, escritos colectivos, tratamiento 
+biográfico de filósofos individuales independientemente de su posición filosófica
 180  Filosofía antigua, medieval, oriental 
 .1-.8      Subdivisiones comunes de la filosofía antigua 
 .9       Tratamiento histórico y geográfico de la filosofía antigua
@@ -824,7 +1067,9 @@
 .48  Vedanta 
 .5      Irán Persia 
 .6      Irak 
+Clasifique aquí Asiria, Babilonia, Caldea, antigua Mesopotamia 
 .8      Siria y Líbano 
+Incluye antigua Fenicia 
 .9      Filosofía de otras áreas del Oriente 
 .92  Arabia 
 182-188 Filosofía antigua occidental 
@@ -844,20 +1089,27 @@
 .6       Filosofía megárica 
 .7       Filosofía eliana y eretriana 
 184  Filosofía platónica 
+Clasifique aquí obras generales sobre platonismo antiguo y moderno 57
 185  Filosofía aristotélica 
 186  Filosofía escéptica y neoplatónica 
 .1       Filosofía pirrónica 
 .2       Nueva Academia 
 .3       Filosofía ecléctica 
 .4       Filosofía neoplatónica 
+Clasifique aquí filosofía alejandrina, obras generales sobre neoplatonismo antiguo y  
+moderno 
 187  Filosofía epicúrea 
 188  Filosofía estoica 
 189  Filosofía medieval occidental 
+Clasifique aquí filosofía cristiana temprana 
 .2       Filosofía patrística 
 .4       Filosofía escolástica 
 .5       Filosofía mística
 190  Filosofía moderna occidental y otra filosofía no-oriental 
+Clasifique aquí obras generales sobre filosofía cristiana, sobre filosofía moderna, sobre filosofía      
+moderna occidental, sobre filosofía occidental, sobre filosofía europea 
 191  Estados Unidos y Canadá 
+Clasifique aquí filosofía norteamericana 
 192  Islas Británicas 
 193  Alemania y Austria 
 194  Francia 
@@ -873,7 +1125,9 @@
 .9       Dinamarca 
 199  Otras áreas geográficas 
 200  Religión 
+Creencias, actitudes, prácticas de los individuos y de los grupos en relación con la naturaleza    
 última de las existencias y de las relaciones dentro del contexto de la revelación, de la divinidad, 
+del culto  
 .1       Sistemas, valor, principios científicos, psicología de la religión 
 .11  Sistemas 
 .13  Valor 
@@ -894,10 +1148,16 @@
 207  Educación, investigación, temas relacionados con el Cristianismo
 208  Cristianismo en relación con clases de personas 
 209  Tratamiento histórico,  geográfico, de personas del Cristianismo y del pensamiento 
+cristiano 
 210  Filosofía y teoría de la religión 
+Creencias y actitudes religiosas alcanzadas mediante observaciones e interpretaciones de    
+evidencias en la naturaleza, mediante especulación, mediante razonamiento, pero no mediante la 
+revelación o invocación a las escrituras autorizadas 
 .1      Teoría de la filosofía de la religión 
 .14  Lengua y comunicación de la religión 
 211  Concepto de Dios 
+Incluye antropomorfismo 
+Clasifique aquí obras generales sobre Dios, sobre lo sagrado 
 .2       Panteísmo 
 .3       Teísmo 
 .32   Politeísmo 
@@ -909,21 +1169,31 @@
 .7       Agnosticismo y escepticismo 
 .8       Ateísmo 
 212  Existencia, sapiencia, atributos de Dios 
+Incluye milagros 
 .1       Existencia 60
+Incluye pruebas 
 .6       Sapiencia 
 .7       Atributos 
 213  Creación 
+Incluye creación de la vida y vida humana, evolución versus creación, evolución como     
+método de la creación 
 214  Teodicea 
+Vindicación de la justicia y de la bondad de Dios al permitir la existencia del mal y del     
+sufrimiento 
+Clasifique aquí el bien y el mal 
 .8       Providencia 
 215  Ciencia y religión 
+Incluye tecnología y religión 
 .2       Astronomía 
 .3       Física 
 .7       Ciencias de la vida 
 216  El bien y el mal 
 217 No asignado 
 218  Género humano 
+Incluye inmortalidad 
 219 No asignado
 220  La Biblia 
+Escrituras sagradas del Judaísmo y del Cristianismo 
 220.1-220.9 Generalidades 
 .1    Orígenes y autenticidad 
 .12   Canon 
@@ -931,7 +1201,12 @@
 .15   Profecía y profecías bíblicas 61
 .3      Enciclopedias y diccionarios temáticos 
 220.4-220.5 Textos, versiones, traducciones 
+Clasifique aquí evaluación crítica de la lengua y estilo; concordancias, índices, diccionarios 
+de textos específicos; textos completos; selecciones de más de una parte; paráfrasis 
 .4       Textos originales, versiones tempranas, traducciones tempranas 
+Clasifique aquí crítica textual baja uso de formas científicas para determinar los textos 
+originales reales, textos originales acompañados por traducciones modernas, obras  
+generales sobre textos y versiones 
 .42   Versiones arameas 
 .43   Versiones siríacas 
 .44   Versiones hebreas 
@@ -940,6 +1215,7 @@
 .47   Versiones latinas 
 .48   Versiones griegas 
 .49   Otras versiones tempranas 
+Incluye armenia, copta 
 .5       Versiones y traducciones modernas 
 .51     Políglota 
 .52   Versiones en inglés y anglosajón 
@@ -960,9 +1236,11 @@
 .93   Arqueología Restos materiales 62
 .95   Historia 
 221-229 Partes específicas de la Biblia. Apócrifos, seudoepígrafes, obras   
+intertestamentarias 
 221  Antiguo Testamento Tanakh 
 .1-.8       Generalidades 
 .9       Geografía, historia, cronología, personas de lugares del Antiguo Testamento en épocas del 
+Antiguo Testamento
 .91   Geografía 
 .92   Personas 
 .93   Arqueología Restos materiales 
@@ -992,6 +1270,7 @@
 .8       Nehemías Esdras 2, Nehemiah 
 .9       Ester Esther 
 223  Libros poéticos del Antiguo Testamento 
+Clasifique aquí Ketuvin Hagiógrafos, Escritos, literatura de la sabiduría 
 .1       Job 
 .2       Salmos 
 .7       Proverbios 
@@ -1000,6 +1279,7 @@
 .96  Sabiduría de Salomón Sabiduría 
 .98  Eclesiástico Sirac 
 224  Libros proféticos del Antiguo Testamento 
+Clasifique aquí profetas mayores; Nevi’im 
 .1       Isaías Isaiah 
 .2       Jeremías Jeremiah 
 .3       Lamentaciones 
@@ -1022,6 +1302,7 @@
 225  Nuevo Testamento 
 .1-.8       Generalidades  
 .9       Geografía, historia, cronología, personas de lugares del Nuevo Testamento en épocas del 
+Nuevo Testamento 
 226  Evangelios y Hechos de los Apóstoles 
 .1       Armonías de los evangelios 
 226.2-226.5 Evangelios específicos 
@@ -1036,8 +1317,10 @@
 .93   Bienaventuranzas 
 .96     Padrenuestro 
 227  Epístolas 
+Clasifique aquí obras generales sobre las Epístolas paulinas 
 .1       Romanos 
 .2       Corintios 1 
+Clasifique aquí obras generales sobre las Epístolas a los corintios 
 .3       Corintios 2 65
 .4       Gálatas 
 .5       Efesios 
@@ -1083,7 +1366,10 @@
 .94   Apocalipsis 
 230-280 Cristianismo 
 230-270 Elementos específicos del Cristianismo 
+Clasifique aquí elementos específicos de confesiones y sectas específicas  
 230  Cristianismo. Teología cristiana 
+Incluye mitología cristiana 
+Clasifique aquí teología contextual 
 .1-.9       Doctrinas de confesiones y sectas específicas 
 231-239 Teología doctrinal cristiana 
 231-236 Temas específicos en teología doctrinal cristiana 
@@ -1100,15 +1386,21 @@
 .74  Revelación 
 .76  Relación con y acción en la historia  
 .8       Justicia y bondad 
+Clasifique aquí teodicea vindicación de la justicia y de la bondad de Dios al permitir la  
+existencia del mas y del sufrimiento 
 232  Jesucristo y su familia. Cristología 
 .1       Encarnación y mesiazgo de Cristo 
+Incluye tipología 
 .12  Profecías mesiánicas 
 .2       Cristo como Verbo Palabra de Dios 
 .3       Cristo como Redentor 
+Incluye expiación 
 .4       Sacrificio de Cristo 
 .5       Resurrección de Cristo 
 .8       Divinidad y humanidad de Cristo 
+Incluye la Persona; oficios como Profeta, Sacerdote, Rey; intercesión 
 .9       Familia y vida de Jesús 
+Clasifique aquí conceptos no trinitarios de Jesús, interpretaciones racionalistas de Jesús 
 .91   María, madre de Jesús 
 .92   Nacimiento, infancia, niñez de Jesús 
 .93   Esposo y progenitores de María 
@@ -1122,8 +1414,10 @@
 .14   Pecado original y caída 68
 .4       Responsabilidad 
 .5       Naturaleza
+Incluye cuerpo, alma, espíritu; como imagen y semejanza de Dios, como hijo de Dios 
 .7       Libertad de elegir entre el bien y el mal 
 234  Salvación Soteriología y gracia 
+Incluye predestinación, virtudes innatas, mérito, sacerdocio universal 
 .1       Clases y formas de la gracia 
 .13   Dones espirituales 
 .16    Sacramentos 
@@ -1145,6 +1439,8 @@
 .4       Diablos Demonios 
 .47   Satanás Lucifer 
 236  Escatología 69
+Incluye el Anticristo 
+Clasifique aquí Reino de Dios por venir 
 .1       Muerte 
 .2       Estado futuro Vida después de la muerte 
 .21   Eternidad 
@@ -1153,6 +1449,8 @@
 .24   Cielo 
 .25   Infierno 
 .4       Estado intermedio 
+Prueba después de la muerte 
+Incluye limbo de los padres limbus patrum, limbo de los infantes limbus infantium 
 .5       Purgatorio 
 .6       Limbo de los padres Limbus patrum   
 .7       Limbo de los infantes Limbus  infantium    
@@ -1166,6 +1464,9 @@
 .19   Iglesia oriental 
 .2-.9       Otras confesiones 
 239  Apologética y polémicas 
+Apologética: argumentación sistemática en defensa del origen y de la autoridad divinos del   
+Cristianismo 
+Polémica: refutación de errores planteados en otros sistemas 
 .1       Apologética y polémica en épocas apostólicas 70
 239.2-239.4 Polémica contra doctrinas de grupos específicos en épocas apostólicas 
 .2       Polémica contra los judíos en épocas apostólicas 
@@ -1174,6 +1475,8 @@
 .5       Polémica contra los deístas  
 .6       Polémica contra los enciclopedistas 
 .7       Polémicas contra los racionalistas, agnósticos, apóstatas, ateos en épocas posapostólicas 
+Incluye polémicas contra los deístas, contra los enciclopedistas, contra los cientificistas y 
+materialistas, contra los humanistas seglares 
 .8       Polémica contra los cientificistas y materialistas 
 .9       Polémica contra otros grupos específicos en épocas posapostólicas 
 .93  Polémicas contra grupos y doctrinas de la nueva era 
@@ -1182,9 +1485,11 @@
 .1       Conciencia 
 .2       Leyes y bases de moralidad 
 .3       Pecado y vicios 
+Incluye vicios específicos 
 .31   Pecado mortal y venial 
 .32   Pecados contra el Espíritu Santo 
 .4        Virtudes 
+Incluye virtudes específicas 
 .5        Códigos de conducta 
 .52   Los Diez Mandamientos 
 .53   Sermón de la Montaña 
@@ -1192,6 +1497,8 @@
 .57   Preceptos de la iglesia 
 .6       Asuntos morales específicos71
 242  Literatura piadosa 
+Clasifique aquí textos de meditaciones, contemplación, oraciones para individuos y familias,     
+poesía religiosa destinada para uso piadoso 
 .2       Oraciones y meditaciones para uso diario 
 .3       Oraciones y meditaciones para el año eclesiástico, otros días festivos y de ayuno cristianos 
 .33   Adviento y Navidad 
@@ -1211,12 +1518,15 @@
 .8       Colecciones de oraciones 
 .82-.89  Colecciones de oraciones para categorías específicas de personas 
 243  Escritos evangelizadores para individuos y familias 
+Obras diseñadas para convertir a los lectores, exhortar al arrepentimiento 
 244 No asignado
 245  Textos de himnos para uso piadoso de individuos y familias 
 246  Uso del arte en el Cristianismo 
+Significado, importancia, propósitos religiosos 
 .1       Arte bizantino y gótico 
 .2       Arte  paleocristiano y románico 
 .3       Arte renacentista y moderno 72
+Incluye arte protestante 
 .5       Íconos, símbolos, insignias 
 .53   Iconos 
 .55   Símbolos 
@@ -1238,6 +1548,7 @@
 .32   Oración 
 .34   Meditación y contemplación 
 .4       Vida y práctica cristianas 
+Clasifique aquí matrimonio y familia cristianos 
 .46   Observancias individuales 
 .47   Ascetismo 
 .48   Guías para la vida cristiana por o para adeptos a confesiones y sectas específicas 
@@ -1252,11 +1563,14 @@
 .88   Categorías ocupacionales 
 .89   Grupos religiosos 
 249  Observancias cristianas en la vida familiar 
+Clasifique aquí oración familiar, observancia familiar de restricciones, ritos, ceremonias    
+religiosas 
 250-280 Iglesia cristiana 
 250  Iglesia cristiana local y órdenes religiosas cristianas 
 .9      Tratamiento histórico, geográfico, de personas      
 251  Predicación Homilética 
 .1-.9      Material para preparación de sermones para ocasiones específicas, para categorías   
+específicas de personas 
 252  Textos de sermones 
 .1       Textos de sermones para bautizos, confirmaciones, bodas, funerales 
 .3       Textos de sermones para encuentros evangelizadores 
@@ -1276,7 +1590,10 @@
 .7       Textos de sermones para consagraciones, ordenaciones, tomas de posesión 
 .9       Textos de sermones para ocasiones conmemorativas 74
 253  Oficio y trabajo pastorales Teología pastoral 
+Clasifique aquí el trabajo de sacerdotes, ministros, pastores, rectores, vicarios, curas, capellanes, 
+presbíteros, diáconos, asistentes, laicos en relación con el trabajo de la iglesia a nivel local 
 .2       La vida y la persona 
+Incluye requisitos profesionales y personales 
 .22  Familias del clero 
 .25  Celibato clerical 
 253.5-253.7 Deberes y responsabilidades pastorales 
@@ -1284,6 +1601,7 @@
 .52      Psicología pastoral 
 .53   Dirección espiritual 
 .7       Métodos pastorales  
+Incluye tipos específicos de actividad 
 .73   Al aire libre 
 .76   Métodos pastorales en los hogares 
 .78   Uso de radio y la televisión
@@ -1300,6 +1618,8 @@
 .7       Edificios, equipo, terrenos 
 .8       Finanzas 
 255  Congregaciones y órdenes religiosas 75
+Clasifique aquí monasticismo, obras generales sobre congregaciones y órdenes religiosas 
+cristianas 
 .1-.7       Órdenes católicas romanas de hombres 
 .8       Órdenes católicas no romanas de hombres 
 .81  Monasticismo de iglesias orientales 
@@ -1324,8 +1644,11 @@
 .6       Atención pastoral del afligido 
 .8       Tipos específicos de actividad 
 260   Teología social y eclesiástica cristiana 
+Instituciones, servicios, observancias, disciplinas, obra del cristianismo y de la iglesia cristiana 
+Clasifique aquí organizaciones del cristianismo, obras generales sobre la iglesia cristiana 
 .9      Tratamiento histórico, geográfico, de personas 76
 261  Teología social y relaciones y actitudes interreligiosas 
+Clasifique aquí cristianismo y cultura   
 .1       Papel de la iglesia cristiana en la sociedad 
 .2       Cristianismo y otros sistemas de creencia 
 .21   Cristianismo e irreligión 
@@ -1338,13 +1661,18 @@
 .57   Las artes 
 .58   Literatura 
 .7       Cristianismo y asuntos políticos  
+Incluye guerra civil y revolución 
+Clasifique aquí cristianismo y derechos civiles  
 .72   Libertas religiosa 
 .73   Teocracia 
 .8       Cristianismo y problemas socioeconómicos
+Clasifique aquí obras generales sobre el  punto de vista cristiano en asuntos 
+socioeconómicos y políticos 
 .83   Problemas sociales 
 .85   El orden económico 
 .87   Asuntos internacionales 
 262  Eclesiología 
+Gobierno, organización, naturaleza de la iglesia
 .1       Jerarcas que rigen las iglesias 
 .11   Sucesión apostólica 
 .12   Episcopado 
@@ -1368,6 +1696,7 @@
 .77   Cuerpo místico de Cristo 
 .8       Iglesia y autoridad de sus ministros y su denegación 
 .9       Derecho y disciplina eclesiásticos 
+Clasifique aquí derecho canónico eclesiástico 
 .91   Actas de la Santa Sede 
 .92   Códigos católicos romanos tempranos 
 .93   Codex iuris canonici 1917 
@@ -1377,6 +1706,7 @@
 .1       Sábado Sabbath bíblico 
 .2       Observancia del séptimo día 
 .3       Domingo 
+Clasifique aquí observancia dominical, obras generales sobre sábado sabbath y domingo 
 .4       Observancia dominical 
 .9       Año eclesiástico  y otros días y épocas 
 .91   Adviento y Navidad 
@@ -1385,12 +1715,14 @@
 .97   Otros días festivos y de ayuno 
 .98   Días de los santos  
 264  Culto público 
+Ceremonias, ritos, servicios liturgia y ritual 
 264.1-264.9 Elementos específicos 
 .1       Oración 
 .13   Textos de oraciones 
 .15  Liturgia de las horas Oficio divino 
 .2       Música  
 .23  Himnos 
+Clasifique aquí textos de himnos para uso piadoso de individuos y familias 
 .3       Lecturas de la Escritura y sacramentos de la comunión 
 .34   Lecturas de la Escritura 
 .36   Sagrada Comunión Eucaristía, Cena del Señor, Misa 
@@ -1420,6 +1752,7 @@
 .92   Consagraciones y dedicaciones 
 .94   Exorcismo
 266  Misiones 
+Clasifique aquí sociedades misionales, aspectos religiosos de las misiones médicas 
 .1-.9       Misiones de confesiones y sectas específicas 
 267  Asociaciones para trabajo religioso 
 .1       Asociaciones para trabajo religioso tanto para hombres como para mujeres 
@@ -1451,12 +1784,15 @@
 .4       Educación religiosa de grupos específicos 
 .43  Grupos de edad específicos 
 .5       Registros y reglamentos 
+Incluye asistencia, condecoraciones, listas de honor, premios, promoción 
 .6       Métodos de instrucción y estudio 
 .61-.62 Valor y uso de los libros de texto, método del libro de texto 
 .63   Métodos expositivo y audiovisual 
 .67   Método de dramatización 
 .68   Método de laboratorio 
 .7       Servicios 
+Incluye aniversarios, festividades, música, orden de servicio, reuniones populares, días 
+especiales  
 .8       Ramas, confesiones y sectas específicas 
 269  Renovación espiritual 
 .2       Evangelización 
@@ -1465,18 +1801,24 @@
 .4       Pentecostalismo 
 .6       Retiros 81
 270  Tratamiento histórico, geográfico, de personas del cristianismo. Historia 
+de la iglesia 
+Clasifique aquí escritos colectivos de los padres apostólicos y de la iglesia patrística 
 270.1-270.8 Períodos históricos 
 .1       Período apostólico hasta el 325 
 .2       Período de los concilios ecuménicos, 325-787 
 .3       787-1054 
+Clasifique aquí obras generales sobre la Edad Media 
 .38  Gran cisma, 1054 
 .4       1054-1200 
 .5       Edad Media hasta el Renacimiento, 1200-1517 
 .6       Período de la Reforma y de la Contrarreforma, 1517-1648 
+Incluye el siglo XVII 
 .7       Período de la Paz de Westfalia hasta la Revolución Francesa, 1648-1789 
 .8       Período moderno, 1789- 
 .81   1789-1900 
 .82   1900-1999 
+Clasifique aquí  obras generales sobre evangelicalismo, fundamentalismo, pentecostalismo,  
+movimiento carismático 
 .83  2000-
 271  Congregaciones y órdenes religiosas en la historia de la iglesia 
 .1       Benedictinos 
@@ -1541,17 +1883,26 @@
 .9       Persecuciones y mártires de la época moderna 
 273  Controversias y herejías doctrinales en la historia general de la iglesia 
 .1       Siglos I-II 
+Clasifique aquí el gnosticismo cristiano 
 .2       Siglo III 
+Incluye maniqueísmo cristiano 
 .3       Sabelianismo  
 .4       Siglo IV 
+Incluye arrianismo, donatismo 
 .5       Siglo V 
+Incluye pelagianismo 
 .6       Siglos VI-XVI 
+Incluye albigeismo, catarismo, valdensianismo 84
 .7       Siglo XVII 
+Incluye molinismo, pietismo, obras generales sobre jansenismo 
 .8       Siglo XVIII 
 .9       Siglo XIX  y siglos posteriores 
+Incluye modernismo 
 274-279 Tratamiento por continente, país, localidad 
 274-279 Tratamiento por continente, país, localidad 
 280  Confesiones y sectas de la iglesia cristiana 
+Clasifique aquí tratamiento histórico, geográfico general, obras generales sobre          
+confesiones y sectas específicas y sus iglesias locales individuales 
 280.2-280.4 Ramas
 .2       Iglesias orientales y católicas romanas 
 .4       Iglesias protestantes y protestantismo 
@@ -1562,6 +1913,7 @@
 .3       Iglesia anterior a Nicea, 100-325 
 .4       Iglesia posterior a Nicea, 325-1054 
 .5       Iglesias orientales 
+Incluye católicos de ritos orientales, cristianos de Santo Tomás Mar Thoma, Sirio-Malabar 
 .6       Iglesias monofisitas 
 .62   Iglesia Armenia 
 .63   Iglesia Jacobita 
@@ -1572,6 +1924,8 @@
 .9       Iglesias ortodoxas orientales 
 .94-.99  Tratamiento por continente, país, localidad 
 282  Iglesia Católica Romana 
+Clasifique aquí el movimiento católico tradicionalista, obras generales sobre la Iglesia Católica 
+Romana y las iglesias de rito oriental en comunión con Roma 
 .4-.9       Tratamiento por continente, país, localidad 
 283-289 Confesiones protestantes y otras 
 283  Iglesias anglicanas  
@@ -1592,6 +1946,7 @@
 .84  Iglesias jansenistas 
 .9       Iglesias arminianas y remonstrantes 
 285  Iglesias presbiterianas, iglesias reformadas con sede en América, iglesias 
+congregacionales, puritanismo 86
 285.1-285.2 Iglesias presbiterianas de Estados Unidos, de la mancomunidad Británica 
 .1       Iglesias presbiterianas de origen estadounidense 
 .13   Confesiones específicas 
@@ -1664,6 +2019,7 @@
 .73  Ramas específicas 
 .74-.79 Tratamiento por continente, país, localidad 
 .8      Shakers Sociedad Unida de los Verdaderos Creyentes en el Segundo Advenimiento de   
+Cristo 
 .9      Confesiones y sectas no provistas en otra parte 
 .92  Testigos de Jehová 
 .93  Iglesias independientes africanas 
@@ -1674,6 +2030,9 @@
 .98  Nuevo Pensamiento
 290  Religión comparada y otras religiones diferentes del Cristianismo 
 291  Religión comparada 
+Clasifique aquí obras que tratan de diversas religiones, de temas religiosos no aplicables a    
+religiones específicas; escritos religiosos sincréticos de individuos que expresan opiniones 
+personales y no pretenden establecer una nueva religión o representar una antigua 
 .1       Mitología religiosa, teología social, relaciones y actitudes interreligiosas 
 .13   Mitología y fundamentos mitológicos 
 .14   Categorías generales de religiones 
@@ -1785,9 +2144,12 @@
 .12   Corán y Hadith 
 .13   Tradiciones orales 
 .14   Leyes y decisiones Sharia 
+Clasifique aquí fiqh en relación con leyes y decisiones religiosas y ceremoniales, sharia en relación 
+con leyes y decisiones religiosas y ceremoniales 92
 .18  Cuentos, leyendas, parábolas, proverbios, anécdotas contadas para edificación religiosa 
 .19   Mitología 
 .2       Teología doctrinal islámica ‘Aqa’ id y Kalam; islamismo y disciplinas seglares; islamismo 
+y otros sistemas de creencia  
 .21   Dios y los seres espirituales 
 .22   Género humano 
 .23   Escatología 
@@ -1806,7 +2168,9 @@
 .38   Ritos, ceremonias, oración, meditación 
 .39  Prácticas populares 
 .4       Sufismo Misticismo islámico 
+Clasifique aquí aspectos específicos del sufismo 
 .41  Teología doctrinal sufista; sufismo y disciplina seglares; sufismo y sistemas de creencia no 
+islámicos 
 .43  Culto sufista 
 .44  Vida y práctica religiosas sufistas 
 .45  Teología moral sufista 
@@ -1841,12 +2205,14 @@
 298 No asignado permanentemente 
 299  Otras religiones 
 .1-.4       Religiones de origen indoeuropeo, semítico, norafricano, asiático del norte y occidental,  
+dravídico 
 .5       Religiones de origen asiático del oriente y sudoriental 
 .51   Religiones de origen chino 
 .54   Religión de origen tibetano 
 .56   De origen japonés y ryukyuano 
 .57-.59  Otras religiones de origen asiático oriental y sudoriental 
 .6       Religiones que se originan entre los africanos negros y la gente de ascendencia africana   
+negra 
 .62   Mitología y fundamentos mitológicos 
 .63   Doctrinas 
 .64   Prácticas, ritos, ceremonias 
@@ -1866,32 +2232,53 @@
 .92   Religiones de otro origen étnico 
 .93   Religiones de origen ecléctico y sincrético 
 300  Ciencias sociales 
+Clasifique aquí estudios del comportamiento humano, estudios sociales 
 301  Sociología y antropología  
+Clasifique aquí obras interdisciplinarias sobre la sociedad, los humanos 
 .7       Sociedades iletradas 
 302-307 Temas específicos en sociología y antropología 
 302  Interacción social 
+Clasifique aquí principios psicológicos de la sociología, relaciones interpersonales, psicología     
+social 
 .1       Temas generales de interacción social 
 .12   Comprensión social 
+Incluye atribución, percepción del riesgo 
 .13   Elección social 
+Incluye atracción, influencia 
 .14     Participación social 
+Incluye comunalismo, competencia, grupos de encuentro, adiestramiento de la sensibilidad,   
+cooperación, voluntarismo 
+Clasifique aquí aceptación social, adaptación social, habilidades sociales, éxito 
 .15     Rol social Teoría del rol 
+Incluye conflicto de roles 
 .17   Disfunción social 
+Clasifique aquí psicoanálisis social95
 .2       Comunicación 
+Incluye semiótica 
 .22   Clases de comunicación 
 .23   Medios Formas de comunicación 
+Clasifique aquí medios masivos, sociología del periodismo 
 .24   Contenido 
+Incluye chisme, rumor 
 .25   Fallas y alteraciones de comunicación 
 .3       Interacción social intragrupal 
 .33   Interacción social en grupos abstractos y temporales 
 .34   Interacción social en grupos primarios 
+Clasifique aquí amistad 
 .35   Interacción social en grupos complejos 
+Clasifique aquí burocracias, comportamiento organizacional 
 .4       Interacción social intragrupal 
+Incluye endogrupos y exogrupos 
 .5       Relación del individuo con la sociedad 
 .52   Relación mediante grupos de referencia 
 .54   Respuesta de los individuos 
+Clasifique aquí agresión, respuestas disfuncionales, individualismo 
 303  Procesos sociales
 .3       Coordinación y control 
+Clasifique aquí poder, formulación de política 
 .32   Socialización 
+Incluye aprendizaje social 
+Clasifique aquí conformidad 
 .33   Control social 
 .34   Liderazgo 
 .35   Control utilitarista 
@@ -1909,15 +2296,21 @@
 .62   Desorden civil 
 .64   Guerra civil y revolución 
 .66   Guerra 
+Incluye pacifismo, sociología de la guerra 
 .69   Resolución de conflictos 
 304  Factores que afectan el comportamiento social  
 .2       Ecología humana 
+Clasifique aquí antropología ecológica, geografía humana 
 .23   Factores geográficos, espaciales, temporales 
 .25   Factores climáticos y atmosféricos 
 .27   Factores biológicos 
 .28   Abuso del medio ambiente 
 .5       Factores genéticos 
+Clasifique aquí sociobiología biosociología, el estudio de las bases genéticas del 
+comportamiento social humano 
 .6       Población 
+Clasifique aquí tamaño y composición de la población; demografía, antropología  
+demográfica, geografía de la población 
 .61   Características de la población 
 .62   Crecimiento y descenso 
 .63   Nacimientos  
@@ -1928,6 +2321,9 @@
 .82   Movimiento internacional 
 .83-.89  Migración 
 305  Grupos sociales 97
+Clasifique aquí cultura e instituciones de grupos específicos diferentes de los grupos autóctonos 
+raciales, étnicos, nacionales; subculturas de grupos específicos; grupos concientizadores; 
+estratificación social, igualdad, desigualdad 
 .2       Grupos de edad 
 .23   Gente joven 
 .24   Adultos  
@@ -1936,6 +2332,7 @@
 .31   Hombres 
 .32-.38 Aspectos específicos de la sociología de los hombres 
 .4       Mujeres 
+Clasifique aquí obras interdisciplinarias sobre mujeres, sobre género femenino      
 .42  Rol y situación social de las mujeres 
 .43  Ocupaciones femeninas 
 .48  Clases específicas de mujeres      
@@ -1947,10 +2344,15 @@
 .6       Grupos religiosos 
 .7       Grupos lingüísticos 
 .8       Grupos raciales, étnicos, nacionales 
+Clasifique aquí grupos raciales, étnicos, racionales asociados con una lengua específica; 
+etnología, etnología cultural, etnografía; relaciones raciales 
 .9       Grupos ocupacionales y grupos varios 
 306  Cultura e instituciones 
+Clasifique aquí cultura de masas cultura popular, antropología cultural y social 
 .1       Subculturas 
 .2       Instituciones políticas 98
+Clasifique aquí sociología política; obras generales sobre patrocinio, sobre relaciones con el 
+cliente 
 .23   Instituciones legislativas 
 .24   Instituciones ejecutivas 
 .25   Instituciones judiciales 
@@ -1958,20 +2360,31 @@
 .27   Instituciones militares 
 .28   Instituciones de policía 
 .3       Instituciones económicas 
+Clasifique aquí antropología económica; sociología económica; sociología del desarrollo 
+económico, del consumo 
 .32   Sistemas de propiedad 
 .34   Sistemas de producción e intercambio 
+Clasifique aquí la sociología del conflicto y de las relaciones industriales 
 .36   Sistemas de trabajo 
+Clasifique aquí la sociología del trabajo, sociología industrial 
 .38   Jubilación 
 .4       Aspectos específicos de la cultura 
+Incluye la sociología de modas de brujería, magia, símbolos, hábitos alimenticios, figura 
+corporal 
 .42   Sociología del conocimiento 
 .44   Lenguaje 
+Clasifique aquí sociolingüística 
 .45   Ciencia 
+Clasifique aquí obras que contrastan las culturas científica y humanística 
 .46   Tecnología 
 .47   Arte  
 .48   Recreación 
 .6       Instituciones religiosas 
+Clasifique aquí sociología de la religión 
 .7       Instituciones concernientes a las relaciones de los sexos 
+Clasifique aquí obras interdisciplinarias sobre sexo, amor sexual, relaciones sexuales 
 .73   Instituciones generales 
+Clasifique aquí comportamiento de galanteo 
 .74   Prostitución 
 .76   Orientación sexual 
 .77   Prácticas sexuales 99
@@ -1985,6 +2398,7 @@
 .88   Alteración de los acuerdos familiares 
 .89   Separación y divorcio 
 .9       Instituciones concernientes a la muerte 
+Clasifique aquí obras interdisciplinarias sobre la muerte 
 307  Comunidades  
 .1       Planificación y desarrollo 
 .12   Planificación 
@@ -2009,6 +2423,7 @@
 313 No asignado 
 314-319  
 314-319 Estadísticas generales de continentes, países, localidades específicos en el mundo   
+moderno 
 320  Ciencia política Política y gobierno 
 .1       El Estado
 .11   Teorías del origen 
@@ -2016,6 +2431,7 @@
 .15   Soberanía 
 .3       Gobierno comparado 
 .4       Estructura y funciones del gobierno 
+Clasifique aquí cívica 
 .41-.49  Tratamiento geográfico 
 .5       Ideologías políticas 
 .51   Liberalismo 
@@ -2026,12 +2442,17 @@
 .56   Racismo 
 .57   Anarquismo 
 .6       Elaboración de políticas 
+Clasifique aquí planificación, formulación de programas y  propuestas, estudios sobre 
+política, política pública 
 .8       Gobierno local 
+Clasifique aquí relación del gobierno local con niveles superiores del gobierno 
 .83  Niveles intermedios 
 .84   Gobierno rural 
 .85  Gobierno de la ciudad 
 .9       Situación y condiciones políticas 
+Clasifique aquí tratamiento histórico y geográfico de política y gobierno 101
 321  Sistemas de gobiernos y de estados 
+Clasifique aquí clases de estados 
 .1       Gobierno de base familiar 
 .12  Sistemas de gobierno en pueblos iletrados 
 .14   Sistemas de gobiernos antiguos y medievales 
@@ -2041,6 +2462,7 @@
 .5       Sistemas elitistas 
 .6       Monarquía absoluta 
 .8       Gobierno democrático 
+Incluye democracia pura 
 .86   Repúblicas 
 .87   Monarquía limitada Monarquía constitucional 
 .9       Gobierno autoritario 
@@ -2048,17 +2470,25 @@
 .94   Gobierno fascista 
 322  Relación del estado con grupos organizados y sus miembros 
 .1       Organizaciones y grupos religiosos 
+Clasifique aquí iglesia y estado, religión y estado 
 .2       Movimientos y grupos obreros 
+Incluye huelgas generales 
 .3       Negocios e industria 
 .4       Grupos de acción política 
+Clasifique aquí grupos de protesta; tácticas no electorales usadas por grupos de acción 
+política; clases específicas de conflictos entre grupos de acción política y autoridades 
+constituidas 
 .42   Grupos revolucionarios y subversivos 
 .43   Grupos de presión 102
 .44   Movimientos reformistas 
 .5       Servicios armados 
 323  Derechos civiles y políticos 
+Clasifique aquí la relación del Estado con sus residentes; libertad individual, derechos humanos,   
+derechos del hombre 
 .1  Derechos civiles y políticos de grupos no dominantes
 .11   Grupos raciales, étnicos, nacionales 
 .13-.19  Tratamiento general de grupos no dominantes, de grupos raciales, étnicos, nacionales por 
+continentes, países, localidades específicos 
 .3       Derechos civiles y políticos de otros grupos sociales 
 .32   Grupos identificados según características sociales varias 
 .34   Mujeres 
@@ -2079,6 +2509,9 @@
 .65   Deberes y obligaciones de los ciudadanos 
 .67   Pasaportes y visas 
 324  El proceso político 
+Incluye terminación de la tenencia del cargo de jefe del ejecutivo antes de la expiración del   
+período       
+Clasifique aquí selección de jefes del ejecutivo, elecciones 
 .1 Organizaciones, organizaciones auxiliares, actividades internacionales de partidos 103
 .13   Organizaciones internacionales de partidos de derecha 
 .14   Organizaciones internacionales de partidos conservadores 
@@ -2088,12 +2521,20 @@
 .18   Organizaciones internacionales de otros partidos 
 .2       Partidos políticos 
 .21   Clases de partidos 
+Clasifique aquí organización, cuerpos de miembros, finanzas de partidos, maquinarias políticas 
 .22   Liderazgo 
+Clasifique aquí políticos como un tipo de persona; política como una profesión, ocupación, 
+pasatiempo 
 .23   Programas e ideologías 
+Clasifique aquí plataformas, literatura de campaña  
 .24-.29  Partidos en países específicos en el mundo moderno 
 .3       Organizaciones auxiliares de partidos
 .4       Grupos de interés y de presión 
+Clasifique aquí la influencia y actividades de grupos en procesos  extragubernamentales; 
+comités de acción política PACs, grupos para consecución de fondos de Estados Unidos; 
+obras generales sobre cabildeo 
 .5       Nominación de candidatos 
+Clasifique aquí campañas para nominación; resultados de campañas 
 .52   Nominación por camarillas políticas caucuses y cooptación 
 .54   Nominación por primarias 
 .56   Nominación por convenciones 
@@ -2111,19 +2552,24 @@
 .9       Tratamiento histórico y geográfico de elecciones 104
 .91-.99  Tratamiento geográfico 
 325  Migración y colonización internacionales 
+Incluye traslado involuntario de población, intercambio de población 
 .1       Inmigración 
 .2       Emigración 
 .21   Refugiados 
 .23-.29  Emigración desde continentes, países, localidades específicos 
 .3       Colonización 
+Clasifique aquí el ejercicio de dominio político sobre territorios distantes 
 .31   Administración y política coloniales 
 .32   Imperialismo 
 .33-.39  Colonización por países específicos 
 .4-.9  Migración y colonización internacionales hacia y en continentes, países, localidades 
+específicos en el mundo moderno 
 326  Esclavitud y emancipación 
 .8      Emancipación  
 327  Relaciones internacionales 
 .1       Política exterior y temas específicos de las relaciones internacionales 
+Clasifique aquí imperialismo en las relaciones internacionales, política internacional, 
+políticas de poder   
 .11   Formas específicas de alcanzar metas de política exterior 
 .12   Espionaje y subversión 
 .14   Propaganda y guerra de nervios 
@@ -2131,7 +2577,10 @@
 .17   Cooperación internacional 
 .2       Diplomacia 
 .3-.9       Relaciones exteriores de naciones específicas 
+Clasifique aquí tratamiento de personas de diplomáticos no embajadores de naciones 
+específicas 
 328  El proceso legislativo 105
+Clasifique aquí la rama legislativa, cuerpos legislativos 
 .1       Reglamentos y procedimientos de cuerpos legislativos 
 .2       Iniciativa y referéndum 
 .22  Iniciativa 
@@ -2150,24 +2599,34 @@
 .4-.9       El proceso legislativo en jurisdicciones específicas en el mundo moderno 
 329 No asignado
 330  Economía 
+Incluye obras interdisciplinarias sobre derechos económicos    
 .1       Sistemas, escuelas, teorías 
 .12   Sistemas 
 .15   Escuelas de pensamiento económico        
 .16   Teorías de la riqueza 
 .17   Teorías de la propiedad 
 .9       Situación y condiciones económicas 
+Clasifique aquí obras que describen la situación y condiciones tanto a nivel 
+macroeconómico agregado como macroeconómico nivel de la unidad individual, tal como 
+el hogar o la firma 
 .91   Tratamiento geográfico Geografía económica por áreas, regiones, lugares en general 
 .93-.99 Tratamiento geográfico Geografía económica por continentes, países, localidades   
+específicos 
 331-333 Economía laboral, financiera, de la tierra 106
 331  Economía laboral 
+Clasifique aquí relaciones industriales, obras interdisciplinarias sobre mano de obra 
 .1       Fuerza y mercado laborales 
 .11   Fuerza laboral  
 .12   Mercado laboral  
 .13   Desajustes en el mercado laboral  
 .2       Condiciones de empleo 
 .21   Remuneración 
+Clasifique aquí salarios, obras generales sobre política de salario-precio 
 .22   Diferenciales de remuneración 
+Diferencias entre industrias, ocupaciones, regiones 
+Incluye comparación entre firmas en la misma industria 
 .23   Planes de salario garantizado 
+Incluye salario mínimo 
 .25   Otras condiciones de empleo 
 .28   Remuneración por industria y ocupación 
 .29   Tratamiento histórico, geográfico, de personas de la remuneración 
@@ -2186,8 +2645,10 @@
 .5       Categorías especiales de trabajadores diferentes de por edad o sexo 
 .51   Prisioneros y exconvictos 
 .52   Veteranos 
+Clasifique aquí trabajo no militar de anteriores miembros de las fuerzas armadas 
 .53  Homosexuales      
 .54   Trabajadores en situaciones económicas especiales 
+Clasifique aquí trabajadores en desventaja económica no provistos en otra parte 
 .55   Aprendices 107
 .59   Trabajadores con discapacidades y enfermedades 
 .6       Categorías de trabajadores según origen racial, étnico, nacional 
@@ -2199,6 +2660,7 @@
 .76   Industrias y ocupaciones específicas 
 .79   Grupos específicos de ocupaciones 
 .8       Sindicatos obreros, negociación colectiva y disputas obrero-patronales 
+Clasifique aquí obras interdisciplinarias sobre movimientos obreros 
 .87   Organización sindical obrera 
 .88   Sindicatos obreros 
 .89   Negociación colectiva y disputas obrero-patronales 
@@ -2222,7 +2684,9 @@
 .37   Bancos industriales 
 .38   Compañías de seguros 108
 .4       Dinero 
+Clasifique aquí obras generales sobre instrumentos de intercambio 
 .41   Valor del dinero 
+Clasifique aquí inflación, estagflación” stagflaction, deflación 
 .42   Patrones monetarios 
 .45   Divisas 
 .46   Política monetaria 
@@ -2231,23 +2695,30 @@
 .55   Papel comercial 
 .56   Dinero de crédito social 
 .6       Inversión e inversiones 
+Clasifique aquí prospectos de inversión, análisis y gerencia de la cartera de valores 
 .62   Firmas de corretaje 
 .63   Formas de inversión  
 .64   Intercambio de títulos valores y de bienes        
 .65   Intercambio internacional de títulos valores      
 .66   Bancos de inversión       
 .67   Inversiones por campo de inversión, clase de empresa, clase de inversionista; guías e  
+inversión  
 .7       Crédito 
+Clasifique aquí tipos específicos de crédito 
 .71   Crédito agrícola 
 .72   Financiación e hipotecas de bienes raíces 
+Clasifique aquí discriminación en préstamos hipotecarios; delincuencia e incumplimiento   
+hipotecarios 
 .74   Otras formas de crédito 
 .75   Restricciones y colapso crediticios 
+Clasifique aquí bancarrota 
 .76   Instrumentos de crédito 
 .77   Papeles comerciales 
 .8       Interés y descuento 
 .82   Interés 
 .83   Usura 
 .84   Descuento  
+Incluye redescuento 109
 .9       Falsificación, adulteración, alteración 
 333  Economía de la tierra y de la energía 
 333.1-333.5 Propiedad de la tierra  
@@ -2258,8 +2729,12 @@
 .16   Enajenación 
 .18   Agrimensura pública 
 .2       Propiedad de la por grupos no gubernamentales 
+Incluye tierras comunales; cercamiento de tierras comunales; sistema de campo abierto;  
+propiedad y control de la tierra por personas subordinadas a otra jurisdicción 
 .3       Propiedad individual  privada de la tierra  
+Clasifique aquí obras generales sobre propiedad de la tierra  
 .31   Reforma agraria 
+Clasifique aquí redistribución de la tierra, asentamiento y reasentamiento de personas en la tierra 
 .32   Tipos de tenencia 
 .33   Transferencia de posesión y derecho al uso 
 .4       Propiedad absentista 
@@ -2268,6 +2743,7 @@
 .54   Relaciones terrateniente-arrendatario 
 .56   Tipos de alquiles 
 .7       Recursos naturales y energía 
+Clasifique aquí materias primas; obras interdisciplinarias sobre el medio ambiente 
 .701-.71 Subdivisiones comunes y temas generales de recursos naturales y energía 
 .72   Conservación y protección 
 .73   Tierra 
@@ -2278,15 +2754,21 @@
 .78   Áreas recreativas y silvestres 110
 .79   Energía 
 .8       Recursos del subsuelo 
+Clasifique aquí materiales estratégicos, existencia en almacenamiento, déficit, superávit, 
+demanda y proyecciones de los mismos  
 .801-.81 Subdivisiones comunes y temas generales de recursos del subsuelo 
 .82   Combustibles fósiles 
 .85   Minerales 
 .88   Energía geotermal 
 .9       Otros recursos naturales 
 .91     Agua 
+Clasifique aquí recursos acuáticos, tierra adyacente al agua, obras generales sobre economía de los 
+recursos acuáticos 
 .92   Aire 
+Clasifique aquí energía eólica, uso del viento para generación de  electricidad  
 .94   Espacio 
 .95   Recursos biológicos 
+Clasifique aquí biodiversidad, biosfera 
 334  Cooperativas 
 .1       Cooperativas de vivienda 
 .2       Cooperativas bancarias y de crédito 
@@ -2296,6 +2778,8 @@
 .68   Cooperativas de producción por industria 
 .7       Sociedades benéficas 
 335  Socialismo y sistemas relacionados 
+Clasifique aquí socialismo de Estado, obras interdisciplinarias sobre socialismo y sistemas   
+relacionados 
 335.1-335.3 Socialismo no marxista y cuasimarxista 
 .1       Sistemas de origen inglés 
 .12   Socialismo utópico 
@@ -2317,6 +2801,8 @@
 .83   Anarquismo 
 .9       Comunidades socialistas y anarquistas voluntarias 
 336  Finanzas públicas 
+Clasifique aquí relaciones fiscales intergubernamentales, obras generales sobre finanzas públicas 
+y administración financiera de gobiernos 
 336.1-.-336.2 Formas específicas de rentas públicas 
 .1      Ingresos no tributarios 
 .11  Ingresos comerciales a partir de alquileres y franquicias 
@@ -2335,6 +2821,7 @@
 .27  Otros impuestos 
 .29  Principios de tributación 
 .3      Empréstito, deuda, gasto públicos 
+Clasifique aquí política fiscal, obras generales sobre política fiscal y monetaria 
 .31  Títulos valores públicos gubernamentales 
 .32  Títulos valores a corto plazo 
 .34  Deuda pública 
@@ -2342,13 +2829,20 @@
 .39  Gastos 
 .4-.9      Finanzas públicas de continentes, países, localidades específicos en el mundo moderno 
 337 Economía internacional 
+Clasifique aquí planificación económica internacional: obras generales sobre relaciones 
+económicas internacionales, sobre cooperación económica internacional 
 .1      Cooperación económica multilateral 
 .11  Cooperación económica multilateral en áreas, regiones, lugares en general 
 .14  Cooperación multilateral europea 
 .15-.19 Cooperación multilateral en continentes diferentes de Europa 
 .3-.9 Políticas y relaciones  económicas extranjeras de jurisdicciones y grupos de jurisdicciones   
+específicos 
+Clasifique aquí cooperación económica bilateral 
 338 Producción 
+Clasifique aquí obras interdisciplinarias sobre industria, sobre producción 
 338.1-338.4 Clases específicas de industrias 
+Clasifique aquí finanzas, economía de la producción general de clases específicas de  
+industrias 
 338.1-338.3 Industrias primarias Extractivas 
 .1       Agricultura 
 .13  Aspectos financieros 
@@ -2358,10 +2852,13 @@
 .18  Políticas agrícolas gubernamentales 
 .19  Abastecimiento de alimentos  
 .2      Extracción de minerales 
+Clasifique aquí extracción de recursos energéticos, obras generales sobre la economía de 
+extracción y procesamiento de minerales y de recursos energéticos 
 .23  Aspectos financieros 
 .26  Eficiencia de la producción 
 .27  Productos 
 .3      Otras industrias extractivas 
+Incluye aspectos financieros, eficiencia de la producción 
 .37  Productos 
 .4      Industrias y servicios secundarios 
 .43  Aspectos financieros 
@@ -2370,10 +2867,13 @@
 .47  Bienes y servicios 
 .48  Políticas gubernamentales 
 .5      Economía de la producción en general 
+Incluye riesgo 
+Clasifique aquí microeconomía economía de la firma 
 .51  Costos 
 .52  Precios 
 .54  Fluctuaciones económicas 
 .6      Organización de la producción 
+Clasifique aquí organización de la producción en clases específicas de industrias  
 .61  Empresa privada 
 .62  Empresa pública 
 .63  Sistemas de producción 
@@ -2386,6 +2886,8 @@
 .74  Corporaciones 
 .76  Empresas de negocios por industria  
 .8      Combinaciones de empresas 
+Clasifique aquí políticas antimonopolio, concentración económica, obras generales sobre 
+combinaciones de empresas y sus prácticas 
 .82  Prácticas restrictivas 
 .83  Fusiones  
 .85  Fideicomisos 
@@ -2406,6 +2908,7 @@
 .31  Cuentas y contabilidad del producto bruto 
 .32  Otras clases de cuentas y contabilidad nacionales 
 .33-.39 Cuentas y contabilidad del producto, riqueza, el ingreso de países y localidades  
+específicos 
 .4      Factores que afectan al producto, riqueza, ingreso nacionales 
 .41  Ingreso y su relación con el consumo 
 .42  Costo de vida Precios 
@@ -2413,11 +2916,13 @@
 .46  Causas y efectos económicos de la pobreza 
 .47  Consumo Gasto 
 .48  Consumo de productos y servicios específicos, de grupos de productos y servicios  
+específicos 
 .49  Conservación de recursos nacionales 115
 .5      Política macroeconómica 
 .52  Uso de política fiscal 
 .53  Uso de política monetaria 
 340 Derecho 
+Clasifique aquí jurisprudencia 
 .1      Filosofía y teoría del derecho 
 .11  Temas especiales de filosofía y teoría del derecho 
 .12-.19 Aspectos específicos de filosofía y teoría 
@@ -2449,6 +2954,7 @@
 .35  Derecho consular 
 .37  Tratados 
 .4      Jurisdicción y relaciones jurisdiccionales de los estados 
+Clasifique aquí extraterritorialidad, servidumbres y facilitación, derecho al cruce pacífico 
 .42  Territorio 
 .44  Cuerpos de agua 
 .45  Alta mar 
@@ -2476,11 +2982,13 @@
 .77  Derecho penal internacional 
 .78  Cooperación judicial internacional 
 342-349 Ramas del derecho; leyes estatutos, reglamentaciones, jurisprudencia; 
+derecho de jurisdicciones, áreas, regiones socioeconómicas específicas 
 342-347 Ramas del derecho 
 342 Derecho constitucional y administrativo      
 .1      Regiones socioeconómicas    117
 .3-.9      Jurisdicciones y áreas específicas 
 343 Derecho militar, de defensa, de bienes públicos, de finanzas públicas, tributario, 
+mercantil comercial, industrial 
 .1      Regiones socioeconómicas    
 .3-.9      Jurisdicciones y áreas específicas 
 344 Derecho laboral, de servicio social,  educativo, cultural 
@@ -2505,8 +3013,12 @@
 351 Administración pública 
 .1      Administración en áreas, regiones, lugares en general118
 .3-.9      Administración en continentes, países,, localidades específicos 
+Clasifique aquí administración de jurisdicciones específicas, obras prácticas sobre  
+administración de jurisdicciones subordinadas específicas 
 352-354 Temas específicos de administración pública 
 352 Consideraciones generales sobre administración pública 
+Clasifique aquí consideraciones generales sobre administración pública aplicables a dos o más 
+ramas de gobierno
 .1      Niveles jurisdiccionales de administración 
 .11  Administración internacional      
 .13  Administración estatal y provincial 
@@ -2563,6 +3075,7 @@
 .8      Administración de formas generales de control 
 .83    Fijación de estándares
 .84  Concesión de licencias, acreditación, certificación, aprobación de estatutos, registro;               
+incorporación 
 .85  Controles de precios y de costos 
 .86  Racionamiento y asignación 
 .88  Uso de agencias de vigilancia y supervisión 
@@ -2607,6 +3120,7 @@
 .88  Educación superior 121
 .89  Educación especial 
 .9      Administración de la seguridad, de la sanidad, del control de desechos. Manejo de la     
+seguridad 
 .93  Sanidad y control de desechos 
 .94  Sanidad en instalaciones públicas 
 .95  Preparación para desastres 
@@ -2663,6 +3177,7 @@
 .97  Sindicatos obreros y negociación colectiva 
 .98  Compensación y condiciones de empleo 
 355 Ciencia militar 
+Clasifique aquí fuerzas y servicios armados, fuerzas y servicios terrestres 
 .1      Vida y costumbres militares 
 .11  Períodos de servicio; promoción y degradación, terminación 
 .12  Condiciones de vida 
@@ -2681,6 +3196,7 @@
 .28  Movilización 
 .29  Desmovilización 
 .3      Organización y personal de las fuerzas militares 
+Clasifique aquí preparación para el combate de unidades específicas 
 .31  Clases de unidades militares 
 .33  Personal y su jerarquía 
 .34  Servicios distintos a combate 
@@ -2698,6 +3214,7 @@
 .49  Ocupación del territorio conquistado 
 .5      Adiestramiento militar 
 .52  Maniobras 
+Incluye maniobras que involucran a la población civil 
 .54  Adiestramiento básico 
 .55  Adiestramiento de oficiales 
 .56  Adiestramiento técnico 
@@ -2724,6 +3241,9 @@
 .85  Equipo de comunicación 
 .88  Abastecimientos médicos 
 356-359 Clases específicas de fuerzas y combate militares 
+Clasifique aquí la historia de fuerzas militares específicas no limitada a una guerra en  
+particular, servicios y unidades dedicadas a fuerzas específicas, contramedidas en contra de 
+fuerzas específicas 
 356-357 Fuerzas y combate terrestres 
 356 Fuerzas y combate de infantería 
 .1      Infantería 
@@ -2741,6 +3261,7 @@
 .54  Caballería en grandes vehículos motorizados 
 .58  Temas generales de caballería mecanizada     
 358 Fuerzas y combate aéreas y otras fuerzas especializadas; ingeniería y servicios 
+relacionados 125
 .1      Fuerzas de misiles; artillería del ejército y fuerzas blindadas 
 .12  Fuerzas de artillería del ejército 
 .13  Fuerzas de artillería antiaérea 
@@ -2775,6 +3296,7 @@
 .6      Administración naval 
 .7      Instalaciones navales 126
 .8      Equipo y abastecimientos navales Material bélico naval Armamentos navales Pertrecho 
+naval 
 .81  Vestuario, alimentos, equipo de campaña, útiles de oficina 
 .82  Clases específicas de armamentos pertrechos 
 .83  Equipo y abastecimiento de transporte 
@@ -2789,6 +3311,9 @@
 360 Problemas y servicios sociales; asociaciones  
 361-365 Problemas y servicios sociales 
 361 Problemas sociales y bienestar social en general 
+Clasifique aquí obras generales sobre planificación y desarrollo socioeconómico, sobre     
+programas y servicios que abarcan diversas ramas de las ciencias sociales, sobre problemas 
+y servicios sociales 
 .1      Problemas sociales 
 .2      Acción social 
 .23  Protesta y disidencia 
@@ -2800,6 +3325,9 @@
 .37  Trabajo social voluntario 
 .4      Trabajo de grupo 
 .6      Acción gubernamental 
+Clasifique aquí asistencia y planeación intergubernamental, acción internacional   
+gubernamental, obras interdisciplinarias sobre planeación y desarrollo socioeconómico  
+auspiciados por el gobierno  127
 .61  Política social 
 .65  Estado benefactor 
 .68  Reforma del bienestar 
@@ -2812,7 +3340,10 @@
 .9      Tratamiento histórico, geográfico, de personas 
 362-363 Problemas y servicios sociales específicos 
 362 Problemas y servicios de bienestar social 
+Clasifique aquí seguridad social 
 .1      Enfermedad física 
+Clasifique aquí obras interdisciplinarias sobre enfermedad y discapacidad, sobre atención 
+y tratamiento médico, sobre misiones médicas, sobre salud pública 
 .11  Hospitales e instituciones relacionadas 
 .12  Clínicas e instituciones relacionadas 
 .14  Atención domiciliaria profesional 
@@ -2821,6 +3352,8 @@
 .18  Servicios de urgencia 
 .19  Servicios a pacientes con condiciones específicas 
 .2      Enfermedades y trastornos mentales y emocionales 
+Clasifique aquí discapacidades  mentales que consisten en retardo mental combinado con 
+enfermedad mental 
 .21  Instalaciones de salud mental 
 .22  Servicios comunitarios de salud mental  
 .23  Instalaciones de atención continuada 
@@ -2859,7 +3392,9 @@
 .88  Víctimas de crímenes 
 .9      Tratamiento histórico, geográfico, de personas 
 363 Otros problemas y servicios sociales 
+Clasifique aquí obras públicas 
 .1      Programas de seguridad pública 
+Clasifique aquí medidas de seguridad, obras interdisciplinarias sobre seguridad 
 .11  Riesgos ocupacionales e industriales 
 .12  Riesgos en transporte 129
 .13  Riesgos domésticos 
@@ -2907,6 +3442,8 @@
 .75  Disposición de los muertos 
 .78  Control de plagas 
 .8      Abastecimiento de alimentos 
+Clasifique aquí hambre, carestía; obras interdisciplinarias sobre abastecimiento de  
+alimentos, sobre nutrición 
 .82  Incidencia, alcance, severidad de los problemas de abastecimiento de alimentos 
 .85  Acción social 
 .9      Problemas de población 
@@ -2916,6 +3453,8 @@
 .97  Esterilización 
 .98  Medidas eugenésicas para el control de la población      
 364 Criminología 
+Clasifique aquí obras generales sobre criminología y derecho penal, justicia penal que incluye 
+criminología, servicios de policía y derecho penal 
 .1      Delitos criminales 
 .13  Delitos políticos y relacionados 
 .14    Delitos contra la salud, seguridad, orden públicos 
@@ -2985,6 +3524,7 @@
 .12  Líneas afines de seguro de incendio y endoso de cobertura ampliada 
 .14  Seguro contra riesgo de guerra 
 .2      Seguros contra daño y pérdida de la propiedad en tránsito Seguro marítimo, Seguro de 
+transporte 
 .22  Seguro marítimo oceánico 
 .23  Seguro marítimo interior 
 .24  Seguro de transporte aéreo 
@@ -3198,6 +3738,7 @@
 .37  Educación cooperativa 
 .38  Costos y gastos 
 .4-.9      Educación superior en continentes, países, localidades específicos en el mundo moderno 
+Clasifique aquí escuelas específicas 
 379 Asuntos de política pública en educación 139
 .1      Elementos específicos de apoyo y control de la educación pública 
 .11  Apoyo de la educación pública 
@@ -3213,6 +3754,7 @@
 .32  Apoyo público a la educación privada   
 .34  Control público de la educación privada 
 .4-.9      Asuntos de política pública en continentes, países, localidades específicos en el mundo   
+moderno 
 380 Comercio, comunicaciones, transporte 
 .1      Comercio 
 .13  Política comercial 
@@ -3232,12 +3774,16 @@
 .33  Información al consumidor 
 .34  Protección al consumidor 140
 .4      Productos y servicios específicos  
+Clasifique aquí obras que tratan sobre el consumo como una medida del volumen, valor, o 
+clase de comercio de productos específicos 
 .5      Comercio interregional e interestatal 
 382 Comercio internacional Comercio exterior 
 .1      Generalidades del comercio internacional 
 .17  Balanza de pagos 
 .3      Política comercial 
 .4      Comercio internacional por productos y servicios  
+Clasifique aquí obras que tratan sobre el consumo como una medida del volumen, valor o 
+clase de comercio en productos específicos 
 .5      Comercio de importación 
 .52  Cuotas de importación 
 .53  Embargos a importaciones 
@@ -3270,6 +3816,7 @@
 .42  Oficinas postales 
 .46  Servicios internos 
 .49  Tratamiento histórico, geográfico, de personas de la comunicación postal, de organizaciones 
+y sistemas postales 
 384 Comunicaciones. Telecomunicación 
 .1      Telegrafía 
 .13  Aspectos económicos de la producción 
@@ -3318,6 +3865,7 @@
 .22  Barcos 
 .24  Actividades y servicios 
 386.3-386.6 Clases específicas de transporte acuático interior y por transbordador 
+Clasifique aquí actividades, servicios, instalaciones 
 386.3-386.5 Clases específicas de aguas 
 .3      Transporte fluvial 143
 .32  La ruta 
@@ -3356,6 +3904,8 @@
 .74  Actividades y servicios 144
 .8      Transporte espacial  
 388 Transporte. Transporte terrestre 
+Clasifique aquí obras interdisciplinarias sobre comunicaciones y transporte, obras generales sobre
+transporte 
 .1      Carreteras 
 .11       Aspectos económicos de la producción 
 .12  Clases de carreteras 
@@ -3406,6 +3956,7 @@
 .44  Accesorios 
 .45  Botones 
 .5      Peinados 
+Incluye barbas, pelucas 
 .6      Apariencia personal 
 .62      Contorno corporal 
 .63  Uso de cosméticos y de perfumes 
@@ -3488,14 +4039,19 @@
 398.5-398.9 Formas menores de literatura folclórica 
 .5      Libros pliegos de cordel Chapbooks 
 .6      Acertijos 
+Clasifique aquí obras interdisciplinarias 
 .8      Rimas y juegos rimados 
+Clasifique aquí formas menores de poesía folclórica, rimas infantiles 
 .84  Rimas para contar con números 
 .87  Pregones y canciones callejeras       
 .9      Proverbios 
+Clasifique aquí aforismos folclóricos     
 399 Costumbres de guerra y diplomacia 
 400 Lenguas 
+Clasifique aquí obras interdisciplinarias sobre lenguas y literatura 
 401 Filosofía y teoría 
 .3      Lenguas internacionales 
+Clasifique aquí lenguas universales; discusiones generales de las lenguas internacionales 
 .4      Lenguas y comunicación 
 .41  Semiótica 
 .43  Semántica 149
@@ -3506,6 +4062,8 @@
 402 Miscelánea 
 .85  Procesamiento de datos. Aplicaciones de computador    
 403 Diccionarios, enciclopedias, concordancias 
+Clasifique aquí diccionarios, enciclopedias, concordancias que traten exhaustivamente tanto la 
+lengua como la literatura 
 404 Temas especiales 
 .2      Bilingüismo 
 405-406 Subdivisiones comunes 
@@ -3514,30 +4072,41 @@
 .9      Tratamiento de la lengua en relación con grupos raciales, étnicos, nacionales 
 409 Tratamiento geográfico y de personas 
 410 Lingüística 
+Clasifique aquí lingüística descriptiva, sincrónica; obras generales sobre lenguas euroasiáticas, 
+sobre lenguas indoeuropeas, sobre lenguas indogermánicas; sobre lenguas indohititas 
 .1      Filosofía y teoría 
 .18  Escuelas y teorías de lingüística 
 .19  Principios psicológicos 
 .2      Miscelánea 
 .3-.9      Subdivisiones comunes  
 411 Sistemas de escritura 
+Incluye alfabetos, ideogramas, silabarios; braille; abreviaturas, acrónimos, uso de mayúsculas, 
+puntuación, ortografía, transliteración 150
 .7      Paleografía 
 412 Etimología 
 413 Diccionarios 
+Clasifique aquí diccionarios políglotas 
 .1      Diccionarios especializados 
 .2-.9      Diccionarios políglotas con palabras guía o definiciones en una sola lengua 
 414 Fonología y fonética 
 .6      Características suprasegmentales 
 .8      Fonética 
 415 Gramática 
+Incluye gramática de casos, categórica, de dependencia, generativa, relacional 
 416 No asignado
 417 Dialectología y lingüística histórica diacrónica 
 .2      Dialectología 
 .22  Pidgins y criollas 
 .7      Lingüística histórica Diacrónica 
+Clasifique aquí historia de la lengua no limitada por área, cambio en la lengua, paleografía 
+en el sentido amplio de todos los aspectos de las escrituras 
 418 Uso estándar Lingüística prescriptita Lingüística aplicada 
+Incluye libros de frases multilingües 
 .4      Lectura 
 419 Lenguaje verbal estructurado diferente del hablado y escrito 
+Clasifique aquí lenguajes de signos 
 420-490 Lenguas específicas 
+Clasifique aquí obras generales sobre lenguas específicas y sus literaturas 
 420-491 Lenguas indoeuropeas específicas 151
 420 Inglés e inglés antiguo anglosajón 
 421 Sistema de escritura, fonología, fonética del inglés estándar 
@@ -3552,10 +4121,12 @@
 .1-.8      Variaciones geográficas en Inglaterra 
 .9      Variaciones geográficas en otros lugares 
 428 Uso del inglés estándar Lingüística prescriptita Lingüística aplicada 
+Clasifique aquí inglés básico 
 429 Inglés antiguo Anglosajón 
 430 Lenguas germánicas teutónicas. Alemán 
 430.1-430.6 Subdivisiones del alemán 
 431-433 Sistemas de escritura, fonología, fonética, etimología, diccionarios del alemán   
+estándar 
 434 No asignado
 435 Gramática del alemán estándar 
 436 No asignado
@@ -3581,6 +4152,7 @@
 .9      Lenguas germánicas orientales
 440 Lenguas romances. Francés 
 441-443 Sistemas de escritura, fonología, fonética, etimología, diccionarios del francés  
+estándar 
 444 No asignado
 445 Gramática del francés estándar 
 446 No asignado
@@ -3709,6 +4281,7 @@
 .83  Tigrino 
 .87  Amárico     157
 .9      Lenguas árabes del sur 
+Incluye mahri, socotri 
 493 Lenguas afroasiáticas no semíticas 
 494 Lenguas altaicas, urálicas, hiperbóreas, dravídicas 
 495 Lenguas del Asia oriental y sudoriental. Lenguas chinotibetanas 
@@ -3750,11 +4323,13 @@
 508 Historia natural 
 .2      Estaciones          
 .3      Tratamiento por áreas, regiones, lugares en general; por continentes, países, localidades 
+específicos en el mundo antiguo 
 .31  Tratamiento por áreas, regiones, lugares en general 
 .33  Tratamiento por continentes, países, localidades específicos en el mundo antiguo   
 .4-.9      Tratamiento por continentes, países, localidades específicos en el mundo moderno
 509 Tratamiento histórico, geográfico de personas 
 510 Matemáticas 
+Clasifique aquí las matemáticas finitas 
 .1      Filosofía y teoría 
 511 Principios generales de las matemáticas 
 .2      Sistemas matemáticos 159
@@ -3768,6 +4343,7 @@
 .42    Métodos 
 .43  Análisis de error 
 .5      Teoría y construcción de gráficos 
+Incluye nomografía 
 .52  Árboles 
 .6      Análisis combinatorio 
 .62  Enumeración 
@@ -3776,6 +4352,9 @@
 .66  Máximos y mínimos 
 .8      Modelos matemáticos Simulación matemática 
 512 Álgebra, teoría de los números 
+Incluye álgebra numérica 
+Clasifique aquí álgebra universal, álgebra moderna álgebra abstracta combinada con teoría de los 
+números 
 .1      Álgebra combinada con otras ramas de las matemáticas 
 .12  Álgebra y geometría euclidiana 
 .13  Álgebra y trigonometría 
@@ -3785,14 +4364,18 @@
 .2      Grupos y teoría de grupos 
 .24  Álgebras basadas en propiedades de los grupos 
 .3      Campos 160
+Clasifique aquí teoría del campo, teoría de Galois 
 .4      Anillos 
+Incluye subanillos, teoría de la extensión 
 .5      Álgebras lineales, multilineales, multidimensionales 
+Clasifique aquí álgebra vectorial, álgebra lineal combinada con geometría analítica 
 .52  Espacios vectoriales 
 .53  Álgebras definidas por dimensión del espacio y otras álgebras geométricas 
 .55  Álgebras y grupos topológicos y relacionados 
 .56  Álgebras diferenciales 
 .57  Álgebras de factores 
 .7      Teoría de los números 
+Clasifique aquí retículas 
 .72  Teoría elemental de los números 
 .73  Teoría analítica de los números 
 .74  Teoría algebraica de los números 
@@ -3805,6 +4388,7 @@
 .96  Álgebra de las funciones inecuaciones 
 .97  Desigualdades 
 513 Aritmética 
+Incluye numeración 
 .1      Aritmética combinada con otras ramas de las matemáticas 
 .12  Aritmética y álgebra 
 .13  Aritmética y geometría 
@@ -3825,7 +4409,9 @@
 .57  Sistema sexadecimal hexadecimal, Base 16 
 .6      Sistemas no ponderados 
 .9      Cálculos rápidos 
+Clasifique aquí aritmética mental, tabla de equivalencias, simplificaciones 
 514 Topología 
+Clasifique aquí análisis situs, espacios homogéneos, homeomosrfismos, cartografías 
 .2      Topología algebraica 
 .22   Topología combinatoria 
 .23  Teorías nomológicas y cohomológicas 
@@ -3836,6 +4422,7 @@
 .72  Topología diferencial 
 .74  Análisis global 
 515 Análisis 
+Clasifique aquí cálculo, análisis numérico;obras generales sobre la teoría de las funciones 
 .1      Análisis y cálculo combinados con otras ramas de las matemáticas 
 .13  Análisis y topología 
 .14  Análisis y álgebra lineal 
@@ -3940,6 +4527,7 @@
 .3      Orbitas 
 .4      Perturbaciones 
 .9      Precesión  
+Incluye nutación 
 522 Técnicas, procedimientos, aparatos, equipo, materiales 
 .1      Observatorios 165
 .19  Tratamiento geográfico 
@@ -3955,8 +4543,11 @@
 .67  Espectroscopia 
 .68  Astronomía no óptica 
 .7      Astronomía esférica 
+Incluye sistemas de referencia celeste 
 .8      Técnicas y procedimientos auxiliares específicos 
 .9      Correcciones 
+Correcciones de aberración, de la refracción astronómica, nutación, paralaje, precesión; de 
+errores instrumentales 
 523 Cuerpos y fenómenos celestes específicos 
 .1      El universo, galaxias, quásares 
 .11  Galaxias y quásares 
@@ -4051,6 +4642,7 @@
 .9      Elaboración de efemérides 
 529 Cronología 
 .1      Días 
+Incluye días aparentes medios, ecuación de tiempo, días siderales y solares 
 .2      Intervalos de tiempo 
 .3      Calendarios 
 .32  Calendarios de religiones y tradiciones específicas 
@@ -4061,6 +4653,8 @@
 .5      Reformas del calendario 
 .7      Horología 
 530 Física 
+Clasifique aquí energía, materia, antimateria, físicas clásica; obras  generales sobre mecánica 
+clásica y cuántica 
 .1      Teorías y física matemática 169
 .11  Teoría de la relatividad 
 .12  Mecánica cuántica Teoría cuántica 
@@ -4069,6 +4663,8 @@
 .15  Física matemática 
 .16  Teoría de la medición 
 .4      Estados de la materia 
+Clasifique aquí mecánica cuántica de los estados específicos de la materia; sonido, luz, 
+calor, electricidad, magnetismo, como propiedades de un estado específico de la materia 
 .41  Física del estado sólido 
 .42  Física del estado líquido 
 .43  Física del estado gaseoso 
@@ -4095,6 +4691,7 @@
 .5      Masa y gravedad de sólidos; proyectiles 
 .54  Densidad y gravedad específica 170
 .55  Proyectiles      
+Incluye trayectorias     
 .6      Energía 
 .62  Conservación de la energía 
 .68  Transformación 
@@ -4150,6 +4747,7 @@
 .32  Óptica geométrica 
 .35  Luminiscencia 
 .4      Dispersión de la luz 
+Incluye sombras 
 .42  Difracción 
 .43  Dispersión 
 .47  Interferencia 
@@ -4184,6 +4782,7 @@
 .71  Teorías 
 .73  Entropía
 537 Electricidad y electrónica 
+Clasifique aquí electromagnetismo 
 .1      Teorías 173
 .12  Teorías ondulatorias 
 .14     Teoría corpuscular 
@@ -4191,6 +4790,7 @@
 .21  Carga y potencial eléctricos 
 .24  Dieléctrica      
 .5      Electrónica 
+Incluye los fenómenos de explosión de alambres 
 .52  Descargas disruptivas 
 .53  Descarga mediante gases y vacíos rarificados  
 .54  Fenómenos fotoeléctricos 
@@ -4216,10 +4816,12 @@
 .78  Levantamientos magnéticos 
 .79  Observaciones magnéticas en observatorios       
 539 Física moderna 
+Clasifique aquí física cuántica 174
 .1      Estructura de la materia 
 .12  Estructura molecular 
 .14  Estructura atómica  
 .2      Radiaciones Energía radiante 
+Clasifique aquí radiación, espectro, ondas electromagnéticas 
 .6      Física molecular 
 .7      Física atómica y nuclear 
 .72  Física de partículas; radiaciones ionizantes 
@@ -4293,6 +4895,9 @@
 .84  Microanálisis y semimicroanálisis 
 .89  Análisis cromatográfico 
 546 Química inorgánica 
+Clasifique aquí temas generales sobre química aplicada a elementos, compuestos, mezclas,      
+agrupaciones  específicos;  obras generales sobre química inorgánica y orgánica de elementos, 
+compuestos, mezclas, agrupaciones  específicos 
 .2      Hidrógeno y sus compuestos 
 .21  El elemento 
 .22  Agua 
@@ -4323,12 +4928,14 @@
 .67  Grupo 3A 
 .68  Grupo 4A 
 .7      Grupos 5A, 6A, 7A, 0 
+Clasifique aquí metaloides 
 .71  Grupo 5A 
 .72    Grupo 6A 
 .73  Halógenos Grupo 7A 
 .75  Gases Nobles Grupo 0 
 .8      Tabla periódica 
 547 Química orgánica 
+Clasifique aquí bioquímicas cuando no se consideran en su contexto biológico 
 .1      Química física y teórica 
 .2      Síntesis y reacciones varias 
 .21  Acilación, alquilación, aromatización 
@@ -4372,6 +4979,7 @@
 .86  Colorantes y pigmentos 
 548 Cristalografía 
 .3      Cristalografía química 
+Incluye isomorfismo, polimorfismo, pseudomorfismo 
 .5      Cristalización y crecimiento del cristal 179
 .7      Cristalografía matemática
 .8      Cristalografía física y estructural 
@@ -4413,6 +5021,8 @@
 .78  Carbonatos  
 .9      Tratamiento geográfico de minerales 
 550 Ciencias de la tierra 
+Clasifique aquí geofísica; fenómenos de cuerpos celestes directamente comparables con     
+fenómenos terrestres 
 .9      Tratamiento histórico, geográfico, de personas 
 551 Geología, hidrología, meteorología 
 .1      Estructura general y propiedades de la tierra 
@@ -4445,6 +5055,7 @@
 .5      Meteorología 
 .51  Composición, regiones, dinámica de la atmósfera 
 .52  Termodinámica, interacciones de la  atmósfera con la superficie terrestre, temperaturas, 
+radiaciones 
 .54  Presión atmosférica 
 .55  Perturbaciones y formaciones atmosféricas 
 .56  Electricidad y óptica atmosféricas 
@@ -4545,6 +5156,8 @@
 .95  Cloro y flúor 
 .97  Gases nobles 
 554-559 Ciencias de la tierra por continentes, países, localidades específicos en el mundo   
+moderno; mundos extraterrestres 
+Clasifique aquí geología, estratificaciones, levantamientos geológicos 184
 560-590 Ciencias de la vida 
 560 Paleontología. Paleozoología 
 .1      Filosofía y teoría; paleontología estratigráfica 
@@ -4563,10 +5176,12 @@
 .45  Arecidae 
 .49  Poales Graminales, pastos 
 .5      Pinophyta Gimnospermas fósiles y fósiles en forma de helecho de posición taxonómica   
+incierta 
 .52-.55 Coniferales Coníferas  
 .56  Taxales 
 .57  Ginkgoales 
 .59  Cycadales, Cycadeoidales, Pteridospermae, fósiles en forma de helecho de posición   
+taxonómica incierta, Cordaitales 
 .6      Criptogamia Criptógamas fósiles 
 .7      Pteridophytas Pteridofitas fósiles 
 .72  Sphenopsida 
@@ -4617,6 +5232,7 @@
 .6      Myriapoda Miriópodos 
 .7      Insecta Insectos 
 566 Chordata Cordados fósiles 
+Clasifique aquí Vertebrata Craniata, vertebrados, Tetrapoda Vertebrados terrestres 
 567 Vertebrados fósiles de sangre fría. Pisces Peces fósiles 
 .2      Agnatha, Acanthodii, Placodermi 
 .3      Chondrichthyes y Sarcopterygii 
@@ -4647,6 +5263,7 @@
 .3      Órdenes varios de Eutheria 
 .31  Edentata, Palaeanodonta, Pholidota, Taeniodontia, Tillodontia, Tubulidentata 
 .32-.37 Dermoptera, Insectivora Insectívoros, Lagomorpha, Macroscelidae, Rodentia Roedores, 
+Scandentia 
 .4      Chiroptera Quirópteros, Murciélagos 
 .5      Cetacea Cetáceos y Sirenia Sirenios 
 .6      Ungulates Ungulados 
@@ -4759,6 +5376,7 @@
 .87  Cromosomas 
 .88  ARN Ácido ribonucleico   
 573 Sistemas fisiológicos específicos en animales, histología y fisiología regionales 
+Clasifique aquí obras generales sobre sistemas fisiológicos específicos 
 .1      Sistema circulatorio 
 .15  Fluidos circulatorios 
 .16  Sistema linfático 
@@ -5203,6 +5821,7 @@
 .34  Copepoda Copépodos 
 .35  Cirripedia Cirrópodos 
 .36  Branchiura Piojos de pez, Cephalocarida camarones herradura, Mystacocarida  
+camarones bigote 
 .37  Malacostraca. Peracarida 
 .38  Eucarida. Decapada Decápodos 
 .4      Chelicerata. Arácnida Arácnidos 
@@ -5336,6 +5955,7 @@
 .29  Monotremata 
 .3      Órdenes varios de Eutheria mamíferos placentarios 
 .31   Edentata Xenarthra, Pholidota pangolines, hormigueros escamosos, Tubulidentata  
+cerdo hormiguero, oso hormiguero 
 .32  Lagomorpha 
 .33  Insectívora Insectívoros y órdenes relacionados 
 .35  Rodentia Roedores 
@@ -5383,6 +6003,7 @@
 .9      Miscelánea comercial 
 603 Diccionarios, enciclopedias, concordancias 
 604 Dibujo técnico, tecnología de materiales peligrosos, historia y descripción en 
+relación con clases de personas 
 .2      Dibujo técnico 
 .22  Disposición y organización de talleres de dibujo, preservación y almacenamiento de dibujos 
 .24  Procedimientos y convenciones específicos del dibujo   
@@ -5397,9 +6018,11 @@
 .21-.29 Tratamiento geográfico de la investigación; métodos estadísticos 
 .3      Otros aspectos de educación e investigación 
 .4-.9      Educación, investigación, temas relacionados en continentes, países, localidades específicos 
+en el mundo moderno 
 608 Invenciones y patentes 
 .7      Tratamiento histórico, geográfico, de personas de invenciones y patentes 
 609 Tratamiento histórico, geográfico, de personas 
+Clasifique aquí historia de las invenciones, aspectos tecnológicos de la arqueología industrial 
 610 Ciencias médicas. Medicina
 .6      Organizaciones, gerencia, profesiones 
 .65  Práctica de grupo 
@@ -5433,6 +6056,8 @@
 .38  Peritoneo 
 .4      Órganos linfáticos y glandulares 
 .41  Bazo 
+Clasifique aquí obras generales sobre la anatomía del sistema hematopoyético hematopoyético o 
+hemopoyético 
 .42  Sistema linfático 
 .43  Glándula del timo 
 .44  Glándulas tiroides y paratiroides 
@@ -5457,6 +6082,7 @@
 .77  Tegumento 
 .78  Cabello y uñas 
 .8      Sistema nervioso. Órganos de los sentidos 
+Clasifique aquí neuroanatomía 
 .81  Encéfalo 
 .82  Médula espinal 
 .83  Nervios y ganglios 
@@ -5471,10 +6097,12 @@
 .93  Cuello 
 .94  Tórax 
 .95  Abdomen 
+Desde las regiones epigástrica hasta la lumbar 
 .96  Perineo y región pélvica  
 .97  Extremidades superiores 
 .98  Extremidades inferiores 
 612 Fisiología humana 
+Clasifique aquí obras generales sobre anatomía y fisiología 
 612.1-612.8 Funciones, sistemas, órganos específicos 
 .1      Sangre y circulación 
 .11  Sangre 
@@ -5484,11 +6112,13 @@
 .17  Corazón 
 .18  Vasomotores 
 .2      Respiración 
+Incluye obras generales sobre fisiología de la nariz 
 .21  Biofísica 212
 .22  Bioquímica 
 .26  Respiración tisular interna 
 .28  Inervación del aparato respiratorio 
 .3      Digestión 
+Clasifique aquí nutrición 
 .31  Boca y esófago 
 .32  Estómago y secreciones gástricas 
 .33  Intestino y secreciones intestinales 
@@ -5498,6 +6128,7 @@
 .38  Absorción 
 .39  Metabolismo 
 .4      Secreción, excreción, funciones relacionadas 
+Clasifique aquí sistema endocrino 
 .41  Bazo 
 .42  Linfa y linfáticos 
 .43  Glándula del timo 
@@ -5506,6 +6137,7 @@
 .46  Excreción 
 .49  Médula ósea y glándulas carótidas, pituitaria, pineal 
 .6      Reproducción, desarrollo, maduración 
+Clasifique aquí obras médicas generales sobre sexo 
 .61  Sistema reproductor masculino 
 .62  Sistema reproductor femenino 
 .63  Embarazo y alumbramiento 
@@ -5521,6 +6153,7 @@
 .78  Voz y habla 
 .79  Tegumento. Piel   213
 .8      Funciones nerviosas. Funciones sensoriales 
+Clasifique aquí la neurofisiología, la psicofisiología 
 .81  Nervios y fibras nerviosas 
 .82  Encéfalo 
 .83  Medula espinal 
@@ -5531,6 +6164,7 @@
 .88  Otros órganos de los sentidos y funciones sensoriales 
 .89  Sistema nervioso autónomo 
 .9      Fisiología regional 
+Incluye la espalda 
 613 Promoción de la salud 
 .1      Factores medioambientales 
 .11  Estado atmosférico y clima 
@@ -5571,6 +6205,7 @@
 614 Medicina forense, incidencia de enfermedades, medicina preventiva pública 
 .1      Medicina forense Jurisprudencia médica 
 .4      Incidencia de y medidas públicas para prevenir enfermedades 
+Clasifique aquí la epidemiología 
 .42  Incidencia 
 .43  Portadores de enfermedades Vectores y su control 
 .44  Medicina preventiva pública 
@@ -5580,6 +6215,7 @@
 .48  Desinfección, fumigación, esterilización 
 .49  Historia de las epidemias  
 .5      Incidencia de y medidas públicas para prevenir enfermedades y clases de enfermedades    
+específicas 
 .51  Salmonella y enfermedades bacilares, cólera, disentería, diarrea epidémica, influenza 
 .52  Enfermedades eruptivas Exantemas y enfermedades rickettsiales 
 .53  Enfermedades protozoarias 
@@ -5637,6 +6273,7 @@
 .94  Venenos animales 
 .95  Venenos orgánicos                
 616 Enfermedades 
+Clasifique aquí medicina interna 
 616.1 – 616.9 Enfermedades específicas 
 616.1 – 616.8 Enfermedades de sistemas y órganos específicos 
 .1      Enfermedades del sistema cardiovascular 
@@ -5663,6 +6300,7 @@
 .38  Enfermedades del peritoneo 
 .39  Enfermedades nutricionales y metabólicas 
 .4      Enfermedades de los sistemas hematopoyético, linfático, glandular. Enfermedades del    
+sistema endocrino 
 .41  Enfermedades del sistema hematopoyético 
 .42  Enfermedades del sistema linfático 
 .43  Enfermedades de la glándula del timo 
@@ -5813,6 +6451,7 @@
 .56  Complicaciones placentarias 
 .58  Complicaciones del cordón umbilical 
 .6      Puerperio normal 
+Manejo y cuidado del posparto 
 .7      Enfermedades puerperales 
 .71  Enfermedades de la lactancia 
 .73  Metritis y peritonitis puerperales 
@@ -5858,6 +6497,7 @@
 .31  Generación y transmisión 
 .37  Efectos y contramedidas 
 .4 Ingeniería para clases específicas de medioambientes geográficos, tecnología de partículas 
+finas y  de control remoto, ingeniería de superficie 
 .41  Ingeniería para clases específicas de medioambientes geográficos 
 .43  Tecnología de partículas finas 
 .44  Ingeniería de superficie 
@@ -5867,6 +6507,7 @@
 .82  Factores humanos en ingeniería 
 .86  Ingeniería de seguridad     
 621 Física aplicada 
+Clasifique aquí ingeniería mecánica 
 .1      Ingeniería del vapor 
 .15  Máquinas portátiles 
 .16  Máquinas estacionarias 
@@ -5879,6 +6520,7 @@
 .26  Transmisión hidráulica 
 .27  Arietes 
 .3 Ingeniería eléctrica; iluminación; superconductividad; ingeniería magnética; óptica 
+aplicada; tecnología parafótica; electrónica; ingeniería de comunicaciones; computadores 
 .31         Generación, modificación, almacenamiento, transmisión de energía eléctrica 
 .32  Iluminación 
 .33  Transmisión de energía eléctrica para ferrocarriles 
@@ -6027,6 +6669,7 @@
 .88  Maniobras náuticas 
 .89  Navegación 
 624 Ingeniería civil 
+Incluye ingeniería de la arquitectura paisajística 
 .1      Ingeniería estructural y construcción subterránea 
 .15  Ingeniería de cimentaciones e ingeniería geológica 
 .16  Estructuras de soporte diferentes de cimentaciones 
@@ -6093,6 +6736,7 @@
 .76  Mantenimiento y reparación 
 .77  Áreas al borde de las carreteras 
 .79  Pasos sobre hielo, equipo de control del tráfico, barreras protectoras de las áreas al borde de 
+las carreteras 
 .8      Revestimientos artificiales de carreteras 
 .81  Piedra laja 
 .82  Ladrillo y roca 
@@ -6162,6 +6806,7 @@
 .37  Incineración del fango 
 .38  Utilización del fango 
 .39  Eliminación de aguas negras, de aguas negras efluentes, del fango de aguas   
+negras dentro del agua 
 .4      Tecnología de desechos, sanitarios públicos, limpieza de calles 
 .42  Desechos peligrosos y tóxicos 
 .43  Desechos líquidos  
@@ -6211,6 +6856,7 @@
 .83  Sistemas de bucle o circuito cerrado Retroalimentación 
 .89  Control por computador 
 630 Agricultura y tecnologías relacionadas 
+Clasifique aquí explotación agrícola, granjas, obras generales sobre cultivos vegetales 
 .2      Miscelánea y principios científicos 
 .21-.29 Principios científicos 
 .7      Educación, investigación, temas  relacionados 
@@ -6570,6 +7216,7 @@
 .6      Cultivo de crustáceos      
 .7      Cosecha y cultivos de invertebrados diferentes de moluscos y crustáceos 
 .73  Protozoa Protozoos, Porifera, Cnidaria Cnidarios, Ctenophora Ctenoforos, 
+Echinodermata Equinodermos, Hemichordata 
 .75  Gusanos 
 .8      Acuicultura 
 .89  Agricultura de plantas 
@@ -6581,6 +7228,7 @@
 .97  Clases específicas de animales 
 .99  Conservación de plantas 
 640 Economía doméstica y vida familiar 
+Clasifique aquí manejo del hogar y de la vida personal, artes y ciencias domésticas 
 .4      Aspectos específicos del manejo de la casa 
 .41  Sugerencias útiles y recetas varias 243
 .42  Manejo del dinero 
@@ -6723,11 +7371,13 @@
 .8      Almacenamiento  
 .9      Mudanza 
 649 Crianza de niños; atención domiciliaria de personas con enfermedades y 
+discapacidades 
 .1      Crianza de niños 
 .12  Niños de grupos de edad específicos 
 .13  Niños de sexos específicos 
 .14  Niños de situación, tipos, parentescos específicos 
 .15  Niños excepcionales; niños que se distinguen por niveles sociales y económicos, por nivel 
+de desarrollo cultural, por origen racial, étnico, nacional 
 .3      Alimentación 
 .33  Alimentación de pecho 
 .4      Vestuario y salud 
@@ -6879,6 +7529,7 @@
 .2      Relaciones públicas 252
 .28  Relaciones públicas en clases específicas de organizaciones 
 .29  Relaciones públicas en organizaciones que producen clases específicas de productos y 
+servicios 
 660 Ingeniería química y tecnologías relacionadas 
 .2      Temas generales en ingeniería química 
 .28  Tipos específicos de planta química y actividades específicas en plantas químicas 
@@ -7565,6 +8216,7 @@
 .9      Miscelánea comercial 
 703 Diccionarios, enciclopedias, concordancias de las bellas artes y artes decorativas 
 704 Temas especiales en las bellas artes y artes decorativas. Historia y descripción en 
+relación con clases de personas 
 .9      Iconografía 
 .94   Temas específicos 
 705-706 Subdivisiones comunes de las bellas artes y artes decorativas 
@@ -7647,6 +8299,7 @@
 .49  Edificios multipropósito 
 .8      Arquitectura en relación con clases de personas 
 .87  Arquitectura para personas con discapacidades, personas con enfermedades, personas  
+superdotadas 
 .9      Tratamiento histórico, geográfico, de personas 
 .93  Mundo antiguo 
 .94  Europa. Europa Occidental 
@@ -7778,6 +8431,7 @@
 .5      Edificios asociados con el cristianismo  
 .51  Diseño, decoración, construcción de elementos estructurales 
 .52  Decoración en medios espesíficos, mobiliario eclesiástico empotrado, diseño y decoración 
+de partes 
 .58  Edificios de confesiones específicas 
 .59  Partes 
 .6      Catedrales 
@@ -8296,6 +8950,7 @@
 774 Holografía 
 775-777 No asignados 297
 778 Campos específicos y clases especiales de fotografía; cinematografía y producción de 
+video; actividades relacionadas 
 .2      Proyección fotográfica 
 .3      Clases especiales de fotografía 
 .31  Fotomicrografía 
@@ -8317,6 +8972,7 @@
 .63  Proceso directo de reproducción en la fotografía en color 
 .65  Procesos aditivos en la fotografía en color 
 .66  Técnicas, procedimientos, aparatos, equipo, materiales de procesamiento en la fotografía en 
+color           
 .7      Fotografía bajo condiciones específicas 
 .71  Forografía exterior 
 .72  Fotografía interior y fotografía con luz artificial 
@@ -8649,6 +9305,7 @@
 .98  Tubas 
 .99  Otros instrumentos de cobre 
 789 Compositores y tradiciones de la música 
+Número y subdivisiones opcionales; prefiera 780-788 
 .1      Principios generales de tradiciones de la música 
 .2      Música folclórica 
 .21-.29 Música folclórica de grupos raciales, étnicos, nacionales específicos 
@@ -8937,6 +9594,7 @@
 810-890 Literaturas de lenguas y de familias de lenguas específicas 
 810 Literatura norteamericana en inglés 316
 .1-.9 Subdivisiones comunes; colecciones; historia, descripción, evaluación crítica de la literatura                           
+norteamericana en inglés 
 811-818 Géneros específicos de la literatura  norteamericana en inglés  
 819 Literaturas norteamericanas en inglés que no requieren énfasis local 
 .1      Canadá 
@@ -8958,10 +9616,27 @@
 .91-.99 Países específicos 
 820 Literatura inglesa e inglesa antigua anglosajona 
 .1-.9 Subdivisiones comunes; colecciones; historia, descripción, evaluación crítica de la literatura      
+inglesa 
 821 Poesía inglesa 
 822 Teatro inglés 
 .3      Teatro del período isabelino, 1558-1625 
 .33  William Shakespeare 
+Opción: Reordene las obras acerca de y por Shakespeare de acuerdo con la tabla   
+siguiente, la cual se puede adaptar para uso con cualquier autor específico: 
+A Controversias de autoría 317
+B Biografía 
+D Evaluación crítica 
+E Critica textual 
+F Fuentes, alusiones, aprendizaje 
+G Sociedades, concordancias, miscelánea 
+H Citas, condensaciones, adaptaciones 
+I Obras completas en inglés sin anotaciones 
+J Obras completas en inglés con anotaciones 
+K Obras completas en traducción 
+L Colecciones parciales en inglés sin anotaciones 
+M Colecciones parciales en inglés con anotaciones 
+N Colecciones parciales en traducción 
+O-Z Obras individuales 
 823-827 Otros géneros específicos de la literatura inglesa 
 828 Escritos varios ingleses 
 .99  Literaturas en lengua inglesa que no requieren énfasis local 
@@ -8973,6 +9648,7 @@
 .8      Prosa literaria      
 830 Literaturas de las lenguas germánicas teutónicas. Literatura alemana 
 .1-.9      Subdivisiones comunes; colecciones; historia, descripción, evaluación crítica de la  
+literatura alemana  
 831-838 Géneros específicos de la literatura alemana 
 839 Otras literaturas germánicas teutónicas 
 .1      Literaturas yiddish 
@@ -8992,23 +9668,28 @@
 .9      Literaturas germánicas orientales 
 840 Literaturas de las lenguas romances. Literatura francesa 
 .1-.9      Subdivisiones comunes; colecciones; historia, descripción, evaluación crítica de la literatura 
+francesa 
 841-847 Géneros específicos de la literatura francesa 
 848 Escritos varios franceses 
 .99  Literaturas en lengua francesa que no requieren énfasis local 
 849 Literaturas provenzal langue d’oc, francoprovenzal, catalana 
 .9      Literatura catalana 
 850 Literaturas de las lenguas italiana, sarda, dalmática, rumana, 
+retorromana. Literatura italiana 
 .1-.9      Subdivisiones comunes; colecciones; historia, descripción, evaluación crítica de la literatura 
+italiana 
 851-858 Géneros específicos de la literatura italiana
 859 Literaturas rumana y retorromana 
 .9      Lenguas retorromanas 
 860 Literatura de las lenguas española y portuguesa 
 .1-.9      Subdivisiones comunes; colecciones; historia, descripción, evaluación crítica de la literatura 
+española            
 861-867 Géneros específicos de la literatura española319
 868 Escritos varios españoles 
 869 Literatura portuguesa 
 870 Literaturas de las lenguas itálicas. Literatura latina
 .1-.9      Subdivisiones comunes; colecciones; historia, descripción, evaluación crítica de la literatura 
+latina            
 871 Poesía latina
 872 Poesía y teatro dramáticos latinos
 873 Poesía y novelística épicas latinas
@@ -9023,6 +9704,7 @@
 .9      Literaturas oscoumbrias   
 880 Literaturas de las lenguas helénicas. Literatura griega clásica 
 .1-.9      Subdivisiones comunes; colecciones; historia, descripción, evaluación crítica de la literatura 
+griega clásica 
 881 Poesía griega clásica
 882 Poesía y teatro dramáticos griegos clásicos
 883 Poesía y novelística épicas griegas clásicas
@@ -9125,6 +9807,7 @@
 897 Literaturas de las lenguas nativas norteamericanas 
 898 Literaturas de las lenguas nativas sudamericanas 323
 899 Literaturas de las lenguas no austronesias de Oceanía, de las lenguas austronesias, de 
+lenguas varias 
 900 Geografía, historia y disciplinas auxiliares 
 .1-.9      Subdivisiones comunes de geografía e historia 
 901 Filosofía y teoría de la historia 
@@ -9172,7 +9855,9 @@
 .19  Áreas, regiones, lugares específicos en general 
 .3-.9      Continentes, países, localidades específicos; mundos extraterrestres  
 913-919 Geografía de y viajes en el mundo antiguo y en continentes países,   
+localidades específicos en el mundo moderno; mundos extraterrestres 
 919 Geografía de y viajes en otras partes del mundo y en mundos extraterrestres. 
+Geografía de y viajes en las islas del Océano Pacífico 
 920 Biografía, genealogía, insignias 
 .1      Bibliógrafos 325
 .2      Bibliotecarios y coleccionistas de libros 
@@ -9202,6 +9887,7 @@
 .3      Anglicanos 
 .4      Luteranos, hugonotes, protestantes de origen continental 
 .5 Presbiterianos, congregacionalistas, miembros de las iglesias reformadas con sede en   
+América 326
 .6 Bautistas, Discípulos de Cristo, adventistas 
 .7 Metodistas 
 .8 Miembros de otras confesiones y sectas cristianas 
@@ -9264,6 +9950,7 @@
 .95  Marcas de servicio y marcas de fábrica 
 .97  Nombres 328
 930-990 Historia del mundo antiguo; de continentes, países, localidades específicos; 
+de mundos extraterrestres 
 930 Historia del mundo antiguo hasta ca. 499 
 .1      Arqueología 
 .11  Edad eolítica 
@@ -9343,6 +10030,7 @@
 .44  Operaciones aéreas 
 .45  Operaciones navales 
 .46-.48 Celebraciones, conmemoraciones, monumentos; prisioneros de guerra; servicios médicos y 
+sociales; otros temas  
 .5      1918- 
 .51  1918-1929 
 .52  1930-1939 
@@ -9582,6 +10270,7 @@
 .9      Mozambique 
 968 África del Sur. República de Sudáfrica 
 .2 Gauteng, North-West, Provincia del Norte, Mpumalanga, anteriores homelands estados      
+nacionales de la República de Sudáfrica 
 .29  Anteriores homelands estados nacionales Sudáfrica 
 .4      KwaZulu-Natal 
 .5      Estado Libre 
@@ -9760,6 +10449,7 @@
 .8      Colorado 
 .9      Nuevo México 
 979 Región de la Gran Cuenca y de la Vertiente del Pacífico de los Estados Unidos. 
+Estados de la costa pacífica 
 .1      Arizona 
 .2      Utah 
 .3      Nevada 
@@ -9790,6 +10480,10 @@
 .2      Paraguay 
 .5      Uruguay 
 990  Historia general de otras partes del mundo, de mundos extraterrestres. 
+Islas del Océano Pacífico 
+991-992 No asignados
+993 Nueva Zelanda 
+994 Australia 
 995 Melanesia. Nueva Guinea 
 .1      Irian Jaya 
 .3      Papúa Nueva Guinea. Región de Nueva Guinea 
@@ -9828,316 +10522,8 @@
 .1      Islas Falkland, islas Georgia del Sur y Sandwich del Sur, Isla Bouvet 
 .11  Islas Falkland Islas Malvinas 
 .3      Santa Helena y dependencias 
+sas
 998 Islas árticas y Antártida 
 .2      Groenlandia 
 999 Mundos extraterrestres
-.1       Benedictinos 
-.11   Benedictinos confederados 
-.12   Cistercienses Bernardinos 
-.13   Olivetanos 
-.14   Cluniacenses 
-.16   Celestinos 
-.17   Mechitarinos y basilianos 
-.18   Antoninos Antonianos, maronitas, caldeos, sirios 
-.19   Canónigos 82
-.2       Dominicos Frailes predicadores, Frailes negros 
-.3       Franciscanos Frailes grises 
-.36   Capuchinos 
-.37   Conventuales 
-.38   Tercera orden regular 
-.4       Agustinos 
-.42   Trinitarios 
-.45   Mercedarios 
-.47   Servitas 
-.49   Otros agustinos 
-.5       Clérigos regulares 
-.51  Teatinos 
-.52  Barnabitas 
-.53  Jesuitas compañía de Jesús 
-.54  Somascos 
-.55  Camilos 
-.56  Clérigos regulares menores Caracciolini 
-.57  Clérigos regulares de la Madre de Dios 
-.58  Piaristas 
-.6       Pasionistas y redentoristas 
-.62  Pasionistas 
-.64  Redentoristas 
-.7       Órdenes católicas romanas de hombres no provistas en otra forma 
-.71   Cartujos 
-.73   Carmelitas Frailes blancos 
-.75   Sulpicianos 
-.76   Oblatos 
-.77   Lazaristas Vicentinos 
-.78   Hermanos cristianos Hermanos de las Escuelas Cristianas 
-.79   Otra órdenes católicas romanas de hombres 
-.8       Órdenes católicas no romanas de hombres 
-.81  Monasterios de iglesias orientales 
-.83  Órdenes anglicanas de hombres 
-.9       Congregaciones y órdenes de mujeres 83
-.91   Órdenes de hermanas de la Caridad 
-.92   Órdenes de hermanas de la Merced 
-.93   Órdenes del Sagrado Corazón 
-.94   Hermanas del Buen Socorro 
-.95   Hermanitas de los pobres 
-.97   Otras órdenes católicas romanas de mujeres 
-.98   Órdenes católicas no romanas de mujeres 
-272  Persecuciones en la historia general de la iglesia 
-.1      Persecuciones de la iglesia apostólica por la Roma imperial 
-.2       Persecuciones por la Inquisición 
-.3       Persecuciones de valdenses y albigenses 
-.4       Persecuciones de hugonotes 
-.5       Persecuciones de molinistas y quietistas 
-.6       Persecuciones de reformadores anglicanos por María I Tudor 
-.7       Persecuciones de la iglesia romana por Isabel I de Inglaterra y los anglicanos 
-.8       Persecuciones de cuáqueros, bautistas, brujas por los puritanos y otros de épocas puritanos 
-.9       Persecuciones y mártires de la época moderna 
-273  Controversias y herejías doctrinales en la historia general de la iglesia 
-.1       Siglos I-II 
-.2       Siglo III 
-.3       Sabelianismo  
-.4       Siglo IV 
-.5       Siglo V 
-.6       Siglos VI-XVI 
-.7       Siglo XVII 
-.8       Siglo XVIII 
-.9       Siglo XIX  y siglos posteriores 
-274-279 Tratamiento por continente, país, localidad 
-274-279 Tratamiento por continente, país, localidad 
-280  Confesiones y sectas de la iglesia cristiana 
-280.2-280.4 Ramas
-.2       Iglesias orientales y católicas romanas 
-.4       Iglesias protestantes y protestantismo 
-281  Iglesia temprana e iglesias orientales 
-281.1-281.4 Iglesia temprana 
-.1       Iglesia apostólica hasta la época del Gran Cisma de Oriente, 1054 
-.2       Iglesia apostólica hasta el año 100 
-.3       Iglesia anterior a Nicea, 100-325 
-.4       Iglesia posterior a Nicea, 325-1054 
-.5       Iglesias orientales 
-.6       Iglesias monofisitas 
-.62   Iglesia Armenia 
-.63   Iglesia Jacobita 
-.7       Iglesias copta y etíope  
-.72  Iglesia Copta Ortodoxa Copta 
-.75  Iglesia Etíope Ortodoxa Etíope 85
-.8       Iglesias nestorianas 
-.9       Iglesias ortodoxas orientales 
-.94-.99  Tratamiento por continente, país, localidad 
-282  Iglesia Católica Romana 
-.4-.9       Tratamiento por continente, país, localidad 
-283-289 Confesiones protestantes y otras 
-283  Iglesias anglicanas  
-.3       Ramas que no están en comunión con la Sede de Canterbury 
-.4-.9       Tratamiento por continente, país, localidad 
-284  Confesiones protestantes de origen continental y agrupaciones relacionadas 
-.1       Iglesias luteranas 
-.13   Confesiones, ramas, sínodos específicos con sede en Estados Unidos 
-.14-.19  Tratamiento por continente, país, localidad 
-.2       Iglesias calvinistas y reformadas de origen europeo 
-.24-.29  Tratamiento por continente, país, localidad 
-.3      Iglesias husitas y anabaptistas 
-.4       Iglesias albigenses, cataristas, valdenses 
-.5       Iglesias hugonotas 
-.6       Iglesias moravas 
-.64-.69 Tratamiento por continente, país, localidad 
-.8       Cismas modernos en la Iglesia Católica Romana 
-.84  Iglesias jansenistas 
-.9       Iglesias arminianas y remonstrantes 
-285  Iglesias presbiterianas, iglesias reformadas con sede en América, iglesias 
-285.1-285.2 Iglesias presbiterianas de Estados Unidos, de la mancomunidad Británica 
-.1       Iglesias presbiterianas de origen estadounidense 
-.13   Confesiones específicas 
-.14-.19  Tratamiento por continente, país, localidad 
-.2       Iglesias presbiterianas de origen en la Mancomunidad Británica 
-.23   Confesiones específicas 
-.24-.29  Tratamiento por continente, país, localidad 
-.7       Iglesias reformadas con sede en América 
-.73   Confesiones específicas 
-.74-.79  Tratamiento por continente, país, localidad 
-.8       Congregacionalismo 
-.83   Confesiones específicas con sede en Estados Unidos 
-.84-.89  Tratamiento por continente, país, localidad 
-.9       Puritanismo 
-286  Iglesias bautistas, de los Discípulos de Cristo, adventistas 
-286.1-286.5 Iglesias bautistas 
-.1       Bautistas regulares Calvinistas 
-.13  Confesiones específicas con sede en Estados Unidos 
-.14-.19 Tratamiento por continente, país, localidad 
-.2       Bautistas del Libre Albedrío Freewill Baptists 
-.3       Bautistas del Séptimo Día Seventh-Day Baptists 
-.4       Bautistas de la Vieja Escuela Old School Baptists 
-.5       Otras iglesias y confesiones bautistas 
-.6       Discípulos de Cristo Campbelitas 
-.63  Confesiones específicas 
-.64-.69 Tratamiento por continente, país, localidad 
-.7       Iglesias adventistas 
-.73  Confesiones específicas 
-.74-.79 Tratamiento por continente, país, localidad 87
-287  Iglesias metodistas; iglesias relacionadas con el metodismo 
-.1       Iglesia Metodista Wesleyana 
-.14-.19 Tratamiento por continente, país, localidad 
-.2       Iglesias metodistas varias 
-.4       Iglesia Metodista Primitiva 
-.44-.49 Tratamiento por continente, país, localidad
-.5       Iglesias metodistas en las Islas Británicas 
-.53  Confesiones específicas 
-.6      Iglesia Metodista Unida 
-.63  Confesiones específicas anteriores a la unión 
-.64-.69 Tratamiento por continente, país, localidad 
-.7      Iglesia Metodista Protestante 
-.8      Iglesias metodistas negras de orige
-153  Procesos mentales conscientes e inteligencia 
-.12   Memoria 
-.13    Tipos de memoria 
-.14    Nemotecnia 
-.15    Aprendizaje 
-.2       Formación y asociación de ideas 
-.22  Asociación de ideas  
-.23  Conceptos y formación del concepto 
-.24  Abstracción 
-.3       Imaginación, imágenes, creatividad 
-.32   Imágenes 
-.35   Creatividad 
-.4       Pensamiento, el pensar, razonamiento, intuición, valor, juicio 
-.42   Pensamiento y el pensar 
-.43   Razonamiento 
-.44   Intuición 
-.45    Valor 
-.46   Juicio 
-.6      Comunicación 
-.68   Acto de escuchar 
-.69   Comunicación no verbal 
-.7       Procesos perceptivos 
-.73   Elementos básicos 
-.74   Errores Ilusiones normales 
-.75   Tipos de percepción 
-.8       Voluntad Volición 
-.83        Elección y decisión 48
-.85       Modificación de la voluntad. 
-.9       Inteligencia y aptitudes 
-.93   Pruebas de inteligencia 
-.94   Pruebas de aptitud 
-.98   Inteligencia superior 
-154  Subconsciente y estados y procesos alterados 
-.22   Id, ego, superego 
-.24   Actividades 
-.3       Sueños de vigilia, fantasías, ensueños 
-.4       Estados alterados de la conciencia 
-.6       Fenómenos del sueño 
-.63   Los sueños 
-.64   Sonambulismo
-.7       Hipnotismo
-.72   Magnetismo animal 
-.76   Inducción de la hipnosis 
-.77   Fenómenos hipnóticos 
-155  Psicología diferencial y del desarrollo 
-.22   Diferencias individuales 
-.23   Rasgos y determinantes del carácter y de la personalidad 
-.24   Adaptabilidad y ajuste 
-.25   Desarrollo y modificación del carácter y de la personalidad 
-.26   Tipología 
-.28   Evaluaciones y pruebas 
-.3       Psicología sexual y psicología de los sexos 
-.31   Excitabilidad erógena y libido 
-.32   Sexo y personalidad 
-.33   Diferencias sexuales 
-.34   Relaciones sexuales 49
-.4       Psicología infantil 
-.41  Temas generales 
-.42  Niños en grupos de edad específicos 
-.43   Niños por sexo 
-.44   Niños por situación social, tipo, parentesco 
-.45   Niños excepcionales; niños que se identifican por sus niveles social y económico, por su 
-.5       Psicología de la gente joven de doce a veinte años 
-.51   Temas generales 
-.53      Gente joven de doce a veinte años por sexo 
-.6       Psicología de adultos  
-.63   Adultos por sexo
-.64   Adultos por situación social, tipo, parentesco 
-.65   Adultos jóvenes 
-.66   Personas en edad adulta media 
-.67   Personas en edad adulta tardía 
-.7       Psicología evolutiva 
-.8       Etnopsicología y psicología nacional  
-.81   Personas iletradas 
-.82   Diferencias raciales y étnicas 
-.84   Grupos raciales y étnicos específicos 
-.89   Psicología nacional 
-.9       Psicología ambiental 
-.91   Influencia del ambiente y de las condiciones físicas 
-.92   Influencia del ambiente social 
-.93   Influencia de situaciones específicas 
-.94  Influencia de la comunidad y de la vivienda 
-.95   Influencia del vestuario 
-.96   Influencia de ambientes restrictivos 
-156 Psicología comparada 50
-.3      Procesos comparados mentales conscientes e inteligencia de los animales 
-.4      Estados y procesos comparados subconscientes y alterados de los animales 
-.5      Psicología comparada diferencial y del desarrollo de los animales 
-.9      Plantas
-.1       Mejoramiento y análisis personales 
-.12   Mejoramiento y análisis  personales mediante la meditación 
-.2        Relaciones interpersonales 
-.24  Relaciones interpersonales con miembros de la familia 
-.25  Relaciones interpersonales con amigos y vecinos 
-.26  Relaciones interpersonales con compañeros de trabajo 
-.27  Relaciones interpersonales con  extraños 
-.3       Orientación y realización de entrevistas 
-.35  Orientación de grupo 
-.39  Realización de entrevistas 
-.4       Liderazgo  
-.5       Negociación 
-.6       Intereses vocacionales 
-.7       Psicología industrial 
-.72  Estrés de trabajo 
-.9       Sistemas y escuelas de psicología aplicada 
-.4       Temas especiales
-.42  Metaética 
-.44   Ética normativa      
-.8       Historia y descripción en relación con clases de personas 
-.92  Personas 
-171  Sistemas éticos 
-.2       Sistemas basados en la intuición, en el sentido moral, en la razón 
-.3       Perfeccionismo 
-.4       Hedonismo 
-.5       Utilitarismo y consecuencialismo 
-.6       Sistemas basados en la conciencia 
-.7       Sistemas basados en la biología, la genética, la evolución, la educación, los factores sociales 
-.8       Sistemas basados en el altruismo 
-.9       Sistemas basados en el egoísmo 
-.1       Relaciones de los individuos con el estado 
-.2       Deberes del estado  53
-.4       Relaciones internacionales 
-.42  Guerra y paz 
-.1       Clero 
-.2       Profesiones médicas 
-.22  Juramento hipocrático 
-.24  Cuestiones de vida y muerte 
-.25  Procedimientos innovadores 
-.26  Cuestiones económicas 
-.28  Experimentación 
-.3       Profesiones legales 
-.4       Ética de los negocios
-.6       Negocios de juegos de azar  
-.9       Otras profesiones y ocupaciones 
-.5       Prostitución 
-.7       Obscenidad y pornografía 
-.8       Obscenidad y pornografía en la literatura 54
-177  Ética de las relaciones sociales 
-.2       Conversación 
-.3       Calumnia, adulación, veracidad, mentira 
-.4       Apariencia personal 
-.5       Esclavitud y prácticas discriminatorias 
-.6       Amistad y cortejo 
-.62  Amistad  
-.65  Cortejo 
-.7       Amor 
-178  Ética del consumo 
-.7       Consumo de tabaco 
-.8       Consumo de narcóticos 
-179  Otras normas éticas 
-.2       Trato de los niños 
-.3       Trato de los animales 
-.4       Experimentación en animales 
-.5       Procacidad, blasfemia, obscenidad en el lenguaje 55
-.6       Valentía y cobardía 
+abs
