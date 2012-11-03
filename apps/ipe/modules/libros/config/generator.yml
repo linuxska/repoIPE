@@ -13,7 +13,7 @@ generator:
 
     config:
       actions: ~
-      fields:  
+      fields:
         id_decimal:        { label: Clasificación  }
         titulo:            { label: Titulo del libro }
         nombreautor:       { label: Nombre de autor }
@@ -22,7 +22,7 @@ generator:
         ano_publicacion:   { label: Año de publicación }
         editorial:         { label: Editorial }
         isbn:              { label: ISBN }
-      list:    
+      list:
         title: Catalogo del libros
         display: [ =clasificacion, numero_dewey, titulo, tomo, =nombrecompleto, ano_publicacion, isbn, herejia, tema_primario, cantidad]
         fields:  

@@ -19,12 +19,12 @@ generator:
         name:          { label: Decimal name }
       list:    
         title: Catalog of Sub-catego Dewey decimal
-        display: [=general, =decimal, name, description]
+        display: [id_integer, =decimal, name, description]
         max_per_page: 50
       filter:  
         display: [id_integer,number, name]
       form:    ~
       edit:    
-        title: Edit the decimal  %%number%% 
+        title: Edit the number %%id_integer%%.%%number%% 
       new:     
         title: New subcategoria (Decimal)

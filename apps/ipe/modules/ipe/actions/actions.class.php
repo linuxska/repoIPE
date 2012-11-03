@@ -2,7 +2,7 @@
 
 /**
  * ipe actions.
- *
+ *  
  * @package    ipe
  * @subpackage ipe
  * @author     Your name here
@@ -17,7 +17,7 @@ class ipeActions extends sfActions
   */
   public function executeIndex(sfWebRequest $request)
   {
-   
+
   }
   public function executeDownloadManual(sfWebRequest $request) {
         $report_name = NULL;
@@ -56,7 +56,6 @@ class ipeActions extends sfActions
         $this->getResponse()->clearHttpHeaders();
         $this->getResponse()->setHttpHeader('Pragma: public', true);
         $this->getResponse()->setContentType('application/pdf');
-
         $this->getResponse()->setHttpHeader('Content-Disposition', 'attachment; filename="' . $report_name . '"');
 
         $this->getResponse()->sendHttpHeaders();
@@ -95,7 +94,7 @@ class ipeActions extends sfActions
     public function executeRecoverPasswordShow(sfWebRequest $request) {
         $this->form = new RecoverPasswordForm();
     }
-    
+
     public function executeRecoverPassword(sfWebRequest $request) {
         $this->form = new RecoverPasswordForm();
 

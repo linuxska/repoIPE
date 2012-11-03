@@ -29,4 +29,32 @@ class WkBook extends BaseWkBook {
 		parent::__construct();
 	}
 
+	public  function getName()
+	{
+		return sprintf("%s %s",  $this->getAuthorLastname(), $this->getAuthorFirstname());
+	}
+
+	public  function getClasification()
+	{
+		$decimal = DecimalenPeer::retrieveByPK($this->getIdDecimal());
+		$integer = IntegerPeer::retrieveByPK($decimal->getIdInteger());
+		//Numero Dewey = $integer->getNumber(), $decimal->getNumber();
+		return sprintf("%s | %s", $integer->getName(), $decimal->getName());
+
+	}
+
+
+	public  function getDeweyn()
+	{
+		$decimal = DecimalenPeer::retrieveByPK($this->getIdDecimal());
+		$integer = IntegerPeer::retrieveByPK($decimal->getIdInteger());
+
+		if (($this->getAuthorLastname() =="")|| (($this->getAuthorLastname() =="anonymous")) || (($this->getAuthorLastname() =="Anonymous")) )
+		return sprintf("%s.%s  %s",$integer->getNumber(), $decimal->getNumber(), substr($this->getTitle(), 0, 3)) ;
+		else
+		return sprintf("%s.%s  %s",$integer->getNumber(), $decimal->getNumber(), substr($this->getAuthorLastname() , 0,3));
+	}
+
+
+
 } // WkBook

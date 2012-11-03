@@ -36,16 +36,9 @@ class Libro extends BaseLibro {
 	public  function getClasificacion()
 	{
 		$decimal = DecimalPeer::retrieveByPK($this->getIdDecimal());
-		$entero = EnteroPeer::retrieveByPK($decimal->getIdEntero());
-		if($entero->getNumero()<10)
-			return sprintf("00%s.%s %s %s",$entero->getNumero(), $decimal->getNumero(), $entero->getNombre(), $decimal->getNombre());
-		elseif ($entero->getNumero()<100)
-			return sprintf("0%s.%s %s %s",$entero->getNumero(), $decimal->getNumero(), $entero->getNombre(), $decimal->getNombre());
-		elseif($entero->getNumero()<1000)
-			return sprintf("%s.%s %s %s",$entero->getNumero(), $decimal->getNumero(), $entero->getNombre(), $decimal->getNombre());
+		$integer = EnteroPeer::retrieveByPK($decimal->getIdEntero());
+		//Numero Dewey = $integer->getNumber(), $decimal->getNumber();
+		return sprintf("%s | %s", $integer->getNombre(), $decimal->getNombre());
+	}
 
-	}	
-
-    
-	
 } // Libro

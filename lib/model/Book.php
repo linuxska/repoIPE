@@ -18,6 +18,7 @@
  */
 class Book extends BaseBook {
 
+
 	/**
 	 * Initializes internal state of Book object.
 	 * @see        parent::__construct()
@@ -29,29 +30,30 @@ class Book extends BaseBook {
 		parent::__construct();
 	}
 
-
-
 	public  function getName()
 	{
 		return sprintf("%s %s",  $this->getAuthorLastname(), $this->getAuthorFirstname());
 	}
-	public  function getClasificacion()
+
+	public  function getClasification()
 	{
 		$decimal = DecimalenPeer::retrieveByPK($this->getIdDecimal());
 		$integer = IntegerPeer::retrieveByPK($decimal->getIdInteger());
-		if($integer->getNumber()<10)
-			return sprintf("00%s.%s %s %s",$integer->getNumber(), $decimal->getNumber(), $integer->getName(), $decimal->getName());
-		elseif ($integer->getNumber()<100)
-			return sprintf("0%s.%s %s %s",$integer->getNumber(), $decimal->getNumber(), $integer->getName(), $decimal->getName());
-		elseif($integer->getNumber()<1000)
-			return sprintf("%s.%s %s %s",$integer->getNumber(), $decimal->getNumber(), $integer->getName(), $decimal->getName());
+		//Numero Dewey = $integer->getNumber(), $decimal->getNumber();
+		return sprintf("%s | %s", $integer->getName(), $decimal->getName());
 
-	}	
+	}
 
-} // Book
-/*if (var_dump($this->getDecimalen()->getInteger()<10)
-        return sprintf("00%s.%s. %s -> %s", $this->getInteger()->getNumber(), $this->getNumber(), $this->getInteger()->getName(), $this->getName());
-    	else if ($this->getInteger()->getName()<100)
-    	return sprintf("0%s.%s. %s -> %s", $this->getInteger()->getNumber(), $this->getNumber(), $this->getInteger()->getName(), $this->getName());
-    	else
-    	return sprintf("%s.%s. %s -> %s", $this->getInteger()->getNumber(), $this->getNumber(), $this->getInteger()->getName(), $this->getName());	*/
+
+	public  function getDeweyn()
+	{
+		$decimal = DecimalenPeer::retrieveByPK($this->getIdDecimal());
+		$integer = IntegerPeer::retrieveByPK($decimal->getIdInteger());
+
+		if (($this->getAuthorLastname() =="")|| (($this->getAuthorLastname() =="anonymous")) || (($this->getAuthorLastname() =="Anonymous")) )
+		return sprintf("%s.%s  %s",$integer->getNumber(), $decimal->getNumber(), substr($this->getTitle(), 0, 3)) ;
+		else
+		return sprintf("%s.%s  %s",$integer->getNumber(), $decimal->getNumber(), substr($this->getAuthorLastname() , 0,3));
+	}
+
+}

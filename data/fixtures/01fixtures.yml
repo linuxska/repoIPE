@@ -73914,38 +73914,4 @@ Decimal:
   Decimal_8471:
     id_entero: Entero_998
     numero: 2
-    nombre: 'Groenlandia '
-Libro:
-  Libro_1:
-    id_decimal: Decimal_523
-    titulo: 'Los milagros de Jesus'
-    nombreautor: Abraham
-    apaterno_autor: Rico
-    amaterno_autor: Moreno
-    ano_publicacion: ''
-    editorial: Ab
-    tomo: ''
-    isbn: ''
-    tema_primario: ''
-    tema_secuandario: ''
-    tema_terciario: ''
-    herejia: false
-    numero_dewey: '231.72 Ric'
-    observaciones: ''
-  Libro_2:
-    id_decimal: Decimal_1325
-    titulo: 'La famili'
-    nombreautor: Abraham
-    apaterno_autor: Rico
-    amaterno_autor: Moreno
-    ano_publicacion: '2000'
-    editorial: ''
-    tomo: ''
-    isbn: ''
-    tema_primario: Familia
-    tema_secuandario: ''
-    tema_terciario: ''
-    herejia: true
-    cantidad: 2
-    numero_dewey: '306.85 Ric'
-    observaciones: 'Libro descontinuado'
+    nombre: 'Groenlandia'

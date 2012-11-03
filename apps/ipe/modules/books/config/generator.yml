@@ -16,6 +16,8 @@ generator:
       fields:  
         id_decimal:        { label: Clasification }
         title:             { label: Title of the Book}
+        deweyn:            { label: Dewey Number }
+        decimalen:         { label: Tema }
         author_firstname:  { label: Author name  }
         author_lastname:   { label: Author lastname }
         year:              { label: Year  }
@@ -24,11 +26,11 @@ generator:
         name:              { label: Full name }
       list:    
         title: Catalog of Books
-        display: [=clasificacion,title, =name, volume, dewey_number, isbn, heresy, year, primary_subject, quantity]
+        display: [=Clasification,title, =name, volume, deweyn, isbn, heresy, year, primary_subject, quantity]
         fields:  
-        max_per_page: 50
+        max_per_page: 25
       filter:  
-        display: [id_decimal, title, author_firstname, author_lastname, dewey_number, isbn, year, primary_subject, heresy]
+        display: [id_decimal, title, author_firstname, author_lastname, isbn, year, primary_subject, heresy]
       form:    ~
       edit:    
         title: Edit book  %%title%% of %%author_firstname%%
