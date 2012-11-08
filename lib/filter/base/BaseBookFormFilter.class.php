@@ -25,6 +25,8 @@ abstract class BaseBookFormFilter extends BaseFormFilterPropel
       'tertiary_subject'  => new sfWidgetFormFilterInput(),
       'heresy'            => new sfWidgetFormChoice(array('choices' => array('' => 'yes or no', 1 => 'yes', 0 => 'no'))),
       'quantity'          => new sfWidgetFormFilterInput(),
+      'picture'           => new sfWidgetFormFilterInput(),
+      'pic'               => new sfWidgetFormChoice(array('choices' => array('' => 'yes or no', 1 => 'yes', 0 => 'no'))),
       'dewey_number'      => new sfWidgetFormFilterInput(array('with_empty' => false)),
       'observations'      => new sfWidgetFormFilterInput(),
     ));
@@ -43,6 +45,8 @@ abstract class BaseBookFormFilter extends BaseFormFilterPropel
       'tertiary_subject'  => new sfValidatorPass(array('required' => false)),
       'heresy'            => new sfValidatorChoice(array('required' => false, 'choices' => array('', 1, 0))),
       'quantity'          => new sfValidatorSchemaFilter('text', new sfValidatorInteger(array('required' => false))),
+      'picture'           => new sfValidatorPass(array('required' => false)),
+      'pic'               => new sfValidatorChoice(array('required' => false, 'choices' => array('', 1, 0))),
       'dewey_number'      => new sfValidatorPass(array('required' => false)),
       'observations'      => new sfValidatorPass(array('required' => false)),
     ));
@@ -76,6 +80,8 @@ abstract class BaseBookFormFilter extends BaseFormFilterPropel
       'tertiary_subject'  => 'Text',
       'heresy'            => 'Boolean',
       'quantity'          => 'Number',
+      'picture'           => 'Text',
+      'pic'               => 'Boolean',
       'dewey_number'      => 'Text',
       'observations'      => 'Text',
     );

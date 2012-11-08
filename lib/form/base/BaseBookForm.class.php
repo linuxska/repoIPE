@@ -28,6 +28,8 @@ abstract class BaseBookForm extends BaseFormPropel
       'tertiary_subject'  => new sfWidgetFormInputText(),
       'heresy'            => new sfWidgetFormInputCheckbox(),
       'quantity'          => new sfWidgetFormInputText(),
+      'picture'           => new sfWidgetFormInputText(),
+      'pic'               => new sfWidgetFormInputCheckbox(),
       'dewey_number'      => new sfWidgetFormInputText(),
       'observations'      => new sfWidgetFormInputText(),
     ));
@@ -47,6 +49,8 @@ abstract class BaseBookForm extends BaseFormPropel
       'tertiary_subject'  => new sfValidatorString(array('max_length' => 64, 'required' => false)),
       'heresy'            => new sfValidatorBoolean(),
       'quantity'          => new sfValidatorInteger(array('min' => -2147483648, 'max' => 2147483647, 'required' => false)),
+      'picture'           => new sfValidatorString(array('max_length' => 255, 'required' => false)),
+      'pic'               => new sfValidatorBoolean(array('required' => false)),
       'dewey_number'      => new sfValidatorString(array('max_length' => 32)),
       'observations'      => new sfValidatorString(array('max_length' => 512, 'required' => false)),
     ));

@@ -100,6 +100,8 @@ propel:
     tertiary_subject: { phpName: TertiarySubject, type: VARCHAR, size: '64', required: false }
     heresy: { phpName: Heresy, type: BOOLEAN, required: true, defaultValue: false }
     quantity: { phpName: Quantity, type: INTEGER, required: false }
+    picture: { phpName: Picture, type: VARCHAR, size: '255', required: false }
+    pic: { phpName: Pic, type: BOOLEAN, required: false, defaultValue: false }
     dewey_number: { phpName: DeweyNumber, type: VARCHAR, size: '32', required: true }
     observations: { phpName: Observations, type: VARCHAR, size: '512', required: false }
   curso:
@@ -107,8 +109,8 @@ propel:
     id: { phpName: Id, type: INTEGER, primaryKey: true, autoIncrement: true, required: true }
     id_materia: { phpName: IdMateria, type: INTEGER, required: true }
     id_profesor: { phpName: IdProfesor, type: INTEGER, required: true }
-    id_salon: { phpName: IdSalon, type: INTEGER, required: true }
     id_periodo: { phpName: IdPeriodo, type: INTEGER, required: true }
+    id_salon: { phpName: IdSalon, type: INTEGER, required: true }
     hora_inicio: { phpName: HoraInicio, type: TIME, required: true }
     hora_final: { phpName: HoraFinal, type: TIME, required: true }
     anno: { phpName: Anno, type: VARCHAR, size: '4', required: true }
@@ -127,13 +129,13 @@ propel:
     number: { phpName: Number, type: INTEGER, required: true }
     name: { phpName: Name, type: VARCHAR, size: '128', required: true }
     description: { phpName: Description, type: VARCHAR, size: '512', required: false }
-    _uniques: { decimalen_idx1: [number, name] }
   entero:
     _attributes: { phpName: Entero }
     id: { phpName: Id, type: INTEGER, primaryKey: true, autoIncrement: true, required: true }
     numero: { phpName: Numero, type: INTEGER, required: true }
     nombre: { phpName: Nombre, type: VARCHAR, size: '128', required: true }
     descripcion: { phpName: Descripcion, type: VARCHAR, size: '512', required: false }
+    _uniques: { primersumario_idx1: [id, numero, nombre] }
   integer:
     _attributes: { phpName: Integer }
     id: { phpName: Id, type: INTEGER, primaryKey: true, autoIncrement: true, required: true }
@@ -157,11 +159,31 @@ propel:
     tema_terciario: { phpName: TemaTerciario, type: VARCHAR, size: '64', required: false }
     herejia: { phpName: Herejia, type: BOOLEAN, required: true, defaultValue: false }
     cantidad: { phpName: Cantidad, type: INTEGER, required: false }
+    foto: { phpName: Foto, type: VARCHAR, size: '255', required: false }
+    fot: { phpName: Fot, type: BOOLEAN, required: false, defaultValue: false }
     numero_dewey: { phpName: NumeroDewey, type: VARCHAR, size: '32', required: true }
     observaciones: { phpName: Observaciones, type: VARCHAR, size: '512', required: false }
   lista:
     _attributes: { phpName: Lista }
     id: { phpName: Id, type: INTEGER, primaryKey: true, autoIncrement: true, required: true }
+  materia:
+    _attributes: { phpName: Materia }
+    id: { phpName: Id, type: INTEGER, primaryKey: true, autoIncrement: true, required: true }
+    nombre: { phpName: Nombre, type: VARCHAR, size: '64', required: true }
+    semestre: { phpName: Semestre, type: VARCHAR, size: '2', required: true }
+    clave: { phpName: Clave, type: VARCHAR, size: '6', required: false }
+    activo: { phpName: Activo, type: BOOLEAN, required: true, defaultValue: true }
+  mes:
+    _attributes: { phpName: Mes }
+    id: { phpName: Id, type: INTEGER, primaryKey: true, autoIncrement: true, required: true }
+    nombre: { phpName: Nombre, type: VARCHAR, size: '32', required: true }
+  periodo:
+    _attributes: { phpName: Periodo }
+    id: { phpName: Id, type: INTEGER, primaryKey: true, autoIncrement: true, required: true }
+    periodo: { phpName: Periodo, type: VARCHAR, size: '32', required: true }
+    inicio_periodo: { phpName: InicioPeriodo, type: INTEGER, required: true, foreignTable: mes, foreignReference: id, onDelete: RESTRICT, onUpdate: CASCADE }
+    final_periodo: { phpName: FinalPeriodo, type: INTEGER, required: true, foreignTable: mes, foreignReference: id, onDelete: RESTRICT, onUpdate: CASCADE }
+    nombre_corto: { phpName: NombreCorto, type: VARCHAR, size: '16', required: false }
   profesor:
     _attributes: { phpName: Profesor }
     id: { phpName: Id, type: INTEGER, primaryKey: true, autoIncrement: true, required: true }
@@ -181,6 +203,10 @@ propel:
     foto: { phpName: Foto, type: VARCHAR, size: '256', required: false }
     activo: { phpName: Activo, type: BOOLEAN, required: true, defaultValue: true }
     observaciones: { phpName: Observaciones, type: LONGVARCHAR, required: false }
+  salon:
+    _attributes: { phpName: Salon }
+    id: { phpName: Id, type: INTEGER, primaryKey: true, autoIncrement: true, required: true }
+    salon: { phpName: Salon, type: VARCHAR, size: '64', required: true }
   wk_book:
     _attributes: { phpName: WkBook }
     id: { phpName: Id, type: INTEGER, primaryKey: true, autoIncrement: true, required: true }
@@ -197,5 +223,7 @@ propel:
     tertiary_subject: { phpName: TertiarySubject, type: VARCHAR, size: '64', required: false }
     heresy: { phpName: Heresy, type: BOOLEAN, required: true, defaultValue: false }
     quantity: { phpName: Quantity, type: INTEGER, required: false }
+    picture: { phpName: Picture, type: VARCHAR, size: '255', required: false }
+    pic: { phpName: Pic, type: BOOLEAN, required: false, defaultValue: false }
     dewey_number: { phpName: DeweyNumber, type: VARCHAR, size: '32', required: true }
     observations: { phpName: Observations, type: VARCHAR, size: '512', required: false }

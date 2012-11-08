@@ -13,7 +13,7 @@ generator:
 
     config:
       actions: ~
-      fields:  
+      fields:
         id_decimal:        { label: Clasification }
         title:             { label: Title of the Book}
         deweyn:            { label: Dewey Number }
@@ -24,17 +24,17 @@ generator:
         publishing_house:  { label: Publishing house  }
         isbn:              { label: ISBN }
         name:              { label: Full name }
-      list:    
+      list:
         title: Catalog of Books
-        display: [=Clasification,title, =name, volume, deweyn, isbn, heresy, year, primary_subject, quantity]
-        fields:  
+        display: [=Clasification,title,volume, =name, deweyen, year, publishing_house, heresy , isbn, year, primary_subject, quantity, pic]
+        fields:
         max_per_page: 25
-      filter:  
+      filter:
         display: [id_decimal, title, author_firstname, author_lastname, isbn, year, primary_subject, heresy]
       form:    ~
-      edit:    
+      edit:
         title: Edit book  %%title%% of %%author_firstname%%
-        fields:  
+        fields:
            title:             { label: Title }
            author_firstname:  { label: Name  }
            author_lastname:   { label: Lastname }

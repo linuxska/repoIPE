@@ -13,17 +13,17 @@ generator:
 
     config:
       actions: ~
-      fields:  
+      fields:
         numero:        { label: Numero Dewey }
         descripcion:   { label: Descripción}
-      list:    
+      list:
         title: Catalogo de numeración Dewey
         display: [numero, nombre, descripcion]
         max_per_page: 50
-      filter:  
+      filter:
         display: [numero, nombre ]
       form:    ~
-      edit:    
+      edit:
         title: Editar el numero  %%numero%% 
-      new:     
+      new:
         title: Nuevo numero

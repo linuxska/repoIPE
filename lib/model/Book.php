@@ -38,22 +38,37 @@ class Book extends BaseBook {
 	public  function getClasification()
 	{
 		$decimal = DecimalenPeer::retrieveByPK($this->getIdDecimal());
-		$integer = IntegerPeer::retrieveByPK($decimal->getIdInteger());
+		//$integer = IntegerPeer::retrieveByPK($decimal->getIdInteger());
 		//Numero Dewey = $integer->getNumber(), $decimal->getNumber();
-		return sprintf("%s | %s", $integer->getName(), $decimal->getName());
+		return sprintf("%s", $decimal);
 
 	}
 
-
-	public  function getDeweyn()
+	public  function getPic()
 	{
-		$decimal = DecimalenPeer::retrieveByPK($this->getIdDecimal());
-		$integer = IntegerPeer::retrieveByPK($decimal->getIdInteger());
+		if($this->getPicture()==null){
+			$this->setPic(false);
+			return false;
+		}
+		else{
+			$this->setPic(true);
+		    return true;
+		}
+	}
 
-		if (($this->getAuthorLastname() =="")|| (($this->getAuthorLastname() =="anonymous")) || (($this->getAuthorLastname() =="Anonymous")) )
-		return sprintf("%s.%s  %s",$integer->getNumber(), $decimal->getNumber(), substr($this->getTitle(), 0, 3)) ;
+	public  function getDeweyen()
+	{
+		$decimal = DecimalEnPeer::retrieveByPK($this->getIdDecimal());
+
+		if (($this->getAuthorLastname() =="") | (($this->getAuthorFirstname() =="anonymous")) | ($this->getAuthorFirstname() =="Anonymous") )
+			if ($this->getVolume()=='')
+					return sprintf("%s.%s  %s",$decimal->getInteger()->getNumber(),$decimal->getNumber(), substr($this->getTitle(), 0, 3)) ;
 		else
-		return sprintf("%s.%s  %s",$integer->getNumber(), $decimal->getNumber(), substr($this->getAuthorLastname() , 0,3));
+			    return sprintf("%s.%s  %s Volume %s",$decimal->getInteger()->getNumber(),$decimal->getNumber(), substr($this->getTitle(), 0, 3), $this->getVolume()) ;
+		elseif ($this->getVolume()=='')
+				return sprintf("%s.%s %s ",$decimal->getInteger()->getNumber(),$decimal->getNumber(), substr($this->getAuthorLastname() , 0,3));
+			else
+				return sprintf("%s.%s %s  Volume %s",$decimal->getInteger()->getNumber(),$decimal->getNumber(), substr($this->getAuthorLastname() , 0,3), $this->getVolume());
 	}
 
 }

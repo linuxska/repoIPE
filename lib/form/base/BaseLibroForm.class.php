@@ -29,6 +29,8 @@ abstract class BaseLibroForm extends BaseFormPropel
       'tema_terciario'   => new sfWidgetFormInputText(),
       'herejia'          => new sfWidgetFormInputCheckbox(),
       'cantidad'         => new sfWidgetFormInputText(),
+      'foto'             => new sfWidgetFormInputText(),
+      'fot'              => new sfWidgetFormInputCheckbox(),
       'numero_dewey'     => new sfWidgetFormInputText(),
       'observaciones'    => new sfWidgetFormInputText(),
     ));
@@ -49,6 +51,8 @@ abstract class BaseLibroForm extends BaseFormPropel
       'tema_terciario'   => new sfValidatorString(array('max_length' => 64, 'required' => false)),
       'herejia'          => new sfValidatorBoolean(),
       'cantidad'         => new sfValidatorInteger(array('min' => -2147483648, 'max' => 2147483647, 'required' => false)),
+      'foto'             => new sfValidatorString(array('max_length' => 255, 'required' => false)),
+      'fot'              => new sfValidatorBoolean(array('required' => false)),
       'numero_dewey'     => new sfValidatorString(array('max_length' => 32)),
       'observaciones'    => new sfValidatorString(array('max_length' => 512, 'required' => false)),
     ));

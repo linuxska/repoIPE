@@ -20,7 +20,7 @@ generator:
         descripcion:   { label: Descripción  }
       list:    
         title: Catalogo de los decimales
-        display: [ id_entero, =Numerodecimal, nombre, descripcion]
+        display: [ id_entero, =decimal, nombre, descripcion]
         max_per_page: 50
       filter:  
         display: [id_entero, numero, nombre]

@@ -26,6 +26,8 @@ abstract class BaseLibroFormFilter extends BaseFormFilterPropel
       'tema_terciario'   => new sfWidgetFormFilterInput(),
       'herejia'          => new sfWidgetFormChoice(array('choices' => array('' => 'yes or no', 1 => 'yes', 0 => 'no'))),
       'cantidad'         => new sfWidgetFormFilterInput(),
+      'foto'             => new sfWidgetFormFilterInput(),
+      'fot'              => new sfWidgetFormChoice(array('choices' => array('' => 'yes or no', 1 => 'yes', 0 => 'no'))),
       'numero_dewey'     => new sfWidgetFormFilterInput(array('with_empty' => false)),
       'observaciones'    => new sfWidgetFormFilterInput(),
     ));
@@ -45,6 +47,8 @@ abstract class BaseLibroFormFilter extends BaseFormFilterPropel
       'tema_terciario'   => new sfValidatorPass(array('required' => false)),
       'herejia'          => new sfValidatorChoice(array('required' => false, 'choices' => array('', 1, 0))),
       'cantidad'         => new sfValidatorSchemaFilter('text', new sfValidatorInteger(array('required' => false))),
+      'foto'             => new sfValidatorPass(array('required' => false)),
+      'fot'              => new sfValidatorChoice(array('required' => false, 'choices' => array('', 1, 0))),
       'numero_dewey'     => new sfValidatorPass(array('required' => false)),
       'observaciones'    => new sfValidatorPass(array('required' => false)),
     ));
@@ -79,6 +83,8 @@ abstract class BaseLibroFormFilter extends BaseFormFilterPropel
       'tema_terciario'   => 'Text',
       'herejia'          => 'Boolean',
       'cantidad'         => 'Number',
+      'foto'             => 'Text',
+      'fot'              => 'Boolean',
       'numero_dewey'     => 'Text',
       'observaciones'    => 'Text',
     );

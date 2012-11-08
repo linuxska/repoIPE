@@ -2,7 +2,7 @@
 -- pgDesigner 1.2.17
 --
 -- Project    : SII-IPE
--- Date       : 10/12/2012 20:18:51.283
+-- Date       : 11/07/2012 00:55:24.677
 -- Description: Sistema integral de informacion del instituto Practico Ebenezer.
 ------------------------------
 
@@ -24,6 +24,8 @@ CREATE TABLE "libro" (
 "tema_terciario" character varying(64),
 "herejia" bool NOT NULL DEFAULT false,
 "cantidad" int,
+"foto" character varying(255),
+"fot" boolean DEFAULT false,
 "numero_dewey" character varying(32) NOT NULL,
 "observaciones" character varying(512)
 ) WITHOUT OIDS;
@@ -43,6 +45,7 @@ COMMENT ON COLUMN "libro"."tema_primario" IS 'Tema de la obra';
 COMMENT ON COLUMN "libro"."tema_secuandario" IS 'Tema secuandario de la obra';
 COMMENT ON COLUMN "libro"."tema_terciario" IS 'Tema terciario de la obra';
 COMMENT ON COLUMN "libro"."cantidad" IS 'Cantidad de ejemplares en la Bibliteca del IPE.';
+COMMENT ON COLUMN "libro"."foto" IS 'Url de la foto del libro';
 COMMENT ON COLUMN "libro"."numero_dewey" IS 'Numero Dewey generado "automaticamente" para cada obra.';
 COMMENT ON COLUMN "libro"."observaciones" IS 'Observaciones del libro';
 
@@ -275,8 +278,8 @@ CREATE TABLE "curso" (
 "id" serial NOT NULL,
 "id_materia" int NOT NULL,
 "id_profesor" int NOT NULL,
-"id_salon" int NOT NULL,
 "id_periodo" int NOT NULL,
+"id_salon" int NOT NULL,
 "hora_inicio" time NOT NULL,
 "hora_final" time NOT NULL,
 "anno" character varying(4) NOT NULL,
@@ -286,8 +289,8 @@ ALTER TABLE "curso" ADD CONSTRAINT "curso_pk" PRIMARY KEY("id");
 COMMENT ON TABLE "curso" IS 'Catálogo de los cursos que se imparten por periodo.';
 COMMENT ON COLUMN "curso"."id" IS 'Clave del curso.';
 COMMENT ON COLUMN "curso"."id_profesor" IS 'Clave del profesor que imparte el curso.';
-COMMENT ON COLUMN "curso"."id_salon" IS 'Clave del salon.';
 COMMENT ON COLUMN "curso"."id_periodo" IS 'Clave del periodo.';
+COMMENT ON COLUMN "curso"."id_salon" IS 'Clave del salon.';
 COMMENT ON COLUMN "curso"."hora_inicio" IS 'Hora de inicio del curso.';
 COMMENT ON COLUMN "curso"."hora_final" IS 'Hora de final del curso.';
 COMMENT ON COLUMN "curso"."anno" IS 'Año en que se imparte el curso';
@@ -315,6 +318,8 @@ CREATE TABLE "book" (
 "tertiary_subject" character varying(64),
 "heresy" bool NOT NULL DEFAULT false,
 "quantity" int,
+"picture" character varying(255),
+"pic" boolean DEFAULT false,
 "dewey_number" character varying(32) NOT NULL,
 "observations" character varying(512)
 ) WITHOUT OIDS;
@@ -333,6 +338,7 @@ COMMENT ON COLUMN "book"."primary_subject" IS 'Tema de la obra';
 COMMENT ON COLUMN "book"."secondary_subject" IS 'Tema secuandario de la obra';
 COMMENT ON COLUMN "book"."tertiary_subject" IS 'Tema terciario de la obra';
 COMMENT ON COLUMN "book"."quantity" IS 'Cantidad de ejemplares en la Bibliteca del IPE.';
+COMMENT ON COLUMN "book"."picture" IS 'url de la foto del libro';
 COMMENT ON COLUMN "book"."dewey_number" IS 'Numero Dewey generado "automaticamente" para cada obra.';
 
 CREATE TABLE "decimalen" (
@@ -362,7 +368,6 @@ COMMENT ON COLUMN "integer"."id" IS 'Identificador de la Categoria';
 COMMENT ON COLUMN "integer"."number" IS 'Numero Dewey de la clasificacion.';
 COMMENT ON COLUMN "integer"."name" IS 'Nombre para la clasificacion';
 COMMENT ON COLUMN "integer"."description" IS 'Descripcion del tema';
-CREATE UNIQUE INDEX "firstsummary_idx1" ON "integer" USING btree ("id","number","name");
 
 CREATE TABLE "wk_book" (
 "id" serial NOT NULL,
@@ -379,6 +384,8 @@ CREATE TABLE "wk_book" (
 "tertiary_subject" character varying(64),
 "heresy" bool NOT NULL DEFAULT false,
 "quantity" int,
+"picture" character varying(255),
+"pic" boolean DEFAULT false,
 "dewey_number" character varying(32) NOT NULL,
 "observations" character varying(512)
 ) WITHOUT OIDS;
@@ -397,7 +404,54 @@ COMMENT ON COLUMN "wk_book"."primary_subject" IS 'Tema de la obra';
 COMMENT ON COLUMN "wk_book"."secondary_subject" IS 'Tema secuandario de la obra';
 COMMENT ON COLUMN "wk_book"."tertiary_subject" IS 'Tema terciario de la obra';
 COMMENT ON COLUMN "wk_book"."quantity" IS 'Cantidad de ejemplares en la Bibliteca del IPE.';
+COMMENT ON COLUMN "wk_book"."picture" IS 'Url de la foto del libro';
 COMMENT ON COLUMN "wk_book"."dewey_number" IS 'Numero Dewey generado "automaticamente" para cada obra.';
+
+CREATE TABLE "materia" (
+"id" serial NOT NULL,
+"nombre" character varying(64) NOT NULL,
+"semestre" character varying(2) NOT NULL,
+"clave" character varying(6),
+"activo" boolean NOT NULL DEFAULT true
+) WITHOUT OIDS;
+ALTER TABLE "materia" ADD CONSTRAINT "materia_pk" PRIMARY KEY("id");
+COMMENT ON TABLE "materia" IS 'Catalogo de materias que se imparten en el Instituto Practico Ebenezer.';
+COMMENT ON COLUMN "materia"."id" IS 'Clave de la materia.';
+COMMENT ON COLUMN "materia"."nombre" IS 'Nombre de la asignatura.';
+COMMENT ON COLUMN "materia"."semestre" IS 'Semestre de la materia';
+COMMENT ON COLUMN "materia"."clave" IS 'Clave corta de la materia.';
+COMMENT ON COLUMN "materia"."activo" IS 'Si la materia ese ofrece o no.';
+
+CREATE TABLE "salon" (
+"id" serial NOT NULL,
+"salon" character varying(64) NOT NULL
+) WITHOUT OIDS;
+ALTER TABLE "salon" ADD CONSTRAINT "salon_pk" PRIMARY KEY("id");
+COMMENT ON TABLE "salon" IS 'Salones que existen en el Instituto Practico Ebenezer.';
+COMMENT ON COLUMN "salon"."id" IS 'Id del salon.';
+COMMENT ON COLUMN "salon"."salon" IS 'Nombre del salon.';
+
+CREATE TABLE "mes" (
+"id" serial NOT NULL,
+"nombre" character varying(32) NOT NULL
+) WITHOUT OIDS;
+ALTER TABLE "mes" ADD CONSTRAINT "mes_pk" PRIMARY KEY("id");
+COMMENT ON TABLE "mes" IS 'Catalgos de los meses de anio.';
+COMMENT ON COLUMN "mes"."nombre" IS 'Nombre del mes.';
+
+CREATE TABLE "periodo" (
+"id" serial NOT NULL,
+"periodo" character varying(32) NOT NULL,
+"inicio_periodo" int NOT NULL,
+"final_periodo" int NOT NULL,
+"nombre_corto" character varying(16)
+) WITHOUT OIDS;
+ALTER TABLE "periodo" ADD CONSTRAINT "periodo_pk" PRIMARY KEY("id");
+COMMENT ON TABLE "periodo" IS 'Periodos cuando se imparten cursos.';
+COMMENT ON COLUMN "periodo"."periodo" IS 'Nombre del periodo.';
+COMMENT ON COLUMN "periodo"."inicio_periodo" IS 'Mes del Inicio del periodo.';
+COMMENT ON COLUMN "periodo"."final_periodo" IS 'Mes de fin del periodo.';
+COMMENT ON COLUMN "periodo"."nombre_corto" IS 'Nombre corto del periodo';
 
 -- End Tabla's declaration
 
@@ -408,9 +462,13 @@ ALTER TABLE "decimal" ADD CONSTRAINT "decimal_fkey1" FOREIGN KEY ("id_entero") R
 
 ALTER TABLE "decimalen" ADD CONSTRAINT "decimalen_fkey1" FOREIGN KEY ("id_integer") REFERENCES "integer"("id") ON UPDATE CASCADE ON DELETE RESTRICT;
 
-ALTER TABLE "book" ADD CONSTRAINT "book_fkey1" FOREIGN KEY ("id") REFERENCES "decimalen"("id_integer") ON UPDATE CASCADE ON DELETE RESTRICT;
+ALTER TABLE "book" ADD CONSTRAINT "book_fkey1" FOREIGN KEY ("id_decimal") REFERENCES "decimalen"("id") ON UPDATE CASCADE ON DELETE RESTRICT;
 
 ALTER TABLE "wk_book" ADD CONSTRAINT "wk_book_fkey1" FOREIGN KEY ("id_decimal") REFERENCES "decimalen"("id") ON UPDATE CASCADE ON DELETE RESTRICT;
+
+ALTER TABLE "periodo" ADD CONSTRAINT "periodo_fkey1" FOREIGN KEY ("inicio_periodo") REFERENCES "mes"("id") ON UPDATE CASCADE ON DELETE RESTRICT;
+
+ALTER TABLE "periodo" ADD CONSTRAINT "periodo_fkey2" FOREIGN KEY ("final_periodo") REFERENCES "mes"("id") ON UPDATE CASCADE ON DELETE RESTRICT;
 
 -- End Relación's declaration
 

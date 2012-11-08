@@ -29,10 +29,6 @@ abstract class BaseDecimalenForm extends BaseFormPropel
       'description' => new sfValidatorString(array('max_length' => 512, 'required' => false)),
     ));
 
-    $this->validatorSchema->setPostValidator(
-      new sfValidatorPropelUnique(array('model' => 'Decimalen', 'column' => array('number', 'name')))
-    );
-
     $this->widgetSchema->setNameFormat('decimalen[%s]');
 
     $this->errorSchema = new sfValidatorErrorSchema($this->validatorSchema);

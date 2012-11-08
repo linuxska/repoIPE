@@ -15,9 +15,9 @@ generator:
       actions: ~
       fields:
         id_decimal:        { label: Clasification }
+        title:             { label: Title of the Book}
         deweyn:            { label: Dewey Number }
         decimalen:         { label: Tema }
-        title:             { label: Title of the Book}
         author_firstname:  { label: Author name  }
         author_lastname:   { label: Author lastname }
         year:              { label: Year  }
@@ -25,8 +25,8 @@ generator:
         isbn:              { label: ISBN }
         name:              { label: Full name }
       list:
-        title: Catalog of Books Hno Wokaty
-        display: [=Clasification,title, =name, volume, deweyn, isbn, heresy, year, primary_subject, quantity]
+        title: Catalog of Books of Hno Wokaty
+        display: [=Clasification,title,volume, =name, deweyen, year, publishing_house, heresy , isbn, year, primary_subject, quantity, pic]
         fields:
         max_per_page: 25
       filter:

@@ -36,9 +36,36 @@ class Libro extends BaseLibro {
 	public  function getClasificacion()
 	{
 		$decimal = DecimalPeer::retrieveByPK($this->getIdDecimal());
-		$integer = EnteroPeer::retrieveByPK($decimal->getIdEntero());
+		//$integer = EnteroPeer::retrieveByPK($decimal->getIdEntero());
 		//Numero Dewey = $integer->getNumber(), $decimal->getNumber();
-		return sprintf("%s | %s", $integer->getNombre(), $decimal->getNombre());
+		return sprintf("%s", $decimal);
 	}
+	public  function getFot()
+	{
+		if($this->getFoto()==null){
+			$this->setFot(false);
+			return false;
+		}
+		else{
+			$this->setFot(true);
+		    return true;
+		}
+	}
+
+	public  function getDewey()
+	{
+		$decimal = DecimalPeer::retrieveByPK($this->getIdDecimal());
+
+		if (($this->getApaternoAutor() =="") | (($this->getNombreautor() =="Anónimo")) | ($this->getNombreautor() =="Anonimo") )
+			if ($this->getTomo()=='')
+					return sprintf("%s.%s  %s",$decimal->getEntero()->getNumero(),$decimal->getNumero(), substr($this->getTitulo(), 0, 3)) ;
+		else
+			    return sprintf("%s.%s  %s Tomo %s",$decimal->getEntero()->getNumero(),$decimal->getNumero(), substr($this->getTitulo(), 0, 3), $this->getTomo()) ;
+		elseif ($this->getTomo()=='')
+				return sprintf("%s.%s %s ",$decimal->getEntero()->getNumero(),$decimal->getNumero(), substr($this->getApaternoAutor() , 0,3));
+			else
+				return sprintf("%s.%s %s  Tomo %s",$decimal->getEntero()->getNumero(),$decimal->getNumero(), substr($this->getApaternoAutor() , 0,3), $this->getTomo());
+	}
+
 
 } // Libro
