@@ -16,7 +16,7 @@ class BookForm extends BaseBookForm
   		{
 
       parent::configure();
-        unset($this['dewey_number'],$this['pic']);
+        unset($this['pic']);
 
          $this->setWidget('picture', new sfWidgetFormInputFile());
          $this->setValidator('picture', new sfValidatorFile(array(
@@ -45,12 +45,12 @@ class BookForm extends BaseBookForm
                theme_advanced_statusbar_location : "none"
                       '));
       	}
-
-        protected function doSave($con = null) {
+/*        protected function doSave($con = null) {
 
           $id_decimal = $this->getValue('id_decimal');
           $this->object->setDeweyNumber($id_decimal);
 
           parent::doSave($con);
         }
+*/
 }

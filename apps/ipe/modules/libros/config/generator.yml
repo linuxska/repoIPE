@@ -20,21 +20,23 @@ generator:
         nombrecompleto:    { label: Nombre completo }
         apaterno_autor:    { label: Apellido paterno }
         amaterno_autor:    { label: Apellido materno }
-        ano_publicacion:   { label: Publicado }
+        ano_publicacion:   { label: Escrito }
         editorial:         { label: Editorial }
         isbn:              { label: ISBN }
         fot:               { label: Foto }
+        numero_dewey:      { label: Dewey antiguo  }
+        dewey:             { label: Dewey New }
       list:
         title: Catalogo del libros
-        display: [=clasificacion, titulo, tomo, =nombrecompleto, =dewey,ano_publicacion, isbn, editorial, herejia, tema_primario, cantidad, fot]
-        fields:  
+        display: [ =clasificacion, titulo, tomo, =nombrecompleto, numero_dewey, =dewey, ano_publicacion, isbn, editorial, herejia, tema_primario, cantidad, fot]
+        fields:
         max_per_page: 25
-      filter:  
+      filter:
         display: [id_decimal, numero_dewey, titulo, nombreautor, apaterno_autor, isbn, editorial,tema_primario, herejia ]
       form:    ~
-      edit:    
-        title: Editar el libro %%titulo%% de %%nombreautor%%
-        fields:  
+      edit:
+        title: Editar el libro %%titulo%% escrito por: %%nombreautor%%
+        fields:
            isbn:              { label: ISBN }
       new:
         title: Añadir nuevo libro

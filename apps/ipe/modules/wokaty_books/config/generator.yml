@@ -14,7 +14,7 @@ generator:
     config:
       actions: ~
       fields:
-        id_decimal:        { label: Clasification }
+        id_decimal:        { label: Classification }
         title:             { label: Title of the Book}
         deweyn:            { label: Dewey Number }
         decimalen:         { label: Tema }

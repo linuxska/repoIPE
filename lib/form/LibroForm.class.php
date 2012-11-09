@@ -15,7 +15,7 @@ class LibroForm extends BaseLibroForm
     public function configure()
   		{
  	parent::configure();
-        unset($this['numero_dewey'] ,$this['fot']);
+        unset($this['fot']);
 
         $this->setWidget('foto', new sfWidgetFormInputFile());
     	  $this->setValidator('foto', new sfValidatorFile(array(
@@ -45,11 +45,11 @@ class LibroForm extends BaseLibroForm
                     '));
       	}
 
-      	protected function doSave($con = null) {
+      	/*protected function doSave($con = null) {
 
           $id_decimal = $this->getValue('id_decimal');
           $this->object->setNumeroDewey($id_decimal);
 
           parent::doSave($con);
-        }
+        }*/
 }

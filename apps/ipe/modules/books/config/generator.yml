@@ -14,7 +14,7 @@ generator:
     config:
       actions: ~
       fields:
-        id_decimal:        { label: Clasification }
+        id_decimal:        { label: Classification }
         title:             { label: Title of the Book}
         deweyn:            { label: Dewey Number }
         decimalen:         { label: Tema }
@@ -24,6 +24,9 @@ generator:
         publishing_house:  { label: Publishing house  }
         isbn:              { label: ISBN }
         name:              { label: Full name }
+        deweyen:           { label: Dewey new }
+        Clasification:     { label: Classification }
+        primary_subject:   { label: Primary Topic }
       list:
         title: Catalog of Books
         display: [=Clasification,title,volume, =name, deweyen, year, publishing_house, heresy , isbn, year, primary_subject, quantity, pic]
