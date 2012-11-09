@@ -32,6 +32,9 @@ generator:
         display: [=Clasification,title,volume, =name, deweyen, year, publishing_house, heresy , isbn, year, primary_subject, quantity, pic]
         fields:
         max_per_page: 25
+        object_actions:
+          moveDown:   { label: "Detalles", action: "detalles" }
+          _edit:      ~
       filter:
         display: [id_decimal, title, author_firstname, author_lastname, isbn, year, primary_subject, heresy]
       form:    ~

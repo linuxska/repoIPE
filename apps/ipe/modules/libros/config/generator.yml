@@ -31,6 +31,9 @@ generator:
         display: [ =clasificacion, titulo, tomo, =nombrecompleto, numero_dewey, =dewey, ano_publicacion, isbn, editorial, herejia, tema_primario, cantidad, fot]
         fields:
         max_per_page: 25
+        object_actions:
+          moveDown:   { label: "Detalles", action: "detalles" }
+          _edit:      ~
       filter:
         display: [id_decimal, numero_dewey, titulo, nombreautor, apaterno_autor, isbn, editorial,tema_primario, herejia ]
       form:    ~
