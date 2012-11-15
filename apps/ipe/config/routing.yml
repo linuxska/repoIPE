@@ -1,3 +1,30 @@
+wk_book_consult_wkbook:
+  class: sfPropelRouteCollection
+  options:
+    model:                WkBook
+    module:               consult_wkbook
+    prefix_path:          /consult_wkbook
+    column:               id
+    with_wildcard_routes: true
+
+book_consult_book:
+  class: sfPropelRouteCollection
+  options:
+    model:                Book
+    module:               consult_book
+    prefix_path:          /consult_book
+    column:               id
+    with_wildcard_routes: true
+
+libro_consulta_libro:
+  class: sfPropelRouteCollection
+  options:
+    model:                Libro
+    module:               consulta_libro
+    prefix_path:          /consulta_libro
+    column:               id
+    with_wildcard_routes: true
+
 libro:
   class: sfPropelRouteCollection
   options:
@@ -77,7 +104,23 @@ download_manual:
   url:   /download/manual.:sf_format
   param: { module: ipe, action: DownloadManual, sf_format: pdf}
 
+##
+###
+#
 
+libro_detalles:
+  url:              /consulta_libro/detalles/:id.:sf_format
+  class:            sfPropelRoute
+  options:          { model: Libro, type: object, method: getLibro }
+  requirements:
+    id:             \d+
+    sf_method:      [get]
+  param:            { module: Libro, action: Detalles, sf_format: html }
+
+#
+#
+#
+#
 change_password:
   url:              /changepassword
   param:            { module: ipe, action: ChangePasswordShow }

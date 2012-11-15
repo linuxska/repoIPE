@@ -43,6 +43,7 @@ class WkBook extends BaseWkBook {
 
 	}
 
+
 	public  function getPic()
 	{
 		if($this->getPicture()==null){

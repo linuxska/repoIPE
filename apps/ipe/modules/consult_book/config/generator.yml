@@ -1,0 +1,44 @@
+generator:
+  class: sfPropelGenerator
+  param:
+    model_class:           Book
+    theme:                 admin
+    non_verbose_templates: true
+    with_show:             false
+    singular:              Book
+    plural:                Books
+    route_prefix:          book_consult_book
+    with_propel_route:     1
+    actions_base_class:    sfActions
+
+    config:
+      actions: ~
+      fields:
+        id_decimal:        { label: Classification }
+        title:             { label: Title of the Book}
+        deweyn:            { label: Dewey Number }
+        decimalen:         { label: Tema }
+        author_firstname:  { label: Author name  }
+        author_lastname:   { label: Author lastname }
+        year:              { label: Year  }
+        publishing_house:  { label: Publishing house  }
+        isbn:              { label: ISBN }
+        name:              { label: Full name }
+        deweyen:           { label: Dewey new }
+        Clasification:     { label: Classification }
+        primary_subject:   { label: Primary Topic }
+      list:
+        title: Catalog of Books
+        display: [=Clasification,title, =name, deweyen, year, publishing_house, heresy , isbn, year, primary_subject]
+        fields:
+        fields:
+        max_per_page: 10
+        object_actions:
+          moveDown:   { label: "Detalles", action: "detalles" }
+        batch_actions: { }
+        actions: { }
+      filter:
+        display: [ title, author_firstname, author_lastname, isbn, year, primary_subject, heresy]
+      form:    ~
+      edit:    ~
+      new:     ~

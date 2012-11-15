@@ -1,0 +1,43 @@
+generator:
+  class: sfPropelGenerator
+  param:
+    model_class:           Libro
+    theme:                 admin
+    non_verbose_templates: true
+    with_show:             false
+    singular:              Libro
+    plural:                Libros
+    route_prefix:          libro_consulta_libro
+    with_propel_route:     1
+    actions_base_class:    sfActions
+
+    config:
+      actions: ~
+      fields:
+        id_decimal:        { label: Clasificación Dewey  }
+        clasificacion:    { label: Clasificación Dewey  }
+        titulo:            { label: Titulo del libro }
+        nombreautor:       { label: Nombre de autor }
+        nombrecompleto:    { label: Nombre completo }
+        apaterno_autor:    { label: Apellido paterno }
+        amaterno_autor:    { label: Apellido materno }
+        ano_publicacion:   { label: Escrito }
+        editorial:         { label: Editorial }
+        isbn:              { label: ISBN }
+        fot:               { label: Foto }
+        numero_dewey:      { label: Dewey antiguo  }
+        dewey:             { label: Dewey New }
+      list:
+        title: Catalogo del libros
+        display: [=clasificacion, titulo, =nombrecompleto, =dewey, ano_publicacion, isbn, editorial, herejia, tema_primario]
+        fields:
+        max_per_page: 10
+        object_actions:
+          moveDown:   { label: "Detalles", action: "detalles" }
+        batch_actions: { }
+        actions: { }
+      filter:
+        display: [titulo, nombreautor, apaterno_autor, isbn, editorial,tema_primario, herejia ]
+      form:    ~
+      edit:    ~
+      new:     ~

@@ -20,8 +20,8 @@ class librosActions extends autoLibrosActions
 
     $this->processForm($request, $this->form);
 
-    $this->setTemplate('new');
-    //$this->setTemplate('edit');
+    //$this->setTemplate('new');
+    $this->setTemplate('edit');
 
     }
      protected function processForm(sfWebRequest $request, sfForm $form)

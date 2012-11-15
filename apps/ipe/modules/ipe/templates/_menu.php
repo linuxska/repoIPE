@@ -21,6 +21,9 @@
         if ($sf_user->hasCredential('becabiblioteca')) {
             include_partial('ipe/menuBecabiblioteca');
         }
+        if ($sf_user->hasCredential('alumno')) {
+            include_partial('ipe/menuAlumno');
+        }
         /*
         if ($sf_user->hasCredential('director')) {
             include_partial('ipe/menuDirector');
@@ -33,9 +36,6 @@
         }
         if ($sf_user->hasCredential('profesor')) {
             include_partial('ipe/menuProfesor');
-        }
-        if ($sf_user->hasCredential('alumno')) {
-            include_partial('ipe/menuAlumno');
         }
         */
         ?>

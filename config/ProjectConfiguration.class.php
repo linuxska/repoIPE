@@ -8,7 +8,7 @@ class ProjectConfiguration extends sfProjectConfiguration
 {
   public function setup()
   {
-  	//sfConfig::set('sf_upload_dir', sfConfig::get('sf_data_dir') . DIRECTORY_SEPARATOR . 'uploads');
+  	sfConfig::set('sf_upload_dir','uploads');
     $this->enablePlugins('sfPropelPlugin');
     $this->enablePlugins('sfGuardPlugin');
     $this->enablePlugins('sfTCPDFPlugin');

@@ -1,0 +1,12 @@
+default:
+  is_secure: true
+  credentials: [alumno]
+edit:
+  is_secure: true
+  credentials: [admin]
+delete:
+  is_secure: true
+  credentials: [admin]
+new:
+  is_secure: true
+  credentials: [admin]

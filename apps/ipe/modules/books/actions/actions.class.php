@@ -35,7 +35,7 @@ class booksActions extends autoBooksActions
         $this->getUser()->setFlash('notice', $notice);
         $this->redirect('@book');
 
-        $this->redirect(array('sf_route' => 'book_edit', 'sf_subject' => $Book));
+        //$this->redirect(array('sf_route' => 'book_edit', 'sf_subject' => $Book));
       }
     }
     else
