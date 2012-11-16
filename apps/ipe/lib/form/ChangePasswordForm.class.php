@@ -11,7 +11,7 @@ class ChangePasswordForm extends sfGuardUserAdminForm {
   	  	  $this['sf_guard_user_permission_list'],
   	  	  $this['sf_guard_user_group_list']
   	  );
-  	  
+
   	  $this->validatorSchema['password']->setOption('required' , true);
   	  $this->validatorSchema['password']->setOption('min_length', 8);
 	  $this->validatorSchema['password']->setMessage('min_length', 'Debe contener como mínimo 8 caracteres.');

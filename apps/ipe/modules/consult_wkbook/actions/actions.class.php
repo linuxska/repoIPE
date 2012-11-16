@@ -28,4 +28,9 @@ class consult_wkbookActions extends autoConsult_wkbookActions
     public function executeDelete(sfWebRequest $request) {
             throw new sfError404Exception('');
     }
+    public function executeDetalles()
+    {
+    $this->Book = $this->getRoute()->getObject();
+    //$this->form = $this->configuration->getForm($this->Libro);
+    }
 }

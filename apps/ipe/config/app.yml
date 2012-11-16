@@ -5,5 +5,6 @@
 #all:
 all:
   sf_guard_plugin:
+    signin_form:     sfGuardLoginForm
     routes_register: false
     sf_upload_dira: uploads
