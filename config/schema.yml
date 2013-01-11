@@ -103,14 +103,22 @@ propel:
     picture: { phpName: Picture, type: VARCHAR, size: '255', required: false }
     pic: { phpName: Pic, type: BOOLEAN, required: false, defaultValue: false }
     dewey_number: { phpName: DeweyNumber, type: VARCHAR, size: '32', required: true }
+    actualizado: { phpName: Actualizado, type: BOOLEAN, required: true, defaultValue: false }
     observations: { phpName: Observations, type: VARCHAR, size: '512', required: false }
+  compra_tienda:
+    _attributes: { phpName: CompraTienda }
+    id: { phpName: Id, type: INTEGER, primaryKey: true, autoIncrement: true, required: true }
+    id_producto: { phpName: IdProducto, type: INTEGER, required: true, foreignTable: producto_tienda, foreignReference: id, onDelete: RESTRICT, onUpdate: CASCADE }
+    id_empleado: { phpName: IdEmpleado, type: INTEGER, required: true, foreignTable: empleado_tienda, foreignReference: id, onDelete: RESTRICT, onUpdate: CASCADE }
+    fecha_compra: { phpName: FechaCompra, type: DATE, required: true }
+    cantidad: { phpName: Cantidad, type: INTEGER, required: true }
   curso:
     _attributes: { phpName: Curso }
     id: { phpName: Id, type: INTEGER, primaryKey: true, autoIncrement: true, required: true }
-    id_materia: { phpName: IdMateria, type: INTEGER, required: true }
-    id_profesor: { phpName: IdProfesor, type: INTEGER, required: true }
-    id_periodo: { phpName: IdPeriodo, type: INTEGER, required: true }
-    id_salon: { phpName: IdSalon, type: INTEGER, required: true }
+    id_materia: { phpName: IdMateria, type: INTEGER, required: true, foreignTable: materia, foreignReference: id, onDelete: RESTRICT, onUpdate: CASCADE }
+    id_profesor: { phpName: IdProfesor, type: INTEGER, required: true, foreignTable: profesor, foreignReference: id, onDelete: RESTRICT, onUpdate: CASCADE }
+    id_periodo: { phpName: IdPeriodo, type: INTEGER, required: true, foreignTable: periodo, foreignReference: id, onDelete: RESTRICT, onUpdate: CASCADE }
+    id_salon: { phpName: IdSalon, type: INTEGER, required: true, foreignTable: salon, foreignReference: id, onDelete: RESTRICT, onUpdate: CASCADE }
     hora_inicio: { phpName: HoraInicio, type: TIME, required: true }
     hora_final: { phpName: HoraFinal, type: TIME, required: true }
     anno: { phpName: Anno, type: VARCHAR, size: '4', required: true }
@@ -129,13 +137,19 @@ propel:
     number: { phpName: Number, type: INTEGER, required: true }
     name: { phpName: Name, type: VARCHAR, size: '128', required: true }
     description: { phpName: Description, type: VARCHAR, size: '512', required: false }
+  empleado_tienda:
+    _attributes: { phpName: EmpleadoTienda }
+    id: { phpName: Id, type: INTEGER, primaryKey: true, autoIncrement: true, required: true }
+    nombre: { phpName: Nombre, type: VARCHAR, size: '64', required: true }
+    a_paterno: { phpName: APaterno, type: VARCHAR, size: '32', required: false }
+    a_materno: { phpName: AMaterno, type: VARCHAR, size: '32', required: false }
+    telefono: { phpName: Telefono, type: VARCHAR, size: '10', required: false }
   entero:
     _attributes: { phpName: Entero }
     id: { phpName: Id, type: INTEGER, primaryKey: true, autoIncrement: true, required: true }
     numero: { phpName: Numero, type: INTEGER, required: true }
     nombre: { phpName: Nombre, type: VARCHAR, size: '128', required: true }
     descripcion: { phpName: Descripcion, type: VARCHAR, size: '512', required: false }
-    _uniques: { primersumario_idx1: [id, numero, nombre] }
   integer:
     _attributes: { phpName: Integer }
     id: { phpName: Id, type: INTEGER, primaryKey: true, autoIncrement: true, required: true }
@@ -155,17 +169,26 @@ propel:
     tomo: { phpName: Tomo, type: VARCHAR, size: '2', required: false }
     isbn: { phpName: Isbn, type: VARCHAR, size: '32', required: false }
     tema_primario: { phpName: TemaPrimario, type: VARCHAR, size: '64', required: false }
-    tema_secuandario: { phpName: TemaSecuandario, type: VARCHAR, size: '64', required: false }
+    tema_secundario: { phpName: TemaSecundario, type: VARCHAR, size: '64', required: false }
     tema_terciario: { phpName: TemaTerciario, type: VARCHAR, size: '64', required: false }
     herejia: { phpName: Herejia, type: BOOLEAN, required: true, defaultValue: false }
     cantidad: { phpName: Cantidad, type: INTEGER, required: false }
     foto: { phpName: Foto, type: VARCHAR, size: '255', required: false }
     fot: { phpName: Fot, type: BOOLEAN, required: false, defaultValue: false }
     numero_dewey: { phpName: NumeroDewey, type: VARCHAR, size: '32', required: true }
+    actualizado: { phpName: Actualizado, type: BOOLEAN, required: true, defaultValue: false }
     observaciones: { phpName: Observaciones, type: VARCHAR, size: '512', required: false }
   lista:
     _attributes: { phpName: Lista }
     id: { phpName: Id, type: INTEGER, primaryKey: true, autoIncrement: true, required: true }
+    id_alumno: { phpName: IdAlumno, type: INTEGER, required: true, foreignTable: alumno, foreignReference: id, onDelete: RESTRICT, onUpdate: CASCADE }
+    id_curso: { phpName: IdCurso, type: INTEGER, required: true, foreignTable: curso, foreignReference: id, onDelete: RESTRICT, onUpdate: CASCADE }
+    primera_calificacion: { phpName: PrimeraCalificacion, type: INTEGER, required: false }
+    segunda_calificacion: { phpName: SegundaCalificacion, type: INTEGER, required: false }
+    calificacion_final: { phpName: CalificacionFinal, type: VARCHAR, required: false }
+    aprobado: { phpName: Aprobado, type: BOOLEAN, required: true, defaultValue: false }
+    observaciones: { phpName: Observaciones, type: LONGVARCHAR, required: false }
+    inasistencia: { phpName: Inasistencia, type: INTEGER, required: false }
   materia:
     _attributes: { phpName: Materia }
     id: { phpName: Id, type: INTEGER, primaryKey: true, autoIncrement: true, required: true }
@@ -184,6 +207,14 @@ propel:
     inicio_periodo: { phpName: InicioPeriodo, type: INTEGER, required: true, foreignTable: mes, foreignReference: id, onDelete: RESTRICT, onUpdate: CASCADE }
     final_periodo: { phpName: FinalPeriodo, type: INTEGER, required: true, foreignTable: mes, foreignReference: id, onDelete: RESTRICT, onUpdate: CASCADE }
     nombre_corto: { phpName: NombreCorto, type: VARCHAR, size: '16', required: false }
+  producto_tienda:
+    _attributes: { phpName: ProductoTienda }
+    id: { phpName: Id, type: INTEGER, primaryKey: true, autoIncrement: true, required: true }
+    nombre: { phpName: Nombre, type: VARCHAR, size: '128', required: false }
+    cantidad: { phpName: Cantidad, type: INTEGER, required: false }
+    precio: { phpName: Precio, type: INTEGER, required: false }
+    descripcion: { phpName: Descripcion, type: VARCHAR, size: '512', required: false }
+    sku: { phpName: Sku, type: VARCHAR, size: '20', required: false }
   profesor:
     _attributes: { phpName: Profesor }
     id: { phpName: Id, type: INTEGER, primaryKey: true, autoIncrement: true, required: true }
@@ -207,6 +238,14 @@ propel:
     _attributes: { phpName: Salon }
     id: { phpName: Id, type: INTEGER, primaryKey: true, autoIncrement: true, required: true }
     salon: { phpName: Salon, type: VARCHAR, size: '64', required: true }
+  venta_tienda:
+    _attributes: { phpName: VentaTienda }
+    id: { phpName: Id, type: INTEGER, primaryKey: true, autoIncrement: true, required: true }
+    id_empleado: { phpName: IdEmpleado, type: INTEGER, required: false, foreignTable: empleado_tienda, foreignReference: id, onDelete: RESTRICT, onUpdate: CASCADE }
+    id_producto: { phpName: IdProducto, type: INTEGER, required: true, foreignTable: producto_tienda, foreignReference: id, onDelete: RESTRICT, onUpdate: CASCADE }
+    fecha_venta: { phpName: FechaVenta, type: DATE, required: true }
+    cantidad_producto: { phpName: CantidadProducto, type: VARCHAR, size: '4', required: true }
+    monto_venta: { phpName: MontoVenta, type: VARCHAR, size: '10', required: false }
   wk_book:
     _attributes: { phpName: WkBook }
     id: { phpName: Id, type: INTEGER, primaryKey: true, autoIncrement: true, required: true }
@@ -226,4 +265,5 @@ propel:
     picture: { phpName: Picture, type: VARCHAR, size: '255', required: false }
     pic: { phpName: Pic, type: BOOLEAN, required: false, defaultValue: false }
     dewey_number: { phpName: DeweyNumber, type: VARCHAR, size: '32', required: true }
+    actualizado: { phpName: Actualizado, type: BOOLEAN, required: true, defaultValue: false }
     observations: { phpName: Observations, type: VARCHAR, size: '512', required: false }

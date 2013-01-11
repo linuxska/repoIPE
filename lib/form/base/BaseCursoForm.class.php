@@ -15,10 +15,10 @@ abstract class BaseCursoForm extends BaseFormPropel
   {
     $this->setWidgets(array(
       'id'          => new sfWidgetFormInputHidden(),
-      'id_materia'  => new sfWidgetFormInputText(),
-      'id_profesor' => new sfWidgetFormInputText(),
-      'id_periodo'  => new sfWidgetFormInputText(),
-      'id_salon'    => new sfWidgetFormInputText(),
+      'id_materia'  => new sfWidgetFormPropelChoice(array('model' => 'Materia', 'add_empty' => false)),
+      'id_profesor' => new sfWidgetFormPropelChoice(array('model' => 'Profesor', 'add_empty' => false)),
+      'id_periodo'  => new sfWidgetFormPropelChoice(array('model' => 'Periodo', 'add_empty' => false)),
+      'id_salon'    => new sfWidgetFormPropelChoice(array('model' => 'Salon', 'add_empty' => false)),
       'hora_inicio' => new sfWidgetFormTime(),
       'hora_final'  => new sfWidgetFormTime(),
       'anno'        => new sfWidgetFormInputText(),
@@ -27,10 +27,10 @@ abstract class BaseCursoForm extends BaseFormPropel
 
     $this->setValidators(array(
       'id'          => new sfValidatorChoice(array('choices' => array($this->getObject()->getId()), 'empty_value' => $this->getObject()->getId(), 'required' => false)),
-      'id_materia'  => new sfValidatorInteger(array('min' => -2147483648, 'max' => 2147483647)),
-      'id_profesor' => new sfValidatorInteger(array('min' => -2147483648, 'max' => 2147483647)),
-      'id_periodo'  => new sfValidatorInteger(array('min' => -2147483648, 'max' => 2147483647)),
-      'id_salon'    => new sfValidatorInteger(array('min' => -2147483648, 'max' => 2147483647)),
+      'id_materia'  => new sfValidatorPropelChoice(array('model' => 'Materia', 'column' => 'id')),
+      'id_profesor' => new sfValidatorPropelChoice(array('model' => 'Profesor', 'column' => 'id')),
+      'id_periodo'  => new sfValidatorPropelChoice(array('model' => 'Periodo', 'column' => 'id')),
+      'id_salon'    => new sfValidatorPropelChoice(array('model' => 'Salon', 'column' => 'id')),
       'hora_inicio' => new sfValidatorTime(),
       'hora_final'  => new sfValidatorTime(),
       'anno'        => new sfValidatorString(array('max_length' => 4)),

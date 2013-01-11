@@ -24,6 +24,12 @@
         if ($sf_user->hasCredential('alumno')) {
             include_partial('ipe/menuAlumno');
         }
+        if ($sf_user->hasCredential('tienda')) {
+            include_partial('ipe/menuTienda');
+        }
+        if ($sf_user->hasCredential('vendedor')) {
+            include_partial('ipe/menuVendedor');
+        }
         /*
         if ($sf_user->hasCredential('director')) {
             include_partial('ipe/menuDirector');

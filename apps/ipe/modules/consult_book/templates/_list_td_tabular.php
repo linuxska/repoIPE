@@ -10,6 +10,9 @@
 <td class="sf_admin_text sf_admin_list_td_deweyen">
   <?php echo $Book->getDeweyen() ?>
 </td>
+<td class="sf_admin_text sf_admin_list_td_deweyen">
+  <?php echo $Book->getDeweyNumber() ?>
+</td>
 <td class="sf_admin_text sf_admin_list_td_year">
   <?php echo $Book->getYear() ?>
 </td>

@@ -23,10 +23,12 @@ generator:
         year:              { label: Year  }
         publishing_house:  { label: Publishing house  }
         isbn:              { label: ISBN }
+        deweyen:           { label: Dewey new }
+        dewey_number:      { label: Dewey last }
         name:              { label: Full name }
       list:
         title: Catalog of Books of Hno Wokaty
-        display: [=Clasification,title,volume, =name, deweyen, year, publishing_house, heresy , isbn, year, primary_subject, quantity, pic]
+        display: [=Clasification,title,volume, =name, deweyen,dewey_number, year, publishing_house, heresy , isbn, year, primary_subject, quantity, pic, actualizado]
         fields:
         max_per_page: 25
         object_actions:

@@ -1,9 +1,0 @@
-div.sfTwrapper{
- width:50%;
- margin-left:auto;
- margin-right:auto;
- text-align:justify;
-}
-div.sfTwrapper h1 {
- font-variant:small-caps;
-}

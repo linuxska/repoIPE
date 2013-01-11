@@ -1,4 +1,5 @@
-<?php
+
+  <?php
 
 require_once dirname(__FILE__).'/../lib/booksGeneratorConfiguration.class.php';
 require_once dirname(__FILE__).'/../lib/booksGeneratorHelper.class.php';
@@ -43,4 +44,9 @@ class booksActions extends autoBooksActions
       $this->getUser()->setFlash('error', 'The item has not been saved due to some errors.', false);
     }
   }
+  public function executeDetalles()
+    {
+    $this->Book = $this->getRoute()->getObject();
+    //$this->form = $this->configuration->getForm($this->Libro);
+    }
 }

@@ -1,3 +1,39 @@
+venta_tienda:
+  class: sfPropelRouteCollection
+  options:
+    model:                VentaTienda
+    module:               venta
+    prefix_path:          /venta
+    column:               id
+    with_wildcard_routes: true
+
+producto_tienda:
+  class: sfPropelRouteCollection
+  options:
+    model:                ProductoTienda
+    module:               producto
+    prefix_path:          /producto
+    column:               id
+    with_wildcard_routes: true
+
+empleado_tienda:
+  class: sfPropelRouteCollection
+  options:
+    model:                EmpleadoTienda
+    module:               empleado
+    prefix_path:          /empleado
+    column:               id
+    with_wildcard_routes: true
+
+compra_tienda:
+  class: sfPropelRouteCollection
+  options:
+    model:                CompraTienda
+    module:               compra
+    prefix_path:          /compra
+    column:               id
+    with_wildcard_routes: true
+
 wk_book_consult_wkbook:
   class: sfPropelRouteCollection
   options:
@@ -103,7 +139,7 @@ about:
 download_manual:
   url:   /download/manual.:sf_format
   param: { module: ipe, action: DownloadManual, sf_format: pdf}
-
+ 
 ##
 ###
 #

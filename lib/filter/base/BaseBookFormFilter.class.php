@@ -28,6 +28,7 @@ abstract class BaseBookFormFilter extends BaseFormFilterPropel
       'picture'           => new sfWidgetFormFilterInput(),
       'pic'               => new sfWidgetFormChoice(array('choices' => array('' => 'yes or no', 1 => 'yes', 0 => 'no'))),
       'dewey_number'      => new sfWidgetFormFilterInput(array('with_empty' => false)),
+      'actualizado'       => new sfWidgetFormChoice(array('choices' => array('' => 'yes or no', 1 => 'yes', 0 => 'no'))),
       'observations'      => new sfWidgetFormFilterInput(),
     ));
 
@@ -48,6 +49,7 @@ abstract class BaseBookFormFilter extends BaseFormFilterPropel
       'picture'           => new sfValidatorPass(array('required' => false)),
       'pic'               => new sfValidatorChoice(array('required' => false, 'choices' => array('', 1, 0))),
       'dewey_number'      => new sfValidatorPass(array('required' => false)),
+      'actualizado'       => new sfValidatorChoice(array('required' => false, 'choices' => array('', 1, 0))),
       'observations'      => new sfValidatorPass(array('required' => false)),
     ));
 
@@ -83,6 +85,7 @@ abstract class BaseBookFormFilter extends BaseFormFilterPropel
       'picture'           => 'Text',
       'pic'               => 'Boolean',
       'dewey_number'      => 'Text',
+      'actualizado'       => 'Boolean',
       'observations'      => 'Text',
     );
   }

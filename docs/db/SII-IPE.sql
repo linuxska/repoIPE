@@ -2,7 +2,7 @@
 -- pgDesigner 1.2.17
 --
 -- Project    : SII-IPE
--- Date       : 11/07/2012 00:55:24.677
+-- Date       : 11/22/2012 17:05:44.983
 -- Description: Sistema integral de informacion del instituto Practico Ebenezer.
 ------------------------------
 
@@ -20,13 +20,14 @@ CREATE TABLE "libro" (
 "tomo" character varying(2),
 "isbn" character varying(32),
 "tema_primario" character varying(64),
-"tema_secuandario" character varying(64),
+"tema_secundario" character varying(64),
 "tema_terciario" character varying(64),
 "herejia" bool NOT NULL DEFAULT false,
 "cantidad" int,
 "foto" character varying(255),
 "fot" boolean DEFAULT false,
 "numero_dewey" character varying(32) NOT NULL,
+"actualizado" bool NOT NULL DEFAULT false,
 "observaciones" character varying(512)
 ) WITHOUT OIDS;
 ALTER TABLE "libro" ADD CONSTRAINT "table1_pk" PRIMARY KEY("id");
@@ -42,11 +43,12 @@ COMMENT ON COLUMN "libro"."editorial" IS 'Editorial que saco el libro.';
 COMMENT ON COLUMN "libro"."tomo" IS 'Numero de tomo, digito 1-99';
 COMMENT ON COLUMN "libro"."isbn" IS 'Numero ISBN de la obra.';
 COMMENT ON COLUMN "libro"."tema_primario" IS 'Tema de la obra';
-COMMENT ON COLUMN "libro"."tema_secuandario" IS 'Tema secuandario de la obra';
+COMMENT ON COLUMN "libro"."tema_secundario" IS 'Tema secuandario de la obra';
 COMMENT ON COLUMN "libro"."tema_terciario" IS 'Tema terciario de la obra';
 COMMENT ON COLUMN "libro"."cantidad" IS 'Cantidad de ejemplares en la Bibliteca del IPE.';
 COMMENT ON COLUMN "libro"."foto" IS 'Url de la foto del libro';
 COMMENT ON COLUMN "libro"."numero_dewey" IS 'Numero Dewey generado "automaticamente" para cada obra.';
+COMMENT ON COLUMN "libro"."actualizado" IS 'Si esta o no actualizado.';
 COMMENT ON COLUMN "libro"."observaciones" IS 'Observaciones del libro';
 
 CREATE TABLE "entero" (
@@ -61,7 +63,6 @@ COMMENT ON COLUMN "entero"."id" IS 'Identificador de la Categoria';
 COMMENT ON COLUMN "entero"."numero" IS 'Numero Dewey de la clasificacion.';
 COMMENT ON COLUMN "entero"."nombre" IS 'Nombre para la clasificacion';
 COMMENT ON COLUMN "entero"."descripcion" IS 'Descripcion del tema';
-CREATE UNIQUE INDEX "primersumario_idx1" ON "entero" USING btree ("id","numero","nombre");
 
 CREATE TABLE "decimal" (
 "id" serial NOT NULL,
@@ -297,11 +298,26 @@ COMMENT ON COLUMN "curso"."anno" IS 'Año en que se imparte el curso';
 COMMENT ON COLUMN "curso"."estado" IS 'Campo que indicara si el curso actual puede ser modificado por el profesor. Verdadero si es posible modificar.';
 
 CREATE TABLE "lista" (
-"id" serial NOT NULL
+"id" serial NOT NULL,
+"id_alumno" int NOT NULL,
+"id_curso" int NOT NULL,
+"primera_calificacion" int,
+"segunda_calificacion" int,
+"calificacion_final" character varying,
+"aprobado" bool NOT NULL DEFAULT false,
+"observaciones" text,
+"inasistencia" int
 ) WITHOUT OIDS;
 ALTER TABLE "lista" ADD CONSTRAINT "lista_pk" PRIMARY KEY("id");
 COMMENT ON TABLE "lista" IS 'Alumnos inscritos en un curso.';
 COMMENT ON COLUMN "lista"."id" IS 'Clave de la lista.';
+COMMENT ON COLUMN "lista"."id_alumno" IS 'Clave del alumno';
+COMMENT ON COLUMN "lista"."id_curso" IS 'Clave del curso en el que esta inscrito el alumno.';
+COMMENT ON COLUMN "lista"."primera_calificacion" IS 'Calificación primer parcial del alumno.';
+COMMENT ON COLUMN "lista"."segunda_calificacion" IS 'Calificación segunda del alumno.';
+COMMENT ON COLUMN "lista"."calificacion_final" IS 'Calificación final del alumno.';
+COMMENT ON COLUMN "lista"."aprobado" IS 'Aprobado o reprobado.';
+COMMENT ON COLUMN "lista"."observaciones" IS 'Observaciones del alumno.';
 
 CREATE TABLE "book" (
 "id" serial NOT NULL,
@@ -321,6 +337,7 @@ CREATE TABLE "book" (
 "picture" character varying(255),
 "pic" boolean DEFAULT false,
 "dewey_number" character varying(32) NOT NULL,
+"actualizado" bool NOT NULL DEFAULT false,
 "observations" character varying(512)
 ) WITHOUT OIDS;
 ALTER TABLE "book" ADD CONSTRAINT "book_pk" PRIMARY KEY("id");
@@ -356,6 +373,7 @@ COMMENT ON COLUMN "decimalen"."number" IS 'Numero Dewey de la clasificacion.';
 COMMENT ON COLUMN "decimalen"."name" IS 'Nombre para la clasificacion';
 COMMENT ON COLUMN "decimalen"."description" IS 'Decripcion del decimal';
 
+
 CREATE TABLE "integer" (
 "id" serial NOT NULL,
 "number" int NOT NULL,
@@ -368,6 +386,7 @@ COMMENT ON COLUMN "integer"."id" IS 'Identificador de la Categoria';
 COMMENT ON COLUMN "integer"."number" IS 'Numero Dewey de la clasificacion.';
 COMMENT ON COLUMN "integer"."name" IS 'Nombre para la clasificacion';
 COMMENT ON COLUMN "integer"."description" IS 'Descripcion del tema';
+
 
 CREATE TABLE "wk_book" (
 "id" serial NOT NULL,
@@ -387,6 +406,7 @@ CREATE TABLE "wk_book" (
 "picture" character varying(255),
 "pic" boolean DEFAULT false,
 "dewey_number" character varying(32) NOT NULL,
+"actualizado" bool NOT NULL DEFAULT false,
 "observations" character varying(512)
 ) WITHOUT OIDS;
 ALTER TABLE "wk_book" ADD CONSTRAINT "wk_book_pk" PRIMARY KEY("id");
@@ -453,6 +473,63 @@ COMMENT ON COLUMN "periodo"."inicio_periodo" IS 'Mes del Inicio del periodo.';
 COMMENT ON COLUMN "periodo"."final_periodo" IS 'Mes de fin del periodo.';
 COMMENT ON COLUMN "periodo"."nombre_corto" IS 'Nombre corto del periodo';
 
+CREATE TABLE "producto_tienda" (
+"id" serial NOT NULL,
+"nombre" character varying(128),
+"cantidad" int,
+"precio" int,
+"descripcion" character varying(512),
+"sku" character varying(20)
+) WITHOUT OIDS;
+ALTER TABLE "producto_tienda" ADD CONSTRAINT "producto_tienda_pk" PRIMARY KEY("id");
+COMMENT ON COLUMN "producto_tienda"."id" IS 'Id del producto';
+COMMENT ON COLUMN "producto_tienda"."nombre" IS 'Nombre del producto';
+COMMENT ON COLUMN "producto_tienda"."cantidad" IS 'Cantidad en stock';
+COMMENT ON COLUMN "producto_tienda"."precio" IS 'Precio del producto';
+
+CREATE TABLE "empleado_tienda" (
+"id" serial NOT NULL,
+"nombre" character varying(64) NOT NULL,
+"a_paterno" character varying(32),
+"a_materno" character varying(32),
+"telefono" character varying(10)
+) WITHOUT OIDS;
+ALTER TABLE "empleado_tienda" ADD CONSTRAINT "empleado_tienda_pk" PRIMARY KEY("id");
+COMMENT ON COLUMN "empleado_tienda"."id" IS 'Id del empleado';
+COMMENT ON COLUMN "empleado_tienda"."nombre" IS 'Nombre del empleado';
+COMMENT ON COLUMN "empleado_tienda"."a_paterno" IS 'Apellido materno de empleado.';
+COMMENT ON COLUMN "empleado_tienda"."a_materno" IS 'Apellido materno del empleado.';
+COMMENT ON COLUMN "empleado_tienda"."telefono" IS 'Telefono de empleado.';
+
+CREATE TABLE "venta_tienda" (
+"id" serial NOT NULL,
+"id_empleado" int,
+"id_producto" int NOT NULL,
+"fecha_venta" date NOT NULL,
+"cantidad_producto" character varying(4) NOT NULL,
+"monto_venta" character varying(10)
+) WITHOUT OIDS;
+ALTER TABLE "venta_tienda" ADD CONSTRAINT "venta_tienda_pk" PRIMARY KEY("id");
+COMMENT ON COLUMN "venta_tienda"."id" IS 'Serial de la venta.';
+COMMENT ON COLUMN "venta_tienda"."id_empleado" IS 'Id del empleado que hace la venta.';
+COMMENT ON COLUMN "venta_tienda"."id_producto" IS 'Id del producto que se vende.';
+COMMENT ON COLUMN "venta_tienda"."fecha_venta" IS 'Fecha de la venta.';
+COMMENT ON COLUMN "venta_tienda"."cantidad_producto" IS 'Cantidad de producto vendido.';
+
+CREATE TABLE "compra_tienda" (
+"id" serial NOT NULL,
+"id_producto" int NOT NULL,
+"id_empleado" int NOT NULL,
+"fecha_compra" date NOT NULL,
+"cantidad" int NOT NULL
+) WITHOUT OIDS;
+ALTER TABLE "compra_tienda" ADD CONSTRAINT "compra_tienda_pk" PRIMARY KEY("id");
+COMMENT ON COLUMN "compra_tienda"."id" IS 'Id de las compras.';
+COMMENT ON COLUMN "compra_tienda"."id_producto" IS 'Id del producto que se abastecera';
+COMMENT ON COLUMN "compra_tienda"."id_empleado" IS 'id del empleado que hace la compra.';
+COMMENT ON COLUMN "compra_tienda"."fecha_compra" IS 'Fecha de compra del producto';
+COMMENT ON COLUMN "compra_tienda"."cantidad" IS 'Cantidad de producto que se compro.';
+
 -- End Tabla's declaration
 
 -- Start Relación's declaration
@@ -469,6 +546,26 @@ ALTER TABLE "wk_book" ADD CONSTRAINT "wk_book_fkey1" FOREIGN KEY ("id_decimal") 
 ALTER TABLE "periodo" ADD CONSTRAINT "periodo_fkey1" FOREIGN KEY ("inicio_periodo") REFERENCES "mes"("id") ON UPDATE CASCADE ON DELETE RESTRICT;
 
 ALTER TABLE "periodo" ADD CONSTRAINT "periodo_fkey2" FOREIGN KEY ("final_periodo") REFERENCES "mes"("id") ON UPDATE CASCADE ON DELETE RESTRICT;
+
+ALTER TABLE "curso" ADD CONSTRAINT "curso_fkey1" FOREIGN KEY ("id_profesor") REFERENCES "profesor"("id") ON UPDATE CASCADE ON DELETE RESTRICT;
+
+ALTER TABLE "curso" ADD CONSTRAINT "curso_fkey2" FOREIGN KEY ("id_salon") REFERENCES "salon"("id") ON UPDATE CASCADE ON DELETE RESTRICT;
+
+ALTER TABLE "curso" ADD CONSTRAINT "curso_fkey3" FOREIGN KEY ("id_materia") REFERENCES "materia"("id") ON UPDATE CASCADE ON DELETE RESTRICT;
+
+ALTER TABLE "curso" ADD CONSTRAINT "curso_fkey4" FOREIGN KEY ("id_periodo") REFERENCES "periodo"("id") ON UPDATE CASCADE ON DELETE RESTRICT;
+
+ALTER TABLE "lista" ADD CONSTRAINT "lista_fkey1" FOREIGN KEY ("id_alumno") REFERENCES "alumno"("id") ON UPDATE CASCADE ON DELETE RESTRICT;
+
+ALTER TABLE "lista" ADD CONSTRAINT "lista_fkey2" FOREIGN KEY ("id_curso") REFERENCES "curso"("id") ON UPDATE CASCADE ON DELETE RESTRICT;
+
+ALTER TABLE "venta_tienda" ADD CONSTRAINT "venta_tienda_fkey1" FOREIGN KEY ("id_producto") REFERENCES "producto_tienda"("id") ON UPDATE CASCADE ON DELETE RESTRICT;
+
+ALTER TABLE "venta_tienda" ADD CONSTRAINT "venta_tienda_fkey2" FOREIGN KEY ("id_empleado") REFERENCES "empleado_tienda"("id") ON UPDATE CASCADE ON DELETE RESTRICT;
+
+ALTER TABLE "compra_tienda" ADD CONSTRAINT "compras_fkey1" FOREIGN KEY ("id_producto") REFERENCES "producto_tienda"("id") ON UPDATE CASCADE ON DELETE RESTRICT;
+
+ALTER TABLE "compra_tienda" ADD CONSTRAINT "compra_tienda_fkey2" FOREIGN KEY ("id_empleado") REFERENCES "empleado_tienda"("id") ON UPDATE CASCADE ON DELETE RESTRICT;
 
 -- End Relación's declaration
 

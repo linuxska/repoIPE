@@ -29,7 +29,7 @@ generator:
         dewey:             { label: Dewey New }
       list:
         title: Catalogo del libros
-        display: [=clasificacion, titulo, =nombrecompleto, =dewey, ano_publicacion, isbn, editorial, herejia, tema_primario]
+        display: [=clasificacion, titulo, =nombrecompleto, =dewey,numero_dewey, ano_publicacion, isbn, editorial, herejia, tema_primario]
         fields:
         max_per_page: 10
         object_actions:

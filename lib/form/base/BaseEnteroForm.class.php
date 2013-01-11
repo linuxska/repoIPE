@@ -27,10 +27,6 @@ abstract class BaseEnteroForm extends BaseFormPropel
       'descripcion' => new sfValidatorString(array('max_length' => 512, 'required' => false)),
     ));
 
-    $this->validatorSchema->setPostValidator(
-      new sfValidatorPropelUnique(array('model' => 'Entero', 'column' => array('id', 'numero', 'nombre')))
-    );
-
     $this->widgetSchema->setNameFormat('entero[%s]');
 
     $this->errorSchema = new sfValidatorErrorSchema($this->validatorSchema);

@@ -12,10 +12,10 @@ abstract class BaseCursoFormFilter extends BaseFormFilterPropel
   public function setup()
   {
     $this->setWidgets(array(
-      'id_materia'  => new sfWidgetFormFilterInput(array('with_empty' => false)),
-      'id_profesor' => new sfWidgetFormFilterInput(array('with_empty' => false)),
-      'id_periodo'  => new sfWidgetFormFilterInput(array('with_empty' => false)),
-      'id_salon'    => new sfWidgetFormFilterInput(array('with_empty' => false)),
+      'id_materia'  => new sfWidgetFormPropelChoice(array('model' => 'Materia', 'add_empty' => true)),
+      'id_profesor' => new sfWidgetFormPropelChoice(array('model' => 'Profesor', 'add_empty' => true)),
+      'id_periodo'  => new sfWidgetFormPropelChoice(array('model' => 'Periodo', 'add_empty' => true)),
+      'id_salon'    => new sfWidgetFormPropelChoice(array('model' => 'Salon', 'add_empty' => true)),
       'hora_inicio' => new sfWidgetFormFilterDate(array('from_date' => new sfWidgetFormDate(), 'to_date' => new sfWidgetFormDate(), 'with_empty' => false)),
       'hora_final'  => new sfWidgetFormFilterDate(array('from_date' => new sfWidgetFormDate(), 'to_date' => new sfWidgetFormDate(), 'with_empty' => false)),
       'anno'        => new sfWidgetFormFilterInput(array('with_empty' => false)),
@@ -23,10 +23,10 @@ abstract class BaseCursoFormFilter extends BaseFormFilterPropel
     ));
 
     $this->setValidators(array(
-      'id_materia'  => new sfValidatorSchemaFilter('text', new sfValidatorInteger(array('required' => false))),
-      'id_profesor' => new sfValidatorSchemaFilter('text', new sfValidatorInteger(array('required' => false))),
-      'id_periodo'  => new sfValidatorSchemaFilter('text', new sfValidatorInteger(array('required' => false))),
-      'id_salon'    => new sfValidatorSchemaFilter('text', new sfValidatorInteger(array('required' => false))),
+      'id_materia'  => new sfValidatorPropelChoice(array('required' => false, 'model' => 'Materia', 'column' => 'id')),
+      'id_profesor' => new sfValidatorPropelChoice(array('required' => false, 'model' => 'Profesor', 'column' => 'id')),
+      'id_periodo'  => new sfValidatorPropelChoice(array('required' => false, 'model' => 'Periodo', 'column' => 'id')),
+      'id_salon'    => new sfValidatorPropelChoice(array('required' => false, 'model' => 'Salon', 'column' => 'id')),
       'hora_inicio' => new sfValidatorDateRange(array('required' => false, 'from_date' => new sfValidatorDate(array('required' => false)), 'to_date' => new sfValidatorDate(array('required' => false)))),
       'hora_final'  => new sfValidatorDateRange(array('required' => false, 'from_date' => new sfValidatorDate(array('required' => false)), 'to_date' => new sfValidatorDate(array('required' => false)))),
       'anno'        => new sfValidatorPass(array('required' => false)),
@@ -49,10 +49,10 @@ abstract class BaseCursoFormFilter extends BaseFormFilterPropel
   {
     return array(
       'id'          => 'Number',
-      'id_materia'  => 'Number',
-      'id_profesor' => 'Number',
-      'id_periodo'  => 'Number',
-      'id_salon'    => 'Number',
+      'id_materia'  => 'ForeignKey',
+      'id_profesor' => 'ForeignKey',
+      'id_periodo'  => 'ForeignKey',
+      'id_salon'    => 'ForeignKey',
       'hora_inicio' => 'Date',
       'hora_final'  => 'Date',
       'anno'        => 'Text',

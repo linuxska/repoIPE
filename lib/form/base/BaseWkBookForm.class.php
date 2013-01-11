@@ -31,6 +31,7 @@ abstract class BaseWkBookForm extends BaseFormPropel
       'picture'           => new sfWidgetFormInputText(),
       'pic'               => new sfWidgetFormInputCheckbox(),
       'dewey_number'      => new sfWidgetFormInputText(),
+      'actualizado'       => new sfWidgetFormInputCheckbox(),
       'observations'      => new sfWidgetFormInputText(),
     ));
 
@@ -52,6 +53,7 @@ abstract class BaseWkBookForm extends BaseFormPropel
       'picture'           => new sfValidatorString(array('max_length' => 255, 'required' => false)),
       'pic'               => new sfValidatorBoolean(array('required' => false)),
       'dewey_number'      => new sfValidatorString(array('max_length' => 32)),
+      'actualizado'       => new sfValidatorBoolean(),
       'observations'      => new sfValidatorString(array('max_length' => 512, 'required' => false)),
     ));
 

@@ -1,0 +1,21 @@
+generator:
+  class: sfPropelGenerator
+  param:
+    model_class:           CompraTienda
+    theme:                 admin
+    non_verbose_templates: true
+    with_show:             false
+    singular:              CompraTienda
+    plural:                CompraTiendas
+    route_prefix:          compra_tienda
+    with_propel_route:     1
+    actions_base_class:    sfActions
+
+    config:
+      actions: ~
+      fields:  ~
+      list:    ~
+      filter:  ~
+      form:    ~
+      edit:    ~
+      new:     ~

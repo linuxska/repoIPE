@@ -44,5 +44,10 @@ class wokaty_booksActions extends autoWokaty_booksActions
       $this->getUser()->setFlash('error', 'The item has not been saved due to some errors.', false);
     }
   }
+  public function executeDetalles()
+    {
+    $this->Book = $this->getRoute()->getObject();
+    //$this->form = $this->configuration->getForm($this->Libro);
+    }
 
 }

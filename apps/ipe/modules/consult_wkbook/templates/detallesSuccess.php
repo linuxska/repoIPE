@@ -21,7 +21,7 @@
         <th style="text-align:center;font-weight:bold;background-color:#8989bb;color:#ffffff;width:25%;">Volume</th>
     </tr>
     <tr>
-    <th><?php echo $Book->getDeweyNumber(), $Book->getDeweyen ?></th>
+    <th><?php echo $Book->getDeweyNumber()."<br/>". $Book->getDeweyen() ?></th>
         <th><?php echo $Book->getTitle()?></th>
             <th> <?php echo $Book->getName()?></th>
                 <th> <?php echo $Book->getVolume()?></th>

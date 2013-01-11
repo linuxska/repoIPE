@@ -10,6 +10,9 @@
 <td class="sf_admin_text sf_admin_list_td_dewey">
   <?php echo $Libro->getDewey()?>
 </td>
+<td class="sf_admin_text sf_admin_list_td_dewey">
+  <?php echo $Libro->getNumeroDewey()?>
+</td>
 <td class="sf_admin_text sf_admin_list_td_ano_publicacion">
   <?php echo $Libro->getAnoPublicacion() ?>
 </td>

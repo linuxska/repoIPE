@@ -25,11 +25,12 @@ generator:
         isbn:              { label: ISBN }
         name:              { label: Full name }
         deweyen:           { label: Dewey new }
+        dewey_number:      { label: Dewey past }
         Clasification:     { label: Classification }
         primary_subject:   { label: Primary Topic }
       list:
         title: Catalog of Books
-        display: [=Clasification,title,volume, =name, deweyen, year, publishing_house, heresy , isbn, year, primary_subject, quantity, pic]
+        display: [=Clasification,title,volume, =name, deweyen, dewey_number, year, publishing_house, heresy , isbn, year, primary_subject, quantity, pic, actualizado]
         fields:
         max_per_page: 25
         object_actions:

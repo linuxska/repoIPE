@@ -5,14 +5,8 @@
     <?php if ($sf_user->hasCredential('admin')): ?>
     <div style="background-color:#80be80;padding:1em;">
         <p>Hermano(a):</p>
-        <p>Bienvenido</p>
-        <ol>
-            <li>Recordar:  8 Usuarios de la Base de datos:
-                |may|abraham|blanquita|karen|joellupita|elsy|neftali|misael|
-                Password:    hospedajeibf
-                Karen  familias de 6++.
-            </li>
-        </ol>
+        <p>Administrador:</p>
+        
         <p style="text-align:right"><em>- Staff</em></p>
     </div>
     <?php endif; ?>
