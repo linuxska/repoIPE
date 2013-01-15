@@ -17,5 +17,33 @@
  * @package    lib.model
  */
 class Alumno extends BaseAlumno {
+const ID_GRUPO_ALUMNO=7;
+    
+    private $__lista;
+    
+    public function __toString() {
+        return ucwords(sprintf("%s %s %s", $this->getNombre(), $this->getAPaterno(), $this->getAMaterno()));
+    }
+    
+    public function __toString2() {
+        return ucwords(sprintf("%s %s %s", $this->getAPaterno(), $this->getAMaterno(), $this->getNombre()));
+    }
+    protected function doSave(PropelPDO $con) {
+        if ($this->getNoControl() && !AlumnoPeer::getSfGuardUser($this)):
+    	    $password = sfGuardUserPeer::doMakePassword($this->getNoControl());
 
+            $sf_guard_user = new sfGuardUser;
+            $sf_guard_user->setUsername($this->getNoControl());
+            $sf_guard_user->setPassword($this->getNoControl());
+            $sf_guard_user->save();
+
+            $sf_user_group = new sfGuardUserGroup;
+            $sf_user_group->setUserId($sf_guard_user->getId());
+            $sf_user_group->setGroupId(self::ID_GRUPO_ALUMNO);
+            $sf_user_group->save();
+
+           // SendMail::sendPasswordForAlumnoMail($this, $password);	
+	endif;
+        parent::doSave($con);
+    }
 } // Alumno

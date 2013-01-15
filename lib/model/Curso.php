@@ -18,15 +18,12 @@
  */
 class Curso extends BaseCurso {
 
-	/**
-	 * Initializes internal state of Curso object.
-	 * @see        parent::__construct()
-	 */
-	public function __construct()
-	{
-		// Make sure that parent constructor is always invoked, since that
-		// is where any default values for this object are set.
-		parent::__construct();
-	}
+	public function __toString() {
+        $materia = MateriaPeer::retrieveByPK($this->getIdMateria());
+        //$full = $this->isFull() ? '[LLENO]' : '';
+        $nombre_corto = $this->getPeriodo()->getNombreCorto();
+
+        return sprintf("%s %s  [%s - %s] %s", $nombre_corto, $materia, $this->getHoraInicio(), $this->getHoraFinal(), $this->getProfesor());
+    }
 
 } // Curso

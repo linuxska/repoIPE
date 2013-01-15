@@ -17,5 +17,8 @@
  * @package    lib.model
  */
 class Periodo extends BasePeriodo {
+ public function __toString() {
+        return $this->getPeriodo();
+    }
 
 } // Periodo

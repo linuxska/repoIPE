@@ -18,4 +18,26 @@
  */
 class ProfesorPeer extends BaseProfesorPeer {
 
-} // ProfesorPeer
+static public function getSfGuardUser(Profesor $profesor){
+        $c = new Criteria;
+        
+        $c->add(sfGuardUserPeer::USERNAME, $profesor->getRfc(), Criteria::EQUAL);
+        
+        return sfGuardUserPeer::doSelectOne($c);
+    }
+    
+    static public function getProfesoresActivosCriteria() {
+        $c = new Criteria;
+
+        $c->add(self::ACTIVO, true, Criteria::EQUAL);
+
+        return $c;
+    }
+
+  static public function getProfesorByRFC($rfc) {
+        $c = new Criteria;
+
+        $c->add(self::RFC, $rfc, Criteria::EQUAL);
+        return $c;
+    }
+} 

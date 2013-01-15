@@ -1,3 +1,88 @@
+alumno_alumno_alumno:
+  class: sfPropelRouteCollection
+  options:
+    model:                Alumno
+    module:               alumno_alumno
+    prefix_path:          /alumno_alumno
+    column:               id
+    with_wildcard_routes: true
+
+alumno:
+  class: sfPropelRouteCollection
+  options:
+    model:                Alumno
+    module:               alumno
+    prefix_path:          /alumno
+    column:               id
+    with_wildcard_routes: true
+
+lista:
+  class: sfPropelRouteCollection
+  options:
+    model:                Lista
+    module:               lista
+    prefix_path:          /lista
+    column:               id
+    with_wildcard_routes: true
+
+
+
+periodo:
+  class: sfPropelRouteCollection
+  options:
+    model:                Periodo
+    module:               periodo
+    prefix_path:          /periodo
+    column:               id
+    with_wildcard_routes: true
+
+mes:
+  class: sfPropelRouteCollection
+  options:
+    model:                Mes
+    module:               mes
+    prefix_path:          /mes
+    column:               id
+    with_wildcard_routes: true
+
+curso:
+  class: sfPropelRouteCollection
+  options:
+    model:                Curso
+    module:               curso
+    prefix_path:          /curso
+    column:               id
+    with_wildcard_routes: true
+
+#################################ADMIN GENERATOR################################
+
+materia:
+  class: sfPropelRouteCollection
+  options:
+    model:                Materia
+    module:               materia
+    prefix_path:          /materia
+    column:               id
+    with_wildcard_routes: true
+
+salon:
+  class: sfPropelRouteCollection
+  options:
+    model:                Salon
+    module:               salon
+    prefix_path:          /salon
+    column:               id
+    with_wildcard_routes: true
+
+profesor:
+  class: sfPropelRouteCollection
+  options:
+    model:                Profesor
+    module:               profesor
+    prefix_path:          /profesor
+    column:               id
+    with_wildcard_routes: true
+
 venta_tienda:
   class: sfPropelRouteCollection
   options:
@@ -31,33 +116,6 @@ compra_tienda:
     model:                CompraTienda
     module:               compra
     prefix_path:          /compra
-    column:               id
-    with_wildcard_routes: true
-
-wk_book_consult_wkbook:
-  class: sfPropelRouteCollection
-  options:
-    model:                WkBook
-    module:               consult_wkbook
-    prefix_path:          /consult_wkbook
-    column:               id
-    with_wildcard_routes: true
-
-book_consult_book:
-  class: sfPropelRouteCollection
-  options:
-    model:                Book
-    module:               consult_book
-    prefix_path:          /consult_book
-    column:               id
-    with_wildcard_routes: true
-
-libro_consulta_libro:
-  class: sfPropelRouteCollection
-  options:
-    model:                Libro
-    module:               consulta_libro
-    prefix_path:          /consulta_libro
     column:               id
     with_wildcard_routes: true
 
@@ -124,6 +182,8 @@ decimalen:
     column:               id
     with_wildcard_routes: true
 
+##################################Inicio#################################
+
 homepage:
   url:   /
   param: { module: ipe, action: index }
@@ -139,10 +199,35 @@ about:
 download_manual:
   url:   /download/manual.:sf_format
   param: { module: ipe, action: DownloadManual, sf_format: pdf}
- 
-##
-###
-#
+
+##########################Detalles Libros##################################
+
+wk_book_consult_wkbook:
+  class: sfPropelRouteCollection
+  options:
+    model:                WkBook
+    module:               consult_wkbook
+    prefix_path:          /consult_wkbook
+    column:               id
+    with_wildcard_routes: true
+
+book_consult_book:
+  class: sfPropelRouteCollection
+  options:
+    model:                Book
+    module:               consult_book
+    prefix_path:          /consult_book
+    column:               id
+    with_wildcard_routes: true
+
+libro_consulta_libro:
+  class: sfPropelRouteCollection
+  options:
+    model:                Libro
+    module:               consulta_libro
+    prefix_path:          /consulta_libro
+    column:               id
+    with_wildcard_routes: true
 
 libro_detalles:
   url:              /consulta_libro/detalles/:id.:sf_format
@@ -153,10 +238,7 @@ libro_detalles:
     sf_method:      [get]
   param:            { module: Libro, action: Detalles, sf_format: html }
 
-#
-#
-#
-#
+###################################Password(Pendiente)##################
 change_password:
   url:              /changepassword
   param:            { module: ipe, action: ChangePasswordShow }
@@ -171,9 +253,7 @@ recover_password_do:
   url:              /dorecoverpassword
   param:            { module: ipe, action: RecoverPassword }
 
-
-# You can find more information about this file on the symfony website:
-# http://www.symfony-project.org/reference/1_4/en/10-Routing
+##################################sfGuardPlugin#################################
 
 sf_guard_signin:
   url:   /login
@@ -186,3 +266,52 @@ sf_guard_signout:
 sf_guard_password:
   url:   /request_password
   param: { module: sfGuardAuth, action: password }
+
+#################################Custom################################
+
+lista_capturar:
+  url:              /lista/capturar/:id.:sf_format
+  class:            sfPropelRoute
+  options:          { model: Curso, type: object, method: getCurso }
+  requirements:
+    id:             \d+
+    sf_method:      [get]
+  param:            { module: lista, action: CapturarCalificaciones, sf_format: html }
+
+lista_capturar_do:
+  url:              /lista/docapturar/:id
+  class:            sfPropelRoute
+  options:          { model: Curso, type: object, method: getCurso }
+  requirements:
+    id:             \d+
+    sf_method:      [post]
+  param:            { module: lista, action: CapturarCalificacionesDo }
+
+lista_cerrar:
+  url:              /lista/cerrar/:id.:sf_format
+  class:            sfPropelRoute
+  options:          { model: Curso, type: object, method: getCurso }
+  requirements:
+    id:             \d+
+    sf_method:      [get]
+  param:            { module: lista, action: CerrarLista, sf_format: html }
+
+  #################################Profesores################################
+
+profesor_profesor_profesor:
+  class: sfPropelRouteCollection
+  options:
+    model:                Profesor
+    module:               profesor_profesor
+    prefix_path:          /si/profesor/datos
+    column:               id
+    with_wildcard_routes: true
+
+curso_lista_profesor:
+  class: sfPropelRouteCollection
+  options:
+    model:                Curso
+    module:               lista_profesor
+    prefix_path:          /lista_profesor
+    column:               id
+    with_wildcard_routes: true

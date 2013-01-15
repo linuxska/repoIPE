@@ -1,0 +1,34 @@
+generator:
+  class: sfPropelGenerator
+  param:
+    model_class:           Profesor
+    theme:                 admin
+    non_verbose_templates: true
+    with_show:             false
+    singular:              Profesor
+    plural:                Profesors
+    route_prefix:          profesor_profesor_profesor
+    with_propel_route:     1
+    actions_base_class:    sfActions
+
+    config:
+      actions: ~
+      fields:
+        rfc: {label: RFC, help: Registro Federal de Contribuyentes. XXXX######XX#. Si cambia su RFC también cambiará su nombre de usuario. }
+        a_paterno: {label: Apellido Paterno }
+        a_materno: {label: Apellido Materno }
+        direccion: {label: Dirección }
+        cp: {label: Código Postal }
+        telefono: {label: Teléfono, help: "###-###-####" }
+        e_mail: {label: Correo Electrónico, help: juan.perez@example.com }
+      list:    ~
+      filter:  ~
+      form:    
+          class:
+             ProfesorEditForm
+          actions:
+            _save:
+              label: Guardar
+      edit:
+        title: false
+      new:     ~

@@ -18,4 +18,7 @@
  */
 class MateriaPeer extends BaseMateriaPeer {
 
+public function __toString() {
+        return sprintf("%s", $this->getMateria());
+    }
 } // MateriaPeer

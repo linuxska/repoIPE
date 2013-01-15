@@ -1,0 +1,31 @@
+generator:
+  class: sfPropelGenerator
+  param:
+    model_class:           Curso
+    theme:                 admin
+    non_verbose_templates: true
+    with_show:             false
+    singular:              Curso
+    plural:                Cursos
+    route_prefix:          curso_lista_profesor
+    with_propel_route:     1
+    actions_base_class:    sfActions
+
+    config:
+      actions: ~
+      fields:  
+        anno:  { label: Año }
+        id_materia: { label: Nivel }
+        id_periodo: { label: Periodo }
+        Actions: { label : Acciones }
+      list:
+        title: false
+        batch_actions: {}
+        actions: {}
+        display: [Materia, Periodo, anno, Salon, hora_inicio, hora_final]
+        max_per_page: 30
+      filter:
+        display: [id_materia, id_periodo, anno]
+      form:    ~
+      edit:    ~
+      new:     ~

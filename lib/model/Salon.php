@@ -18,4 +18,7 @@
  */
 class Salon extends BaseSalon {
 
+ public function __toString() {
+        return $this->getSalon();
+    }
 } // Salon

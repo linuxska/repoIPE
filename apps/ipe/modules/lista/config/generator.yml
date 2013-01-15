@@ -1,0 +1,56 @@
+generator:
+  class: sfPropelGenerator
+  param:
+    model_class:           Lista
+    theme:                 admin
+    non_verbose_templates: true
+    with_show:             false
+    singular:              Lista
+    plural:                Listas
+    route_prefix:          lista
+    with_propel_route:     1
+    actions_base_class:    sfActions
+
+    config:
+      actions: ~
+      fields:
+        id_alumno: { label: Alumno}
+        id_curso: { label: Curso}
+        alumno_no_control: { label: No. control }
+      list:
+        title: Alumno de %%id%%
+        display: [alumno_no_control, =_alumno, calificacion, inasistencia, aprobado]
+        batch_actions: {}
+        object_actions:
+          print:
+            label: imprimir
+        max_per_page: 30
+        actions: 
+          imprimir:
+            label: Imprimir
+          cerrar:
+            label: Cerrar
+      filter:
+          display: [no_control, id_curso, aprobado, prorroga]
+      form:
+        display:
+          "Cursos": [calificacion, inasistencia, aprobado, observaciones]
+      edit:
+        title: %%alumno%% (%%curso%%)
+        actions:
+          _save:
+            label: Guardar
+          _delete:
+            label: Eliminar
+          _list:
+            label: Volver
+      new:
+        title: false
+        actions:
+          _save:
+            label: Guardar
+          _save_and_add:
+            label: Guardar y Agregar otro
+          _list:
+            label: Volver
+

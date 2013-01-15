@@ -17,5 +17,9 @@
  * @package    lib.model
  */
 class Mes extends BaseMes {
+	public function __toString() {
+        return $this->nombre;
+    }
+
 
 } // Mes
