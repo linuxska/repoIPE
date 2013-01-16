@@ -18,4 +18,42 @@
  */
 class AlumnoPeer extends BaseAlumnoPeer {
 
+ static public function getAlumnoByNoControlCriteria($no_control) {
+        $c = new Criteria;
+
+        $c->add(self::NO_CONTROL, $no_control, Criteria::EQUAL);
+
+        return $c;
+    }
+    
+    static public function getSfGuardUser(Alumno $alumno){
+        $c = new Criteria;
+        
+        $c->add(sfGuardUserPeer::USERNAME, $alumno->getNumeroControl(), Criteria::EQUAL);
+        
+        return sfGuardUserPeer::doSelectOne($c);
+    }
+    
+
+    static public function getAlumnosPreinscritosCriteria() {
+        $c = new Criteria;
+
+        $c->add(self::NO_CONTROL, NULL, Criteria::ISNULL);
+
+        return $c;
+    }
+
+    static public function getNumeroControl($id_course, $conn) {
+        $year =  date('Y', time());
+
+        $folio = FolioControlPeer::getFolioByYear(date('Y', time()), $conn);
+
+        return $year . sprintf("%04s", $folio);
+    }
+
+    
+    static public function getAlumno(array $request) {
+         return self::doSelectOne(self::getAlumnoByNoControlCriteria($request['no_control']));
+    }
+
 } // AlumnoPeer

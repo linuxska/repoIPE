@@ -45,6 +45,7 @@ salon:
     module:               salon
     prefix_path:          /salon
     column:               id
+    with_wildcard_routes: true
 
 alumno:
   class: sfPropelRouteCollection
@@ -60,7 +61,7 @@ lista:
   options:
     model:                Lista
     module:               lista
-    prefix_path:          /lista
+    prefix_path:          /curso_secretaria/lista
     column:               id
     with_wildcard_routes: true
 
@@ -71,6 +72,7 @@ mes:
     module:               mes
     prefix_path:          /mes
     column:               id
+    with_wildcard_routes: true
 
 curso:
   class: sfPropelRouteCollection

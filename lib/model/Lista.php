@@ -18,4 +18,10 @@
  */
 class Lista extends BaseLista {
 
+ public function getAlumnoNoControl() {
+        return $this->getAlumno()->getNumeroControl();
+    }
+ public function get_Alumno() {
+        return $this->getAlumno()->__toString2();
+    }
 } // Lista

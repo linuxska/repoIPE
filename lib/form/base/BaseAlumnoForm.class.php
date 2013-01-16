@@ -92,6 +92,7 @@ abstract class BaseAlumnoForm extends BaseFormPropel
       'medicamento_actual'   => new sfWidgetFormInputCheckbox(),
       'situacion_medica'     => new sfWidgetFormTextarea(),
       'trabajo_secular'      => new sfWidgetFormTextarea(),
+      'numero_control'       => new sfWidgetFormInputText(),
       'inscrito'             => new sfWidgetFormInputCheckbox(),
       'foto'                 => new sfWidgetFormInputText(),
     ));
@@ -175,6 +176,7 @@ abstract class BaseAlumnoForm extends BaseFormPropel
       'medicamento_actual'   => new sfValidatorBoolean(),
       'situacion_medica'     => new sfValidatorString(),
       'trabajo_secular'      => new sfValidatorString(array('required' => false)),
+      'numero_control'       => new sfValidatorString(array('max_length' => 10, 'required' => false)),
       'inscrito'             => new sfValidatorBoolean(),
       'foto'                 => new sfValidatorString(array('max_length' => 256, 'required' => false)),
     ));

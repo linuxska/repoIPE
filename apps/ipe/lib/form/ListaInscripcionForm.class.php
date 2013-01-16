@@ -5,7 +5,7 @@ class ListaInscripcionForm extends ListaForm {
     public function configure() {
         parent::configure();
 
-        unset($this['primera_calificacion'], $this['aprobado'], $this['segunda_calificacion'], $this['calificacion_final'], $this['fecha_inscripcion']);
+        unset($this['primera_calificacion_examen'], $this['aprobado'], $this['segunda_calificacion_examen'], $this['calificacion_final'],$this['calificacion_parcial'], $this['fecha_inscripcion']);
 
         $this->setWidget('id_curso', new sfWidgetFormPropelChoice(array('model' => 'Curso', 'add_empty' => false, 'criteria' => CursoPeer::getCurrentCoursesCriteria())));
         $this->setValidator('id_curso', new sfValidatorPropelChoice(array('model' => 'Curso', 'column' => 'id', 'criteria' => CursoPeer::getCurrentCoursesCriteria())));
@@ -41,10 +41,10 @@ class ListaInscripcionForm extends ListaForm {
 
         try {
             $alumno = AlumnoPeer::retrieveByPK($id_alumno, $conn);
-
-            if (is_null($alumno->getNoControl())) :
-                    $no_control = AlumnoPeer::getNoControl($this->object->getIdCurso(), $conn);
-                    $alumno->setNoControl($no_control);
+ 
+            if (is_null($alumno->getNumeroControl())) :
+                    $no_control = AlumnoPeer::getNumeroControl($this->object->getIdCurso(), $conn);
+                    $alumno->setNumeroControl($no_control);
             endif;
             $alumno->setInscrito(true);
             $alumno->save($conn);

@@ -1,0 +1,45 @@
+Mes:
+  Mes_1:
+    nombre: Enero
+  Mes_2:
+    nombre: Febrero
+  Mes_3:
+    nombre: Marzo
+  Mes_4:
+    nombre: Abril
+  Mes_5:
+    nombre: Mayo
+  Mes_6:
+    nombre: Junio
+  Mes_7:
+    nombre: Julio
+  Mes_8:
+    nombre: Agosto
+  Mes_9:
+    nombre: Septiembre
+  Mes_10:
+    nombre: Octubre
+  Mes_11:
+    nombre: Noviembre
+  Mes_12:
+    nombre: Diciembre
+Periodo:
+  Periodo_1:
+    periodo: Primavera
+    inicio_periodo: Mes_1
+    final_periodo: Mes_5
+    nombre_corto: PRI-2013
+  Periodo_2:
+    periodo: Otoño
+    inicio_periodo: Mes_8
+    final_periodo: Mes_12
+    nombre_corto: OTO-2013
+Salon:
+  Salon_1:
+    salon: 'Aula 1'
+  Salon_2:
+    salon: 'Aula 2'
+  Salon_3:
+    salon: 'Aula 3'
+  Salon_4:
+    salon: SUM

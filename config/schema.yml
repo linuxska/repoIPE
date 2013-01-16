@@ -82,6 +82,7 @@ propel:
     medicamento_actual: { phpName: MedicamentoActual, type: BOOLEAN, required: true }
     situacion_medica: { phpName: SituacionMedica, type: LONGVARCHAR, required: true }
     trabajo_secular: { phpName: TrabajoSecular, type: LONGVARCHAR, required: false }
+    numero_control: { phpName: NumeroControl, type: VARCHAR, size: '10', required: false, defaultValue: 'NULL' }
     inscrito: { phpName: Inscrito, type: BOOLEAN, required: true }
     foto: { phpName: Foto, type: VARCHAR, size: '256', required: false }
   book:
@@ -119,8 +120,16 @@ propel:
     id_profesor: { phpName: IdProfesor, type: INTEGER, required: true, foreignTable: profesor, foreignReference: id, onDelete: RESTRICT, onUpdate: CASCADE }
     id_periodo: { phpName: IdPeriodo, type: INTEGER, required: true, foreignTable: periodo, foreignReference: id, onDelete: RESTRICT, onUpdate: CASCADE }
     id_salon: { phpName: IdSalon, type: INTEGER, required: true, foreignTable: salon, foreignReference: id, onDelete: RESTRICT, onUpdate: CASCADE }
-    hora_inicio: { phpName: HoraInicio, type: TIME, required: true }
-    hora_final: { phpName: HoraFinal, type: TIME, required: true }
+    lunes_hora_inicio: { phpName: LunesHoraInicio, type: TIME, required: false }
+    lunes_hora_final: { phpName: LunesHoraFinal, type: TIME, required: false }
+    martes_hora_inicio: { phpName: MartesHoraInicio, type: TIME, required: false }
+    martes_hora_final: { phpName: MartesHoraFinal, type: TIME, required: false }
+    miercoles_hora_inicio: { phpName: MiercolesHoraInicio, type: TIME, required: false }
+    miercoles_hora_final: { phpName: MiercolesHoraFinal, type: TIME, required: false }
+    jueves_hora_inicio: { phpName: JuevesHoraInicio, type: TIME, required: false }
+    jueves_hora_final: { phpName: JuevesHoraFinal, type: TIME, required: false }
+    viernes_hora_inicio: { phpName: ViernesHoraInicio, type: TIME, required: false }
+    viernes_hora_final: { phpName: ViernesHoraFinal, type: TIME, required: false }
     anno: { phpName: Anno, type: VARCHAR, size: '4', required: true }
     estado: { phpName: Estado, type: BOOLEAN, required: true, defaultValue: true }
   decimal:
@@ -150,6 +159,12 @@ propel:
     numero: { phpName: Numero, type: INTEGER, required: true }
     nombre: { phpName: Nombre, type: VARCHAR, size: '128', required: true }
     descripcion: { phpName: Descripcion, type: VARCHAR, size: '512', required: false }
+  folio_control:
+    _attributes: { phpName: FolioControl }
+    id: { phpName: Id, type: INTEGER, primaryKey: true, autoIncrement: true, required: true }
+    anno: { phpName: Anno, type: VARCHAR, size: '4', required: true }
+    folio: { phpName: Folio, type: INTEGER, required: true, defaultValue: '0' }
+    _uniques: { folio_control_dx1: [anno] }
   integer:
     _attributes: { phpName: Integer }
     id: { phpName: Id, type: INTEGER, primaryKey: true, autoIncrement: true, required: true }
@@ -183,12 +198,26 @@ propel:
     id: { phpName: Id, type: INTEGER, primaryKey: true, autoIncrement: true, required: true }
     id_alumno: { phpName: IdAlumno, type: INTEGER, required: true, foreignTable: alumno, foreignReference: id, onDelete: RESTRICT, onUpdate: CASCADE }
     id_curso: { phpName: IdCurso, type: INTEGER, required: true, foreignTable: curso, foreignReference: id, onDelete: RESTRICT, onUpdate: CASCADE }
-    primera_calificacion: { phpName: PrimeraCalificacion, type: INTEGER, required: false }
-    segunda_calificacion: { phpName: SegundaCalificacion, type: INTEGER, required: false }
-    calificacion_final: { phpName: CalificacionFinal, type: VARCHAR, required: false }
+    fecha_inscripcion: { phpName: FechaInscripcion, type: DATE, required: true }
+    primera_calificacion_examen: { phpName: PrimeraCalificacionExamen, type: INTEGER, required: false }
+    calificacion_parcial: { phpName: CalificacionParcial, type: INTEGER, required: false }
+    segunda_calificacion_examen: { phpName: SegundaCalificacionExamen, type: INTEGER, required: false }
+    calificacion_final: { phpName: CalificacionFinal, type: INTEGER, required: false }
     aprobado: { phpName: Aprobado, type: BOOLEAN, required: true, defaultValue: false }
     observaciones: { phpName: Observaciones, type: LONGVARCHAR, required: false }
     inasistencia: { phpName: Inasistencia, type: INTEGER, required: false }
+    externo: { phpName: Externo, type: BOOLEAN, required: false, defaultValue: false }
+    recursando: { phpName: Recursando, type: BOOLEAN, required: false, defaultValue: false }
+  log:
+    _attributes: { phpName: Log }
+    id: { phpName: Id, type: INTEGER, primaryKey: true, autoIncrement: true, required: true }
+    fecha: { phpName: Fecha, type: TIMESTAMP, required: true }
+    tipo_usuario: { phpName: TipoUsuario, type: VARCHAR, size: '32', required: true }
+    tipo_log: { phpName: TipoLog, type: VARCHAR, size: '32', required: true }
+    usuario: { phpName: Usuario, type: VARCHAR, size: '128', required: false }
+    mensaje: { phpName: Mensaje, type: VARCHAR, size: '1024', required: false }
+    nombre_tabla: { phpName: NombreTabla, type: VARCHAR, size: '32', required: false }
+    serialized: { phpName: Serialized, type: LONGVARCHAR, required: false }
   materia:
     _attributes: { phpName: Materia }
     id: { phpName: Id, type: INTEGER, primaryKey: true, autoIncrement: true, required: true }

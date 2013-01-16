@@ -1,4 +1,4 @@
-<?php slot('title', 'ITC :: DGTYV :: CI :: Registro') ?>
+<?php slot('title', 'Instituto Práctico Ebenezer Registro') ?>
 
 <div id="sf_admin_container">
     <?php if ($sf_user->hasFlash('notice')): ?>

@@ -345,6 +345,21 @@ True = Verdadero
 False = Falso';
 COMMENT ON COLUMN "lista"."recursando" IS 'Si el alumno esta recursando la materia.';
 
+
+CREATE TABLE "folio_control" (
+"id" serial NOT NULL,
+"anno" varchar(4) NOT NULL,
+"folio" int NOT NULL DEFAULT 0
+) WITHOUT OIDS;
+ALTER TABLE "folio_control" ADD CONSTRAINT "folio_control_pk" PRIMARY KEY("id");
+COMMENT ON TABLE "folio_control" IS 'Numero consecutivo para los números de control.';
+COMMENT ON COLUMN "folio_control"."id" IS 'Clave del folio.';
+COMMENT ON COLUMN "folio_control"."anno" IS 'Año en que se uso el folio';
+COMMENT ON COLUMN "folio_control"."folio" IS 'Folio a usar.';
+CREATE UNIQUE INDEX "folio_control_dx1" ON "folio_control" USING btree ("anno");
+
+
+
 CREATE TABLE "book" (
 "id" serial NOT NULL,
 "id_decimal" int NOT NULL,

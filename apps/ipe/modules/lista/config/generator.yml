@@ -19,7 +19,7 @@ generator:
         alumno_no_control: { label: No. control }
       list:
         title: Alumno de %%id%%
-        display: [alumno_no_control, =_alumno, calificacion, inasistencia, aprobado]
+        display: [alumno_no_control, =_alumno, inasistencia, calificacion_final,aprobado]
         batch_actions: {}
         object_actions:
           print:
@@ -31,10 +31,10 @@ generator:
           cerrar:
             label: Cerrar
       filter:
-          display: [no_control, id_curso, aprobado, prorroga]
+          display: [id_alumno, id_curso, aprobado]
       form:
         display:
-          "Cursos": [calificacion, inasistencia, aprobado, observaciones]
+          "Cursos": [calificacion_final, inasistencia, aprobado, observaciones]
       edit:
         title: %%alumno%% (%%curso%%)
         actions:

@@ -89,6 +89,7 @@ abstract class BaseAlumnoFormFilter extends BaseFormFilterPropel
       'medicamento_actual'   => new sfWidgetFormChoice(array('choices' => array('' => 'yes or no', 1 => 'yes', 0 => 'no'))),
       'situacion_medica'     => new sfWidgetFormFilterInput(array('with_empty' => false)),
       'trabajo_secular'      => new sfWidgetFormFilterInput(),
+      'numero_control'       => new sfWidgetFormFilterInput(),
       'inscrito'             => new sfWidgetFormChoice(array('choices' => array('' => 'yes or no', 1 => 'yes', 0 => 'no'))),
       'foto'                 => new sfWidgetFormFilterInput(),
     ));
@@ -171,6 +172,7 @@ abstract class BaseAlumnoFormFilter extends BaseFormFilterPropel
       'medicamento_actual'   => new sfValidatorChoice(array('required' => false, 'choices' => array('', 1, 0))),
       'situacion_medica'     => new sfValidatorPass(array('required' => false)),
       'trabajo_secular'      => new sfValidatorPass(array('required' => false)),
+      'numero_control'       => new sfValidatorPass(array('required' => false)),
       'inscrito'             => new sfValidatorChoice(array('required' => false, 'choices' => array('', 1, 0))),
       'foto'                 => new sfValidatorPass(array('required' => false)),
     ));
@@ -268,6 +270,7 @@ abstract class BaseAlumnoFormFilter extends BaseFormFilterPropel
       'medicamento_actual'   => 'Boolean',
       'situacion_medica'     => 'Text',
       'trabajo_secular'      => 'Text',
+      'numero_control'       => 'Text',
       'inscrito'             => 'Boolean',
       'foto'                 => 'Text',
     );

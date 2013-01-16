@@ -17,7 +17,7 @@
  * @package    lib.model
  */
 class Alumno extends BaseAlumno {
-const ID_GRUPO_ALUMNO=7;
+const ID_GRUPO_ALUMNO=5;
     
     private $__lista;
     
@@ -29,12 +29,12 @@ const ID_GRUPO_ALUMNO=7;
         return ucwords(sprintf("%s %s %s", $this->getAPaterno(), $this->getAMaterno(), $this->getNombre()));
     }
     protected function doSave(PropelPDO $con) {
-        if ($this->getNoControl() && !AlumnoPeer::getSfGuardUser($this)):
-    	    $password = sfGuardUserPeer::doMakePassword($this->getNoControl());
+        if ($this->getNumeroControl() && !AlumnoPeer::getSfGuardUser($this)):
+    	    $password = sfGuardUserPeer::doMakePassword($this->getNumeroControl());
 
             $sf_guard_user = new sfGuardUser;
-            $sf_guard_user->setUsername($this->getNoControl());
-            $sf_guard_user->setPassword($this->getNoControl());
+            $sf_guard_user->setUsername($this->getNumeroControl());
+            $sf_guard_user->setPassword($this->getNumeroControl());
             $sf_guard_user->save();
 
             $sf_user_group = new sfGuardUserGroup;

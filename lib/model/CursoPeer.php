@@ -28,8 +28,8 @@ class CursoPeer extends BaseCursoPeer {
         //$c->add(self::ID_PERIODO, self::currentPeriods(), Criteria::IN);
         
         $c->addAscendingOrderByColumn(MateriaPeer::NOMBRE);
-        $c->addAscendingOrderByColumn(CursoPeer::HORA_INICIO);
-        $c->addAscendingOrderByColumn(CursoPeer::HORA_FINAL);
+        $c->addAscendingOrderByColumn(CursoPeer::LUNES_HORA_INICIO);
+        $c->addAscendingOrderByColumn(CursoPeer::LUNES_HORA_FINAL);
 
         return $c;
     }

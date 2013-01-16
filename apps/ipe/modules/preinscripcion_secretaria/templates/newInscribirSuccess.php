@@ -1,4 +1,4 @@
-<?php slot('title', 'ITC :: DGTYV :: CI :: Inscripción') ?>
+<?php slot('title', 'Instituto Práctico Ebenezer Inscripción') ?>
 
 <div id="sf_admin_container">
     <div class="sf_admin_form">

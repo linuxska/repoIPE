@@ -1,4 +1,4 @@
-<?php slot('title', 'ITC :: DGTYV :: CI :: Cambiar Curso') ?>
+<?php slot('title', 'Instituto Práctico Ebenezer Cambiar Curso') ?>
 <?php use_javascript('lib/form/alumno.js') ?>
 
 <div id="sf_admin_container">

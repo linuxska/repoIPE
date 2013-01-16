@@ -5,7 +5,7 @@ class ListaCambiarForm extends ListaForm {
     public function configure() {
         parent::configure();
 
-        unset($this['calificacion'], $this['aprobado'], $this['curso_anterior'], $this['fecha_inscripcion']);
+        unset($this['primera_calificacion_examen'],$this['segunda_calificacion_examen'], $this['calificacion_parcial'],$this['calificacion_final'],$this['aprobado'],  $this['fecha_inscripcion']);
 
         $this->setWidget('id_curso', new sfWidgetFormPropelChoice(array('model' => 'Curso', 'add_empty' => true, 'criteria' => CursoPeer::getCurrentCoursesCriteria())));
         $this->setValidator('id_curso', new sfValidatorPropelChoice(array('model' => 'Curso', 'column' => 'id', 'criteria' => CursoPeer::getCurrentCoursesCriteria())));

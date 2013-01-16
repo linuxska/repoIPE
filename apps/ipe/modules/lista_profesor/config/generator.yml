@@ -22,7 +22,7 @@ generator:
         title: false
         batch_actions: {}
         actions: {}
-        display: [Materia, Periodo, anno, Salon, hora_inicio, hora_final]
+        display: [Materia, Periodo, anno, Salon]
         max_per_page: 30
       filter:
         display: [id_materia, id_periodo, anno]

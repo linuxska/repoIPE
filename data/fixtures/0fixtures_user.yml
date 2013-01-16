@@ -73,9 +73,9 @@ sfGuardGroupPermission:
   sfGuardGroupPermission_4_4:
     group_id: sfGuardGroup_4
     permission_id: sfGuardPermission_4
-  sfGuardGroupPermission_5_5:
+  sfGuardGroupPermission_5_6:
     group_id: sfGuardGroup_5
-    permission_id: sfGuardPermission_5
+    permission_id: sfGuardPermission_6
   sfGuardGroupPermission_8_7:
     group_id: sfGuardGroup_8
     permission_id: sfGuardPermission_7
@@ -91,6 +91,9 @@ sfGuardGroupPermission:
   sfGuardGroupPermission_11_9:
     group_id: sfGuardGroup_11
     permission_id: sfGuardPermission_9
+  sfGuardGroupPermission_6_5:
+    group_id: sfGuardGroup_6
+    permission_id: sfGuardPermission_5
 sfGuardUser:
   sfGuardUser_1:
     username: eunice
