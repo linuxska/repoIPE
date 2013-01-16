@@ -12,13 +12,13 @@ abstract class BaseFolioControlFormFilter extends BaseFormFilterPropel
   public function setup()
   {
     $this->setWidgets(array(
-      'anno'  => new sfWidgetFormFilterInput(array('with_empty' => false)),
-      'folio' => new sfWidgetFormFilterInput(array('with_empty' => false)),
+      'anno'        => new sfWidgetFormFilterInput(),
+      'consecutivo' => new sfWidgetFormFilterInput(),
     ));
 
     $this->setValidators(array(
-      'anno'  => new sfValidatorPass(array('required' => false)),
-      'folio' => new sfValidatorSchemaFilter('text', new sfValidatorInteger(array('required' => false))),
+      'anno'        => new sfValidatorPass(array('required' => false)),
+      'consecutivo' => new sfValidatorSchemaFilter('text', new sfValidatorInteger(array('required' => false))),
     ));
 
     $this->widgetSchema->setNameFormat('folio_control_filters[%s]');
@@ -36,9 +36,9 @@ abstract class BaseFolioControlFormFilter extends BaseFormFilterPropel
   public function getFields()
   {
     return array(
-      'id'    => 'Number',
-      'anno'  => 'Text',
-      'folio' => 'Number',
+      'id'          => 'Number',
+      'anno'        => 'Text',
+      'consecutivo' => 'Number',
     );
   }
 }

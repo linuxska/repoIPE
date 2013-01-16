@@ -1,8 +1,8 @@
-﻿------------------------------
+------------------------------
 -- pgDesigner 1.2.17
 --
 -- Project    : SII-IPE
--- Date       : 11/22/2012 17:05:44.983
+-- Date       : 01/16/2013 18:30:47.938
 -- Description: Sistema integral de informacion del instituto Practico Ebenezer.
 ------------------------------
 
@@ -158,7 +158,8 @@ CREATE TABLE "alumno" (
 "medicamento_actual" boolean NOT NULL,
 "situacion_medica" text NOT NULL,
 "trabajo_secular" text,
-"inscrito" boolean NOT NULL,
+"numero_control" character varying(10) DEFAULT NULL,
+"inscrito" boolean NOT NULL DEFAULT false,
 "foto" character varying(256)
 ) WITHOUT OIDS;
 ALTER TABLE "alumno" ADD CONSTRAINT "alumno_pk" PRIMARY KEY("id");
@@ -233,6 +234,7 @@ COMMENT ON COLUMN "alumno"."medicina_especial" IS 'Estuvieron bajo tratamiento? 
 COMMENT ON COLUMN "alumno"."medicamento_actual" IS 'Toma algun medicamento actualmente? Si o no.';
 COMMENT ON COLUMN "alumno"."situacion_medica" IS 'Describa los problemas medicos que ha tenido o tiene actualmente';
 COMMENT ON COLUMN "alumno"."trabajo_secular" IS 'Experiencia en trabajo secular.';
+COMMENT ON COLUMN "alumno"."numero_control" IS 'Número de control del alumno en el Instituto Practico Ebenezer.';
 COMMENT ON COLUMN "alumno"."inscrito" IS 'Si el alumno esta inscrito o preinscrito.';
 COMMENT ON COLUMN "alumno"."foto" IS 'url de la foto de alumno';
 
@@ -281,8 +283,16 @@ CREATE TABLE "curso" (
 "id_profesor" int NOT NULL,
 "id_periodo" int NOT NULL,
 "id_salon" int NOT NULL,
-"hora_inicio" time NOT NULL,
-"hora_final" time NOT NULL,
+"lunes_hora_inicio" time,
+"lunes_hora_final" time,
+"martes_hora_inicio" time,
+"martes_hora_final" time,
+"miercoles_hora_inicio" time,
+"miercoles_hora_final" time,
+"jueves_hora_inicio" time,
+"jueves_hora_final" time,
+"viernes_hora_inicio" time,
+"viernes_hora_final" time,
 "anno" character varying(4) NOT NULL,
 "estado" boolean NOT NULL DEFAULT true
 ) WITHOUT OIDS;
@@ -292,8 +302,14 @@ COMMENT ON COLUMN "curso"."id" IS 'Clave del curso.';
 COMMENT ON COLUMN "curso"."id_profesor" IS 'Clave del profesor que imparte el curso.';
 COMMENT ON COLUMN "curso"."id_periodo" IS 'Clave del periodo.';
 COMMENT ON COLUMN "curso"."id_salon" IS 'Clave del salon.';
-COMMENT ON COLUMN "curso"."hora_inicio" IS 'Hora de inicio del curso.';
-COMMENT ON COLUMN "curso"."hora_final" IS 'Hora de final del curso.';
+COMMENT ON COLUMN "curso"."lunes_hora_inicio" IS 'Hora de inicio del curso lunes.';
+COMMENT ON COLUMN "curso"."lunes_hora_final" IS 'Hora de final del curso lunes.';
+COMMENT ON COLUMN "curso"."miercoles_hora_inicio" IS 'Hora de inicio de clases el miercoles.';
+COMMENT ON COLUMN "curso"."miercoles_hora_final" IS 'Hora de final del miercoles.';
+COMMENT ON COLUMN "curso"."jueves_hora_inicio" IS 'Hora de inicio del jueves.';
+COMMENT ON COLUMN "curso"."jueves_hora_final" IS 'Hora final jueves';
+COMMENT ON COLUMN "curso"."viernes_hora_inicio" IS 'Hora de inicio del viernes.';
+COMMENT ON COLUMN "curso"."viernes_hora_final" IS 'Hora final del viernes.';
 COMMENT ON COLUMN "curso"."anno" IS 'Año en que se imparte el curso';
 COMMENT ON COLUMN "curso"."estado" IS 'Campo que indicara si el curso actual puede ser modificado por el profesor. Verdadero si es posible modificar.';
 
@@ -301,23 +317,32 @@ CREATE TABLE "lista" (
 "id" serial NOT NULL,
 "id_alumno" int NOT NULL,
 "id_curso" int NOT NULL,
-"primera_calificacion" int,
-"segunda_calificacion" int,
-"calificacion_final" character varying,
+"fecha_inscripcion" date NOT NULL,
+"primera_calificacion_examen" int,
+"calificacion_parcial" int,
+"segunda_calificacion_examen" int,
+"calificacion_final" int,
 "aprobado" bool NOT NULL DEFAULT false,
 "observaciones" text,
-"inasistencia" int
+"inasistencia" int,
+"externo" bool DEFAULT false,
+"recursando" bool DEFAULT false
 ) WITHOUT OIDS;
 ALTER TABLE "lista" ADD CONSTRAINT "lista_pk" PRIMARY KEY("id");
 COMMENT ON TABLE "lista" IS 'Alumnos inscritos en un curso.';
 COMMENT ON COLUMN "lista"."id" IS 'Clave de la lista.';
 COMMENT ON COLUMN "lista"."id_alumno" IS 'Clave del alumno';
 COMMENT ON COLUMN "lista"."id_curso" IS 'Clave del curso en el que esta inscrito el alumno.';
-COMMENT ON COLUMN "lista"."primera_calificacion" IS 'Calificación primer parcial del alumno.';
-COMMENT ON COLUMN "lista"."segunda_calificacion" IS 'Calificación segunda del alumno.';
-COMMENT ON COLUMN "lista"."calificacion_final" IS 'Calificación final del alumno.';
+COMMENT ON COLUMN "lista"."fecha_inscripcion" IS 'Fecha en que se inscribio al curso.';
+COMMENT ON COLUMN "lista"."primera_calificacion_examen" IS 'Calificación primer parcial del alumno.';
+COMMENT ON COLUMN "lista"."calificacion_parcial" IS 'Calificación parcial del alumno.';
+COMMENT ON COLUMN "lista"."segunda_calificacion_examen" IS 'Calificación segunda del alumno.';
 COMMENT ON COLUMN "lista"."aprobado" IS 'Aprobado o reprobado.';
 COMMENT ON COLUMN "lista"."observaciones" IS 'Observaciones del alumno.';
+COMMENT ON COLUMN "lista"."externo" IS 'El alumno es externo.
+True = Verdadero 
+False = Falso';
+COMMENT ON COLUMN "lista"."recursando" IS 'Si el alumno esta recursando la materia.';
 
 CREATE TABLE "book" (
 "id" serial NOT NULL,
@@ -373,7 +398,6 @@ COMMENT ON COLUMN "decimalen"."number" IS 'Numero Dewey de la clasificacion.';
 COMMENT ON COLUMN "decimalen"."name" IS 'Nombre para la clasificacion';
 COMMENT ON COLUMN "decimalen"."description" IS 'Decripcion del decimal';
 
-
 CREATE TABLE "integer" (
 "id" serial NOT NULL,
 "number" int NOT NULL,
@@ -386,7 +410,6 @@ COMMENT ON COLUMN "integer"."id" IS 'Identificador de la Categoria';
 COMMENT ON COLUMN "integer"."number" IS 'Numero Dewey de la clasificacion.';
 COMMENT ON COLUMN "integer"."name" IS 'Nombre para la clasificacion';
 COMMENT ON COLUMN "integer"."description" IS 'Descripcion del tema';
-
 
 CREATE TABLE "wk_book" (
 "id" serial NOT NULL,
@@ -529,6 +552,35 @@ COMMENT ON COLUMN "compra_tienda"."id_producto" IS 'Id del producto que se abast
 COMMENT ON COLUMN "compra_tienda"."id_empleado" IS 'id del empleado que hace la compra.';
 COMMENT ON COLUMN "compra_tienda"."fecha_compra" IS 'Fecha de compra del producto';
 COMMENT ON COLUMN "compra_tienda"."cantidad" IS 'Cantidad de producto que se compro.';
+
+CREATE TABLE "log" (
+"id" serial NOT NULL,
+"fecha" timestamp NOT NULL,
+"tipo_usuario" varchar(32) NOT NULL,
+"tipo_log" varchar(32) NOT NULL,
+"usuario" varchar(128),
+"mensaje" varchar(1024),
+"nombre_tabla" varchar(32),
+"serialized" text
+) WITHOUT OIDS;
+ALTER TABLE "log" ADD CONSTRAINT "log_pk" PRIMARY KEY("id");
+COMMENT ON TABLE "log" IS 'Log del Sistema';
+COMMENT ON COLUMN "log"."id" IS 'Id del log';
+COMMENT ON COLUMN "log"."fecha" IS 'Fecha de la modificacion.';
+COMMENT ON COLUMN "log"."tipo_usuario" IS 'Tipo de usuario que hace la modificacion.';
+COMMENT ON COLUMN "log"."tipo_log" IS 'Tipo de Log';
+COMMENT ON COLUMN "log"."usuario" IS 'Nombre del usuario.';
+COMMENT ON COLUMN "log"."mensaje" IS 'Algun mensaje del sistema.';
+COMMENT ON COLUMN "log"."nombre_tabla" IS 'Nombre de la tabla.';
+
+CREATE TABLE "folio_control" (
+"id" serial NOT NULL,
+"anno" varchar(4),
+"consecutivo" int
+) WITHOUT OIDS;
+ALTER TABLE "folio_control" ADD CONSTRAINT "folio_control_pk" PRIMARY KEY("id");
+COMMENT ON TABLE "folio_control" IS 'Folio de control para los alumnos de Instituto Práctico Ebenezer.';
+COMMENT ON COLUMN "folio_control"."anno" IS 'Año del folio';
 
 -- End Tabla's declaration
 

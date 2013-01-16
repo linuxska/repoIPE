@@ -83,7 +83,7 @@ propel:
     situacion_medica: { phpName: SituacionMedica, type: LONGVARCHAR, required: true }
     trabajo_secular: { phpName: TrabajoSecular, type: LONGVARCHAR, required: false }
     numero_control: { phpName: NumeroControl, type: VARCHAR, size: '10', required: false, defaultValue: 'NULL' }
-    inscrito: { phpName: Inscrito, type: BOOLEAN, required: true }
+    inscrito: { phpName: Inscrito, type: BOOLEAN, required: true, defaultValue: false }
     foto: { phpName: Foto, type: VARCHAR, size: '256', required: false }
   book:
     _attributes: { phpName: Book }
@@ -162,9 +162,8 @@ propel:
   folio_control:
     _attributes: { phpName: FolioControl }
     id: { phpName: Id, type: INTEGER, primaryKey: true, autoIncrement: true, required: true }
-    anno: { phpName: Anno, type: VARCHAR, size: '4', required: true }
-    folio: { phpName: Folio, type: INTEGER, required: true, defaultValue: '0' }
-    _uniques: { folio_control_dx1: [anno] }
+    anno: { phpName: Anno, type: VARCHAR, size: '4', required: false }
+    consecutivo: { phpName: Consecutivo, type: INTEGER, required: false }
   integer:
     _attributes: { phpName: Integer }
     id: { phpName: Id, type: INTEGER, primaryKey: true, autoIncrement: true, required: true }

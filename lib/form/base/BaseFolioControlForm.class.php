@@ -14,20 +14,16 @@ abstract class BaseFolioControlForm extends BaseFormPropel
   public function setup()
   {
     $this->setWidgets(array(
-      'id'    => new sfWidgetFormInputHidden(),
-      'anno'  => new sfWidgetFormInputText(),
-      'folio' => new sfWidgetFormInputText(),
+      'id'          => new sfWidgetFormInputHidden(),
+      'anno'        => new sfWidgetFormInputText(),
+      'consecutivo' => new sfWidgetFormInputText(),
     ));
 
     $this->setValidators(array(
-      'id'    => new sfValidatorChoice(array('choices' => array($this->getObject()->getId()), 'empty_value' => $this->getObject()->getId(), 'required' => false)),
-      'anno'  => new sfValidatorString(array('max_length' => 4)),
-      'folio' => new sfValidatorInteger(array('min' => -2147483648, 'max' => 2147483647)),
+      'id'          => new sfValidatorChoice(array('choices' => array($this->getObject()->getId()), 'empty_value' => $this->getObject()->getId(), 'required' => false)),
+      'anno'        => new sfValidatorString(array('max_length' => 4, 'required' => false)),
+      'consecutivo' => new sfValidatorInteger(array('min' => -2147483648, 'max' => 2147483647, 'required' => false)),
     ));
-
-    $this->validatorSchema->setPostValidator(
-      new sfValidatorPropelUnique(array('model' => 'FolioControl', 'column' => array('anno')))
-    );
 
     $this->widgetSchema->setNameFormat('folio_control[%s]');
 
