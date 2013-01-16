@@ -1,11 +1,50 @@
-alumno_alumno_alumno:
+
+
+#################################ADMIN GENERATOR################################
+
+profesor:
   class: sfPropelRouteCollection
   options:
-    model:                Alumno
-    module:               alumno_alumno
-    prefix_path:          /alumno_alumno
+    model:                Profesor
+    module:               profesor
+    prefix_path:          /profesor
     column:               id
     with_wildcard_routes: true
+
+curso:
+  class: sfPropelRouteCollection
+  options:
+    model:                Curso
+    module:               curso
+    prefix_path:          /curso
+    column:               id
+    with_wildcard_routes: true
+
+materia:
+  class: sfPropelRouteCollection
+  options:
+    model:                Materia
+    module:               materia
+    prefix_path:          /materia
+    column:               id
+    with_wildcard_routes: true
+
+periodo:
+  class: sfPropelRouteCollection
+  options:
+    model:                Periodo
+    module:               periodo
+    prefix_path:          /periodo
+    column:               id
+    with_wildcard_routes: true
+
+salon:
+  class: sfPropelRouteCollection
+  options:
+    model:                Salon
+    module:               salon
+    prefix_path:          /salon
+    column:               id
 
 alumno:
   class: sfPropelRouteCollection
@@ -25,17 +64,6 @@ lista:
     column:               id
     with_wildcard_routes: true
 
-
-
-periodo:
-  class: sfPropelRouteCollection
-  options:
-    model:                Periodo
-    module:               periodo
-    prefix_path:          /periodo
-    column:               id
-    with_wildcard_routes: true
-
 mes:
   class: sfPropelRouteCollection
   options:
@@ -43,7 +71,6 @@ mes:
     module:               mes
     prefix_path:          /mes
     column:               id
-    with_wildcard_routes: true
 
 curso:
   class: sfPropelRouteCollection
@@ -53,35 +80,84 @@ curso:
     prefix_path:          /curso
     column:               id
     with_wildcard_routes: true
+    with_wildcard_routes: true
 
-#################################ADMIN GENERATOR################################
-
-materia:
+curso_curso_secretaria:
   class: sfPropelRouteCollection
   options:
-    model:                Materia
-    module:               materia
-    prefix_path:          /materia
+    model:                Curso
+    module:               curso_secretaria
+    prefix_path:          ca/curso_secretaria
     column:               id
     with_wildcard_routes: true
 
-salon:
+
+##########################Admin Generator Biblioteca#########################
+
+libro:
   class: sfPropelRouteCollection
   options:
-    model:                Salon
-    module:               salon
-    prefix_path:          /salon
+    model:                Libro
+    module:               libros
+    prefix_path:          /libros
     column:               id
     with_wildcard_routes: true
 
-profesor:
+book:
   class: sfPropelRouteCollection
   options:
-    model:                Profesor
-    module:               profesor
-    prefix_path:          /profesor
+    model:                Book
+    module:               books
+    prefix_path:          /books
     column:               id
     with_wildcard_routes: true
+
+wk_book:
+  class: sfPropelRouteCollection
+  options:
+    model:                WkBook
+    module:               wokaty_books
+    prefix_path:          /wokaty_books
+    column:               id
+    with_wildcard_routes: true
+
+integer:
+  class: sfPropelRouteCollection
+  options:
+    model:                Integer
+    module:               numbers_dewey
+    prefix_path:          /numbers_dewey
+    column:               id
+    with_wildcard_routes: true
+
+entero:
+  class: sfPropelRouteCollection
+  options:
+    model:                Entero
+    module:               numeros_dewey
+    prefix_path:          /numeros_dewey
+    column:               id
+    with_wildcard_routes: true
+
+decimal:
+  class: sfPropelRouteCollection
+  options:
+    model:                Decimal
+    module:               decimal_dewey
+    prefix_path:          /decimal_dewey
+    column:               id
+    with_wildcard_routes: true
+
+decimalen:
+  class: sfPropelRouteCollection
+  options:
+    model:                Decimalen
+    module:               decimal_english_dewey
+    prefix_path:          /decimal_english_dewey
+    column:               id
+    with_wildcard_routes: true
+
+############################Admin Generator Tienda#########################
 
 venta_tienda:
   class: sfPropelRouteCollection
@@ -119,68 +195,7 @@ compra_tienda:
     column:               id
     with_wildcard_routes: true
 
-libro:
-  class: sfPropelRouteCollection
-  options:
-    model:                Libro
-    module:               libros
-    prefix_path:          /libros
-    column:               id
-    with_wildcard_routes: true
 
-entero:
-  class: sfPropelRouteCollection
-  options:
-    model:                Entero
-    module:               numeros_dewey
-    prefix_path:          /numeros_dewey
-    column:               id
-    with_wildcard_routes: true
-
-decimal:
-  class: sfPropelRouteCollection
-  options:
-    model:                Decimal
-    module:               decimal_dewey
-    prefix_path:          /decimal_dewey
-    column:               id
-    with_wildcard_routes: true
-
-book:
-  class: sfPropelRouteCollection
-  options:
-    model:                Book
-    module:               books
-    prefix_path:          /books
-    column:               id
-    with_wildcard_routes: true
-
-wk_book:
-  class: sfPropelRouteCollection
-  options:
-    model:                WkBook
-    module:               wokaty_books
-    prefix_path:          /wokaty_books
-    column:               id
-    with_wildcard_routes: true
-
-integer:
-  class: sfPropelRouteCollection
-  options:
-    model:                Integer
-    module:               numbers_dewey
-    prefix_path:          /numbers_dewey
-    column:               id
-    with_wildcard_routes: true
-
-decimalen:
-  class: sfPropelRouteCollection
-  options:
-    model:                Decimalen
-    module:               decimal_english_dewey
-    prefix_path:          /decimal_english_dewey
-    column:               id
-    with_wildcard_routes: true
 
 ##################################Inicio#################################
 
@@ -269,6 +284,24 @@ sf_guard_password:
 
 #################################Custom################################
 
+lista_list_imprimir:
+  url:              /curso/imprimir_lista/:id.:sf_format
+  class:            sfPropelRoute
+  options:          { model: Curso, type: object, method: getCurso }
+  requirements:
+    id:             \d+
+    sf_method:      [get]
+  param:            { module: curso, action: ImprimirLista, sf_format: pdf }
+
+curso_imprimir_lista:
+  url:              /curso/imprimir_lista/:id.:sf_format
+  class:            sfPropelRoute
+  options:          { model: Curso, type: object, method: getCurso }
+  requirements:
+    id:             \d+
+    sf_method:      [get]
+  param:            { module: curso, action: ImprimirLista, sf_format: pdf }
+
 lista_capturar:
   url:              /lista/capturar/:id.:sf_format
   class:            sfPropelRoute
@@ -296,6 +329,105 @@ lista_cerrar:
     sf_method:      [get]
   param:            { module: lista, action: CerrarLista, sf_format: html }
 
+#################################PREINSCRIPCION#################################
+preinscripcion_index:
+  url:              /preinscripcion/index.:sf_format
+  param:            { module: preinscripcion, action: index, sf_format: html }
+  requirements:
+   sf_method:       [get]
+preinscripcion_new:
+  url:              /preinscripcion/preinscripcion.:sf_format
+  param:            { module: preinscripcion, action: new, sf_format: html }
+  requirements:
+   sf_method:       [get]
+preinscripcion_newSolicitarCurso:
+  url:              /preinscripcion/solicitar_curso.:sf_format
+  param:            { module: preinscripcion, action: newSolicitarCurso, sf_format: html }
+  requirements:
+   sf_method:       [get]
+preinscripcion_create:
+  url:              /preinscripcion/dopreinscripcion.:sf_format
+  param:            { module: preinscripcion, action: create, sf_format: html }
+  requirements:
+   sf_method:       [post]
+preinscripcion_createSolicitarCurso:
+  url:              /preinscripcion/dosolicitar_curso.:sf_format
+  param:            { module: preinscripcion, action: createSolicitarCurso, sf_format: html }
+  requirements:
+   sf_method:       [post]
+preinscripcion_success:
+  url:              /preinscripcion/fin.:sf_format
+  param:            { module: preinscripcion, action: success, sf_format: html }
+  requirements:
+   sf_method:       [get]
+preinscripcion_successSolicitarCurso:
+  url:              /preinscripcion/fin_solicitar_curso.:sf_format
+  param:            { module: preinscripcion, action: successSolicitarCurso, sf_format: html }
+  requirements:
+   sf_method:       [get]
+preinscripcion_print_itc_dgtyv_ci_01:
+  url:              /preinscripcion/cedula.:sf_format
+  param:            { module: preinscripcion, action: PrintITC_DGTYV_CI_01, sf_format: html}
+  requirements:
+   sf_method:       [get]
+###########################PREINSCRIPCION SECRETARIA############################
+preinscripcion_secretaria_reinscribir_new:
+  url:              /alumno/inscripcion/reinscribir.:sf_format
+  param:            { module: preinscripcion_secretaria, action: newReinscribir, sf_format: html }
+  requirements:
+   sf_method:       [get]
+preinscripcion_secretaria_reinscribir_create:
+  url:              /alumno/inscripcion/doreinscribir.:sf_format
+  param:            { module: preinscripcion_secretaria, action: createReinscribir, sf_format: html }
+  requirements:
+   sf_method:       [post]
+preinscripcion_secretaria_reinscribir_success:
+  url:              /alumno/inscripcion/fin_reinscribir.:sf_format
+  param:            { module: preinscripcion_secretaria, action: successReinscribir, sf_format: html }
+  requirements:
+   sf_method:       [get]
+preinscripcion_secretaria_inscribir_new:
+  url:              /alumno/inscripcion/inscribir.:sf_format
+  param:            { module: preinscripcion_secretaria, action: newInscribir, sf_format: html }
+  requirements:
+   sf_method:       [get]
+preinscripcion_secretaria_inscribir_create:
+  url:              /alumno/inscripcion/doinscribir.:sf_format
+  param:            { module: preinscripcion_secretaria, action: createInscribir, sf_format: html }
+  requirements:
+   sf_method:       [post]
+preinscripcion_secretaria_inscribir_success:
+  url:              /alumno/inscripcion/fin_inscribir.:sf_format
+  param:            { module: preinscripcion_secretaria, action: successInscribir, sf_format: html }
+  requirements:
+   sf_method:       [get]
+preinscripcion_secretaria_registro_new:
+  url:              /alumno/inscripcion/registro.:sf_format
+  param:            { module: preinscripcion_secretaria, action: newRegistro, sf_format: html }
+  requirements:
+   sf_method:       [get]
+preinscripcion_secretaria_registro_create:
+  url:              /alumno/inscripcion/doregistro.:sf_format
+  param:            { module: preinscripcion_secretaria, action: createRegistro, sf_format: html }
+  requirements:
+   sf_method:       [post]
+preinscripcion_secretaria_cambiar_curso_new:
+  url:              /alumno/inscripcion/cambiar.:sf_format
+  param:            { module: preinscripcion_secretaria, action: newCambiar, sf_format: html }
+  requirements:
+   sf_method:       [get]
+preinscripcion_secretaria_cambiar_curso_create:
+  url:              /alumno/inscripcion/docambiar.:sf_format
+  param:            { module: preinscripcion_secretaria, action: createCambiar, sf_format: html }
+  requirements:
+   sf_method:       [post]
+preinscripcion_secretaria_cambiar_curso_success:
+  url:              /alumno/inscripcion/fin_cambiar.:sf_format
+  param:            { module: preinscripcion_secretaria, action: successCambiar, sf_format: html }
+  requirements:
+   sf_method:       [get]
+
+
   #################################Profesores################################
 
 profesor_profesor_profesor:
@@ -315,3 +447,18 @@ curso_lista_profesor:
     prefix_path:          /lista_profesor
     column:               id
     with_wildcard_routes: true
+
+#################################Alumnos################################
+
+alumno_alumno_alumno:
+  class: sfPropelRouteCollection
+  options:
+    model:                Alumno
+    module:               alumno_alumno
+    prefix_path:          /alumno_alumno
+    column:               id
+    with_wildcard_routes: true
+
+
+
+

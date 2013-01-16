@@ -1,0 +1,4 @@
+# Authentication not required
+
+default:
+  is_secure: false

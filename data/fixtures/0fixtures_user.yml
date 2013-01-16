@@ -1,0 +1,317 @@
+sfGuardGroup:
+  sfGuardGroup_1:
+    name: administrador
+    description: "Administrador del sistema.\r\nLa mayoría de los menus."
+  sfGuardGroup_2:
+    name: bibliotecario
+    description: 'Administrara la Biblioteca'
+  sfGuardGroup_3:
+    name: becabiblioteca
+    description: 'Administrara solo el catalogo de las tres Bibliotecas.'
+  sfGuardGroup_4:
+    name: admin
+    description: MaximaAutoridad
+  sfGuardGroup_5:
+    name: alumno
+    description: 'Grupo de Alumnos'
+  sfGuardGroup_6:
+    name: profesor
+    description: 'Grupo de profesores'
+  sfGuardGroup_7:
+    name: tienda
+    description: 'Administrador de tienda'
+  sfGuardGroup_8:
+    name: vendedor
+    description: 'Vendedor de la tienda.'
+  sfGuardGroup_9:
+    name: academico
+    description: 'Rol de coordinador academico'
+  sfGuardGroup_10:
+    name: secretaria
+    description: 'Rol de secretaria inscribir alumnos'
+  sfGuardGroup_11:
+    name: director
+    description: 'Director de la institucion'
+sfGuardPermission:
+  sfGuardPermission_1:
+    name: administrador
+    description: "administrador  Administrador del sistema. La mayoría de los menus.\r\n\r\n"
+  sfGuardPermission_2:
+    name: bibliotecario
+    description: 'Administrara las Bibliotecas de IPE'
+  sfGuardPermission_3:
+    name: becabiblioteca
+    description: "Administrara solo el catalogo de las tres Bibliotecas.  \r\n"
+  sfGuardPermission_4:
+    name: admin
+    description: 'Maxima autoridad'
+  sfGuardPermission_6:
+    name: profesor
+    description: 'Permiso de Profesores'
+  sfGuardPermission_5:
+    name: alumno
+    description: 'Permiso de Alumno'
+  sfGuardPermission_7:
+    name: vendedor
+    description: 'Permiso de vender en la tienda.'
+  sfGuardPermission_8:
+    name: tienda
+    description: 'Permisos tienda'
+  sfGuardPermission_9:
+    name: director
+    description: 'Director permisos'
+  sfGuardPermission_10:
+    name: academico
+    description: 'Permisos de academico'
+  sfGuardPermission_11:
+    name: secretaria
+    description: 'Permisos de secretaria'
+sfGuardGroupPermission:
+  sfGuardGroupPermission_1_1:
+    group_id: sfGuardGroup_1
+    permission_id: sfGuardPermission_1
+  sfGuardGroupPermission_4_4:
+    group_id: sfGuardGroup_4
+    permission_id: sfGuardPermission_4
+  sfGuardGroupPermission_5_5:
+    group_id: sfGuardGroup_5
+    permission_id: sfGuardPermission_5
+  sfGuardGroupPermission_8_7:
+    group_id: sfGuardGroup_8
+    permission_id: sfGuardPermission_7
+  sfGuardGroupPermission_7_8:
+    group_id: sfGuardGroup_7
+    permission_id: sfGuardPermission_8
+  sfGuardGroupPermission_9_10:
+    group_id: sfGuardGroup_9
+    permission_id: sfGuardPermission_10
+  sfGuardGroupPermission_10_11:
+    group_id: sfGuardGroup_10
+    permission_id: sfGuardPermission_11
+  sfGuardGroupPermission_11_9:
+    group_id: sfGuardGroup_11
+    permission_id: sfGuardPermission_9
+sfGuardUser:
+  sfGuardUser_1:
+    username: eunice
+    algorithm: sha1
+    salt: 99fecc602bad25f2c121f78c73d9adcc
+    password: ec7fe990a663b714454613b0914647311ed8835c
+    created_at: '2012-10-17 03:06:41'
+    is_active: true
+    is_super_admin: false
+  sfGuardUser_2:
+    username: karla
+    algorithm: sha1
+    salt: e83f9a56f0230e66228595943329b4fd
+    password: 4a02cb12d9ff399b0603cf57b6ae6736ad247f57
+    created_at: '2012-10-17 03:06:21'
+    last_login: '2012-10-17 03:07:44'
+    is_active: true
+    is_super_admin: false
+  sfGuardUser_3:
+    username: jesse
+    algorithm: sha1
+    salt: bd6ef2cab40041807dcdae8be08ac56f
+    password: 78c9af47f2de1a64cb73bd4456152817989dade0
+    created_at: '2012-10-17 03:07:27'
+    last_login: '2012-10-17 03:08:33'
+    is_active: true
+    is_super_admin: false
+  sfGuardUser_4:
+    username: yomara
+    algorithm: sha1
+    salt: 6f7c85c0a0dcdff65b8eb7b2fe300b24
+    password: a53c7f74eb8f4139486fc3afb25bcfa83d21e402
+    created_at: '2012-10-17 03:10:08'
+    is_active: true
+    is_super_admin: false
+  sfGuardUser_6:
+    username: abrico
+    algorithm: sha1
+    salt: 9d1557d3d0b994ecbd673e0ffd988e36
+    password: ca488161595a90d4b0abe6e362917c54c5f987b3
+    created_at: '2012-10-17 02:45:34'
+    last_login: '2012-10-17 03:14:13'
+    is_active: true
+    is_super_admin: true
+  sfGuardUser_7:
+    username: roberto
+    algorithm: sha1
+    salt: 5638742ba57f11d5340cb652cdf7e75d
+    password: 19dc67648167c8abd259b110c358a2888fd6b175
+    created_at: '2012-10-17 03:07:13'
+    last_login: '2012-10-18 16:44:55'
+    is_active: true
+    is_super_admin: false
+  sfGuardUser_19:
+    username: RIMA890367AA6
+    algorithm: sha1
+    salt: c9932607b29b3a307ee0e9bd98e38b89
+    password: 86cc8a9fcd30e868fe3d1149d6d1022ce729faeb
+    created_at: '2013-01-15 00:34:14'
+    last_login: '2013-01-15 04:13:44'
+    is_active: true
+    is_super_admin: false
+  sfGuardUser_9:
+    username: ab
+    algorithm: sha1
+    salt: 119f2796294eb8f0e7cf095a66fb1bb6
+    password: 0d0e186faead9f7cb8486f3e08621c4b5eb4bacf
+    created_at: '2012-11-22 13:50:38'
+    last_login: '2012-11-22 13:50:41'
+    is_active: true
+    is_super_admin: true
+  sfGuardUser_10:
+    username: alumno
+    algorithm: sha1
+    salt: 9da766be2337a83db4a739f1ddce84b9
+    password: 0522be71219d8d6cc08124afb6beb6fb25d3b6a9
+    created_at: '2012-11-23 14:23:19'
+    last_login: '2012-11-23 14:23:28'
+    is_active: true
+    is_super_admin: false
+  sfGuardUser_5:
+    username: danwokaty
+    algorithm: sha1
+    salt: 09d2ec34e6551f067b41cbf158bc3051
+    password: 2c106fa5e162fa201759450b5859f55aa677aac5
+    created_at: '2012-10-17 03:13:16'
+    last_login: '2013-01-15 16:33:24'
+    is_active: true
+    is_super_admin: false
+  sfGuardUser_20:
+    username: karo
+    algorithm: sha1
+    salt: 9a5902f4a0e18e135b98c8e269cba433
+    password: 340ac84afb339c6670064087a7da9bd2dcc9932a
+    created_at: '2013-01-15 04:37:23'
+    last_login: '2013-01-15 17:18:23'
+    is_active: true
+    is_super_admin: false
+  sfGuardUser_11:
+    username: mike
+    algorithm: sha1
+    salt: f39be6562f8ff95ac1f4da6c4caf0f78
+    password: a89bb361dfefd7ee75faa17df9cf80a281f43f0a
+    created_at: '2012-12-05 11:25:04'
+    is_active: true
+    is_super_admin: false
+  sfGuardUser_15:
+    username: RIMA8903672ZY
+    algorithm: sha1
+    salt: 36be04f6664cc160c7ceb8232184e3e0
+    password: 84de069d1cef8fea396d927344f12b6783ddc86e
+    created_at: '2013-01-15 00:04:00'
+    is_active: true
+    is_super_admin: false
+  sfGuardUser_12:
+    username: georgina
+    algorithm: sha1
+    salt: c302a3600b018b8a8451ec2b3cad7008
+    password: 9f6b5b01de22f549513fe829aa31d61218a663c4
+    created_at: '2012-12-05 11:25:16'
+    last_login: '2012-12-05 15:29:54'
+    is_active: true
+    is_super_admin: false
+  sfGuardUser_8:
+    username: abraham
+    algorithm: sha1
+    salt: 75a0ee127bef173422b62d3d1ac38774
+    password: 83494e15cf7f162fd5929e9b0170e993a84da32f
+    created_at: '2012-10-17 02:50:42'
+    last_login: '2013-01-15 21:19:24'
+    is_active: true
+    is_super_admin: false
+  sfGuardUser_17:
+    username: RIMA8903672ZA
+    algorithm: sha1
+    salt: 05246708dc5714d0d133cca18edc5940
+    password: a37cb81f50beb3edda3e79fe2bbba66202598ccc
+    created_at: '2013-01-15 00:06:00'
+    last_login: '2013-01-15 00:06:20'
+    is_active: true
+    is_super_admin: false
+sfGuardUserGroup:
+  sfGuardUserGroup_2_3:
+    user_id: sfGuardUser_2
+    group_id: sfGuardGroup_3
+  sfGuardUserGroup_1_3:
+    user_id: sfGuardUser_1
+    group_id: sfGuardGroup_3
+  sfGuardUserGroup_7_3:
+    user_id: sfGuardUser_7
+    group_id: sfGuardGroup_3
+  sfGuardUserGroup_3_3:
+    user_id: sfGuardUser_3
+    group_id: sfGuardGroup_3
+  sfGuardUserGroup_4_2:
+    user_id: sfGuardUser_4
+    group_id: sfGuardGroup_2
+  sfGuardUserGroup_8_1:
+    user_id: sfGuardUser_8
+    group_id: sfGuardGroup_1
+  sfGuardUserGroup_8_4:
+    user_id: sfGuardUser_8
+    group_id: sfGuardGroup_4
+  sfGuardUserGroup_10_5:
+    user_id: sfGuardUser_10
+    group_id: sfGuardGroup_5
+  sfGuardUserGroup_11_8:
+    user_id: sfGuardUser_11
+    group_id: sfGuardGroup_8
+  sfGuardUserGroup_12_7:
+    user_id: sfGuardUser_12
+    group_id: sfGuardGroup_7
+  sfGuardUserGroup_5_9:
+    user_id: sfGuardUser_5
+    group_id: sfGuardGroup_9
+  sfGuardUserGroup_15_6:
+    user_id: sfGuardUser_15
+    group_id: sfGuardGroup_6
+  sfGuardUserGroup_17_6:
+    user_id: sfGuardUser_17
+    group_id: sfGuardGroup_6
+  sfGuardUserGroup_19_6:
+    user_id: sfGuardUser_19
+    group_id: sfGuardGroup_6
+  sfGuardUserGroup_20_10:
+    user_id: sfGuardUser_20
+    group_id: sfGuardGroup_10
+sfGuardUserPermission:
+  sfGuardUserPermission_2_3:
+    user_id: sfGuardUser_2
+    permission_id: sfGuardPermission_3
+  sfGuardUserPermission_1_3:
+    user_id: sfGuardUser_1
+    permission_id: sfGuardPermission_3
+  sfGuardUserPermission_7_3:
+    user_id: sfGuardUser_7
+    permission_id: sfGuardPermission_3
+  sfGuardUserPermission_3_3:
+    user_id: sfGuardUser_3
+    permission_id: sfGuardPermission_3
+  sfGuardUserPermission_4_2:
+    user_id: sfGuardUser_4
+    permission_id: sfGuardPermission_2
+  sfGuardUserPermission_8_1:
+    user_id: sfGuardUser_8
+    permission_id: sfGuardPermission_1
+  sfGuardUserPermission_10_5:
+    user_id: sfGuardUser_10
+    permission_id: sfGuardPermission_5
+  sfGuardUserPermission_11_7:
+    user_id: sfGuardUser_11
+    permission_id: sfGuardPermission_7
+  sfGuardUserPermission_12_8:
+    user_id: sfGuardUser_12
+    permission_id: sfGuardPermission_8
+  sfGuardUserPermission_5_10:
+    user_id: sfGuardUser_5
+    permission_id: sfGuardPermission_10
+  sfGuardUserPermission_19_6:
+    user_id: sfGuardUser_19
+    permission_id: sfGuardPermission_6
+  sfGuardUserPermission_20_11:
+    user_id: sfGuardUser_20
+    permission_id: sfGuardPermission_11

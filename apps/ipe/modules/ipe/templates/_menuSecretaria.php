@@ -12,7 +12,7 @@
                 <li class="menu_sub_header"><a class="alternate" href="<?php echo url_for('@homepage') ?>">Inscripciones</a></li>
                 <li class="app <?php echo in_array('registro', explode('/', $sf_request->getUri())) ? "selected" : "" ?>"><a href="<?php echo url_for('@preinscripcion_secretaria_registro_new') ?>" class="alternate">Registrar</a></li>
                 <li class="app <?php echo in_array('inscribir', explode('/', $sf_request->getUri())) ? "selected" : "" ?>"><a href="<?php echo url_for('@preinscripcion_secretaria_inscribir_new') ?>" class="alternate">Inscribir</a></li>
-                <li class="app <?php echo in_array('reinscribir', explode('/', $sf_request->getUri())) ? "selected" : "" ?>"><a href="<?php echo url_for('@preinscripcion_secretaria_reinscribir_new') ?>" class="alternate">Asignar Materias</a></li>
+                <li class="app last <?php echo in_array('reinscribir', explode('/', $sf_request->getUri())) ? "selected" : "" ?>"><a href="<?php echo url_for('@preinscripcion_secretaria_reinscribir_new') ?>" class="alternate">Asignar Materias</a></li>
             </ul>
         </li>
 

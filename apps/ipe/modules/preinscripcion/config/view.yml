@@ -1,0 +1,5 @@
+# one-column layout
+
+default:
+  has_layout:     true
+  layout:         default
