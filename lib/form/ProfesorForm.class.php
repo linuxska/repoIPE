@@ -43,7 +43,7 @@ class ProfesorForm extends BaseProfesorForm
         $this->validatorSchema['ciudad']->setMessage('max_length', '"%value%" es muy grande (máximo %max_length% caracteres).');
 
         $this->setValidator('telefono', new sfValidatorRegex(array('max_length' => 12, 'pattern' => '/^[\(\)\.\- ]{0,}[0-9]{3}[\(\)\.\- ]{0,}[0-9]{3}[\(\)\.\- ]{0,}[0-9]{4}[\(\)\.\- ]{0,}$/', 'required' => false), array('max_length' => '"%value%" es muy grande (máximo %max_length% caracteres).', 'required' => 'Requerido.', 'invalid' => 'Inválido. 111-111-1111')));
-        $this->setValidator('rfc', new sfValidatorRegex(array('pattern' => '/^[a-zA-Z]{3,4}([0-9]{6})([a-zA-Z0-9]{3})$/', 'required' => true), array('required' => 'Requerido.', 'invalid' => 'Inválido. XXXX111111XXX.')));
+        $this->setValidator('rfc', new sfValidatorRegex(array('pattern' => '/^[a-zA-Z]{3,4}([0-9]{6})$/', 'required' => true), array('required' => 'Requerido.', 'invalid' => 'Inválido. XXXX111111.')));
         $this->setValidator('cp', new sfValidatorRegex(array('pattern' => '/^[0-9]{5}+$/', 'required' => true), array('required' => 'Requerido.', 'invalid' => 'Inválido. El valor debe ser de 5 dígitos.')));
         $this->setValidator('sexo', new sfValidatorChoice(array('choices' => array_keys($this->genero), 'required' => true), array('required' => 'Requerido.', 'invalid' => 'Inválido.')));
         $this->setValidator('estado', new sfValidatorChoice(array('choices' => array_keys($this->estado), 'required' => true), array('required' => 'Requerido.', 'invalid' => 'Inválido.')));
@@ -64,7 +64,7 @@ class ProfesorForm extends BaseProfesorForm
             $sf_guard_user = new sfGuardUser;
             $sf_guard_user->setUsername($this->object->getRfc());
             //Cambiar password default y mandar mail
-            $sf_guard_user->setPassword($this->object->getRfc());
+            $sf_guard_user->setPassword($password);
             $sf_guard_user->save();
 
             $sf_user_group = new sfGuardUserGroup;
@@ -72,14 +72,14 @@ class ProfesorForm extends BaseProfesorForm
             $sf_user_group->setGroupId(self::ID_GRUPO_PROFESOR);
             $sf_user_group->save();
 
-           //SendMail::sendPasswordForProfesorMail($this->object, $password);
+           SendMail::sendPasswordForProfesorMail($this->object, $password);
         else:
             $sf_guard_user = ProfesorPeer::getSfGuardUser($profesor);
             $this->updateObject();
             $sf_guard_user->setUsername($this->object->getRfc());
             $sf_guard_user->save();
         endif;
-        
+
         parent::doSave($con);
     }
 }

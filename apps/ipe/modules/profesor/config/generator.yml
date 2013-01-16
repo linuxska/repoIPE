@@ -13,9 +13,42 @@ generator:
 
     config:
       actions: ~
-      fields:  ~
-      list:    ~
-      filter:  ~
+      fields:
+        rfc : { label: CURP, help: CURP. XXXX###### }
+        a_paterno: { label: Apellido Paterno }
+        a_materno: { label: Apellido Materno }
+        cp: { label: Código Postal }
+        email: { label: Correo Electrónico, help: juan.perez@example.com }
+        telefono: { label: Teléfono, help: "###-###-####" }
+        direccion: { label: Dirección }
+      list:
+        title: false
+        max_per_page: 10
+        batch_actions: {}
+        object_actions: {}
+        display: [=rfc, nombre, a_paterno, a_materno, telefono, e_mail]
+        actions:
+          _new:
+            label: Agregar Profesor
+      filter:
+        display: [rfc, nombre, a_paterno, a_materno, activo]
+        fields:
+          rfc : { label: RFC, help: '' }
       form:    ~
-      edit:    ~
-      new:     ~
+      edit:
+        title: false
+        actions:
+            _save:
+              label: Guardar
+            _delete:
+              label: Eliminar
+            _list:
+              label: Volver
+      new:
+        title: false
+        actions:
+            _save:
+              label: Guardar
+            _save_and_add:
+              label: Guardar y Agregar otro
+            _list:

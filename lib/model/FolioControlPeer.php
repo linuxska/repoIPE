@@ -31,8 +31,8 @@ class FolioControlPeer extends BaseFolioControlPeer {
             $obj->save($conn);
         endif;
 
-        $folio = $obj->getFolio();
-        $obj->setFolio(++$folio);
+        $folio = $obj->getConsecutivo();
+        $obj->setConsecutivo(++$folio);
         $obj->save($conn);
 
         return $folio;
