@@ -2,6 +2,7 @@ cache/*
 log/*
 web/uploads/*
 config/databases.yml
+config/ProjectConfiguration.class.php
 config/propel.ini
 data/sql/*
 lib/filter/doctrine/base/Base*
