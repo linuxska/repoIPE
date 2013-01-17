@@ -30,7 +30,7 @@
 
         //Biblioteca
         if ($sf_user->hasCredential('bibliotecario')) {
-            include_partial('ipe/menubibliotecario');
+            include_partial('ipe/menuBibliotecario');
         }
         if ($sf_user->hasCredential('becabiblioteca')) {
             include_partial('ipe/menuBecabiblioteca');
