@@ -40,7 +40,7 @@
     <li class="menu_sub_role">
             <ul class="menu_sub">
                 <li class ="menu_sub_header"><a class="alternate" href="<?php echo url_for('@homepage') ?>">Catálogos</a></li>
-                <li class="app <?php echo in_array('curso_secretaria', explode('/', $sf_request->getUri())) ? "selected" : "" ?>"><a href="<?php echo url_for('@curso') ?>" class="alternate">Cursos</a></li>
+                <li class="app <?php echo in_array('curso_secretaria', explode('/', $sf_request->getUri())) ? "selected" : "" ?>"><a href="<?php echo url_for('@curso_curso_secretaria') ?>" class="alternate">Cursos</a></li>
                 <li class="app <?php echo in_array('lista', explode('/', $sf_request->getUri())) ? "selected" : "" ?>"><a href="<?php echo url_for('@lista') ?>" class="alternate">Lista</a></li>
                 <li class="app <?php echo in_array('alumno', explode('/', $sf_request->getUri())) ? "selected" : "" ?>"><a href="<?php echo url_for('@alumno') ?>" class="alternate">Alumno</a></li>
             </ul>

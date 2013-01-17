@@ -13,6 +13,7 @@ require_once dirname(__FILE__).'/../lib/lista_profesorGeneratorHelper.class.php'
  */
 class lista_profesorActions extends autoLista_profesorActions
 {
+	
 	public function executeIndex(sfWebRequest $request) {
 		// sorting
 		if ($request->getParameter('sort') && $this->isValidSortColumn($request->getParameter('sort'))) {
@@ -70,7 +71,7 @@ class lista_profesorActions extends autoLista_profesorActions
 		$c = new Criteria;
 		$c->add(ProfesorPeer::RFC, $this->getUser()->getUsername(), Criteria::EQUAL);
 		$profesor = ProfesorPeer::doSelectOne($c);
-		//var_dump($profesor); die();
+		
 		$criteria->add(CursoPeer::ID_PROFESOR, $profesor->getId(), Criteria::EQUAL);
 		$criteria->add(CursoPeer::ESTADO, true);
 		

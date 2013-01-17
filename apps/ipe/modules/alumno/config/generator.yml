@@ -13,9 +13,39 @@ generator:
 
     config:
       actions: ~
-      fields:  ~
-      list:    ~
-      filter:  ~
+      fields:
+        numero_control: { label: "Número de control" }
+        a_paterno: { label: "Apellido paterno" }
+        a_materno: { label: "Apellido materno" }
+        telefono: { label: "Teléfono"}
+        email: { label: "Correo electrónico" }
+      list:
+        title: false
+        display: [=numero_control, nombre, a_paterno, a_materno, telefono, email, inscrito]
+        batch_actions: {}
+        object_actions: {}
+        max_per_page: 50
+        actions:
+          eliminarPreinscritos:
+            label: Eliminar Alumnos Preinscritos
+      filter:
+        display: [numero_control, nombre, a_paterno, a_materno, telefono, e_mail, inscrito]
       form:    ~
-      edit:    ~
-      new:     ~
+      edit:
+        title: false
+        actions:
+          _save:
+            label: Guardar
+          _delete:
+            label: Eliminar
+          _list:
+            label: Volver
+      new:
+        title: false
+        actions:
+          _save:
+            label: Guardar
+          _save_and_add:
+            label: Guardar y Agregar otro
+          _list:
+            label: Volver

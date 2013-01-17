@@ -331,6 +331,12 @@ lista_cerrar:
     sf_method:      [get]
   param:            { module: lista, action: CerrarLista, sf_format: html }
 
+alumno_eliminar_preinscritos:
+  url:              /alumno/eliminar_preinscritos/
+  requirements:
+    sf_method:      [get]
+  param:            { module: alumno, action: EliminarPreinscritos }
+
 #################################PREINSCRIPCION#################################
 preinscripcion_index:
   url:              /preinscripcion/index.:sf_format
@@ -446,7 +452,7 @@ curso_lista_profesor:
   options:
     model:                Curso
     module:               lista_profesor
-    prefix_path:          /lista_profesor
+    prefix_path:          /si/profesor/cursos
     column:               id
     with_wildcard_routes: true
 
@@ -460,6 +466,13 @@ alumno_alumno_alumno:
     prefix_path:          /alumno_alumno
     column:               id
     with_wildcard_routes: true
+
+alumno_alumno_lista:
+  url:              /si/alumno/calificaciones.:sf_format
+  param:            { module: lista_alumno, action: index, sf_format: html }
+  requirements:
+   sf_method:       [get]
+
 
 
 

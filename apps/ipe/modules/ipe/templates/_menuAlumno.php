@@ -24,6 +24,15 @@
     <li class="menu_role">
             <ul class="menu_sub">
                 <li class ="menu_sub_header"><a class="alternate" href="<?php echo url_for('@homepage') ?>"></a>Biblioteca I.P.E.</li>
-                <li class="app <?php echo in_array('libro_consulta_libro', explode('/', $sf_request->getUri())) ? "selected" : "" ?>"><a href="<?php echo url_for('@libro_consulta_libro') ?>" class="alternate">Catalogo de libros IPE</a></li>
+                <li class="app last <?php echo in_array('libro_consulta_libro', explode('/', $sf_request->getUri())) ? "selected" : "" ?>"><a href="<?php echo url_for('@libro_consulta_libro') ?>" class="alternate">Catalogo de libros IPE</a></li>
             </ul>
     </li>
+
+    <li class="menu_role">
+    <ul class="menu_sub">
+        <li class="menu_header"><a class="alternate" href="<?php echo url_for('@homepage') ?>">Alumno</a></li>
+        <li class="app <?php echo in_array('datos', explode('/', $sf_request->getUri())) ? "selected" : "" ?>"><a href="<?php echo url_for('@alumno_alumno_alumno') ?>" class="alternate">Modificar Datos</a></li>
+        <li class="app <?php echo in_array('calificaciones', explode('/', $sf_request->getUri())) ? "selected" : "" ?>"><a href="<?php echo url_for('@alumno_alumno_lista') ?>" class="alternate">Calificaciones</a></li>        
+    </ul>
+</li>
+</li>

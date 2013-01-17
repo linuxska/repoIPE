@@ -10,4 +10,7 @@
  */
 class alumnoGeneratorHelper extends BaseAlumnoGeneratorHelper
 {
+	 public function linkToEliminarPreinscritos() {
+        return sprintf('<a href="%s">Eliminar Alumnos Preinscritos</a>', url_for('@alumno_eliminar_preinscritos'));
+    }
 }

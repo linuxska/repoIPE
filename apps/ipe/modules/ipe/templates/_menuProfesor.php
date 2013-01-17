@@ -33,6 +33,6 @@
             <ul class="menu_sub">
                 <li class ="menu_sub_header"><a class="alternate" href="<?php echo url_for('@homepage') ?>">Profesor</a></li>
                 <li class="app  <?php echo in_array('profesor_profesor_profesor', explode('/', $sf_request->getUri())) ? "selected" : "" ?>"><a href="<?php echo url_for('@profesor_profesor_profesor') ?>" class="alternate">Modificar datos</a></li>
-                <li class="app  <?php echo in_array('curso_lista_profesor', explode('/', $sf_request->getUri())) ? "selected" : "" ?>"><a href="<?php echo url_for('@curso_lista_profesor') ?>" class="alternate">Cursos(Pendiente)</a></li>
+                <li class="app  <?php echo in_array('curso_lista_profesor', explode('/', $sf_request->getUri())) ? "selected" : "" ?>"><a href="<?php echo url_for('@curso_lista_profesor') ?>" class="alternate">Cursos</a></li>
             </ul>
     </li>

@@ -19,25 +19,37 @@ class ListaProfesorForm extends ListaForm {
                         $this['id_alumno']
                 );
 
-                if ($this->object->getCurso()->getNivel()->getId() == 63):
-                        $this->validatorSchema['calificacion']=new sfValidatorInteger(array('min' => 0, 'max' => 677));
-                        $this->validatorSchema['calificacion']->setMessage('max', 'No puede ser mayor a 677.');
-                else:
-                        $this->validatorSchema['calificacion']=new sfValidatorInteger(array('min' => 0, 'max' => 100));
-                        $this->validatorSchema['calificacion']->setMessage('max', 'No puede ser mayor a 100.');
-                endif;
-                $this->validatorSchema['inasistencia']=new sfValidatorInteger(array('min' => 0, 'max' => 100));
 
+                $this->validatorSchema['primera_calificacion_examen']=new sfValidatorInteger(array('min' => 0, 'max' => 100));
+                $this->validatorSchema['primera_calificacion_examen']->setMessage('max', 'No puede ser mayor a 100.');
+                $this->validatorSchema['calificacion_parcial']=new sfValidatorInteger(array('min' => 0, 'max' => 100));
+                $this->validatorSchema['calificacion_parcial']->setMessage('max', 'No puede ser mayor a 100.');
+                $this->validatorSchema['segunda_calificacion_examen']=new sfValidatorInteger(array('min' => 0, 'max' => 100));
+                $this->validatorSchema['segunda_calificacion_examen']->setMessage('max', 'No puede ser mayor a 100.');
+                $this->validatorSchema['calificacion_final']=new sfValidatorInteger(array('min' => 0, 'max' => 100));
+                $this->validatorSchema['calificacion_final']->setMessage('max', 'No puede ser mayor a 100.');
+
+                $this->validatorSchema['inasistencia']=new sfValidatorInteger(array('min' => 0, 'max' => 100));
                 $this->widgetSchema['observaciones']->setAttribute('cols', 45);
                 $this->widgetSchema['observaciones']->setAttribute('rows',  1);
                 $this->validatorSchema['inasistencia']->setMessage('required', 'Este campo no debe dejarse en blanco.');
-                $this->validatorSchema['calificacion']->setMessage('required', 'Este campo no debe dejarse en blanco.');
 
-                $this->validatorSchema['calificacion']->setMessage('min', 'Solo estan permitidos números positivos');
+                $this->validatorSchema['primera_calificacion_examen']->setMessage('required', 'Este campo no debe dejarse en blanco.');
+                $this->validatorSchema['calificacion_parcial']->setMessage('required', 'Este campo no debe dejarse en blanco.');
+                $this->validatorSchema['segunda_calificacion_examen']->setMessage('required', 'Este campo no debe dejarse en blanco.');
+                $this->validatorSchema['calificacion_final']->setMessage('required', 'Este campo no debe dejarse en blanco.');
+
+                $this->validatorSchema['primera_calificacion_examen']->setMessage('min', 'Solo estan permitidos números positivos');
+                $this->validatorSchema['calificacion_parcial']->setMessage('min', 'Solo estan permitidos números positivos');
+                $this->validatorSchema['segunda_calificacion_examen']->setMessage('min', 'Solo estan permitidos números positivos');
+                $this->validatorSchema['calificacion_final']->setMessage('min', 'Solo estan permitidos números positivos');
                 $this->validatorSchema['inasistencia']->setMessage('min', 'Solo estan permitidos números positivos');
-                $this->validatorSchema['inasistencia']->setMessage('max', 'No puede ser mayor a 80.');
+                $this->validatorSchema['inasistencia']->setMessage('max', 'No puede ser mayor a 100.');
 
-                $this->validatorSchema['calificacion']->setMessage('invalid', '%value%" no es un número.');
+                $this->validatorSchema['primera_calificacion_examen']->setMessage('invalid', '%value%" no es un número.');
+                $this->validatorSchema['calificacion_parcial']->setMessage('invalid', '%value%" no es un número.');
+                $this->validatorSchema['segunda_calificacion_examen']->setMessage('invalid', '%value%" no es un número.');
+                $this->validatorSchema['calificacion_final']->setMessage('invalid', '%value%" no es un número.');
                 $this->validatorSchema['inasistencia']->setMessage('invalid', '%value%" no es un número.');
         }
 }

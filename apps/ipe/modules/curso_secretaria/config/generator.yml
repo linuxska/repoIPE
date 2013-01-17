@@ -13,9 +13,24 @@ generator:
 
     config:
       actions: ~
-      fields:  ~
-      list:    ~
-      filter:  ~
+      fields:
+        id: { label: "Clave" }
+        id_materia: { label: "Materia" }
+        id_profesor: { label: "Profesor" }
+        id_periodo: { label: "Periodo" }
+        id_salon: { label: "Salón" }
+        #hora_inicio: { label: "Hora inicio" }
+        #hora_final: { label: "Hora final" }
+        anno: { label: "Año" }
+      list:
+        actions: {}
+        title: false
+        display: [materia, inscritos, profesor, periodo, salon, anno]
+        batch_actions: {}
+        object_actions: {}
+        max_per_page: 10
+      filter:
+        display: [id_materia, id_profesor, id_periodo, id_salon, anno]
       form:    ~
-      edit:    ~
-      new:     ~
+      edit: ~
+      new: ~

@@ -13,7 +13,7 @@ class ValidatorListaAlumnoNoControl extends sfValidatorString {
         $value = parent::doClean($value);
 
         $c = new Criteria;
-        $c->add(AlumnoPeer::NO_CONTROL, $value, Criteria::EQUAL);
+        $c->add(AlumnoPeer::NUMERO_CONTROL, $value, Criteria::EQUAL);
 
         if (!AlumnoPeer::doCount($c)) :
             throw new sfValidatorError($this, 'no_exists', array('value' => $value));

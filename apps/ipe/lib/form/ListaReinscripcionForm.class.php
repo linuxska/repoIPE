@@ -5,7 +5,7 @@ class ListaReinscripcionForm extends ListaForm {
     public function configure() {
         parent::configure();
 
-        unset($this['calificacion'], $this['aprobado'], $this['motivo_cambio'], $this['curso_anterior'], $this['fecha_inscripcion']);
+        unset($this['primera_calificacion_examen'],$this['segunda_calificacion_examen'],$this['calificacion_parcial'],$this['calificacion_final'],$this['aprobado'], $this['fecha_inscripcion']);
 
         $this->setWidget('id_curso', new sfWidgetFormPropelChoice(array('model' => 'Curso', 'add_empty' => false, 'criteria' => CursoPeer::getCurrentCoursesCriteria())));
         $this->setValidator('id_curso', new sfValidatorPropelChoice(array('model' => 'Curso', 'column' => 'id', 'criteria' => CursoPeer::getCurrentCoursesCriteria())));
@@ -13,8 +13,8 @@ class ListaReinscripcionForm extends ListaForm {
         $this->setWidget('id_alumno', new sfWidgetFormInputText());
         $this->setValidator('id_alumno', new ValidatorListaAlumnoNoControl(
                         array(
-                            'max_length' => 10,
-                            'min_length' => 10,
+                            'max_length' => 8,
+                            'min_length' => 8,
                             'required' => true
                         ),
                         array(
@@ -29,17 +29,14 @@ class ListaReinscripcionForm extends ListaForm {
             'id_alumno' => 'Número de control',
         ));
 
-        $this->widgetSchema->setPositions(array(
+       /* $this->widgetSchema->setPositions(array(
             'id', 'id_alumno', 'id_curso',
             'id_tipo_alumno', 'recibo_pago', 'id_documento_probatorio', 'identificacion', 
             'prorroga', 'folio_voucher', 'inasistencia', 'beca', 'observaciones'
 
         ));
-
-        $this->validatorSchema->setPostValidator(new ValidatorListaNoRepetido());
-	$this->validatorSchema->setPostValidator(new ValidatorAlumnoLibre());
-        $this->validatorSchema->setPostValidator(new ValidatorCursosAprobados());
-	$this->validatorSchema->setPostValidator(new ValidatorReciboPago());
+*/
+        
  }
 
     public function updateObject($values = null) {

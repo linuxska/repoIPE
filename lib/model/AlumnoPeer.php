@@ -21,7 +21,7 @@ class AlumnoPeer extends BaseAlumnoPeer {
  static public function getAlumnoByNoControlCriteria($no_control) {
         $c = new Criteria;
 
-        $c->add(self::NO_CONTROL, $no_control, Criteria::EQUAL);
+        $c->add(self::NUMERO_CONTROL, $no_control, Criteria::EQUAL);
 
         return $c;
     }
@@ -38,7 +38,7 @@ class AlumnoPeer extends BaseAlumnoPeer {
     static public function getAlumnosPreinscritosCriteria() {
         $c = new Criteria;
 
-        $c->add(self::NO_CONTROL, NULL, Criteria::ISNULL);
+        $c->add(self::NUMERO_CONTROL, NULL, Criteria::ISNULL);
 
         return $c;
     }

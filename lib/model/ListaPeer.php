@@ -18,4 +18,27 @@
  */
 class ListaPeer extends BaseListaPeer {
 
+
+/**
+     * Devuelve los cursos a los que esta inscrito un Alumno en el periodo especificado.
+     *
+     * @param Alumno El alumnos del que se estan solicitando los cursos.
+     * @param Periodo $periodo El periodo que se esta consultado.
+     * @return Criteria
+     */
+    static public function getListasForAlumnoCriteria(Alumno $obj, Periodo $periodo = null, $related = false) {
+        $c = new Criteria;
+
+        $c->add(self::ID_ALUMNO, $obj->getId(), Criteria::EQUAL);
+
+        if (!is_null($periodo)) :
+            $keys = array();
+            $keys[] = $periodo->getId();
+
+            $c->add(self::ID_CURSO, $keys, Criteria::IN);
+
+        endif;
+
+        return $c;
+    }
 } // ListaPeer

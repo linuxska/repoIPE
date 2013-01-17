@@ -28,6 +28,30 @@ const ID_GRUPO_ALUMNO=5;
     public function __toString2() {
         return ucwords(sprintf("%s %s %s", $this->getAPaterno(), $this->getAMaterno(), $this->getNombre()));
     }
+     public function __alumnoName(){
+        return ucwords(sprintf("%s %s %s", $this->getAPaterno(), $this->getAMaterno(), $this->getNombre()));
+    }
+    
+    public function __getLista(){
+        return $this->__lista;
+    }
+    
+    public function __setLista($obj) {
+        $this->__lista = $obj;
+    }
+     public static function sortAlumnos($obj1, $obj2) {
+        $name1 = strtolower(sprintf("%s %s %s", $obj1->getAPaterno(), $obj1->getAMaterno(), $obj1->getNombre()));
+        $name2 = strtolower(sprintf("%s %s %s", $obj2->getAPaterno(), $obj2->getAMaterno(), $obj2->getNombre()));
+    
+        $name1 = str_replace(
+            array('á','é','í','ó','ú','Á','É','Í','Ó','Ú'), 
+            array('a','e','i','o','u','A','E','I','O','U'), $name1);
+        $name2 = str_replace(
+            array('á','é','í','ó','ú','Á','É','Í','Ó','Ú'), 
+            array('a','e','i','o','u','A','E','I','O','U'), $name2);
+        
+        return strcmp($name1, $name2);
+    }
     protected function doSave(PropelPDO $con) {
         if ($this->getNumeroControl() && !AlumnoPeer::getSfGuardUser($this)):
     	    $password = sfGuardUserPeer::doMakePassword($this->getNumeroControl());

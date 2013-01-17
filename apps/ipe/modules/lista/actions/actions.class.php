@@ -13,7 +13,7 @@ require_once dirname(__FILE__).'/../lib/listaGeneratorHelper.class.php';
  */
 class listaActions extends autoListaActions
 {
-	 public function executeCapturarCalificaciones(sfWebRequest $request) {
+   public function executeCapturarCalificaciones(sfWebRequest $request) {
         $home = '@curso_curso_secretaria';
         if ($this->getUser()->hasCredential('profesor')) {
             $home = '@curso_lista_profesor';
@@ -84,7 +84,7 @@ class listaActions extends autoListaActions
 
     public function executeCapturarCalificacionesDo(sfWebRequest $request) {
         
-	$home = '@curso_lista_profesor';
+  $home = '@curso_lista_profesor';
         $curso = $this->getRoute()->getObject();
 
         if ($this->getUser()->hasCredential('profesor')) {
@@ -96,12 +96,12 @@ class listaActions extends autoListaActions
                 $this->forward(sfConfig::get('sf_secure_module'), sfConfig::get('sf_secure_action'));
             }
         }
-	$criteria = new Criteria;
+  $criteria = new Criteria;
         $criteria->addJoin(ListaPeer::ID_ALUMNO, AlumnoPeer::ID, Criteria::JOIN);
         $criteria->addAscendingOrderByColumn(AlumnoPeer::A_PATERNO);
         $criteria->addAscendingOrderByColumn(AlumnoPeer::A_MATERNO);
         $criteria->addAscendingOrderByColumn(AlumnoPeer::NOMBRE);
-	$this->form = new CapturarCalificacionesForm($curso, array('criteria' => $criteria));
+  $this->form = new CapturarCalificacionesForm($curso, array('criteria' => $criteria));
 
         $this->form->bind($request->getParameter($this->form->getName()), $request->getFiles($this->form->getName()));
 
@@ -109,9 +109,9 @@ class listaActions extends autoListaActions
             $obj = $this->form->save();
             $curso->setEstado(true)->save();
 
-            LogPeer::Log($this->getUser(), LogPeer::INFO, "Curso: " . $curso, $curso);
-	    $this->getUser()->setFlash('notice', 'Se han modificado las calificaciones.');
-	    $this->redirect($home); 
+            //LogPeer::Log($this->getUser(), LogPeer::INFO, "Curso: " . $curso, $curso);
+      $this->getUser()->setFlash('notice', 'Se han modificado las calificaciones.');
+      $this->redirect($home); 
             
         } else {
             $this->getUser()->setFlash('error', 'El elemento no se ha guardado debido a algunos errores.', false);
@@ -344,4 +344,3 @@ class listaActions extends autoListaActions
         return in_array($column, BasePeer::getFieldnames('Lista', BasePeer::TYPE_FIELDNAME));
     }
 }
-

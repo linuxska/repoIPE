@@ -15,11 +15,16 @@ generator:
       actions: ~
       fields:
         id_alumno: { label: Alumno}
+        alumno_no_control: { label: No control}
         id_curso: { label: Curso}
-        alumno_no_control: { label: No. control }
+        _alumno: { label: Nombre alumno }
+        primera_calificacion_examen: { label: 1er examen }
+        calificacion_parcial: { label: Calificacion parcial }
+        segunda_calificacion_examen: { label: 2do examen }
+        calificacion_final: { label: Calificacion Final }
       list:
         title: Alumno de %%id%%
-        display: [alumno_no_control, =_alumno, inasistencia, calificacion_final,aprobado]
+        display: [alumno_no_control, =_alumno, fecha_inscripcion, primera_calificacion_examen,calificacion_parcial,segunda_calificacion_examen,calificacion_final, inasistencia, aprobado]
         batch_actions: {}
         object_actions:
           print:
@@ -31,10 +36,8 @@ generator:
           cerrar:
             label: Cerrar
       filter:
-          display: [id_alumno, id_curso, aprobado]
-      form:
-        display:
-          "Cursos": [calificacion_final, inasistencia, aprobado, observaciones]
+          display: [ id_alumno, id_curso, aprobado]
+      form:  ~
       edit:
         title: %%alumno%% (%%curso%%)
         actions:
@@ -53,4 +56,3 @@ generator:
             label: Guardar y Agregar otro
           _list:
             label: Volver
-

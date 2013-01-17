@@ -25,5 +25,12 @@ class Curso extends BaseCurso {
 
         return sprintf("%s %s   %s", $nombre_corto, $materia, $this->getProfesor());
     }
+     public function getInscritos() {
+        return count($this->getListas());
+    }
+     public function isFull() {
+        return false;
+        //return (count($this->getListas()) >= sfConfig::get('app_max_per_course')) ? true : false;
+    }
 
 } // Curso

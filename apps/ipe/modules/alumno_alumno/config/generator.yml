@@ -12,10 +12,18 @@ generator:
     actions_base_class:    sfActions
 
     config:
-      actions: ~
+      actions:
+        fields:
+          informacion: {label: Información}
       fields:  ~
       list:    ~
       filter:  ~
-      form:    ~
-      edit:    ~
+      form:
+           class:
+              AlumnoEditForm
+           actions:
+             _save:
+               label: Guardar
+      edit:
+        title: false
       new:     ~

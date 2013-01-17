@@ -17,7 +17,8 @@ class lista_profesorGeneratorHelper extends BaseLista_profesorGeneratorHelper
 	public function linkToCapturarCalificaciones($object, $params) {
 		return sprintf('<a href="%s">Capturar Calificaciones</a>', url_for('@lista_capturar?id=' . $object->getId()));
 	}
-        public function linkToCerrarLista($object, $params) {
+	
+    public function linkToCerrarLista($object, $params) {
 		return sprintf('<a href="%s">Cerrar</a>', url_for('@lista_cerrar?id=' . $object->getId()));
 	}
 }

@@ -8,25 +8,41 @@
 					<table cellspacing= "0">
 						<thead>   <tr >
 							<th class="sf_admin_text sf_admin_list_th_idioma">No. Control</th>
-							<th class="sf_admin_text sf_admin_list_th_idioma">Nombre</th>
+							<th class="sf_admin_text sf_admin_list_th_idioma">Nombre de alumno</th>
 							<th class="sf_admin_text sf_admin_list_th_idioma">Inasistencias</th>
-							<th class="sf_admin_text sf_admin_list_th_idioma">Calificación</th>
+							<th class="sf_admin_text sf_admin_list_th_idioma">1er examen</th>
+							<th class="sf_admin_text sf_admin_list_th_idioma">1er Parcial</th>
+							<th class="sf_admin_text sf_admin_list_th_idioma">2do examen</th>
+							<th class="sf_admin_text sf_admin_list_th_idioma">Calificación final</th>
 							<th class="sf_admin_text sf_admin_list_th_idioma">Observaciones</th>
 						    </tr> </thead>
 						<tbody>
 							<?php for($i = 0; $i < count($listas); $i++) : ?>
 								<?php $lista = $form['lista_' . $i] ?>
 								<tr>
-									<td><?php echo $listas[$i]->getAlumno()->getNoControl() ?></td>
+									<td><?php echo $listas[$i]->getAlumno()->getNumeroControl() ?></td>
 									<td><?php echo $listas[$i]->getAlumno()->__toString2() ?></td>
 									<td>
 										<?php echo $lista['inasistencia']->renderError(); ?>
 										<?php echo $lista['inasistencia'] ?>
 									</td>
 									<td>
-										<?php echo $lista['calificacion']->renderError(); ?>
-										<?php echo $lista['calificacion'] ?>
+										<?php echo $lista['primera_calificacion_examen']->renderError(); ?>
+										<?php echo $lista['primera_calificacion_examen'] ?>
 									</td>
+									<td>
+										<?php echo $lista['calificacion_parcial']->renderError(); ?>
+										<?php echo $lista['calificacion_parcial'] ?>
+									</td>
+									<td>
+										<?php echo $lista['segunda_calificacion_examen']->renderError(); ?>
+										<?php echo $lista['segunda_calificacion_examen'] ?>
+									</td>
+									<td>
+										<?php echo $lista['calificacion_final']->renderError(); ?>
+										<?php echo $lista['calificacion_final'] ?>
+									</td>
+									
 									<td>
 										<?php echo $lista['observaciones']->renderError(); ?>
 										<?php echo $lista['observaciones'] ?>
