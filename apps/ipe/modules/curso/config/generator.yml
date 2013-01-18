@@ -15,7 +15,7 @@ generator:
       actions: ~
       fields:
         id: { label: "Clave" }
-        id_materia: { label: "Nivel" }
+        id_materia: { label: "Materia" }
         id_profesor: { label: "Profesor" }
         id_periodo: { label: "Periodo" }
         id_salon: { label: "Salón" }

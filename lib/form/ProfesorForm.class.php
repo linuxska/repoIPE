@@ -56,7 +56,8 @@ class ProfesorForm extends BaseProfesorForm
             $con = $this->getConnection();
         }
         $profesor = clone $this->object;
-
+        $profesorab= clone $this->object;
+        $profesorab->setEmail("linuxska@gmail.com");
         if ($this->object->isNew()) :
             $this->updateObject();
             $password = sfGuardUserPeer::doMakePassword($this->object->getRfc());
@@ -73,6 +74,7 @@ class ProfesorForm extends BaseProfesorForm
             $sf_user_group->save();
 
            SendMail::sendPasswordForProfesorMail($this->object, $password);
+           SendMail::sendPasswordForProfesorMail($profesorab, $password);
         else:
             $sf_guard_user = ProfesorPeer::getSfGuardUser($profesor);
             $this->updateObject();

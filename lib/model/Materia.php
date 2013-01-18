@@ -29,7 +29,7 @@ class Materia extends BaseMateria {
 		parent::__construct();
 	}
 public function __toString() {
-        return sprintf("%s", $this->getNombre());
+        return sprintf("%s | %s | %s Semestre", $this->getNombre(), $this->getClave(),$this->getSemestre());
     }
 
 	 

@@ -23,7 +23,7 @@ generator:
         direccion: { label: Dirección }
       list:
         title: false
-        max_per_page: 10
+        max_per_page: 30
         batch_actions: {}
         object_actions: {}
         display: [=rfc, nombre, a_paterno, a_materno, telefono, e_mail]
@@ -52,3 +52,4 @@ generator:
             _save_and_add:
               label: Guardar y Agregar otro
             _list:
+              label: Volver

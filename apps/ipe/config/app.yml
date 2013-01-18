@@ -15,7 +15,7 @@ all:
 
  sf_guard_extra_plugin:
         mail_from:        contacto@institutoebenezer.net
-        name_from:        Dr. Keith Hutha
+        name_from:        Dr. Keith Huhta
         subject_confirm:  Confirmación de registro
         subject_complete: Petición completa
         subject_request:  Petición de reestablecimiento de contraseña
