@@ -32,6 +32,4 @@ public function __toString() {
         return sprintf("%s | %s Semestre", $this->getNombre(),$this->getSemestre());
     }
 
-	 
-    
 } // Materia

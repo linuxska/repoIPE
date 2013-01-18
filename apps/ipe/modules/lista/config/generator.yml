@@ -25,7 +25,7 @@ generator:
         curso: {label: Curso asignado}
       list:
         title: Alumno de %%id%%
-        display: [alumno_no_control, =_alumno, =curso, fecha_inscripcion,calificacion_final, aprobado]
+        display: [alumno_no_control, =_alumno, =curso, fecha_inscripcion, calificacion_final, aprobado]
         batch_actions: {}
         object_actions:
           print:

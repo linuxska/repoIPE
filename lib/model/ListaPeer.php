@@ -41,4 +41,12 @@ class ListaPeer extends BaseListaPeer {
 
         return $c;
     }
+
+    static public function getListaForCursoCriteria(Curso $obj) {
+        $c = new Criteria;
+
+        $c->add(self::ID_CURSO, $obj->getId(), Criteria::EQUAL);
+
+        return $c;
+    }
 } // ListaPeer
