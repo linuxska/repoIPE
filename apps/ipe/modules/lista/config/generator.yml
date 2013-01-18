@@ -22,9 +22,10 @@ generator:
         calificacion_parcial: { label: Calificacion parcial }
         segunda_calificacion_examen: { label: 2do examen }
         calificacion_final: { label: Calificacion Final }
+        curso: {label: Curso asignado}
       list:
         title: Alumno de %%id%%
-        display: [alumno_no_control, =_alumno, fecha_inscripcion, primera_calificacion_examen,calificacion_parcial,segunda_calificacion_examen,calificacion_final, inasistencia, aprobado]
+        display: [alumno_no_control, =_alumno, =curso, fecha_inscripcion,calificacion_final, aprobado]
         batch_actions: {}
         object_actions:
           print:
