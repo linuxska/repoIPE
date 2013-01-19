@@ -229,7 +229,7 @@ class AlumnoForm extends BaseAlumnoForm
             'otra_fecha' => 'DD-MM-YYYY',
             'insti_fecha'=> 'DD-MM-YYYY'
         ));
-        
+        /*
         $this->widgetSchema['fecha_nacimiento'] = new  sfWidgetFormJQueryDate(array(
          'culture' => 'es',
          'config' => "
@@ -318,6 +318,7 @@ class AlumnoForm extends BaseAlumnoForm
                     'format' => '%day%/%month%/%year%',
                     'years' => array_combine(range(date('Y', time()) - 50, date('Y', time())), range(date('Y', time()) - 50, date('Y', time())))
                 ))));
+                */
         $this->widgetSchema['testimonio_salvacion'] = new sfWidgetFormTextareaTinyMCE(
         array('theme'=>'advanced','width'=>50,'height'=>50,'config'=>'language:"es",theme_advanced_toolbar_location:"bottom",
              theme_advanced_buttons1 : "bold,italic,underline,strikethrough,separator,justifyleft,justifycenter,justifyright,justifyfull,separator,forecolor,backcolor,separator",
