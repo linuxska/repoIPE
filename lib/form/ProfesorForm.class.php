@@ -18,7 +18,7 @@ class ProfesorForm extends BaseProfesorForm
         'DURANGO' => 'DURANGO', 'GUANAJUATO' => 'GUANAJUATO', 'GUERRERO' => 'GUERRERO', 'HIDALGO' => 'HIDALGO', 'JALISCO' => 'JALISCO', 'MÉXICO' => 'MÉXICO', 'MICHOACÁN DE OCAMPO' => 'MICHOACÁN DE OCAMPO',
         'MORELOS' => 'MORELOS', 'NAYARIT' => 'NAYARIT', 'NUEVO LEÓN' => 'NUEVO LEÓN', 'OAXACA' => 'OAXACA', 'PUEBLA' => 'PUEBLA', 'QUERÉTARO' => 'QUERÉTARO', 'QUINTANA ROO' => 'QUINTANA ROO',
         'SAN LUIS POTOSÍ' => 'SAN LUIS POTOSÍ', 'SINALOA' => 'SINALOA', 'SONORA' => 'SONORA', 'TABASCO' => 'TABASCO', 'TAMAULIPAS' => 'TAMAULIPAS', 'TLAXCALA' => 'TLAXCALA',
-        'VERACRUZ DE IGNACIO DE LA LLAVE' => 'VERACRUZ DE IGNACIO DE LA LLAVE', 'YUCATÁN' => 'YUCATÁN', 'ZACATECAS' => 'ZACATECAS');
+        'VERACRUZ DE IGNACIO DE LA LLAVE' => 'VERACRUZ DE IGNACIO DE LA LLAVE', 'YUCATÁN' => 'YUCATÁN', 'ZACATECAS' => 'ZACATECAS','EUA' => 'EUA');
 
     public function configure() {
         parent::configure();
@@ -50,6 +50,19 @@ class ProfesorForm extends BaseProfesorForm
         $this->setValidator('email', new sfValidatorEmail(array('max_length' => 128, 'required' => true), array('required' => 'Requerido.', 'invalid' => 'Inválido. me@example.com')));
 
         $this->setDefault('estado', 'SONORA');
+        $this->widgetSchema['observaciones'] = new sfWidgetFormTextareaTinyMCE(
+        array('theme'=>'advanced','width'=>50,'height'=>50,'config'=>'language:"es",theme_advanced_toolbar_location:"bottom",
+             theme_advanced_buttons1 : "bold,italic,underline,strikethrough,separator,justifyleft,justifycenter,justifyright,justifyfull,separator,forecolor,backcolor,separator",
+             theme_advanced_buttons2 : "fontselect,fontsizeselect,separator,bullist,numlist,separator,outdent,indent,separator",
+             theme_advanced_buttons3 : "",
+             theme_advanced_statusbar_location : "none"
+                    '));
+        $this->setWidget('foto', new sfWidgetFormInputFile());
+     $this->setValidator('foto', new sfValidatorFile(array(
+     'mime_types' => 'web_images',
+     'required' => false,
+     'path' => sfConfig::get('sf_upload_dir').'/fotos',
+     )));
     }
   protected function doSave($con = null) {
         if (is_null($con)) {

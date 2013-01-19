@@ -43,8 +43,8 @@
               </div>
           </div>
           <div class="rp_admin_footer">
-      <p>&copy; <?php echo date('Y', time());?> <a href="http://www.institutoebenezer.net">Instituto Practico Ebenezer</a>.
-      <p class="rp_admin_ipe">Dr. Noriega No. 161 esq con Ramirez, Colonia Centro, Hermosillo, Sonora. CP 83000.<br />Telefono: 01 662 213 3878 | CorreoE: institutoebenezer@prodigy.ney</p>
+      <p> <?php echo date('Y', time());?> <a href="http://www.institutoebenezer.net">Instituto Practico Ebenezer</a>.
+      <p class="rp_admin_ipe">Dr. Noriega No. 161 esq con Ramirez, Colonia Centro, Hermosillo, Sonora. CP 83000.<br />Telefono: 01 662 213 3878 | CorreoE: institutoebenezer@prodigy.net</p>
       <p class="rp_admin_dev">Desarrollado por Abraham Rafael Rico Moreno.<br /> <a href="http://www.abricolabs.net/">Labs Cafeinne</a>. 461 1433 296 </p>
     </div>
       </div>

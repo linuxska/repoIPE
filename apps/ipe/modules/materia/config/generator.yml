@@ -13,9 +13,35 @@ generator:
 
     config:
       actions: ~
-      fields:  ~
-      list:    ~
-      filter:  ~
+      fields:
+        nombre: { label: "Nombre de la materia" }
+      list:
+        title: false
+        display: [=nombre, semestre, clave, activo]
+        batch_actions: {}
+        object_actions: {}
+        max_per_page: 20
+        actions:
+          _new:
+            label: Agregar Materia
+      filter:
+        display: [nombre, semestre, clave, activo]
       form:    ~
-      edit:    ~
-      new:     ~
+      edit:
+        title: false
+        actions:
+          _save:
+            label: Guardar
+          _delete:
+            label: Eliminar
+          _list:
+            label: Volver
+      new:
+        title: false
+        actions:
+          _save:
+            label: Guardar
+          _save_and_add:
+            label: Guardar y Agregar otro
+          _list:
+            label: Volver

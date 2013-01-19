@@ -22,13 +22,13 @@
         </th>
     </tr>
     <tr>
-        <th style="text-align:center;font-weight:bold;background-color:#8989bb;color:#ffffff;width:15%;">No. Control</th>
-        <th style="text-align:center;font-weight:bold;background-color:#8989bb;color:#ffffff;width:55%;">Nombre</th>
-        <th style="text-align:center;font-weight:bold;background-color:#8989bb;color:#ffffff;width:15%;">Inasistencias</th>
-        <th style="text-align:center;font-weight:bold;background-color:#8989bb;color:#ffffff;width:15%;">1er examen</th>
-        <th style="text-align:center;font-weight:bold;background-color:#8989bb;color:#ffffff;width:15%;">1er Parcial</th>
-        <th style="text-align:center;font-weight:bold;background-color:#8989bb;color:#ffffff;width:15%;">2do examen</th>
-        <th style="text-align:center;font-weight:bold;background-color:#8989bb;color:#ffffff;width:15%;">Final</th>
+        <th style="text-align:center;font-weight:bold;background-color:#8989bb;color:#ffffff;width:10%;">No. Control</th>
+        <th style="text-align:center;font-weight:bold;background-color:#8989bb;color:#ffffff;width:40%;">Nombre</th>
+        <th style="text-align:center;font-weight:bold;background-color:#8989bb;color:#ffffff;width:10%;">Faltas</th>
+        <th style="text-align:center;font-weight:bold;background-color:#8989bb;color:#ffffff;width:10%;">1er examen</th>
+        <th style="text-align:center;font-weight:bold;background-color:#8989bb;color:#ffffff;width:10%;">1er parcial</th>
+        <th style="text-align:center;font-weight:bold;background-color:#8989bb;color:#ffffff;width:10%;">2do examen</th>
+        <th style="text-align:center;font-weight:bold;background-color:#8989bb;color:#ffffff;width:10%;">Final</th>
     </tr>
     <?php $alumnos = array(); ?>
     <?php foreach ($curso->getListas() as $lista) : ?>
@@ -40,13 +40,13 @@
     <?php $counter = 0; ?>
     <?php foreach($alumnos as $alumno) :?>
         <tr>
-            <td style="width:15%;<?php echo $counter % 2 ? 'background-color:#d6d6ff':''?>"><?php echo $alumno->getNumeroControl() ?></td>
-            <td style="width:55%;<?php echo $counter % 2 ? 'background-color:#d6d6ff':''?>"><?php echo $alumno->__alumnoName() ?></td>
-            <td style="text-align:right;width:15%;<?php echo $counter % 2 ? 'background-color:#d6d6ff':''?>"><?php echo $alumno->__getLista()->getInasistencia() ?></td>
-            <td style="text-align:right;width:15%;<?php echo $counter % 2 ? 'background-color:#d6d6ff':''?>"><?php echo $alumno->__getLista()->getPrimeraCalificacionExamen() ?></td>
-            <td style="text-align:right;width:15%;<?php echo $counter % 2 ? 'background-color:#d6d6ff':''?>"><?php echo $alumno->__getLista()->getCalificacionParcial() ?></td>
-            <td style="text-align:right;width:15%;<?php echo $counter % 2 ? 'background-color:#d6d6ff':''?>"><?php echo $alumno->__getLista()->getSegundaCalificacionExamen() ?></td>
-            <td style="text-align:right;width:15%;<?php echo $counter % 2 ? 'background-color:#d6d6ff':''?>"><?php echo $alumno->__getLista()->getCalificacionFinal() ?></td>
+            <td style="width:10%;<?php echo $counter % 2 ? 'background-color:#d6d6ff':''?>"><?php echo $alumno->getNumeroControl() ?></td>
+            <td style="width:40%;<?php echo $counter % 2 ? 'background-color:#d6d6ff':''?>"><?php echo $alumno->__alumnoName() ?></td>
+            <td style="text-align:right;width:10%;<?php echo $counter % 2 ? 'background-color:#d6d6ff':''?>"><?php echo $alumno->__getLista()->getInasistencia() ?></td>
+            <td style="text-align:right;width:10%;<?php echo $counter % 2 ? 'background-color:#d6d6ff':''?>"><?php echo $alumno->__getLista()->getPrimeraCalificacionExamen() ?></td>
+            <td style="text-align:right;width:10%;<?php echo $counter % 2 ? 'background-color:#d6d6ff':''?>"><?php echo $alumno->__getLista()->getCalificacionParcial() ?></td>
+            <td style="text-align:right;width:10%;<?php echo $counter % 2 ? 'background-color:#d6d6ff':''?>"><?php echo $alumno->__getLista()->getSegundaCalificacionExamen() ?></td>
+            <td style="text-align:right;width:10%;<?php echo $counter % 2 ? 'background-color:#d6d6ff':''?>"><?php echo $alumno->__getLista()->getCalificacionFinal() ?></td>
         </tr>
         <?php $counter++?>
     <?php endforeach; ?>

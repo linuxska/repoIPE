@@ -10,18 +10,17 @@
 class AlumnoForm extends BaseAlumnoForm
 {
 
-
-  	 const ID_GRUPO_ALUMNO = 5;
+  	const ID_GRUPO_ALUMNO = 5;
 
     protected $estado_civil = array('Soltero' => 'Soltero(a)','Divorciado' => 'Divorciado(a)', 'Casado' => 'Casado(a)','Viudo' => 'Viudo(a)');
 
     protected $genero = array('masculino' => 'Masculino', 'femenino' => 'Femenino');
-    protected $estado = ARRAY('AGUASCALIENTES' => 'AGUASCALIENTES', 'BAJA CALIFORNIA' => 'BAJA CALIFORNIA', 'BAJA CALIFORNIA SUR' => 'BAJA CALIFORNIA SUR', 'CAMPECHE' => 'CAMPECHE',
+    protected $estado = array('AGUASCALIENTES' => 'AGUASCALIENTES', 'BAJA CALIFORNIA' => 'BAJA CALIFORNIA', 'BAJA CALIFORNIA SUR' => 'BAJA CALIFORNIA SUR', 'CAMPECHE' => 'CAMPECHE',
         'CHIAPAS' => 'CHIAPAS', 'CHIHUAHUA' => 'CHIHUAHUA', 'COAHUILA DE ZARAGOZA' => 'COAHUILA DE ZARAGOZA', 'COLIMA' => 'COLIMA', 'CIUDAD DE MÉXICO' => 'CIUDAD DE MÉXICO',
         'DURANGO' => 'DURANGO', 'GUANAJUATO' => 'GUANAJUATO', 'GUERRERO' => 'GUERRERO', 'HIDALGO' => 'HIDALGO', 'JALISCO' => 'JALISCO', 'MÉXICO' => 'MÉXICO', 'MICHOACÁN DE OCAMPO' => 'MICHOACÁN DE OCAMPO',
         'MORELOS' => 'MORELOS', 'NAYARIT' => 'NAYARIT', 'NUEVO LEÓN' => 'NUEVO LEÓN', 'OAXACA' => 'OAXACA', 'PUEBLA' => 'PUEBLA', 'QUERÉTARO' => 'QUERÉTARO', 'QUINTANA ROO' => 'QUINTANA ROO',
         'SAN LUIS POTOSÍ' => 'SAN LUIS POTOSÍ', 'SINALOA' => 'SINALOA', 'SONORA' => 'SONORA', 'TABASCO' => 'TABASCO', 'TAMAULIPAS' => 'TAMAULIPAS', 'TLAXCALA' => 'TLAXCALA',
-        'VERACRUZ DE IGNACIO DE LA LLAVE' => 'VERACRUZ DE IGNACIO DE LA LLAVE', 'YUCATÁN' => 'YUCATÁN', 'ZACATECAS' => 'ZACATECAS');    
+        'VERACRUZ DE IGNACIO DE LA LLAVE' => 'VERACRUZ DE IGNACIO DE LA LLAVE', 'YUCATÁN' => 'YUCATÁN', 'ZACATECAS' => 'ZACATECAS','EUA' => 'EUA');
 
     public function configure() {
         parent::configure();
@@ -120,6 +119,12 @@ class AlumnoForm extends BaseAlumnoForm
         $this->setValidator('emergencia_celular', new sfValidatorRegex(array('max_length' => 12, 'pattern' => '/^[0-9]{10}+$/', 'required' => false), array('max_length' => '"%value%" es muy grande (máximo %max_length% caracteres).', 'required' => 'Requerido.', 'invalid' => 'Inválido. ##########')));
         $this->setValidator('emergencia_telefono', new sfValidatorRegex(array('max_length' => 12, 'pattern' => '/^[0-9]{10}+$/', 'required' => false), array('max_length' => '"%value%" es muy grande (máximo %max_length% caracteres).', 'required' => 'Requerido.', 'invalid' => 'Inválido. ##########')));
 
+        $this->setDefault('pais', 'Mexico');
+        $this->setDefault('padres_pais', 'Mexico');
+        $this->setDefault('pastor_pais', 'Mexico');
+        $this->setDefault('iglesia_pais', 'Mexico');
+
+
         $this->setValidator('e_mail', new sfValidatorEmail(array('max_length' => 128, 'required' => true), array('required' => 'Requerido.', 'invalid' => 'Inválido. me@example.com')));
         $this->setValidator('padres_email', new sfValidatorEmail(array('max_length' => 128, 'required' => false), array('required' => 'Requerido.', 'invalid' => 'Inválido. me@example.com')));
         $this->setValidator('pastor_email', new sfValidatorEmail(array('max_length' => 128, 'required' => false), array('required' => 'Requerido.', 'invalid' => 'Inválido. me@example.com')));
@@ -187,7 +192,7 @@ class AlumnoForm extends BaseAlumnoForm
 
             'insti_nombre' => 'Nombre del instituto anterior',
             'insti_ciudad' => 'Ciudad del instituto anterior',
-            'insti_final' => 'Fecha terminación del instituto anterior',
+            'insti_fecha' => 'Fecha terminación del instituto anterior',
             'drogas' => 'Has consumido drogas?',
             'alcohol' => 'Has consumido alcohol?',
             'medicina_especial' => 'Tomas algun medicamento especial?',
@@ -222,9 +227,132 @@ class AlumnoForm extends BaseAlumnoForm
             'primaria_final' => 'DD-MM-YYYY',
             'secundaria_final' => 'DD-MM-YYYY',
             'otra_fecha' => 'DD-MM-YYYY',
-
+            'insti_fecha'=> 'DD-MM-YYYY'
         ));
+        
+        $this->widgetSchema['fecha_nacimiento'] = new  sfWidgetFormJQueryDate(array(
+         'culture' => 'es',
+         'config' => "
+          {firstDay: 1,
+           dayNamesMin: ['Do', 'Lu', 'Ma', 'Mi', 'Ju', 'Vi', 'Sa'], 
+           monthNames: ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre']
+          }",
+          'date_widget' => new sfWidgetFormDate(array(
+                    'format' => '%day%/%month%/%year%',
+                    'years' => array_combine(range(date('Y', time()) - 50, date('Y', time())), range(date('Y', time()) - 50, date('Y', time())))
+                ))));
+        $this->widgetSchema['fecha_llamamiento'] = new  sfWidgetFormJQueryDate(array(
+         'culture' => 'es',
+         'config' => "
+          {firstDay: 1,
+           dayNamesMin: ['Do', 'Lu', 'Ma', 'Mi', 'Ju', 'Vi', 'Sa'], 
+           monthNames: ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre']
+          }",
+          'date_widget' => new sfWidgetFormDate(array(
+                    'format' => '%day%/%month%/%year%',
+                    'years' => array_combine(range(date('Y', time()) - 50, date('Y', time())), range(date('Y', time()) - 50, date('Y', time())))
+                ))));
+        $this->widgetSchema['fecha_conversion'] = new  sfWidgetFormJQueryDate(array(
+         'culture' => 'es',
+         'config' => "
+          {firstDay: 1,
+           dayNamesMin: ['Do', 'Lu', 'Ma', 'Mi', 'Ju', 'Vi', 'Sa'], 
+           monthNames: ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre']
+          }",
+          'date_widget' => new sfWidgetFormDate(array(
+                    'format' => '%day%/%month%/%year%',
+                    'years' => array_combine(range(date('Y', time()) - 50, date('Y', time())), range(date('Y', time()) - 50, date('Y', time())))
+                ))));
+        $this->widgetSchema['fecha_bautismo'] = new  sfWidgetFormJQueryDate(array(
+         'culture' => 'es',
+         'config' => "
+          {firstDay: 1,
+           dayNamesMin: ['Do', 'Lu', 'Ma', 'Mi', 'Ju', 'Vi', 'Sa'], 
+           monthNames: ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre']
+          }",
+          'date_widget' => new sfWidgetFormDate(array(
+                    'format' => '%day%/%month%/%year%',
+                    'years' => array_combine(range(date('Y', time()) - 50, date('Y', time())), range(date('Y', time()) - 50, date('Y', time())))
+                ))));
+        $this->widgetSchema['secundaria_final'] = new  sfWidgetFormJQueryDate(array(
+         'culture' => 'es',
+         'config' => "
+          {firstDay: 1,
+           dayNamesMin: ['Do', 'Lu', 'Ma', 'Mi', 'Ju', 'Vi', 'Sa'], 
+           monthNames: ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre']
+          }",
+          'date_widget' => new sfWidgetFormDate(array(
+                    'format' => '%day%/%month%/%year%',
+                    'years' => array_combine(range(date('Y', time()) - 50, date('Y', time())), range(date('Y', time()) - 50, date('Y', time())))
+                ))));
+        $this->widgetSchema['primaria_final'] = new  sfWidgetFormJQueryDate(array(
+         'culture' => 'es',
+         'config' => "
+          {firstDay: 1,
+           dayNamesMin: ['Do', 'Lu', 'Ma', 'Mi', 'Ju', 'Vi', 'Sa'], 
+           monthNames: ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre']
+          }",
+          'date_widget' => new sfWidgetFormDate(array(
+                    'format' => '%day%/%month%/%year%',
+                    'years' => array_combine(range(date('Y', time()) - 50, date('Y', time())), range(date('Y', time()) - 50, date('Y', time())))
+                ))));
+        $this->widgetSchema['insti_fecha'] = new  sfWidgetFormJQueryDate(array(
+         'culture' => 'es',
+         'config' => "
+          {firstDay: 1,
+           dayNamesMin: ['Do', 'Lu', 'Ma', 'Mi', 'Ju', 'Vi', 'Sa'], 
+           monthNames: ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre']
+          }",
+          'date_widget' => new sfWidgetFormDate(array(
+                    'format' => '%day%/%month%/%year%',
+                    'years' => array_combine(range(date('Y', time()) - 50, date('Y', time())), range(date('Y', time()) - 50, date('Y', time())))
+                ))));
+        $this->widgetSchema['otra_fecha'] = new  sfWidgetFormJQueryDate(array(
+         'culture' => 'es',
+         'config' => "
+          {firstDay: 1,
+           dayNamesMin: ['Do', 'Lu', 'Ma', 'Mi', 'Ju', 'Vi', 'Sa'], 
+           monthNames: ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre']
+          }",
+          'date_widget' => new sfWidgetFormDate(array(
+                    'format' => '%day%/%month%/%year%',
+                    'years' => array_combine(range(date('Y', time()) - 50, date('Y', time())), range(date('Y', time()) - 50, date('Y', time())))
+                ))));
+        $this->widgetSchema['testimonio_salvacion'] = new sfWidgetFormTextareaTinyMCE(
+        array('theme'=>'advanced','width'=>50,'height'=>50,'config'=>'language:"es",theme_advanced_toolbar_location:"bottom",
+             theme_advanced_buttons1 : "bold,italic,underline,strikethrough,separator,justifyleft,justifycenter,justifyright,justifyfull,separator,forecolor,backcolor,separator",
+             theme_advanced_buttons2 : "fontselect,fontsizeselect,separator,bullist,numlist,separator,outdent,indent,separator",
+             theme_advanced_buttons3 : "",
+             theme_advanced_statusbar_location : "none"
+                    '));
+        $this->widgetSchema['testimonio_llamado'] = new sfWidgetFormTextareaTinyMCE(
+        array('theme'=>'advanced','width'=>50,'height'=>50,'config'=>'language:"es",theme_advanced_toolbar_location:"bottom",
+             theme_advanced_buttons1 : "bold,italic,underline,strikethrough,separator,justifyleft,justifycenter,justifyright,justifyfull,separator,forecolor,backcolor,separator",
+             theme_advanced_buttons2 : "fontselect,fontsizeselect,separator,bullist,numlist,separator,outdent,indent,separator",
+             theme_advanced_buttons3 : "",
+             theme_advanced_statusbar_location : "none"
+                    '));
+        $this->widgetSchema['actividades_iglesia'] = new sfWidgetFormTextareaTinyMCE(
+        array('theme'=>'advanced','width'=>50,'height'=>50,'config'=>'language:"es",theme_advanced_toolbar_location:"bottom",
+             theme_advanced_buttons1 : "bold,italic,underline,strikethrough,separator,justifyleft,justifycenter,justifyright,justifyfull,separator,forecolor,backcolor,separator",
+             theme_advanced_buttons2 : "fontselect,fontsizeselect,separator,bullist,numlist,separator,outdent,indent,separator",
+             theme_advanced_buttons3 : "",
+             theme_advanced_statusbar_location : "none"
+                    '));
+        $this->widgetSchema['situacion_medica'] = new sfWidgetFormTextareaTinyMCE(
+        array('theme'=>'advanced','width'=>50,'height'=>50,'config'=>'language:"es",theme_advanced_toolbar_location:"bottom",
+             theme_advanced_buttons1 : "bold,italic,underline,strikethrough,separator,justifyleft,justifycenter,justifyright,justifyfull,separator,forecolor,backcolor,separator",
+             theme_advanced_buttons2 : "fontselect,fontsizeselect,separator,bullist,numlist,separator,outdent,indent,separator",
+             theme_advanced_buttons3 : "",
+             theme_advanced_statusbar_location : "none"
+                    '));
+        $this->widgetSchema['trabajo_secular'] = new sfWidgetFormTextareaTinyMCE(
+        array('theme'=>'advanced','width'=>50,'height'=>50,'config'=>'language:"es",theme_advanced_toolbar_location:"bottom",
+             theme_advanced_buttons1 : "bold,italic,underline,strikethrough,separator,justifyleft,justifycenter,justifyright,justifyfull,separator,forecolor,backcolor,separator",
+             theme_advanced_buttons2 : "fontselect,fontsizeselect,separator,bullist,numlist,separator,outdent,indent,separator",
+             theme_advanced_buttons3 : "",
+             theme_advanced_statusbar_location : "none"
+                    '));
 
     }
-
 }

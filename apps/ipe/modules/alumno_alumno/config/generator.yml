@@ -14,7 +14,7 @@ generator:
     config:
       actions:
         fields:
-          informacion: {label: Información}
+          informacion: { label: Información}
       fields:  ~
       list:    ~
       filter:  ~

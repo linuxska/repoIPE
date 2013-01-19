@@ -27,7 +27,7 @@ ipe:
   # image logo
   PDF_HEADER_LOGO: "ipe.gif"
   # header logo image width [mm]
-  PDF_HEADER_LOGO_WIDTH: 30
+  PDF_HEADER_LOGO_WIDTH: 20
   # Ratio used to scale the images
   PDF_IMAGE_SCALE_RATIO: "4"
   # magnification factor for titles

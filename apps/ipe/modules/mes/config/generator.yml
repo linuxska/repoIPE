@@ -13,9 +13,34 @@ generator:
 
     config:
       actions: ~
-      fields:  ~
-      list:    ~
-      filter:  ~
+      fields:
+        nombre: { label: "Mes" }
+      list:
+        title: false
+        display: [=nombre]
+        batch_actions: {}
+        object_actions: {}
+        max_per_page: 10
+        actions:
+          _new:
+            label: Agregar mes
+      filter:    ~
       form:    ~
-      edit:    ~
-      new:     ~
+      edit:
+        title: false
+        actions:
+          _save:
+            label: Guardar
+          _delete:
+            label: Eliminar
+          _list:
+            label: Volver
+      new:
+        title: false
+        actions:
+          _save:
+            label: Guardar
+          _save_and_add:
+            label: Guardar y Agregar otro
+          _list:
+            label: Volver

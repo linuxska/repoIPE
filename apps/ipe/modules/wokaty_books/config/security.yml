@@ -1,6 +1,6 @@
 default:
   is_secure: true
-  credentials: [[administrador, bibliotecario, becabiblioteca,profesor,alumnos,academico]]
+  credentials: [[administrador, bibliotecario, becabiblioteca,academico]]
 delete:
   is_secure: true
   credentials: [[administrador, bibliotecario,admin]]

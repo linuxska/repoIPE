@@ -13,7 +13,7 @@ generator:
 
     config:
       actions: ~
-      fields:  
+      fields:
         anno:  { label: Año }
         id_materia: { label: Nivel }
         id_periodo: { label: Periodo }
