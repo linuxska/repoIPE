@@ -1,6 +1,6 @@
 ipe:
   # page orientation (P=portrait, L=landscape)
-  PDF_PAGE_ORIENTATION: "P"
+  PDF_PAGE_ORIENTATION: "L"
   PDF_PAGE_FORMAT: "letter"
   PDF_CREATOR: "Departamento de Sistemas"
   PDF_AUTHOR: "Abraham Rafael Rico Moreno"

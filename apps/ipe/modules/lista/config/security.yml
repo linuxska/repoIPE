@@ -1,3 +1,18 @@
+# You can find more information about this file on the symfony website:
+# http://www.symfony-project.org/reference/1_4/en/08-Security
+
 default:
   is_secure: true
-  credentials: [[administrador, academico ,secretaria,profesor]]
+  credentials: [[secretaria, academico]]
+  
+CapturarCalificaciones:
+  credentials: [[secretaria, academico, profesor]]
+  
+CapturarCalificacionesDo:
+  credentials: [[secretaria, academico, profesor]]
+  
+Index:
+  credentials: [[secretaria, academico, profesor]]
+
+CerrarLista:
+  credentials: [[secretaria, academico, profesor]]

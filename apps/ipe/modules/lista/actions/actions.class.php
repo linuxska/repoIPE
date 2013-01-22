@@ -15,6 +15,7 @@ class listaActions extends autoListaActions
 {
    public function executeCapturarCalificaciones(sfWebRequest $request) {
         $home = '@curso_curso_secretaria';
+        //var_dump(CursoPeer::retrieveByPK($request->getParameter('id'))); die();
         if ($this->getUser()->hasCredential('profesor')) {
             $home = '@curso_lista_profesor';
         }
@@ -50,6 +51,7 @@ class listaActions extends autoListaActions
 
         $this->form = new CapturarCalificacionesForm($this->curso, array('criteria' => $this->criteria));
         $this->listas = $this->curso->getListas($this->criteria);
+        //var_dump($this->listas); die();
     }
 
     public function executeCerrarLista(sfWebRequest $request) {
@@ -83,7 +85,7 @@ class listaActions extends autoListaActions
     }
 
     public function executeCapturarCalificacionesDo(sfWebRequest $request) {
-        
+
   $home = '@curso_lista_profesor';
         $curso = $this->getRoute()->getObject();
 
@@ -112,7 +114,7 @@ class listaActions extends autoListaActions
             //LogPeer::Log($this->getUser(), LogPeer::INFO, "Curso: " . $curso, $curso);
       $this->getUser()->setFlash('notice', 'Se han modificado las calificaciones.');
       $this->redirect($home); 
-            
+
         } else {
             $this->getUser()->setFlash('error', 'El elemento no se ha guardado debido a algunos errores.', false);
         }

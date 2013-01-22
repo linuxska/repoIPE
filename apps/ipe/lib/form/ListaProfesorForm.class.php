@@ -4,21 +4,18 @@ class ListaProfesorForm extends ListaForm {
 
         public function configure() {
                 unset(
-                        $this['id_tipo_alumno'],
+
                         $this['aprobado'],
-                        $this['recibo_pago'],
-                        $this['id_documento_probatorio'],
-                        $this['identificacion'],
-                        $this['motivo_cambio'],
-                        $this['curso_anterior'],
-                        $this['prorroga'],
-                        $this['folio_voucher'],
-                        $this['beca'],
+
                         $this['fecha_inscripcion'],
                         $this['id_curso'],
                         $this['id_alumno']
                 );
 
+
+
+
+                //$this->object->getCurso()->getMateria()->getId();
 
                 $this->validatorSchema['primera_calificacion_examen']=new sfValidatorInteger(array('min' => 0, 'max' => 100));
                 $this->validatorSchema['primera_calificacion_examen']->setMessage('max', 'No puede ser mayor a 100.');

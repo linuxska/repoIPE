@@ -27,6 +27,8 @@ generator:
         display: [=materia, inscritos, profesor, periodo, salon, anno, estado]
         batch_actions: {}
         object_actions:
+          ImprimirListaCalificacion:
+            label: Imprimir Lista Calificacion
           ImprimirLista:
             label: Imprimir Lista
         max_per_page: 10

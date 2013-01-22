@@ -4,3 +4,6 @@ default:
 
 ImprimirLista:
   credentials: [[academico, secretaria, profesor]] 
+  
+ImprimirCalificacionLista:
+  credentials: [[academico, secretaria, profesor]] 

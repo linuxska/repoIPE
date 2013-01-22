@@ -21,7 +21,7 @@ generator:
         email: { label: "Correo electrónico" }
       list:
         title: false
-        display: [=numero_control, nombre, a_paterno, a_materno, telefono, email, inscrito]
+        display: [=numero_control, a_paterno, a_materno, nombre, telefono, email, inscrito]
         batch_actions: {}
         object_actions: {}
         max_per_page: 50

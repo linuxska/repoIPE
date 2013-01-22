@@ -1,7 +1,8 @@
 <?php use_stylesheet('sfGuardPlugin/signin.css')?>
 
 <div id="text">
-    <h2>Bienvenido Sistema Integral de Informacion del Instituto Práctico Ebenezer</h2>
+    <h2>Bienvenidos al Sistema Integral de Informacion del </br>
+        Instituto Práctico Ebenezer</h2>
     <dl>
         <dt>Inicie sesión</dt>
         <dd>Ingrese al sistema proporcionando sus datos de acceso en el formulario
@@ -11,7 +12,7 @@
 
         <dt>Ayuda</dt>
         <dd>
-        <p>Profesores y alumos, si no recuerdan sus datos de acceso usen el enlace <em>¿Olvidaste tu contraseña?</em></p>--!>
+        <p>Profesores y alumnos, si no recuerdan sus datos de acceso usen el enlace <em>¿Olvidaste tu contraseña?</em></p>
         <p>Director y personal administrativo, si no recuerdan sus datos de acceso, por favor póngase en contacto con
         el administrador en la siguiente dirección de correo electrónico 
         <strong><a href="mailto:admin@abricolabs.net">admin@abricolabs.net</a></strong>.</p>

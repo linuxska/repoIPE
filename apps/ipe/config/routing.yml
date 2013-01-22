@@ -286,6 +286,15 @@ sf_guard_password:
 
 #################################Custom################################
 
+curso_imprimir_lista_calificacion:
+  url:              /curso/imprimir_lista_calificacion/:id.:sf_format
+  class:            sfPropelRoute
+  options:          { model: Curso, type: object, method: getCurso }
+  requirements:
+    id:             \d+
+    sf_method:      [get]
+  param:            { module: curso, action: ImprimirListaCalificacion, sf_format: pdf }
+  
 lista_list_imprimir:
   url:              /curso/imprimir_lista/:id.:sf_format
   class:            sfPropelRoute

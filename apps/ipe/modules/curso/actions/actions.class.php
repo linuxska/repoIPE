@@ -41,6 +41,34 @@ class cursoActions extends autoCursoActions
         return sfView::NONE;
     }
 
+    public function executeImprimirListaCalificacion(sfWebRequest $request) {
+        try {
+            $this->curso = $this->getRoute()->getObject();
+        } catch (sfError404Exception $e) {
+            $this->getUser()->setFlash('error', "El curso solicitado no existe.");
+            $this->redirect('@curso');
+        }
+
+    if ($this->getUser()->hasCredential('profesor') && !($this->getUser()->hasCredential('coordinadora'))) {       
+            $c = new Criteria;
+        $c->add(ProfesorPeer::RFC, $this->getUser()->getUsername(), Criteria::EQUAL);
+        $profesor = ProfesorPeer::doSelectOne($c);
+        
+        if ($profesor->getId() != $this->curso->getIdProfesor()) {
+            $this->forward(sfConfig::get('sf_secure_module'), sfConfig::get('sf_secure_action'));
+        }
+        }
+        
+        $content = $this->getPartial('listacalificacion');
+
+        $lista = new IPE_04($content);
+
+        $lista->doPDF();
+
+        $this->setLayout(false);
+        return sfView::NONE;
+    }
+
     public function preExecute() {
         $this->configuration = new cursoGeneratorConfiguration();
 

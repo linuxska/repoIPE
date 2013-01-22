@@ -23,7 +23,7 @@ class Curso extends BaseCurso {
         //$full = $this->isFull() ? '[LLENO]' : '';
         $nombre_corto = $this->getPeriodo()->getNombreCorto();
 
-        return sprintf("%s %s   %s", $nombre_corto, $materia, $this->getProfesor());
+        return sprintf("%s   %s", $materia, $this->getProfesor());
     }
      public function getInscritos() {
         return count($this->getListas());

@@ -11,6 +11,9 @@
 class cursoGeneratorHelper extends BaseCursoGeneratorHelper
 {
 	 public function linkToImprimirLista($object, $params) {
-        return sprintf('<a href="%s">ImprimirLista</a>', url_for('@curso_imprimir_lista?id=' . $object->getId()));
+        return sprintf('<a href="%s">Imprimir Lista Asistencia</a>', url_for('@curso_imprimir_lista?id=' . $object->getId()));
+    }
+    public function linkToImprimirListaCalificacion($object, $params) {
+        return sprintf('<a href="%s">Imprimir Lista Calificacion</a>', url_for('@curso_imprimir_lista_calificacion?id=' . $object->getId()));
     }
 }

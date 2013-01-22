@@ -7,9 +7,9 @@ class CapturarCalificacionesForm extends BaseCursoForm {
 		
 		unset(
 			$this['no_control'],
-			$this['id_nivel'],
 			$this['id_profesor'],
 			$this['id_periodo'],
+			$this['id_materia'],
 			$this['id_salon'],
 			$this['hora_inicio'],
 			$this['hora_final'],
