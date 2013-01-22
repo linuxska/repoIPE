@@ -9,11 +9,11 @@
 						<thead>   <tr >
 							<th class="sf_admin_text sf_admin_list_th_idioma">No. Control</th>
 							<th class="sf_admin_text sf_admin_list_th_idioma">Nombre de alumno</th>
-							<th class="sf_admin_text sf_admin_list_th_idioma">Inasistencias</th>
-							<th class="sf_admin_text sf_admin_list_th_idioma">1er examen</th>
-							<th class="sf_admin_text sf_admin_list_th_idioma">1er Parcial</th>
-							<th class="sf_admin_text sf_admin_list_th_idioma">2do examen</th>
-							<th class="sf_admin_text sf_admin_list_th_idioma">Calificación final</th>
+							<th class="sf_admin_text sf_admin_list_th_idioma">Faltas</th>
+							<th class="sf_admin_text sf_admin_list_th_idioma">Examen Bimestral</th>
+							<th class="sf_admin_text sf_admin_list_th_idioma">Promedio Bimestral</th>
+							<th class="sf_admin_text sf_admin_list_th_idioma">Examen Bimestral</th>
+							<th class="sf_admin_text sf_admin_list_th_idioma">Promedio</th>
 							<th class="sf_admin_text sf_admin_list_th_idioma">Observaciones</th>
 						    </tr> </thead>
 						<tbody>

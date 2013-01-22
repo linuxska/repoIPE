@@ -14,10 +14,15 @@ generator:
     config:
       actions: ~
       fields:
-        anno:  { label: Año }
-        id_materia: { label: Nivel }
-        id_periodo: { label: Periodo }
-        Actions: { label : Acciones }
+        id_alumno: { label: Alumno}
+        alumno_no_control: { label: No control}
+        id_curso: { label: Curso}
+        _alumno: { label: Nombre alumno }
+        primera_calificacion_examen: { label: Examen bimestral }
+        calificacion_parcial: { label: Promedio bimestral }
+        segunda_calificacion_examen: { label: Examen parcial }
+        calificacion_final: { label: Promedio }
+        curso: {label: Curso asignado}
       list:
         title: false
         batch_actions: {}

@@ -18,10 +18,10 @@ generator:
         alumno_no_control: { label: No control}
         id_curso: { label: Curso}
         _alumno: { label: Nombre alumno }
-        primera_calificacion_examen: { label: 1er examen }
-        calificacion_parcial: { label: Calificacion parcial }
-        segunda_calificacion_examen: { label: 2do examen }
-        calificacion_final: { label: Calificacion Final }
+        primera_calificacion_examen: { label: Examen bimestral }
+        calificacion_parcial: { label: Promedio bimestral }
+        segunda_calificacion_examen: { label: Examen parcial }
+        calificacion_final: { label: Promedio }
         curso: {label: Curso asignado}
       list:
         title: Alumno de %%id%%

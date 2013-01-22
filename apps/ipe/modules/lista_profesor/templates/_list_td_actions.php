@@ -5,7 +5,9 @@
 	    </li>  
 	    <li class="sf_admin_action_imprimirlista">
             <?php echo $helper->linkToVerLista($Curso, array()) ?>
-        </li>   
+        </li> 
+          
     </ul>
+
 </td>
 
