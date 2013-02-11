@@ -26,7 +26,7 @@ class CI_TCPDF {
         $this->config = sfTCPDFPluginConfigHandler::loadConfig('ipe');
 
         $this->pdf = new TCPDF(PDF_PAGE_ORIENTATION, PDF_UNIT, PDF_PAGE_FORMAT, true, 'UTF-8', false);
-
+//var_dump($this->pdf); die(); 
         $this->pdf->SetCreator(PDF_CREATOR);
         $this->pdf->SetAuthor(PDF_AUTHOR);
 

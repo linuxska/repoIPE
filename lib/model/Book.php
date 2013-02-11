@@ -59,7 +59,7 @@ class Book extends BaseBook {
 	public  function getDeweyen()
 	{
 		$decimal = DecimalEnPeer::retrieveByPK($this->getIdDecimal());
-
+ 
 		if (($this->getAuthorLastname() =="") | (($this->getAuthorFirstname() =="anonymous")) | ($this->getAuthorFirstname() =="Anonymous") )
 			if ($this->getVolume()=='')
 					return sprintf("%s.%s  %s",$decimal->getInteger()->getNumber(),$decimal->getNumber(), substr($this->getTitle(), 0, 3)) ;

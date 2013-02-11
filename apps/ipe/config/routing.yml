@@ -1,5 +1,3 @@
-
-
 #################################ADMIN GENERATOR################################
 
 profesor:
@@ -294,7 +292,7 @@ curso_imprimir_lista_calificacion:
     id:             \d+
     sf_method:      [get]
   param:            { module: curso, action: ImprimirListaCalificacion, sf_format: pdf }
-  
+
 lista_list_imprimir:
   url:              /curso/imprimir_lista/:id.:sf_format
   class:            sfPropelRoute
