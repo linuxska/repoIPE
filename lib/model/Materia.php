@@ -32,4 +32,11 @@ public function __toString() {
         return sprintf("%s | %s Semestre", $this->getNombre(),$this->getSemestre());
     }
 
+    public function __getCurso(){
+        return $this->__curso;
+    }
+    
+    public function __setCurso($obj) {
+        $this->__curso = $obj;
+    }
 } // Materia

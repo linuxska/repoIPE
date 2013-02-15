@@ -11,8 +11,8 @@
                     <td style="text-align:left;font-weight:normal">Periodo: <?php echo sprintf("%s / %s", $curso->getAnno(), $curso->getPeriodo()) ?></td>
                 </tr>
                 <tr>
-                    <td style="text-align:left;font-weight:normal">Salón: <?php echo sprintf("%s ", $curso->getSalon())?></td>
-                    <td></td>
+                    <td style="text-align:left;font-weight:normal">Salón:       Lunes: <?php echo sprintf("%s ", $curso->getSalonLunes())?>   Martes: <?php echo sprintf("%s ", $curso->getSalonMartes())?>      Miercoles: <?php echo sprintf("%s ", $curso->getSalonMiercoles())?>    </td>
+                    <td style="text-align:left;font-weight:normal">Jueves: <?php echo sprintf("%s ", $curso->getSalonJueves())?>     Viernes: <?php echo sprintf("%s ", $curso->getSalonViernes())?></td>
                 </tr>
                 <tr>
                     <td style="text-align:left;font-weight:normal">Profesor(a): <?php echo $curso->getProfesor() ?></td>

@@ -15,6 +15,7 @@ abstract class BaseMateriaFormFilter extends BaseFormFilterPropel
       'nombre'   => new sfWidgetFormFilterInput(array('with_empty' => false)),
       'semestre' => new sfWidgetFormFilterInput(array('with_empty' => false)),
       'clave'    => new sfWidgetFormFilterInput(),
+      'creditos' => new sfWidgetFormFilterInput(array('with_empty' => false)),
       'activo'   => new sfWidgetFormChoice(array('choices' => array('' => 'yes or no', 1 => 'yes', 0 => 'no'))),
     ));
 
@@ -22,6 +23,7 @@ abstract class BaseMateriaFormFilter extends BaseFormFilterPropel
       'nombre'   => new sfValidatorPass(array('required' => false)),
       'semestre' => new sfValidatorPass(array('required' => false)),
       'clave'    => new sfValidatorPass(array('required' => false)),
+      'creditos' => new sfValidatorSchemaFilter('text', new sfValidatorInteger(array('required' => false))),
       'activo'   => new sfValidatorChoice(array('required' => false, 'choices' => array('', 1, 0))),
     ));
 
@@ -44,6 +46,7 @@ abstract class BaseMateriaFormFilter extends BaseFormFilterPropel
       'nombre'   => 'Text',
       'semestre' => 'Text',
       'clave'    => 'Text',
+      'creditos' => 'Number',
       'activo'   => 'Boolean',
     );
   }

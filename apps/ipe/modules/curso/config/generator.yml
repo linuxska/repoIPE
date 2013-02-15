@@ -18,13 +18,17 @@ generator:
         id_materia: { label: "Materia" }
         id_profesor: { label: "Profesor" }
         id_periodo: { label: "Periodo" }
-        id_salon: { label: "Salón" }
+        id_salon_lunes: { label: "Salón Lunes" }
+        id_salon_martes: { label: "Salón Martes" }
+        id_salon_miercoles: { label: "Salón Miercoles" }
+        id_salon_jueves: { label: "Salón Jueves" }
+        id_salon_viernes: { label: "Salón Viernes" }
         hora_inicio: { label: "Hora inicio" }
         hora_final: { label: "Hora final" }
         anno: { label: "Año" }
       list:
         title: false
-        display: [=materia, inscritos, profesor, periodo, salon, anno, estado]
+        display: [=materia, inscritos, profesor, periodo, salon_lunes,salon_martes,salon_miercoles,salon_jueves, salon_viernes, anno, estado]
         batch_actions: {}
         object_actions:
           ImprimirListaCalificacion:
@@ -36,7 +40,7 @@ generator:
           _new:
             label: Agregar Curso
       filter:
-       display: [id_materia, id_profesor, id_periodo, id_salon, anno]
+       display: [id_materia, id_profesor, id_periodo, id_salon_lunes,id_salon_martes, id_salon_miercoles,id_salon_jueves, id_salon_viernes,anno, estado]
       form:    ~
       edit:
         title: false

@@ -10,4 +10,7 @@
  */
 class salonGeneratorHelper extends BaseSalonGeneratorHelper
 {
+	public function linkToImprimirHorario($object, $params) {
+        return sprintf('<a href="%s">Imprimir Horario de Salon </a>', url_for('@salon_imprimir_horario?id=' . $object->getId()));
+    }
 }

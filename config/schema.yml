@@ -7,7 +7,7 @@ propel:
     id: { phpName: Id, type: INTEGER, primaryKey: true, autoIncrement: true, required: true }
     nombre: { phpName: Nombre, type: VARCHAR, size: '64', required: true }
     a_paterno: { phpName: APaterno, type: VARCHAR, size: '64', required: true }
-    a_materno: { phpName: AMaterno, type: VARCHAR, size: '64', required: true }
+    a_materno: { phpName: AMaterno, type: VARCHAR, size: '64', required: false }
     sexo: { phpName: Sexo, type: VARCHAR, size: '9', required: true }
     direccion: { phpName: Direccion, type: VARCHAR, size: '64', required: true }
     colonia: { phpName: Colonia, type: VARCHAR, size: '64', required: true }
@@ -43,6 +43,7 @@ propel:
     iglesia_nombre: { phpName: IglesiaNombre, type: VARCHAR, size: '128', required: false }
     iglesia_direccion: { phpName: IglesiaDireccion, type: VARCHAR, size: '128', required: false }
     iglesia_colonia: { phpName: IglesiaColonia, type: VARCHAR, size: '64', required: false }
+    iglesia_ciudad: { phpName: IglesiaCiudad, type: VARCHAR, size: '64', required: false }
     iglesia_estado: { phpName: IglesiaEstado, type: VARCHAR, size: '64', required: false }
     iglesia_cp: { phpName: IglesiaCp, type: VARCHAR, size: '5', required: false }
     iglesia_pais: { phpName: IglesiaPais, type: VARCHAR, size: '64', required: false }
@@ -66,10 +67,11 @@ propel:
     primaria_ciudad: { phpName: PrimariaCiudad, type: VARCHAR, size: '64', required: false }
     primaria_final: { phpName: PrimariaFinal, type: DATE, required: false }
     secundaria_nombre: { phpName: SecundariaNombre, type: VARCHAR, size: '64', required: false }
-    secuandaria_ciudad: { phpName: SecuandariaCiudad, type: VARCHAR, size: '64', required: false }
+    secundaria_ciudad: { phpName: SecundariaCiudad, type: VARCHAR, size: '64', required: false }
     secundaria_final: { phpName: SecundariaFinal, type: DATE, required: false }
     prepa_nombre: { phpName: PrepaNombre, type: VARCHAR, size: '64', required: false }
     prepa_ciudad: { phpName: PrepaCiudad, type: VARCHAR, size: '64', required: false }
+    prepa_final: { phpName: PrepaFinal, type: DATE, required: false }
     otra_nombre: { phpName: OtraNombre, type: VARCHAR, size: '64', required: false }
     otra_ciudad: { phpName: OtraCiudad, type: VARCHAR, size: '64', required: false }
     otra_fecha: { phpName: OtraFecha, type: DATE, required: false }
@@ -82,9 +84,17 @@ propel:
     medicamento_actual: { phpName: MedicamentoActual, type: BOOLEAN, required: true }
     situacion_medica: { phpName: SituacionMedica, type: LONGVARCHAR, required: true }
     trabajo_secular: { phpName: TrabajoSecular, type: LONGVARCHAR, required: false }
+    peticion_oracion: { phpName: PeticionOracion, type: LONGVARCHAR, required: false }
     numero_control: { phpName: NumeroControl, type: VARCHAR, size: '10', required: false, defaultValue: 'NULL' }
     inscrito: { phpName: Inscrito, type: BOOLEAN, required: true, defaultValue: false }
     foto: { phpName: Foto, type: VARCHAR, size: '256', required: false }
+    recomendacion_pastor: { phpName: RecomendacionPastor, type: BOOLEAN, required: false }
+    preparatoria_pastor: { phpName: PreparatoriaPastor, type: BOOLEAN, required: false }
+    carta_recomedacion_hermano: { phpName: CartaRecomedacionHermano, type: BOOLEAN, required: false }
+    certificado_medico: { phpName: CertificadoMedico, type: BOOLEAN, required: false }
+    acta_nacimiento: { phpName: ActaNacimiento, type: BOOLEAN, required: false }
+    fotografias: { phpName: Fotografias, type: BOOLEAN, required: false }
+    acta_matrimonio: { phpName: ActaMatrimonio, type: BOOLEAN, required: false }
   book:
     _attributes: { phpName: Book }
     id: { phpName: Id, type: INTEGER, primaryKey: true, autoIncrement: true, required: true }
@@ -119,15 +129,19 @@ propel:
     id_materia: { phpName: IdMateria, type: INTEGER, required: true, foreignTable: materia, foreignReference: id, onDelete: RESTRICT, onUpdate: CASCADE }
     id_profesor: { phpName: IdProfesor, type: INTEGER, required: true, foreignTable: profesor, foreignReference: id, onDelete: RESTRICT, onUpdate: CASCADE }
     id_periodo: { phpName: IdPeriodo, type: INTEGER, required: true, foreignTable: periodo, foreignReference: id, onDelete: RESTRICT, onUpdate: CASCADE }
-    id_salon: { phpName: IdSalon, type: INTEGER, required: true, foreignTable: salon, foreignReference: id, onDelete: RESTRICT, onUpdate: CASCADE }
+    id_salon_lunes: { phpName: IdSalonLunes, type: INTEGER, required: false, foreignTable: salon, foreignReference: id, onDelete: RESTRICT, onUpdate: CASCADE }
     lunes_hora_inicio: { phpName: LunesHoraInicio, type: TIME, required: false }
     lunes_hora_final: { phpName: LunesHoraFinal, type: TIME, required: false }
+    id_salon_martes: { phpName: IdSalonMartes, type: INTEGER, required: false, foreignTable: salon, foreignReference: id, onDelete: RESTRICT, onUpdate: CASCADE }
     martes_hora_inicio: { phpName: MartesHoraInicio, type: TIME, required: false }
     martes_hora_final: { phpName: MartesHoraFinal, type: TIME, required: false }
+    id_salon_miercoles: { phpName: IdSalonMiercoles, type: INTEGER, required: false, foreignTable: salon, foreignReference: id, onDelete: RESTRICT, onUpdate: CASCADE }
     miercoles_hora_inicio: { phpName: MiercolesHoraInicio, type: TIME, required: false }
     miercoles_hora_final: { phpName: MiercolesHoraFinal, type: TIME, required: false }
+    id_salon_jueves: { phpName: IdSalonJueves, type: INTEGER, required: false, foreignTable: salon, foreignReference: id, onDelete: RESTRICT, onUpdate: CASCADE }
     jueves_hora_inicio: { phpName: JuevesHoraInicio, type: TIME, required: false }
     jueves_hora_final: { phpName: JuevesHoraFinal, type: TIME, required: false }
+    id_salon_viernes: { phpName: IdSalonViernes, type: INTEGER, required: false, foreignTable: salon, foreignReference: id, onDelete: RESTRICT, onUpdate: CASCADE }
     viernes_hora_inicio: { phpName: ViernesHoraInicio, type: TIME, required: false }
     viernes_hora_final: { phpName: ViernesHoraFinal, type: TIME, required: false }
     anno: { phpName: Anno, type: VARCHAR, size: '4', required: true }
@@ -223,6 +237,7 @@ propel:
     nombre: { phpName: Nombre, type: VARCHAR, size: '64', required: true }
     semestre: { phpName: Semestre, type: VARCHAR, size: '2', required: true }
     clave: { phpName: Clave, type: VARCHAR, size: '6', required: false }
+    creditos: { phpName: Creditos, type: INTEGER, required: true, defaultValue: '0' }
     activo: { phpName: Activo, type: BOOLEAN, required: true, defaultValue: true }
   mes:
     _attributes: { phpName: Mes }

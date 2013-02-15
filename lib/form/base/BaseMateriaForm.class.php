@@ -18,6 +18,7 @@ abstract class BaseMateriaForm extends BaseFormPropel
       'nombre'   => new sfWidgetFormInputText(),
       'semestre' => new sfWidgetFormInputText(),
       'clave'    => new sfWidgetFormInputText(),
+      'creditos' => new sfWidgetFormInputText(),
       'activo'   => new sfWidgetFormInputCheckbox(),
     ));
 
@@ -26,6 +27,7 @@ abstract class BaseMateriaForm extends BaseFormPropel
       'nombre'   => new sfValidatorString(array('max_length' => 64)),
       'semestre' => new sfValidatorString(array('max_length' => 2)),
       'clave'    => new sfValidatorString(array('max_length' => 6, 'required' => false)),
+      'creditos' => new sfValidatorInteger(array('min' => -2147483648, 'max' => 2147483647)),
       'activo'   => new sfValidatorBoolean(),
     ));
 

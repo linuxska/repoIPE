@@ -32,5 +32,25 @@ class Curso extends BaseCurso {
         return false;
         //return (count($this->getListas()) >= sfConfig::get('app_max_per_course')) ? true : false;
     }
+    public function getSalonLunes() {
+        $salon = SalonPeer::retrieveByPK($this->getIdSalonLunes());
+        return sprintf("%s", $salon);
+    }
+    public function getSalonMartes() {
+        $salon = SalonPeer::retrieveByPK($this->getIdSalonMartes());
+        return sprintf("%s", $salon);
+    }
+    public function getSalonMiercoles() {
+        $salon = SalonPeer::retrieveByPK($this->getIdSalonMiercoles());
+        return sprintf("%s", $salon);
+    }
+    public function getSalonJueves() {
+        $salon = SalonPeer::retrieveByPK($this->getIdSalonJueves());
+        return sprintf("%s", $salon);
+    }
+    public function getSalonViernes() {
+        $salon = SalonPeer::retrieveByPK($this->getIdSalonViernes());
+        return sprintf("%s", $salon);
+    }
 
 } // Curso

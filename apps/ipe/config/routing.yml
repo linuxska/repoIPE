@@ -311,6 +311,15 @@ curso_imprimir_lista:
     sf_method:      [get]
   param:            { module: curso, action: ImprimirLista, sf_format: pdf }
 
+salon_imprimir_horario:
+  url:              /salon/imprimir_horario/:id.:sf_format
+  class:            sfPropelRoute
+  options:          { model: Salon, type: object, method: getSalon }
+  requirements:
+    id:             \d+
+    sf_method:      [get]
+  param:            { module: salon, action: ImprimirHorario, sf_format: pdf }
+
 lista_capturar:
   url:              /lista/capturar/:id.:sf_format
   class:            sfPropelRoute

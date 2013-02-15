@@ -1,8 +1,8 @@
-﻿------------------------------
+------------------------------
 -- pgDesigner 1.2.17
 --
 -- Project    : SII-IPE
--- Date       : 02/13/2013 21:12:49.44
+-- Date       : 01/16/2013 18:30:47.938
 -- Description: Sistema integral de informacion del instituto Practico Ebenezer.
 ------------------------------
 
@@ -83,7 +83,7 @@ CREATE TABLE "alumno" (
 "id" serial NOT NULL,
 "nombre" character varying(64) NOT NULL,
 "a_paterno" character varying(64) NOT NULL,
-"a_materno" character varying(64),
+"a_materno" character varying(64) NOT NULL,
 "sexo" character varying(9) NOT NULL CHECK (sexo in('femenino','masculino')),
 "direccion" character varying(64) NOT NULL,
 "colonia" character varying(64) NOT NULL,
@@ -119,7 +119,6 @@ CREATE TABLE "alumno" (
 "iglesia_nombre" character varying(128),
 "iglesia_direccion" character varying(128),
 "iglesia_colonia" character varying(64),
-"iglesia_ciudad" character varying(64),
 "iglesia_estado" character varying(64),
 "iglesia_cp" character varying(5),
 "iglesia_pais" character varying(64),
@@ -143,11 +142,10 @@ CREATE TABLE "alumno" (
 "primaria_ciudad" character varying(64),
 "primaria_final" date,
 "secundaria_nombre" character varying(64),
-"secundaria_ciudad" character varying(64),
+"secuandaria_ciudad" character varying(64),
 "secundaria_final" date,
 "prepa_nombre" character varying(64),
 "prepa_ciudad" character varying(64),
-"prepa_final" date,
 "otra_nombre" character varying(64),
 "otra_ciudad" character varying(64),
 "otra_fecha" date,
@@ -160,24 +158,16 @@ CREATE TABLE "alumno" (
 "medicamento_actual" boolean NOT NULL,
 "situacion_medica" text NOT NULL,
 "trabajo_secular" text,
-"peticion_oracion" text,
 "numero_control" character varying(10) DEFAULT NULL,
 "inscrito" boolean NOT NULL DEFAULT false,
-"foto" character varying(256),
-"recomendacion_pastor" boolean,
-"preparatoria_pastor" boolean,
-"carta_recomedacion_hermano" boolean,
-"certificado_medico" boolean,
-"acta_nacimiento" boolean,
-"fotografias" boolean,
-"acta_matrimonio" boolean
+"foto" character varying(256)
 ) WITHOUT OIDS;
 ALTER TABLE "alumno" ADD CONSTRAINT "alumno_pk" PRIMARY KEY("id");
 COMMENT ON TABLE "alumno" IS 'Catálogo de alumnos.';
 COMMENT ON COLUMN "alumno"."id" IS 'Clave del alumno';
 COMMENT ON COLUMN "alumno"."nombre" IS 'Nombre(s) de alumno';
 COMMENT ON COLUMN "alumno"."a_paterno" IS 'Apellido paterno del alumno.';
-COMMENT ON COLUMN "alumno"."a_materno" IS 'Apellido materno del alumno.';
+COMMENT ON COLUMN "alumno"."a_materno" IS 'Apellido materno del alumno';
 COMMENT ON COLUMN "alumno"."sexo" IS 'Sexo';
 COMMENT ON COLUMN "alumno"."direccion" IS 'Domicilio del alumno.';
 COMMENT ON COLUMN "alumno"."colonia" IS 'Colonia del alumno.';
@@ -212,7 +202,6 @@ COMMENT ON COLUMN "alumno"."pastor_email" IS 'Correo electronico del pastor.';
 COMMENT ON COLUMN "alumno"."iglesia_nombre" IS 'Iglesia de procedencia del alumno.';
 COMMENT ON COLUMN "alumno"."iglesia_direccion" IS 'Direccion de la Iglesia de procedencia.';
 COMMENT ON COLUMN "alumno"."iglesia_colonia" IS 'Colonia donde se encuentra la iglesia de procedencia del alumno.';
-COMMENT ON COLUMN "alumno"."iglesia_ciudad" IS 'Ciudad de la Iglesia.';
 COMMENT ON COLUMN "alumno"."iglesia_estado" IS 'Estado donde se encuenta la Iglesia de prodecencia del alumno.';
 COMMENT ON COLUMN "alumno"."iglesia_cp" IS 'Codigo postal de la Iglesia del alumno.';
 COMMENT ON COLUMN "alumno"."iglesia_telefono" IS 'Telefono de la iglesia del alumno.';
@@ -229,11 +218,10 @@ COMMENT ON COLUMN "alumno"."primaria_nombre" IS 'Nombre de la primaria donde est
 COMMENT ON COLUMN "alumno"."primaria_ciudad" IS 'Ciudad donde estudio la primaria.';
 COMMENT ON COLUMN "alumno"."primaria_final" IS 'Fecha en que termino la primaria.';
 COMMENT ON COLUMN "alumno"."secundaria_nombre" IS 'Nombre de la secuandaria donde estudio.';
-COMMENT ON COLUMN "alumno"."secundaria_ciudad" IS 'Ciudad donde estudio la secundaria.';
+COMMENT ON COLUMN "alumno"."secuandaria_ciudad" IS 'Ciudad donde estudio la secundaria.';
 COMMENT ON COLUMN "alumno"."secundaria_final" IS 'Fecha de graduacion dela secundaria.';
 COMMENT ON COLUMN "alumno"."prepa_nombre" IS 'Nombre de la preparatoria donde estudio.';
 COMMENT ON COLUMN "alumno"."prepa_ciudad" IS 'Cuidad donde estudio la preparatoria.';
-COMMENT ON COLUMN "alumno"."prepa_final" IS 'Fecha de terminacion de la preparatoria.';
 COMMENT ON COLUMN "alumno"."otra_nombre" IS 'Nombre de alguna otra institucion donde haya estudiado.';
 COMMENT ON COLUMN "alumno"."otra_ciudad" IS 'Ciudad de alguna otra institucion donde haya estudiado.';
 COMMENT ON COLUMN "alumno"."otra_fecha" IS 'Fecha de alguna otra institucion donde haya estudiado.';
@@ -246,17 +234,9 @@ COMMENT ON COLUMN "alumno"."medicina_especial" IS 'Estuvieron bajo tratamiento? 
 COMMENT ON COLUMN "alumno"."medicamento_actual" IS 'Toma algun medicamento actualmente? Si o no.';
 COMMENT ON COLUMN "alumno"."situacion_medica" IS 'Describa los problemas medicos que ha tenido o tiene actualmente';
 COMMENT ON COLUMN "alumno"."trabajo_secular" IS 'Experiencia en trabajo secular.';
-COMMENT ON COLUMN "alumno"."peticion_oracion" IS 'Algun motivo de oración.';
 COMMENT ON COLUMN "alumno"."numero_control" IS 'Número de control del alumno en el Instituto Practico Ebenezer.';
 COMMENT ON COLUMN "alumno"."inscrito" IS 'Si el alumno esta inscrito o preinscrito.';
 COMMENT ON COLUMN "alumno"."foto" IS 'url de la foto de alumno';
-COMMENT ON COLUMN "alumno"."recomendacion_pastor" IS 'Revision de la carta de recomendacion de pastor.';
-COMMENT ON COLUMN "alumno"."preparatoria_pastor" IS 'Comprobante de prepa.';
-COMMENT ON COLUMN "alumno"."carta_recomedacion_hermano" IS 'Carta de recomendacion  de dos hermanos de la Iglesia.';
-COMMENT ON COLUMN "alumno"."certificado_medico" IS 'Certificado medico';
-COMMENT ON COLUMN "alumno"."acta_nacimiento" IS 'Acta de nacimiento del alumno.';
-COMMENT ON COLUMN "alumno"."fotografias" IS 'Fotografias del alumno.';
-COMMENT ON COLUMN "alumno"."acta_matrimonio" IS 'Acta de matrimonio si aplica.';
 
 CREATE TABLE "profesor" (
 "id" serial NOT NULL,
@@ -302,19 +282,15 @@ CREATE TABLE "curso" (
 "id_materia" int NOT NULL,
 "id_profesor" int NOT NULL,
 "id_periodo" int NOT NULL,
-"id_salon_lunes" int,
+"id_salon" int NOT NULL,
 "lunes_hora_inicio" time,
 "lunes_hora_final" time,
-"id_salon_martes" int,
 "martes_hora_inicio" time,
 "martes_hora_final" time,
-"id_salon_miercoles" int,
 "miercoles_hora_inicio" time,
 "miercoles_hora_final" time,
-"id_salon_jueves" int,
 "jueves_hora_inicio" time,
 "jueves_hora_final" time,
-"id_salon_viernes" int,
 "viernes_hora_inicio" time,
 "viernes_hora_final" time,
 "anno" character varying(4) NOT NULL,
@@ -325,17 +301,13 @@ COMMENT ON TABLE "curso" IS 'Catálogo de los cursos que se imparten por periodo
 COMMENT ON COLUMN "curso"."id" IS 'Clave del curso.';
 COMMENT ON COLUMN "curso"."id_profesor" IS 'Clave del profesor que imparte el curso.';
 COMMENT ON COLUMN "curso"."id_periodo" IS 'Clave del periodo.';
-COMMENT ON COLUMN "curso"."id_salon_lunes" IS 'Clave del salon del lunes.';
+COMMENT ON COLUMN "curso"."id_salon" IS 'Clave del salon.';
 COMMENT ON COLUMN "curso"."lunes_hora_inicio" IS 'Hora de inicio del curso lunes.';
 COMMENT ON COLUMN "curso"."lunes_hora_final" IS 'Hora de final del curso lunes.';
-COMMENT ON COLUMN "curso"."id_salon_martes" IS 'Clave del salon del martes.';
-COMMENT ON COLUMN "curso"."id_salon_miercoles" IS 'Clave del salon del miercoles';
 COMMENT ON COLUMN "curso"."miercoles_hora_inicio" IS 'Hora de inicio de clases el miercoles.';
 COMMENT ON COLUMN "curso"."miercoles_hora_final" IS 'Hora de final del miercoles.';
-COMMENT ON COLUMN "curso"."id_salon_jueves" IS 'Clave del salon del jueves.';
 COMMENT ON COLUMN "curso"."jueves_hora_inicio" IS 'Hora de inicio del jueves.';
 COMMENT ON COLUMN "curso"."jueves_hora_final" IS 'Hora final jueves';
-COMMENT ON COLUMN "curso"."id_salon_viernes" IS 'Clave del salon del viernes.';
 COMMENT ON COLUMN "curso"."viernes_hora_inicio" IS 'Hora de inicio del viernes.';
 COMMENT ON COLUMN "curso"."viernes_hora_final" IS 'Hora final del viernes.';
 COMMENT ON COLUMN "curso"."anno" IS 'Año en que se imparte el curso';
@@ -368,8 +340,8 @@ COMMENT ON COLUMN "lista"."segunda_calificacion_examen" IS 'Calificación segund
 COMMENT ON COLUMN "lista"."aprobado" IS 'Aprobado o reprobado.';
 COMMENT ON COLUMN "lista"."observaciones" IS 'Observaciones del alumno.';
 COMMENT ON COLUMN "lista"."externo" IS 'El alumno es externo.
-True = Verdadero 
-False = Falso';
+True = Verdadero 
+False = Falso';
 COMMENT ON COLUMN "lista"."recursando" IS 'Si el alumno esta recursando la materia.';
 
 CREATE TABLE "book" (
@@ -483,7 +455,6 @@ CREATE TABLE "materia" (
 "nombre" character varying(64) NOT NULL,
 "semestre" character varying(2) NOT NULL,
 "clave" character varying(6),
-"creditos" int NOT NULL DEFAULT 0,
 "activo" boolean NOT NULL DEFAULT true
 ) WITHOUT OIDS;
 ALTER TABLE "materia" ADD CONSTRAINT "materia_pk" PRIMARY KEY("id");
@@ -492,7 +463,6 @@ COMMENT ON COLUMN "materia"."id" IS 'Clave de la materia.';
 COMMENT ON COLUMN "materia"."nombre" IS 'Nombre de la asignatura.';
 COMMENT ON COLUMN "materia"."semestre" IS 'Semestre de la materia';
 COMMENT ON COLUMN "materia"."clave" IS 'Clave corta de la materia.';
-COMMENT ON COLUMN "materia"."creditos" IS 'Creditos por materia.';
 COMMENT ON COLUMN "materia"."activo" IS 'Si la materia ese ofrece o no.';
 
 CREATE TABLE "salon" (
@@ -631,7 +601,7 @@ ALTER TABLE "periodo" ADD CONSTRAINT "periodo_fkey2" FOREIGN KEY ("final_periodo
 
 ALTER TABLE "curso" ADD CONSTRAINT "curso_fkey1" FOREIGN KEY ("id_profesor") REFERENCES "profesor"("id") ON UPDATE CASCADE ON DELETE RESTRICT;
 
-ALTER TABLE "curso" ADD CONSTRAINT "curso_fkey2" FOREIGN KEY ("id_salon_lunes") REFERENCES "salon"("id") ON UPDATE CASCADE ON DELETE RESTRICT;
+ALTER TABLE "curso" ADD CONSTRAINT "curso_fkey2" FOREIGN KEY ("id_salon") REFERENCES "salon"("id") ON UPDATE CASCADE ON DELETE RESTRICT;
 
 ALTER TABLE "curso" ADD CONSTRAINT "curso_fkey3" FOREIGN KEY ("id_materia") REFERENCES "materia"("id") ON UPDATE CASCADE ON DELETE RESTRICT;
 
@@ -648,16 +618,6 @@ ALTER TABLE "venta_tienda" ADD CONSTRAINT "venta_tienda_fkey2" FOREIGN KEY ("id_
 ALTER TABLE "compra_tienda" ADD CONSTRAINT "compras_fkey1" FOREIGN KEY ("id_producto") REFERENCES "producto_tienda"("id") ON UPDATE CASCADE ON DELETE RESTRICT;
 
 ALTER TABLE "compra_tienda" ADD CONSTRAINT "compra_tienda_fkey2" FOREIGN KEY ("id_empleado") REFERENCES "empleado_tienda"("id") ON UPDATE CASCADE ON DELETE RESTRICT;
-
-ALTER TABLE "curso" ADD CONSTRAINT "curso_fkey5" FOREIGN KEY ("id_salon_martes") REFERENCES "salon"("id") ON UPDATE CASCADE ON DELETE RESTRICT;
-
-ALTER TABLE "curso" ADD CONSTRAINT "curso_fkey6" FOREIGN KEY ("id_salon_martes") REFERENCES "salon"("id") ON UPDATE CASCADE ON DELETE RESTRICT;
-
-ALTER TABLE "curso" ADD CONSTRAINT "curso_fkey7" FOREIGN KEY ("id_salon_miercoles") REFERENCES "salon"("id") ON UPDATE CASCADE ON DELETE RESTRICT;
-
-ALTER TABLE "curso" ADD CONSTRAINT "curso_fkey8" FOREIGN KEY ("id_salon_jueves") REFERENCES "salon"("id") ON UPDATE CASCADE ON DELETE RESTRICT;
-
-ALTER TABLE "curso" ADD CONSTRAINT "curso_fkey9" FOREIGN KEY ("id_salon_viernes") REFERENCES "salon"("id") ON UPDATE CASCADE ON DELETE RESTRICT;
 
 -- End Relación's declaration
 

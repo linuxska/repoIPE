@@ -13,4 +13,24 @@ require_once dirname(__FILE__).'/../lib/salonGeneratorHelper.class.php';
  */
 class salonActions extends autoSalonActions
 {
-}
+
+public function executeImprimirHorario(sfWebRequest $request) {
+        try {
+            
+            $this->salon = $this->getRoute()->getObject();
+
+        } catch (sfError404Exception $e) {
+            var_dump($this); die();
+            $this->getUser()->setFlash('error', "El salon solicitado no existe.");
+            $this->redirect('@salon');
+        }
+
+        $content = $this->getPartial('horario');
+
+        $lista = new IPE_05($content);
+
+        $lista->doPDF();
+
+        $this->setLayout(false);
+        return sfView::NONE;
+    }}

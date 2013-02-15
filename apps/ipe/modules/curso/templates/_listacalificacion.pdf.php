@@ -11,8 +11,8 @@
                     <td style="text-align:left;font-weight:normal">Periodo: <?php echo sprintf("%s / %s", $curso->getAnno(), $curso->getPeriodo()) ?></td>
                 </tr>
                 <tr>                
-                    <td style="text-align:left;font-weight:normal">Salón: <?php echo sprintf("%s ", $curso->getSalon())?></td>
-                    <td></td>
+                    <td style="text-align:left;font-weight:normal">Salón:       Lunes: <?php echo sprintf("%s ", $curso->getSalonLunes())?>   Martes: <?php echo sprintf("%s ", $curso->getSalonMartes())?>      Miercoles: <?php echo sprintf("%s ", $curso->getSalonMiercoles())?>    </td>
+                    <td style="text-align:left;font-weight:normal">Jueves: <?php echo sprintf("%s ", $curso->getSalonJueves())?>     Viernes: <?php echo sprintf("%s ", $curso->getSalonViernes())?></td>
                 </tr>
                 <tr>
                     <td style="text-align:left;font-weight:normal">Profesor(a): <?php echo $curso->getProfesor() ?></td>
@@ -28,8 +28,8 @@
         <th style="text-align:center;font-weight:bold;background-color:#8989bb;color:#ffffff;width:9%;">Faltas</th>
         <th style="text-align:center;font-weight:bold;background-color:#8989bb;color:#ffffff;width:13%;">Examen Bimestral</th>
         <th style="text-align:center;font-weight:bold;background-color:#8989bb;color:#ffffff;width:13%;">Promedio Bimestral</th>
-        <th style="text-align:center;font-weight:bold;background-color:#8989bb;color:#ffffff;width:13%;">Examen Parcial</th>
-        <th style="text-align:center;font-weight:bold;background-color:#8989bb;color:#ffffff;width:15%;">Promedio</th>
+        <th style="text-align:center;font-weight:bold;background-color:#8989bb;color:#ffffff;width:13%;">Examen Final</th>
+        <th style="text-align:center;font-weight:bold;background-color:#8989bb;color:#ffffff;width:15%;">Promedio Final</th>
     </tr>
     <?php $alumnos = array(); ?>
     <?php foreach ($curso->getListas() as $lista) : ?>

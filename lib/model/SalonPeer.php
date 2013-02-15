@@ -18,4 +18,7 @@
  */
 class SalonPeer extends BaseSalonPeer {
 
+    static public function getSalon(array $request) {
+        return SalonPeer::retrieveByPK($request['id']);
+    }
 } // SalonPeer

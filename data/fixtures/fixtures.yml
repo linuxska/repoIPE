@@ -1371,3 +1371,1618 @@ Salon:
     salon: 'Aula 3'
   Salon_4:
     salon: SUM
+
+sfGuardGroup:
+  sfGuardGroup_1:
+    name: administrador
+    description: "Administrador del sistema.\r\nLa mayoría de los menus."
+  sfGuardGroup_2:
+    name: bibliotecario
+    description: 'Administrara la Biblioteca'
+  sfGuardGroup_3:
+    name: becabiblioteca
+    description: 'Administrara solo el catalogo de las tres Bibliotecas.'
+  sfGuardGroup_4:
+    name: admin
+    description: MaximaAutoridad
+  sfGuardGroup_5:
+    name: alumno
+    description: 'Grupo de Alumnos'
+  sfGuardGroup_6:
+    name: profesor
+    description: 'Grupo de profesores'
+  sfGuardGroup_7:
+    name: tienda
+    description: 'Administrador de tienda'
+  sfGuardGroup_8:
+    name: vendedor
+    description: 'Vendedor de la tienda.'
+  sfGuardGroup_9:
+    name: academico
+    description: 'Rol de coordinador academico'
+  sfGuardGroup_10:
+    name: secretaria
+    description: 'Rol de secretaria inscribir alumnos'
+  sfGuardGroup_11:
+    name: director
+    description: 'Director de la institucion'
+sfGuardPermission:
+  sfGuardPermission_1:
+    name: administrador
+    description: "administrador  Administrador del sistema. La mayoría de los menus.\r\n\r\n"
+  sfGuardPermission_2:
+    name: bibliotecario
+    description: 'Administrara las Bibliotecas de IPE'
+  sfGuardPermission_3:
+    name: becabiblioteca
+    description: "Administrara solo el catalogo de las tres Bibliotecas.  \r\n"
+  sfGuardPermission_4:
+    name: admin
+    description: 'Maxima autoridad'
+  sfGuardPermission_5:
+    name: profesor
+    description: 'Permiso de Profesores'
+  sfGuardPermission_6:
+    name: alumno
+    description: 'Permiso de Alumno'
+  sfGuardPermission_7:
+    name: vendedor
+    description: 'Permiso de vender en la tienda.'
+  sfGuardPermission_8:
+    name: tienda
+    description: 'Permisos tienda'
+  sfGuardPermission_9:
+    name: director
+    description: 'Director permisos'
+  sfGuardPermission_10:
+    name: academico
+    description: 'Permisos de academico'
+  sfGuardPermission_11:
+    name: secretaria
+    description: 'Permisos de secretaria'
+sfGuardGroupPermission:
+  sfGuardGroupPermission_1_1:
+    group_id: sfGuardGroup_1
+    permission_id: sfGuardPermission_1
+  sfGuardGroupPermission_4_4:
+    group_id: sfGuardGroup_4
+    permission_id: sfGuardPermission_4
+  sfGuardGroupPermission_8_7:
+    group_id: sfGuardGroup_8
+    permission_id: sfGuardPermission_7
+  sfGuardGroupPermission_7_8:
+    group_id: sfGuardGroup_7
+    permission_id: sfGuardPermission_8
+  sfGuardGroupPermission_9_10:
+    group_id: sfGuardGroup_9
+    permission_id: sfGuardPermission_10
+  sfGuardGroupPermission_10_11:
+    group_id: sfGuardGroup_10
+    permission_id: sfGuardPermission_11
+  sfGuardGroupPermission_11_9:
+    group_id: sfGuardGroup_11
+    permission_id: sfGuardPermission_9
+  sfGuardGroupPermission_5_6:
+    group_id: sfGuardGroup_5
+    permission_id: sfGuardPermission_6
+  sfGuardGroupPermission_6_5:
+    group_id: sfGuardGroup_6
+    permission_id: sfGuardPermission_5
+sfGuardUser:
+  sfGuardUser_1:
+    username: eunice
+    algorithm: sha1
+    salt: 99fecc602bad25f2c121f78c73d9adcc
+    password: 884fca47fa4782794ab83abd9d483b6c57edf42c
+    created_at: '2012-10-17 03:06:41'
+    is_active: true
+    is_super_admin: false
+  sfGuardUser_2:
+    username: karla
+    algorithm: sha1
+    salt: e83f9a56f0230e66228595943329b4fd
+    password: f58310f180120543a9baebffe6d7b6b690278698
+    created_at: '2012-10-17 03:06:21'
+    last_login: '2012-10-17 03:07:44'
+    is_active: true
+    is_super_admin: false
+  sfGuardUser_3:
+    username: jesse
+    algorithm: sha1
+    salt: bd6ef2cab40041807dcdae8be08ac56f
+    password: b1ec4c256970146148eb24a72e1a3107e0712064
+    created_at: '2012-10-17 03:07:27'
+    last_login: '2012-10-17 03:08:33'
+    is_active: true
+    is_super_admin: false
+  sfGuardUser_4:
+    username: yomara
+    algorithm: sha1
+    salt: 6f7c85c0a0dcdff65b8eb7b2fe300b24
+    password: b5006f0cd242f0f0fc525f03b8d96ab0d573426e
+    created_at: '2012-10-17 03:10:08'
+    is_active: true
+    is_super_admin: false
+  sfGuardUser_5:
+    username: abrico
+    algorithm: sha1
+    salt: 9d1557d3d0b994ecbd673e0ffd988e36
+    password: 1af32ff4b9d9cd45e7b17839dd79bb7e63d3e3f3
+    created_at: '2012-10-17 02:45:34'
+    last_login: '2012-10-17 03:14:13'
+    is_active: true
+    is_super_admin: true
+  sfGuardUser_6:
+    username: roberto
+    algorithm: sha1
+    salt: 5638742ba57f11d5340cb652cdf7e75d
+    password: 76152553d692d576fbab51b588cd6bd43883ed40
+    created_at: '2012-10-17 03:07:13'
+    last_login: '2012-10-18 16:44:55'
+    is_active: true
+    is_super_admin: false
+  sfGuardUser_7:
+    username: RIMA890367AA6
+    algorithm: sha1
+    salt: c9932607b29b3a307ee0e9bd98e38b89
+    password: 6d7863f6e5163853676aefc2a1fdbe7ebdbe94e8
+    created_at: '2013-01-15 00:34:14'
+    last_login: '2013-01-15 04:13:44'
+    is_active: true
+    is_super_admin: false
+  sfGuardUser_8:
+    username: ab
+    algorithm: sha1
+    salt: 119f2796294eb8f0e7cf095a66fb1bb6
+    password: 8e6a3b13f6974aecd2e7330899f9b14db67a0a46
+    created_at: '2012-11-22 13:50:38'
+    last_login: '2012-11-22 13:50:41'
+    is_active: true
+    is_super_admin: true
+  sfGuardUser_9:
+    username: alumno
+    algorithm: sha1
+    salt: 9da766be2337a83db4a739f1ddce84b9
+    password: 72c8111d252b6bdc8ff50f1942aac71e3634b028
+    created_at: '2012-11-23 14:23:19'
+    last_login: '2012-11-23 14:23:28'
+    is_active: true
+    is_super_admin: false
+  sfGuardUser_12:
+    username: mike
+    algorithm: sha1
+    salt: f39be6562f8ff95ac1f4da6c4caf0f78
+    password: 276f3c6cd31d7699b2c89d3fbc8e81a73472f825
+    created_at: '2012-12-05 11:25:04'
+    is_active: true
+    is_super_admin: false
+  sfGuardUser_13:
+    username: RIMA8903672ZY
+    algorithm: sha1
+    salt: 36be04f6664cc160c7ceb8232184e3e0
+    password: c6aad43919680069eb651f34b99c367cc21996fe
+    created_at: '2013-01-15 00:04:00'
+    is_active: true
+    is_super_admin: false
+  sfGuardUser_14:
+    username: georgina
+    algorithm: sha1
+    salt: c302a3600b018b8a8451ec2b3cad7008
+    password: d2f584bb53e08949b44cc58195a7d2b44f524d37
+    created_at: '2012-12-05 11:25:16'
+    last_login: '2012-12-05 15:29:54'
+    is_active: true
+    is_super_admin: false
+  sfGuardUser_16:
+    username: RIMA8903672ZA
+    algorithm: sha1
+    salt: 05246708dc5714d0d133cca18edc5940
+    password: a2077c8bb6be3f25dfdd71146b4c622280e59a5e
+    created_at: '2013-01-15 00:06:00'
+    last_login: '2013-01-15 00:06:20'
+    is_active: true
+    is_super_admin: false
+  sfGuardUser_23:
+    username: COXR571117
+    algorithm: sha1
+    salt: 36f0b00dc1d609e65405175a64d6df3e
+    password: 1b09bf076ab3141c316f050ffd951320349fb745
+    created_at: '2013-01-17 17:53:03'
+    is_active: true
+    is_super_admin: false
+  sfGuardUser_17:
+    username: abd
+    algorithm: sha1
+    salt: 4794a07480fe015e3075b4f6563a49ba
+    password: d12cdfa6275b3406747103ad1f21c35e062e4b08
+    created_at: '2013-01-17 14:30:02'
+    last_login: '2013-01-17 14:30:13'
+    is_active: true
+    is_super_admin: true
+  sfGuardUser_24:
+    username: RIMA890367
+    algorithm: sha1
+    salt: 7f6cf168f02cba2a24027eec8aeb8c87
+    password: 5a298bdef0f213b51ee9a12fdd4be71822128164
+    created_at: '2013-01-17 17:58:50'
+    is_active: true
+    is_super_admin: false
+  sfGuardUser_25:
+    username: AACI741007
+    algorithm: sha1
+    salt: b28784a0ed718e8af54882e9099c57ab
+    password: c117aa7ea737fbb591f8daa85b4cd4ed69165cd7
+    created_at: '2013-01-17 17:59:15'
+    is_active: true
+    is_super_admin: false
+  sfGuardUser_18:
+    username: SAIN770519
+    algorithm: sha1
+    salt: 581a0c4fac9110be9bf747676bed5830
+    password: 3728ee83bf3c04dba1e1b6c990c9194ad1e591a7
+    created_at: '2013-01-17 17:11:12'
+    is_active: true
+    is_super_admin: false
+  sfGuardUser_20:
+    username: WOXD721111
+    algorithm: sha1
+    salt: 17534f71def1162e49c4e4892a56b9fa
+    password: d5fc3e12ee1e5fd34c7887c744af46eb441e3494
+    created_at: '2013-01-17 17:47:01'
+    is_active: true
+    is_super_admin: false
+  sfGuardUser_21:
+    username: HUXK580522
+    algorithm: sha1
+    salt: 3bb1e40547e194f91a0b6a80e011f00f
+    password: d9a09dbd6e5c9590278e65ee1d021edefc84ca71
+    created_at: '2013-01-17 17:48:38'
+    is_active: true
+    is_super_admin: false
+  sfGuardUser_26:
+    username: GUVJ861120
+    algorithm: sha1
+    salt: cf0e01f89552786042994d117544e670
+    password: ea7de744793963311ab4b410f6fefdaaa68e6ee0
+    created_at: '2013-01-17 18:02:20'
+    is_active: true
+    is_super_admin: false
+  sfGuardUser_27:
+    username: DAPD810913
+    algorithm: sha1
+    salt: ca2fbec7d205f7d1085e0c5380368ddd
+    password: 13bc8f9f5110ee5cb5ddd4f5cc7699f09b59b77b
+    created_at: '2013-01-17 18:04:27'
+    is_active: true
+    is_super_admin: false
+  sfGuardUser_28:
+    username: CAHV720728
+    algorithm: sha1
+    salt: b9d5285d633206ff4ebf755650983408
+    password: 2e66ee2e4674501155a93bee18318a95481f92f7
+    created_at: '2013-01-17 18:05:31'
+    is_active: true
+    is_super_admin: false
+  sfGuardUser_30:
+    username: VILO770909
+    algorithm: sha1
+    salt: e206822710df94f318e9e4a6323ab879
+    password: ff68257c9452820c042da6c17163c231cb4266f7
+    created_at: '2013-01-17 18:09:50'
+    is_active: true
+    is_super_admin: false
+  sfGuardUser_31:
+    username: FOGA690702
+    algorithm: sha1
+    salt: f7086a8ff226de85b279d333c751a701
+    password: ad31fb768e691613c2b2abd0edbefb06d5cd7287
+    created_at: '2013-01-17 18:12:50'
+    is_active: true
+    is_super_admin: false
+  sfGuardUser_32:
+    username: MIRL760820
+    algorithm: sha1
+    salt: d57252e4f0f51e805ade4385b56f1592
+    password: 130106c60cff90f6084a2ea009d7812d46b2cd6d
+    created_at: '2013-01-17 18:16:12'
+    is_active: true
+    is_super_admin: false
+  sfGuardUser_33:
+    username: GAOY890808
+    algorithm: sha1
+    salt: 735c162fc8ee2baf123a7863c0b6a8de
+    password: 7d2cc7e4d8615543316e105bd185114fdd000178
+    created_at: '2013-01-17 18:17:36'
+    is_active: true
+    is_super_admin: false
+  sfGuardUser_34:
+    username: MAZJ681025
+    algorithm: sha1
+    salt: 25f0c41ccf80fbf61d8f85a3d3c8c503
+    password: 33267686933da6e6e9ff86a4d293cb6425b131cc
+    created_at: '2013-01-17 18:22:07'
+    is_active: true
+    is_super_admin: false
+  sfGuardUser_35:
+    username: GEME780827
+    algorithm: sha1
+    salt: ef3a5cb7558fbb5378f020829c595a55
+    password: fa69ff13bd8afa81836bf945501aa32dcc21db1d
+    created_at: '2013-01-17 18:23:51'
+    is_active: true
+    is_super_admin: false
+  sfGuardUser_36:
+    username: COXJ550815
+    algorithm: sha1
+    salt: 78d5d6d2c6ea9fd460538cf0985f4128
+    password: 09d8026032fecfd9eddf4948879e6a667a723f65
+    created_at: '2013-01-17 18:26:32'
+    is_active: true
+    is_super_admin: false
+  sfGuardUser_37:
+    username: RAXT661219
+    algorithm: sha1
+    salt: 4f7c65def8984c6083fe17c8762823a5
+    password: 4137b9421ada14776939f86d1ce47015115c7288
+    created_at: '2013-01-17 18:27:55'
+    is_active: true
+    is_super_admin: false
+  sfGuardUser_38:
+    username: WOXO680405
+    algorithm: sha1
+    salt: 7ac3a1bb5d7f7ce58d17823eccb691f8
+    password: 1376b470421989fbdb9bc7942f0d82733655290f
+    created_at: '2013-01-17 18:29:20'
+    is_active: true
+    is_super_admin: false
+  sfGuardUser_39:
+    username: PUCI711203
+    algorithm: sha1
+    salt: e62e5b7fb58b1423df7c17c02ffc120a
+    password: b3a64a4212ba6aba78309e5cc204cf3b3f84c0a2
+    created_at: '2013-01-17 18:30:54'
+    is_active: true
+    is_super_admin: false
+  sfGuardUser_43:
+    username: abe
+    algorithm: sha1
+    salt: 192fc0b1741d0bb795654b29d8e8e997
+    password: c4c6e6838369683373438ed4b61b4d48cee1ce69
+    created_at: '2013-01-19 00:48:19'
+    last_login: '2013-01-19 00:48:41'
+    is_active: true
+    is_super_admin: true
+  sfGuardUser_45:
+    username: RIMA890311
+    algorithm: sha1
+    salt: d102869f4f140c2a50e7555a142c2497
+    password: d496e47097828506a444159fb4f984398e362a10
+    created_at: '2013-01-19 02:11:38'
+    is_active: true
+    is_super_admin: false
+  sfGuardUser_29:
+    username: AEVM661200
+    algorithm: sha1
+    salt: 28073bb9fd520177e5d195d9195f406d
+    password: cd2eda4b2ab5c3e073c97c0725302a1f2ed926cf
+    created_at: '2013-01-17 18:07:50'
+    is_active: true
+    is_super_admin: false
+  sfGuardUser_40:
+    username: AEVM661210
+    algorithm: sha1
+    salt: 35bb3f7136a4eceda1f4c3caa5a90bad
+    password: ddde0c7c432b6ac7c84a0bcc30bcb5144ff1e39a
+    created_at: '2013-01-17 19:54:02'
+    is_active: true
+    is_super_admin: false
+  sfGuardUser_46:
+    username: abg
+    algorithm: sha1
+    salt: eb198324219b2fb4b2e9dcde78d38430
+    password: e0dff57b5fecd78e7a8c054c52f3c9556e3113a9
+    created_at: '2013-02-11 17:28:42'
+    last_login: '2013-02-11 17:30:05'
+    is_active: true
+    is_super_admin: false
+  sfGuardUser_22:
+    username: LUCI810409
+    algorithm: sha1
+    salt: 68d22b07f5539fef2a434838d4e7fbf9
+    password: 79bd33f72ddac6a5b6e1b9ec69cdfd1c8f1d104f
+    created_at: '2013-01-17 17:50:43'
+    is_active: true
+    is_super_admin: false
+  sfGuardUser_41:
+    username: LUCI810407
+    algorithm: sha1
+    salt: 7f93e388c6eed8bbbbe77a22df515118
+    password: 082508daee338f8a25fc007fdb5ed77d94810fab
+    created_at: '2013-01-18 01:18:20'
+    is_active: true
+    is_super_admin: false
+  sfGuardUser_42:
+    username: '20130001'
+    algorithm: sha1
+    salt: 71dbd75e3b430cad036edb0a0154f0e2
+    password: a6fc553a5426cb7559d6bd7deba5f93ad65f38de
+    created_at: '2013-01-18 12:22:11'
+    last_login: '2013-01-19 23:48:51'
+    is_active: true
+    is_super_admin: false
+  sfGuardUser_19:
+    username: RESC890106
+    algorithm: sha1
+    salt: cf76d1fdf22020159c31186153ed69af
+    password: da987041e39e2ad39ba7bc773389c44196d9e631
+    created_at: '2013-01-17 17:24:16'
+    last_login: '2013-01-22 14:07:48'
+    is_active: true
+    is_super_admin: false
+  sfGuardUser_10:
+    username: danwokaty
+    algorithm: sha1
+    salt: 09d2ec34e6551f067b41cbf158bc3051
+    password: 2c106fa5e162fa201759450b5859f55aa677aac5
+    created_at: '2012-10-17 03:13:16'
+    last_login: '2013-01-19 22:31:37'
+    is_active: true
+    is_super_admin: false
+  sfGuardUser_15:
+    username: abraham
+    algorithm: sha1
+    salt: 75a0ee127bef173422b62d3d1ac38774
+    password: 83494e15cf7f162fd5929e9b0170e993a84da32f
+    created_at: '2012-10-17 02:50:42'
+    last_login: '2013-02-11 17:22:16'
+    is_active: true
+    is_super_admin: false
+  sfGuardUser_11:
+    username: karo
+    algorithm: sha1
+    salt: 9a5902f4a0e18e135b98c8e269cba433
+    password: 340ac84afb339c6670064087a7da9bd2dcc9932a
+    created_at: '2013-01-15 04:37:23'
+    last_login: '2013-02-11 21:26:14'
+    is_active: true
+    is_super_admin: false
+sfGuardUserGroup:
+  sfGuardUserGroup_2_3:
+    user_id: sfGuardUser_2
+    group_id: sfGuardGroup_3
+  sfGuardUserGroup_1_3:
+    user_id: sfGuardUser_1
+    group_id: sfGuardGroup_3
+  sfGuardUserGroup_6_3:
+    user_id: sfGuardUser_6
+    group_id: sfGuardGroup_3
+  sfGuardUserGroup_3_3:
+    user_id: sfGuardUser_3
+    group_id: sfGuardGroup_3
+  sfGuardUserGroup_4_2:
+    user_id: sfGuardUser_4
+    group_id: sfGuardGroup_2
+  sfGuardUserGroup_9_5:
+    user_id: sfGuardUser_9
+    group_id: sfGuardGroup_5
+  sfGuardUserGroup_12_8:
+    user_id: sfGuardUser_12
+    group_id: sfGuardGroup_8
+  sfGuardUserGroup_14_7:
+    user_id: sfGuardUser_14
+    group_id: sfGuardGroup_7
+  sfGuardUserGroup_13_6:
+    user_id: sfGuardUser_13
+    group_id: sfGuardGroup_6
+  sfGuardUserGroup_16_6:
+    user_id: sfGuardUser_16
+    group_id: sfGuardGroup_6
+  sfGuardUserGroup_7_6:
+    user_id: sfGuardUser_7
+    group_id: sfGuardGroup_6
+  sfGuardUserGroup_11_10:
+    user_id: sfGuardUser_11
+    group_id: sfGuardGroup_10
+  sfGuardUserGroup_10_9:
+    user_id: sfGuardUser_10
+    group_id: sfGuardGroup_9
+  sfGuardUserGroup_18_6:
+    user_id: sfGuardUser_18
+    group_id: sfGuardGroup_6
+  sfGuardUserGroup_20_6:
+    user_id: sfGuardUser_20
+    group_id: sfGuardGroup_6
+  sfGuardUserGroup_21_6:
+    user_id: sfGuardUser_21
+    group_id: sfGuardGroup_6
+  sfGuardUserGroup_22_6:
+    user_id: sfGuardUser_22
+    group_id: sfGuardGroup_6
+  sfGuardUserGroup_23_6:
+    user_id: sfGuardUser_23
+    group_id: sfGuardGroup_6
+  sfGuardUserGroup_24_6:
+    user_id: sfGuardUser_24
+    group_id: sfGuardGroup_6
+  sfGuardUserGroup_25_6:
+    user_id: sfGuardUser_25
+    group_id: sfGuardGroup_6
+  sfGuardUserGroup_26_6:
+    user_id: sfGuardUser_26
+    group_id: sfGuardGroup_6
+  sfGuardUserGroup_27_6:
+    user_id: sfGuardUser_27
+    group_id: sfGuardGroup_6
+  sfGuardUserGroup_28_6:
+    user_id: sfGuardUser_28
+    group_id: sfGuardGroup_6
+  sfGuardUserGroup_29_6:
+    user_id: sfGuardUser_29
+    group_id: sfGuardGroup_6
+  sfGuardUserGroup_30_6:
+    user_id: sfGuardUser_30
+    group_id: sfGuardGroup_6
+  sfGuardUserGroup_31_6:
+    user_id: sfGuardUser_31
+    group_id: sfGuardGroup_6
+  sfGuardUserGroup_32_6:
+    user_id: sfGuardUser_32
+    group_id: sfGuardGroup_6
+  sfGuardUserGroup_33_6:
+    user_id: sfGuardUser_33
+    group_id: sfGuardGroup_6
+  sfGuardUserGroup_34_6:
+    user_id: sfGuardUser_34
+    group_id: sfGuardGroup_6
+  sfGuardUserGroup_35_6:
+    user_id: sfGuardUser_35
+    group_id: sfGuardGroup_6
+  sfGuardUserGroup_36_6:
+    user_id: sfGuardUser_36
+    group_id: sfGuardGroup_6
+  sfGuardUserGroup_37_6:
+    user_id: sfGuardUser_37
+    group_id: sfGuardGroup_6
+  sfGuardUserGroup_38_6:
+    user_id: sfGuardUser_38
+    group_id: sfGuardGroup_6
+  sfGuardUserGroup_39_6:
+    user_id: sfGuardUser_39
+    group_id: sfGuardGroup_6
+  sfGuardUserGroup_40_6:
+    user_id: sfGuardUser_40
+    group_id: sfGuardGroup_6
+  sfGuardUserGroup_41_6:
+    user_id: sfGuardUser_41
+    group_id: sfGuardGroup_6
+  sfGuardUserGroup_42_5:
+    user_id: sfGuardUser_42
+    group_id: sfGuardGroup_5
+  sfGuardUserGroup_15_1:
+    user_id: sfGuardUser_15
+    group_id: sfGuardGroup_1
+  sfGuardUserGroup_15_4:
+    user_id: sfGuardUser_15
+    group_id: sfGuardGroup_4
+  sfGuardUserGroup_19_6:
+    user_id: sfGuardUser_19
+    group_id: sfGuardGroup_6
+  sfGuardUserGroup_45_6:
+    user_id: sfGuardUser_45
+    group_id: sfGuardGroup_6
+  sfGuardUserGroup_46_9:
+    user_id: sfGuardUser_46
+    group_id: sfGuardGroup_9
+  sfGuardUserGroup_46_10:
+    user_id: sfGuardUser_46
+    group_id: sfGuardGroup_10
+sfGuardUserPermission:
+  sfGuardUserPermission_2_3:
+    user_id: sfGuardUser_2
+    permission_id: sfGuardPermission_3
+  sfGuardUserPermission_1_3:
+    user_id: sfGuardUser_1
+    permission_id: sfGuardPermission_3
+  sfGuardUserPermission_6_3:
+    user_id: sfGuardUser_6
+    permission_id: sfGuardPermission_3
+  sfGuardUserPermission_3_3:
+    user_id: sfGuardUser_3
+    permission_id: sfGuardPermission_3
+  sfGuardUserPermission_4_2:
+    user_id: sfGuardUser_4
+    permission_id: sfGuardPermission_2
+  sfGuardUserPermission_9_6:
+    user_id: sfGuardUser_9
+    permission_id: sfGuardPermission_6
+  sfGuardUserPermission_12_7:
+    user_id: sfGuardUser_12
+    permission_id: sfGuardPermission_7
+  sfGuardUserPermission_14_8:
+    user_id: sfGuardUser_14
+    permission_id: sfGuardPermission_8
+  sfGuardUserPermission_7_5:
+    user_id: sfGuardUser_7
+    permission_id: sfGuardPermission_5
+  sfGuardUserPermission_11_11:
+    user_id: sfGuardUser_11
+    permission_id: sfGuardPermission_11
+  sfGuardUserPermission_10_10:
+    user_id: sfGuardUser_10
+    permission_id: sfGuardPermission_10
+  sfGuardUserPermission_15_1:
+    user_id: sfGuardUser_15
+    permission_id: sfGuardPermission_1
+  sfGuardUserPermission_19_5:
+    user_id: sfGuardUser_19
+    permission_id: sfGuardPermission_5
+  sfGuardUserPermission_46_10:
+    user_id: sfGuardUser_46
+    permission_id: sfGuardPermission_10
+  sfGuardUserPermission_46_11:
+    user_id: sfGuardUser_46
+    permission_id: sfGuardPermission_11
+Alumno:
+  Alumno_1:
+    nombre: Abraham
+    a_paterno: Moreno
+    a_materno: a
+    sexo: masculino
+    direccion: 'Juarez 520 int 9'
+    colonia: a
+    ciudad: Salvatierra
+    estado: AGUASCALIENTES
+    cp: '38900'
+    pais: México
+    telefono: '0146114332'
+    celular: ''
+    e_mail: linux_ska@agn.com
+    fecha_nacimiento: '1914-01-01'
+    estado_civil: Soltero
+    padres_nombres: ''
+    padres_direccion: ''
+    padres_colonia: ''
+    padres_ciudad: ''
+    padres_estado: AGUASCALIENTES
+    padres_cp: ''
+    padres_pais: ''
+    padres_telefono: ''
+    padres_celular: ''
+    padres_email: ''
+    pastor_nombre: ''
+    pastor_direccion: ''
+    pastor_colonia: ''
+    pastor_ciudad: ''
+    pastor_estado: AGUASCALIENTES
+    pastor_cp: ''
+    pastor_pais: ''
+    pastor_telefono: ''
+    pastor_celular: ''
+    pastor_email: ''
+    iglesia_nombre: ''
+    iglesia_direccion: ''
+    iglesia_colonia: ''
+    iglesia_estado: AGUASCALIENTES
+    iglesia_cp: ''
+    iglesia_pais: ''
+    iglesia_telefono: ''
+    iglesia_email: ''
+    iglesia_web: ''
+    emergencia_nombre: ''
+    emergencia_direccion: ''
+    emergencia_colonia: ''
+    emergencia_ciudad: ''
+    emergencia_estado: AGUASCALIENTES
+    emergencia_telefono: ''
+    emergencia_celular: ''
+    fecha_conversion: '1915-03-05'
+    fecha_bautismo: '1913-01-02'
+    fecha_llamamiento: '1913-01-03'
+    testimonio_salvacion: a
+    testimonio_llamado: a
+    actividades_iglesia: a
+    primaria_nombre: ''
+    primaria_ciudad: ''
+    primaria_final: '1914-02-02'
+    secundaria_nombre: ''
+    secundaria_ciudad: ''
+    prepa_nombre: ''
+    prepa_ciudad: ''
+    otra_nombre: ''
+    otra_ciudad: ''
+    insti_nombre: ''
+    insti_ciudad: ''
+    insti_fecha: Array
+    drogas: false
+    alcohol: false
+    medicina_especial: false
+    medicamento_actual: false
+    situacion_medica: a
+    trabajo_secular: ''
+    numero_control: '20130001'
+    inscrito: true
+Materia:
+  Materia_1:
+    nombre: Misiones
+    semestre: '2'
+    clave: TP101
+    activo: true
+  Materia_2:
+    nombre: 'Español II'
+    semestre: '2'
+    clave: AGI102
+    activo: true
+  Materia_3:
+    nombre: 'Evangelismo Personal'
+    semestre: '2'
+    clave: TP102
+    activo: true
+  Materia_4:
+    nombre: 'Oratoria II'
+    semestre: '2'
+    clave: AGO102
+    activo: true
+  Materia_5:
+    nombre: 'Introducción al Nuevo Testamento'
+    semestre: '2'
+    clave: EBN102
+    activo: true
+  Materia_6:
+    nombre: 'Vida Espiritual II'
+    semestre: '2'
+    clave: TP102
+    activo: true
+  Materia_7:
+    nombre: 'Epistolas Pastorales'
+    semestre: '6'
+    clave: EBN302
+    activo: true
+  Materia_8:
+    nombre: 'Seminario Ministerial'
+    semestre: '2'
+    clave: TPH100
+    activo: true
+  Materia_9:
+    nombre: 'Epistolas Paulinas II'
+    semestre: '6'
+    clave: EBN302
+    activo: true
+  Materia_10:
+    nombre: 'Español IV'
+    semestre: '4'
+    clave: AGI202
+    activo: true
+  Materia_11:
+    nombre: 'Pedagogia Femenina'
+    semestre: '6'
+    clave: EBN302
+    activo: true
+  Materia_12:
+    nombre: Coro
+    semestre: '4'
+    clave: AGM200
+    activo: true
+  Materia_13:
+    nombre: Coro
+    semestre: '6'
+    clave: AGM200
+    activo: true
+  Materia_14:
+    nombre: 'Historia de la Iglesia'
+    semestre: '6'
+    clave: TP302
+    activo: true
+  Materia_15:
+    nombre: 'Vida de Cristo'
+    semestre: '4'
+    clave: EBN202
+    activo: true
+  Materia_16:
+    nombre: 'Doctrina II'
+    semestre: '6'
+    clave: TS-302
+    activo: true
+  Materia_17:
+    nombre: 'Clase para mujeres'
+    semestre: '6'
+    clave: TPM302
+    activo: true
+  Materia_18:
+    nombre: 'Métodos de Estudio Bíblico II'
+    semestre: '4'
+    clave: EP202
+    activo: true
+  Materia_19:
+    nombre: 'Seminario Ministerial'
+    semestre: '6'
+    clave: TPH100
+    activo: true
+  Materia_21:
+    nombre: 'Evangelismo Infantil'
+    semestre: '4'
+    clave: TP202
+    activo: true
+  Materia_22:
+    nombre: 'Grandes Temas Bíblicos II'
+    semestre: '4'
+    clave: TS202
+    activo: true
+  Materia_23:
+    nombre: 'Epistolas Generales II'
+    semestre: '8'
+    clave: EBN402
+    activo: true
+  Materia_24:
+    nombre: 'Seminario Ministerial'
+    semestre: '4'
+    clave: TPH100
+    activo: true
+  Materia_25:
+    nombre: 'Mujer Virtuosa'
+    semestre: '2'
+    clave: TPM102
+    activo: true
+  Materia_26:
+    nombre: 'Predicación Expositiva'
+    semestre: '8'
+    clave: EBN402
+    activo: true
+  Materia_27:
+    nombre: 'Obrera Cristiana II'
+    semestre: '4'
+    clave: TPM202
+    activo: true
+  Materia_28:
+    nombre: 'Educación Física'
+    semestre: '2'
+    clave: EF100
+    activo: true
+  Materia_20:
+    nombre: 'Panorama Biblico'
+    semestre: '6'
+    clave: EBN302
+    activo: true
+  Materia_29:
+    nombre: 'Educación Física'
+    semestre: '4'
+    clave: EF100
+    activo: true
+  Materia_30:
+    nombre: Anuario
+    semestre: '2'
+    clave: AN100
+    activo: true
+  Materia_31:
+    nombre: Anuario
+    semestre: '4'
+    clave: AN100
+    activo: true
+  Materia_32:
+    nombre: Mecanografía
+    semestre: '2'
+    clave: ME100
+    activo: true
+  Materia_33:
+    nombre: Mecanografía
+    semestre: '4'
+    clave: ME100
+    activo: true
+  Materia_34:
+    nombre: Costura
+    semestre: '2'
+    clave: CM100
+    activo: true
+  Materia_35:
+    nombre: Costura
+    semestre: '4'
+    clave: CM100
+    activo: true
+  Materia_36:
+    nombre: 'Primeros Auxilios II'
+    semestre: '2'
+    clave: PA102
+    activo: true
+  Materia_37:
+    nombre: 'Primeros Auxilios II'
+    semestre: '4'
+    clave: PA102
+    activo: true
+  Materia_38:
+    nombre: Flauta
+    semestre: '2'
+    clave: FLA102
+    activo: true
+  Materia_39:
+    nombre: 'Predicación Expositiva'
+    semestre: '8'
+    clave: EPM402
+    activo: true
+  Materia_40:
+    nombre: Flauta
+    semestre: '4'
+    clave: FLA102
+    activo: true
+  Materia_41:
+    nombre: Piano
+    semestre: '2'
+    clave: PIA102
+    activo: true
+  Materia_42:
+    nombre: Piano
+    semestre: '4'
+    clave: PIA102
+    activo: true
+  Materia_43:
+    nombre: 'Educación Cristiana II'
+    semestre: '8'
+    clave: TP402
+    activo: true
+  Materia_44:
+    nombre: 'Familia Cristiana'
+    semestre: '8'
+    clave: TP422
+    activo: true
+  Materia_45:
+    nombre: 'Seminario Ministerial'
+    semestre: '8'
+    clave: TPH100
+    activo: true
+  Materia_46:
+    nombre: 'Seminario Doctrinal'
+    semestre: '8'
+    clave: TS402
+    activo: true
+  Materia_47:
+    nombre: Coro
+    semestre: '2'
+    clave: AGM200
+    activo: true
+  Materia_48:
+    nombre: Coro
+    semestre: '8'
+    clave: AGM200
+    activo: true
+  Materia_49:
+    nombre: Anuario
+    semestre: '6'
+    clave: AN100
+    activo: true
+  Materia_50:
+    nombre: Anuario
+    semestre: '8'
+    clave: AN100
+    activo: true
+  Materia_51:
+    nombre: Costura
+    semestre: '6'
+    clave: CM100
+    activo: true
+  Materia_52:
+    nombre: Costura
+    semestre: '8'
+    clave: CM100
+    activo: true
+  Materia_55:
+    nombre: Piano
+    semestre: '6'
+    clave: PIA102
+    activo: true
+  Materia_57:
+    nombre: Flauta
+    semestre: '6'
+    clave: FLA102
+    activo: true
+  Materia_58:
+    nombre: Flauta
+    semestre: '8'
+    clave: FLA102
+    activo: true
+  Materia_56:
+    nombre: Piano
+    semestre: '8'
+    clave: PIA102
+    activo: true
+  Materia_53:
+    nombre: 'Primeros Auxulios II'
+    semestre: '6'
+    clave: PA102
+    activo: true
+  Materia_54:
+    nombre: 'Primeros Auxulios II'
+    semestre: '8'
+    clave: PA102
+    activo: true
+  Materia_59:
+    nombre: 'Educación Física'
+    semestre: '6'
+    clave: EF100
+    activo: true
+  Materia_60:
+    nombre: 'Educación Física'
+    semestre: '8'
+    clave: EF100
+    activo: true
+  Materia_61:
+    nombre: 'Griego II'
+    semestre: '2'
+    clave: GR-II
+    activo: true
+  Materia_62:
+    nombre: 'Griego II'
+    semestre: '4'
+    clave: GR-II
+    activo: true
+  Materia_63:
+    nombre: 'Griego II'
+    semestre: '6'
+    clave: GR-II
+    activo: true
+  Materia_64:
+    nombre: 'Griego II'
+    semestre: '8'
+    clave: GR-II
+    activo: true
+  Materia_65:
+    nombre: 'Libros Historicos'
+    semestre: '2'
+    clave: LIB102
+    activo: true
+  Materia_66:
+    nombre: 'Libros Historicos'
+    semestre: '4'
+    clave: LIB102
+    activo: true
+  Materia_67:
+    nombre: 'Libros Historicos'
+    semestre: '6'
+    clave: LIB102
+    activo: true
+  Materia_68:
+    nombre: 'Libros Historicos'
+    semestre: '8'
+    clave: LIB102
+    activo: true
+  Materia_69:
+    nombre: 'Esposa de pastor II'
+    semestre: '8'
+    clave: TPM402
+    activo: true
+  Materia_71:
+    nombre: 'Pedagogia Avanzada'
+    semestre: '8'
+    clave: EPM402
+    activo: true
+  Materia_72:
+    nombre: Voz
+    semestre: '2'
+    clave: Voz102
+    activo: true
+  Materia_73:
+    nombre: Voz
+    semestre: '4'
+    clave: Voz102
+    activo: true
+  Materia_74:
+    nombre: Voz
+    semestre: '6'
+    clave: Voz102
+    activo: true
+  Materia_75:
+    nombre: Voz
+    semestre: '8'
+    clave: Voz102
+    activo: true
+  Materia_70:
+    nombre: Homiletica
+    semestre: '6'
+    clave: EPM302
+    activo: true
+  Materia_80:
+    nombre: Abc
+    semestre: '6'
+    clave: CM100
+    activo: true
+Profesor:
+  Profesor_2:
+    rfc: RESC890106
+    nombre: Karo
+    a_paterno: 'De los Reyes'
+    a_materno: Mtz
+    direccion: a
+    colonia: a
+    ciudad: a
+    estado: SONORA
+    cp: '83000'
+    sexo: masculino
+    telefono: '4666632172'
+    celular: ''
+    email: karodlr5@gmail.com
+    foto: ''
+    activo: true
+    observaciones: ''
+  Profesor_1:
+    rfc: SAIN770519
+    nombre: Irene
+    a_paterno: Estrella
+    a_materno: a
+    direccion: a
+    colonia: a
+    ciudad: a
+    estado: SONORA
+    cp: '12345'
+    sexo: masculino
+    telefono: '1111111111'
+    celular: '1'
+    email: aestrella09@hotmail.com
+    foto: a
+    activo: true
+    observaciones: ''
+  Profesor_3:
+    rfc: WOXD721111
+    nombre: Daniel
+    a_paterno: Wokaty
+    a_materno: a
+    direccion: a
+    colonia: a
+    ciudad: a
+    estado: SONORA
+    cp: '12345'
+    sexo: masculino
+    telefono: '1111111111'
+    celular: ''
+    email: danopal@cleaninter.net
+    foto: a
+    activo: true
+    observaciones: ''
+  Profesor_4:
+    rfc: HUXK580522
+    nombre: Keith
+    a_paterno: Huhta
+    a_materno: a
+    direccion: a
+    colonia: a
+    ciudad: a
+    estado: SONORA
+    cp: '12345'
+    sexo: masculino
+    telefono: '1111111111'
+    celular: ''
+    email: khuhta@mgmi.org
+    foto: a
+    activo: true
+    observaciones: ''
+  Profesor_6:
+    rfc: COXR571117
+    nombre: Ronald
+    a_paterno: Cochran
+    a_materno: a
+    direccion: a
+    colonia: a
+    ciudad: a
+    estado: SONORA
+    cp: '12345'
+    sexo: masculino
+    telefono: '1111111111'
+    celular: ''
+    email: rcochran@mgmi.org
+    foto: a
+    activo: true
+    observaciones: ''
+  Profesor_7:
+    rfc: RIMA890367
+    nombre: 'Abraham Moreno '
+    a_paterno: Moreno
+    a_materno: a
+    direccion: 'Juarez 520 int 9'
+    colonia: a
+    ciudad: Salvatierra
+    estado: SONORA
+    cp: '38900'
+    sexo: masculino
+    telefono: '4611433296'
+    celular: ''
+    email: linuxskaa@gmail.com
+    foto: ''
+    activo: true
+    observaciones: ''
+  Profesor_9:
+    rfc: GUVJ861120
+    nombre: Josué
+    a_paterno: Guzmán
+    a_materno: a
+    direccion: a
+    colonia: a
+    ciudad: a
+    estado: SONORA
+    cp: '12345'
+    sexo: masculino
+    telefono: '1111111111'
+    celular: ''
+    email: josue_g_v@hotmail.com
+    foto: a
+    activo: true
+    observaciones: ''
+  Profesor_10:
+    rfc: DAPD810913
+    nombre: Octavio
+    a_paterno: Dávalos
+    a_materno: a
+    direccion: a
+    colonia: a
+    ciudad: a
+    estado: SONORA
+    cp: '12345'
+    sexo: masculino
+    telefono: '1111111111'
+    celular: ''
+    email: pastordavalospadilla@hotmail.com
+    foto: a
+    activo: true
+    observaciones: ''
+  Profesor_11:
+    rfc: CAHV720728
+    nombre: 'Víctor '
+    a_paterno: Cadena
+    a_materno: a
+    direccion: a
+    colonia: a
+    ciudad: a
+    estado: SONORA
+    cp: '12345'
+    sexo: masculino
+    telefono: '1111111111'
+    celular: ''
+    email: vcadena72@hotmail.com
+    foto: a
+    activo: true
+    observaciones: ''
+  Profesor_13:
+    rfc: VILO770909
+    nombre: Omar
+    a_paterno: Villanueva
+    a_materno: a
+    direccion: a
+    colonia: a
+    ciudad: a
+    estado: SONORA
+    cp: '12345'
+    sexo: masculino
+    telefono: '1111111111'
+    celular: ''
+    email: omarvilo9@hotmail.com
+    foto: a
+    activo: true
+    observaciones: ''
+  Profesor_14:
+    rfc: FOGA690702
+    nombre: Adalberto
+    a_paterno: Flores
+    a_materno: a
+    direccion: a
+    colonia: a
+    ciudad: a
+    estado: SONORA
+    cp: '12345'
+    sexo: masculino
+    telefono: '1111111111'
+    celular: ''
+    email: adalbertofloresg@hotmail.com
+    foto: a
+    activo: true
+    observaciones: ''
+  Profesor_15:
+    rfc: MIRL760820
+    nombre: Luis
+    a_paterno: Miranda
+    a_materno: a
+    direccion: a
+    colonia: a
+    ciudad: a
+    estado: SONORA
+    cp: '12345'
+    sexo: masculino
+    telefono: '1111111111'
+    celular: ''
+    email: luis-miranda-76@hotmail.com
+    foto: a
+    activo: true
+    observaciones: ''
+  Profesor_16:
+    rfc: GAOY890808
+    nombre: Yomara
+    a_paterno: Gama
+    a_materno: a
+    direccion: a
+    colonia: a
+    ciudad: a
+    estado: SONORA
+    cp: '12345'
+    sexo: femenino
+    telefono: '1111111111'
+    celular: ''
+    email: yomaragama@outlook.com
+    foto: ''
+    activo: true
+    observaciones: ''
+  Profesor_8:
+    rfc: AACI741007
+    nombre: 'Isaac '
+    a_paterno: Álvarez
+    a_materno: a
+    direccion: a
+    colonia: a
+    ciudad: a
+    estado: SONORA
+    cp: '12345'
+    sexo: masculino
+    telefono: '1111111111'
+    celular: ''
+    email: alvarezbechelani@gmail.com
+    foto: a
+    activo: true
+    observaciones: ''
+  Profesor_17:
+    rfc: MAZJ681025
+    nombre: 'María Jesús'
+    a_paterno: Mariscal
+    a_materno: a
+    direccion: a
+    colonia: a
+    ciudad: a
+    estado: SONORA
+    cp: '12345'
+    sexo: femenino
+    telefono: '1111111111'
+    celular: a
+    email: chuyita20@hotmail.com
+    foto: ''
+    activo: true
+    observaciones: ''
+  Profesor_18:
+    rfc: GEME780827
+    nombre: Elizabeth
+    a_paterno: Gerardo
+    a_materno: a
+    direccion: a
+    colonia: a
+    ciudad: a
+    estado: SONORA
+    cp: '12345'
+    sexo: masculino
+    telefono: '1111111111'
+    celular: ''
+    email: lizgerardo2012@hotmail.com
+    foto: ''
+    activo: true
+    observaciones: ''
+  Profesor_19:
+    rfc: COXJ550815
+    nombre: Jacquelyn
+    a_paterno: Cochran
+    a_materno: a
+    direccion: a
+    colonia: a
+    ciudad: a
+    estado: SONORA
+    cp: '12345'
+    sexo: masculino
+    telefono: '1111111111'
+    celular: ''
+    email: rjcoch@prodigy.net.mx
+    foto: ''
+    activo: true
+    observaciones: ''
+  Profesor_20:
+    rfc: RAXT661219
+    nombre: Thelma
+    a_paterno: Ramos
+    a_materno: a
+    direccion: a
+    colonia: a
+    ciudad: a
+    estado: SONORA
+    cp: '12345'
+    sexo: masculino
+    telefono: '1111111111'
+    celular: ''
+    email: thelmaramosz@hotmail.com
+    foto: ''
+    activo: true
+    observaciones: ''
+  Profesor_21:
+    rfc: WOXO680405
+    nombre: Opal
+    a_paterno: Wokaty
+    a_materno: a
+    direccion: a
+    colonia: a
+    ciudad: a
+    estado: SONORA
+    cp: '12345'
+    sexo: masculino
+    telefono: '1111111111'
+    celular: ''
+    email: opalwokaty@cleaninter.net
+    foto: ''
+    activo: true
+    observaciones: ''
+  Profesor_22:
+    rfc: PUCI711203
+    nombre: Ibérica
+    a_paterno: Puc
+    a_materno: a
+    direccion: a
+    colonia: a
+    ciudad: a
+    estado: SONORA
+    cp: '12345'
+    sexo: masculino
+    telefono: '1111111111'
+    celular: ''
+    email: ibericapc@gmail.com
+    foto: ''
+    activo: true
+    observaciones: ''
+  Profesor_12:
+    rfc: AEVM661200
+    nombre: Manuel
+    a_paterno: Acedo
+    a_materno: a
+    direccion: a
+    colonia: a
+    ciudad: a
+    estado: SONORA
+    cp: '12345'
+    sexo: masculino
+    telefono: '1111111111'
+    celular: ''
+    email: macedo66@hotmail.com
+    foto: a
+    activo: true
+    observaciones: ''
+  Profesor_23:
+    rfc: AEVM661210
+    nombre: Manuel
+    a_paterno: Acedo
+    a_materno: Vallejo
+    direccion: a
+    colonia: a
+    ciudad: a
+    estado: SONORA
+    cp: '83000'
+    sexo: masculino
+    telefono: '4611433296'
+    celular: ''
+    email: macedova66@gmail.com
+    foto: ''
+    activo: true
+    observaciones: ''
+  Profesor_24:
+    rfc: LUCI810407
+    nombre: 'Isaac Alberto'
+    a_paterno: Luna
+    a_materno: Campos
+    direccion: 'Dr Noriega'
+    colonia: Centro
+    ciudad: Hermosillo
+    estado: SONORA
+    cp: '83000'
+    sexo: masculino
+    telefono: '6622172748'
+    celular: '66221193331'
+    email: isaacluna2000@hotmail.com
+    foto: ''
+    activo: true
+    observaciones: ''
+  Profesor_25:
+    rfc: RIMA890311
+    nombre: Abraham
+    a_paterno: Moreno
+    a_materno: a
+    direccion: 'Juarez 520 int 9'
+    colonia: a
+    ciudad: Salvatierra
+    estado: SONORA
+    cp: '38900'
+    sexo: masculino
+    telefono: '0146114332'
+    celular: ''
+    email: linuxska@gmail.com
+    foto: 13daee59dcc8a8c0fef8b8d3c3434419a4b5084c.jpg
+    activo: true
+    observaciones: ''
+Mes:
+  Mes_1:
+    nombre: Enero
+  Mes_2:
+    nombre: Febrero
+  Mes_3:
+    nombre: Marzo
+  Mes_4:
+    nombre: Abril
+  Mes_5:
+    nombre: Mayo
+  Mes_6:
+    nombre: Junio
+  Mes_7:
+    nombre: Julio
+  Mes_8:
+    nombre: Agosto
+  Mes_9:
+    nombre: Septiembre
+  Mes_10:
+    nombre: Octubre
+  Mes_11:
+    nombre: Noviembre
+  Mes_12:
+    nombre: Diciembre
+Periodo:
+  Periodo_1:
+    periodo: Primavera
+    inicio_periodo: Mes_1
+    final_periodo: Mes_5
+    nombre_corto: PRI-2013
+  Periodo_2:
+    periodo: Otoño
+    inicio_periodo: Mes_8
+    final_periodo: Mes_12
+    nombre_corto: OTO-2013
+Salon:
+  Salon_1:
+    salon: 'Aula 1'
+  Salon_2:
+    salon: 'Aula 2'
+  Salon_3:
+    salon: 'Aula 3'
+  Salon_4:
+    salon: SUM
+Curso:
+  Curso_1:
+    id_materia: Materia_1
+    id_profesor: Profesor_2
+    id_periodo: Periodo_1
+    id_salon_lunes: Salon_1
+    anno: '2013'
+    estado: true
+FolioControl:
+  FolioControl_1:
+    anno: '2013'
+    consecutivo: 1
+Lista:
+  Lista_2:
+    id_alumno: Alumno_1
+    id_curso: Curso_1
+    fecha_inscripcion: '2013-01-18'
+    primera_calificacion_examen: 1
+    calificacion_parcial: 1
+    segunda_calificacion_examen: 1
+    calificacion_final: 1
+    aprobado: false
+    observaciones: ''
+    inasistencia: 1
+    externo: false
+    recursando: false
+  Lista_3:
+    id_alumno: Alumno_1
+    id_curso: Curso_1
+    fecha_inscripcion: '2013-01-20'
+    aprobado: false
+    observaciones: ''
+    externo: false
+    recursando: false
+  Lista_4:
+    id_alumno: Alumno_1
+    id_curso: Curso_1
+    fecha_inscripcion: '2013-01-21'
+    aprobado: false
+    observaciones: ''
+    externo: false
+    recursando: false
+  Lista_5:
+    id_alumno: Alumno_1
+    id_curso: Curso_1
+    fecha_inscripcion: '2013-01-21'
+    aprobado: false
+    observaciones: ''
+    externo: false
+    recursando: false
