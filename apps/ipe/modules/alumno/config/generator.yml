@@ -23,7 +23,9 @@ generator:
         title: false
         display: [=numero_control, a_paterno, a_materno, nombre, telefono, email, inscrito]
         batch_actions: {}
-        object_actions: {}
+        object_actions:
+          ImprimirAlumnoKardex:
+            label: Imprimir kardex
         max_per_page: 50
         actions:
           eliminarPreinscritos:

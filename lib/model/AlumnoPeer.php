@@ -18,10 +18,11 @@
  */
 class AlumnoPeer extends BaseAlumnoPeer {
 
- static public function getAlumnoByNoControlCriteria($no_control) {
+ static public function getAlumnoByNumeroControlCriteria($numero_control) {
+        
         $c = new Criteria;
 
-        $c->add(self::NUMERO_CONTROL, $no_control, Criteria::EQUAL);
+        $c->add(self::NUMERO_CONTROL, $numero_control, Criteria::EQUAL);
 
         return $c;
     }
@@ -53,7 +54,9 @@ class AlumnoPeer extends BaseAlumnoPeer {
 
     
     static public function getAlumno(array $request) {
-         return self::doSelectOne(self::getAlumnoByNoControlCriteria($request['no_control']));
+
+         return self::doSelectOne(self::getAlumnoByNumeroControlCriteria($request['numero_control']));
+
     }
 
 } // AlumnoPeer

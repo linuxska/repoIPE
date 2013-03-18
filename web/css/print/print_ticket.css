@@ -1,0 +1,28 @@
+table.layout tr td, table.layout tr th{
+    border-width: 0px;
+    width: 45%;
+}
+div.ticket table {
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+div.ticket table tr th.header {
+    text-align: center;
+    text-transform: uppercase;
+}
+div.ticket table tr td.header {
+    text-align: center;
+}
+div.ticket table tr th {
+    text-align: left;
+}
+div.ticket table tr td, div.ticket table tr th{
+    border-width: 0px;
+}
+div.ticket table tr th.image {
+    display: none;
+}
+div.ticket table tr td.sign {
+    padding-top: 3em;
+}

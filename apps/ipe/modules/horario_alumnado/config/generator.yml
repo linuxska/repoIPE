@@ -1,0 +1,25 @@
+generator:
+  class: sfPropelGenerator
+  param:
+    model_class:           Lista
+    theme:                 admin
+    non_verbose_templates: true
+    with_show:             false
+    singular:              Lista
+    plural:                Listas
+    route_prefix:          lista_horario_alumnado
+    with_propel_route:     1
+    actions_base_class:    sfActions
+
+    config:
+      actions: ~
+      fields:
+        id: { label: "Clave" }
+        id_curso: { label: "Materia" }
+      list:    
+        title: false
+      filter:
+        display: [id_curso]
+      form:    ~
+      edit:    ~
+      new:     ~

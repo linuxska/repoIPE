@@ -2,7 +2,7 @@
 $alumno = AlumnoPeer::retrieveByPK($lista->getIdAlumno());
 $curso = CursoPeer::retrieveByPK($lista->getIdCurso());
 $profesor = ProfesorPeer::retrieveByPK($curso->getIdProfesor());
-$salon = SalonPeer::retrieveByPK($curso->getIdSalon());
+//$salon = SalonPeer::retrieveByPK($curso->getSalonLunes());
 $periodo = PeriodoPeer::retrieveByPK($curso->getIdPeriodo());
 $materia = MateriaPeer::retrieveByPK($curso->getIdMateria());
 //$idioma = IdiomaPeer::retrieveByPK($nivel->getIdIdioma());
@@ -19,13 +19,13 @@ $materia = MateriaPeer::retrieveByPK($curso->getIdMateria());
                     <div class="ticket">
                         <table>
                             <thead>
-                                <tr><th colspan="2" class="header image"><img alt="CI" src="/images/print/ci.png"></th></tr>
+                                <tr><th colspan="2" class="header image"><img alt="CI" src="/images/print/ipe.gif"></th></tr>
                                 <tr><th colspan="2" class="header">Sistema<br />Instituto Práctico Ebenezer<br />comprobante/maestro</th></tr>
                             </thead>
                             <tbody>
                                 <tr><th>Nombre</th><td><?php echo sprintf("[ %s ]<br /> %s", $alumno->getNumeroControl(), $alumno) ?></td></tr>
                                 <tr><th>Materia</th><td><?php echo sprintf("%s", $materia->getNombre()) ?></td></tr>
-                                <tr><th>Salon / Horario</th><td><?php echo sprintf("%s ", $salon) ?></td></tr>
+                                
                                 <tr><th>Maestro</th><td><?php echo $profesor ?></td></tr>
                                 <tr><th>Modalidad</th><td><?php echo $periodo ?></td></tr>
                                 <tr><th>Fecha (inscripción)</th><td><?php echo $lista->getFechaInscripcion() ?></td></tr>

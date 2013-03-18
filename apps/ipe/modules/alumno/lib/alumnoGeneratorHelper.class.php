@@ -13,4 +13,8 @@ class alumnoGeneratorHelper extends BaseAlumnoGeneratorHelper
 	 public function linkToEliminarPreinscritos() {
         return sprintf('<a href="%s">Eliminar Alumnos Preinscritos</a>', url_for('@alumno_eliminar_preinscritos'));
     }
+    public function linkToImprimirKardex($object, $params) {
+       
+        return sprintf('<a href="%s">Imprimir Kardex </a>', url_for('@imprimir_alumno_kardex?id='.$object->getNumeroControl()));
+    }
 }

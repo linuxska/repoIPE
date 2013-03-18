@@ -20,7 +20,7 @@ generator:
         display: [=nombre]
         batch_actions: {}
         object_actions: {}
-        max_per_page: 10
+        max_per_page: 12
         actions:
           _new:
             label: Agregar mes

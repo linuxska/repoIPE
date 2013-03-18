@@ -1,0 +1,45 @@
+table.report{
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: separate;
+    border-spacing: 1px;
+    background-color: white;
+}
+
+table.report thead tr th.header{
+    background-color: #005;
+    color:white;
+    text-transform: uppercase;
+}
+table.report thead tr th.number{
+    width: 50px;
+    background-color: #99f;
+}
+table.report thead tr th.text{
+    width: 200px;
+    background-color: #99f;
+}
+table.report thead tr th.left{
+    text-align: left;
+    background-color: white;
+}
+
+table.report tbody tr td.lang, table.report tbody tr td.level, table.report tbody tr td.career, table.report tbody tr td.semester{
+    vertical-align: top;
+}
+table.report tbody tr td.right{
+    text-align: right;
+}
+table.report tbody tr td.total{
+    vertical-align: bottom;
+}
+table.report tbody tr td.grand_total, table.report tbody tr td.subtotal {
+    font-weight: bold;
+}
+table.report tbody tr td.subtotal {
+    text-align: center;
+    background-color: #DDDDDD !important;
+}
+table.report tbody tr td.odd{
+    background-color: #ccf;
+}

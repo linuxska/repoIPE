@@ -16,11 +16,11 @@ class salonActions extends autoSalonActions
 
 public function executeImprimirHorario(sfWebRequest $request) {
         try {
-            
+
             $this->salon = $this->getRoute()->getObject();
 
         } catch (sfError404Exception $e) {
-            var_dump($this); die();
+
             $this->getUser()->setFlash('error', "El salon solicitado no existe.");
             $this->redirect('@salon');
         }

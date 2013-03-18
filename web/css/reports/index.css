@@ -1,0 +1,38 @@
+div.table{
+    display:table;
+    margin-left: auto;
+    margin-right: auto;
+}
+div.row{
+    display:table-row;
+}
+div.cell{
+    display:table-cell;
+}
+div.widget{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+div.widget label {
+    font-weight: bold;
+}
+div.widget div.data span.help {
+    font-style: italic;
+}
+div.widget div.data span.error ul.error_list {
+ padding:0px;
+ margin:0px;
+ padding-left:5px;
+ list-style-type:none;
+}
+div.widget div.data span.error ul.error_list li {
+ display:inline;
+ font-size:x-small;
+ color:red;
+}
+div.actions{
+    text-align: right;
+}
+div.error{
+    
+}

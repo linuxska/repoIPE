@@ -354,6 +354,13 @@ class AlumnoForm extends BaseAlumnoForm
              theme_advanced_buttons3 : "",
              theme_advanced_statusbar_location : "none"
                     '));
+        $this->widgetSchema['peticion_oracion'] = new sfWidgetFormTextareaTinyMCE(
+        array('theme'=>'advanced','width'=>50,'height'=>50,'config'=>'language:"es",theme_advanced_toolbar_location:"bottom",
+             theme_advanced_buttons1 : "bold,italic,underline,strikethrough,separator,justifyleft,justifycenter,justifyright,justifyfull,separator,forecolor,backcolor,separator",
+             theme_advanced_buttons2 : "fontselect,fontsizeselect,separator,bullist,numlist,separator,outdent,indent,separator",
+             theme_advanced_buttons3 : "",
+             theme_advanced_statusbar_location : "none"
+                    '));
 
     }
 }

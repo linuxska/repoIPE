@@ -22,7 +22,7 @@
     <?php foreach ($listas as $lista): ?>
     <tr class = "sf_admin_row odd">
       <td sf_admin_row even><?php echo $lista->getCurso()->getAnno() ?></td>
-      <td><?php echo $lista->getCurso()->getPeriodo() ?></td>      
+      <td><?php echo $lista->getCurso()->getPeriodo() ?></td>
       <td><?php echo $lista->getCurso()->getMateria() ?></td>
       <td><?php echo $lista->getCurso()->getProfesor() ?></td>
       <td><?php echo $lista->getInasistencia() ?></td>
@@ -38,4 +38,10 @@
 </div>
 </div>
 </div>
+<ul class="sf_admin_actions">
+  <li class="sf_admin_action_imprimirhorario">
+  <a href="/ipe_dev.php/si/alumno/imprimir_horario/<?php echo $alumno->getNumeroControl();?>">Imprimir Horario</a>
+  <a href="/ipe_dev.php/si/alumno/imprimir_kardex/<?php echo $alumno->getNumeroControl();?>">Imprimir Kardex</a>
+  </li>
+</ul>
 </div>

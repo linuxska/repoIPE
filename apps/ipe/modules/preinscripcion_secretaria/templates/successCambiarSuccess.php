@@ -2,7 +2,7 @@
 $alumno = AlumnoPeer::retrieveByPK($lista->getIdAlumno());
 $curso = CursoPeer::retrieveByPK($lista->getIdCurso());
 $profesor = ProfesorPeer::retrieveByPK($curso->getIdProfesor());
-$salon = SalonPeer::retrieveByPK($curso->getIdSalon());
+//$salon = SalonPeer::retrieveByPK($curso->getSalonLunes());
 $periodo = PeriodoPeer::retrieveByPK($curso->getIdPeriodo());
 $nivel = NivelPeer::retrieveByPK($curso->getIdNivel());
 $idioma = IdiomaPeer::retrieveByPK($nivel->getIdIdioma());
@@ -25,7 +25,6 @@ $idioma = IdiomaPeer::retrieveByPK($nivel->getIdIdioma());
                             <tbody>
                                 <tr><th>Nombre</th><td><?php echo sprintf("[ %s ]<br /> %s", $alumno->getNoControl(), $alumno) ?></td></tr>
                                 <tr><th>Nivel</th><td><?php echo sprintf("%s - %s", $idioma->getIdioma(), $nivel->getNivel()) ?></td></tr>
-                                <tr><th>Salon / Horario</th><td><?php echo sprintf("%s de %s a %s", $salon, $curso->getHoraInicio(), $curso->getHoraFinal()) ?></td></tr>
                                 <tr><th>Maestro</th><td><?php echo $profesor ?></td></tr>
                                 <tr><th>Modalidad</th><td><?php echo $periodo ?></td></tr>
                                 <tr><th>Fecha (inscripción)</th><td><?php echo $lista->getFechaInscripcion() ?></td></tr>

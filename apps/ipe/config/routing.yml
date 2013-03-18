@@ -1,3 +1,21 @@
+lista_horario_alumnado:
+  class: sfPropelRouteCollection
+  options:
+    model:                Lista
+    module:               horario_alumnado
+    prefix_path:          /horario_alumnado
+    column:               id
+    with_wildcard_routes: true
+
+alumno_horario_alumno:
+  class: sfPropelRouteCollection
+  options:
+    model:                Alumno
+    module:               horario_alumno
+    prefix_path:          /horario_alumno
+    column:               id
+    with_wildcard_routes: true
+
 #################################ADMIN GENERATOR################################
 
 profesor:
@@ -319,6 +337,33 @@ salon_imprimir_horario:
     id:             \d+
     sf_method:      [get]
   param:            { module: salon, action: ImprimirHorario, sf_format: pdf }
+
+alumno_imprimir_horario:
+  url:              /si/alumno/imprimir_horario/:numero_control.:sf_format
+  class:            sfPropelRoute
+  options:          { model: Alumno, type: object, method: getAlumno }
+  requirements:
+    id:             \d+
+    sf_method:      [get]
+  param:            { module: lista_alumno, action: ImprimirHorario, sf_format: pdf }
+
+alumno_imprimir_kardex:
+  url:              /si/alumno/imprimir_kardex/:numero_control.:sf_format
+  class:            sfPropelRoute
+  options:          { model: Alumno, type: object, method: getAlumno }
+  requirements:
+    id:             \d+
+    sf_method:      [get]
+  param:            { module: lista_alumno, action: ImprimirKardex, sf_format: pdf }
+
+imprimir_alumno_kardex:
+  url:              /alumno/imprimir_kardex/:numero_control.:sf_format
+  class:            sfPropelRoute
+  options:          { model: Alumno, type: object, method: getAlumno }
+  requirements:
+    id:             \d+
+    sf_method:      [get]
+  param:            { module: alumno, action: ImprimirKardex, sf_format: pdf }
 
 lista_capturar:
   url:              /lista/capturar/:id.:sf_format

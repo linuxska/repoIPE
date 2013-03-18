@@ -27,12 +27,15 @@ class Decimalen extends BaseDecimalen {
 
 	public function getIdInteger()
 	{
+		if ($this->getInteger()==null)
+			return "";
+		else
 		if (($this->id_integer)<10)
 			return sprintf("00%s %s",  $this->id_integer, $this->getInteger()->getName());
 		elseif (($this->id_integer)<100)
 			return sprintf("0%s %s",  $this->id_integer, $this->getInteger()->getName());
 		elseif (($this->id_integer)<1000)
 			return sprintf("%s %s",   $this->id_integer, $this->getInteger()->getName() );
-	}
+}
 
 } // Decimalen

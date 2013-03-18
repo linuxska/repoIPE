@@ -23,7 +23,7 @@ ipe:
   # header title
   PDF_HEADER_TITLE: "Instituto Práctico Ebenezer"
   # header description string
-  PDF_HEADER_STRING: "Instituto Práctico Ebenezer\n Departamento Academico"
+  PDF_HEADER_STRING: "   Departamento Académico\nhttp://www.institutoebenezer.net"
   # image logo
   PDF_HEADER_LOGO: "ipe.gif"
   # header logo image width [mm]

@@ -21,7 +21,7 @@
   <div id="sf_admin_content">
     <?php include_partial('lista/list', array('pager' => $pager, 'sort' => $sort, 'helper' => $helper)) ?>
     <ul class="sf_admin_actions">
-      <li><a href="<?php echo url_for('@curso_lista_profesor') ?>">Volver</a></li>
+      
       <?php include_partial('lista/list_batch_actions', array('helper' => $helper)) ?>
       <?php if(isset($curso)){ ?>
       <?php include_partial('lista/list_actions', array('helper' => $helper, 'curso' => $curso));  ?>
