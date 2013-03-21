@@ -12,8 +12,8 @@
 							<th class="sf_admin_text sf_admin_list_th_idioma">Faltas</th>
 							<th class="sf_admin_text sf_admin_list_th_idioma">Examen Bimestral</th>
 							<th class="sf_admin_text sf_admin_list_th_idioma">Promedio Bimestral</th>
-							<th class="sf_admin_text sf_admin_list_th_idioma">Examen Bimestral</th>
-							<th class="sf_admin_text sf_admin_list_th_idioma">Promedio</th>
+							<th class="sf_admin_text sf_admin_list_th_idioma">Examen Final</th>
+							<th class="sf_admin_text sf_admin_list_th_idioma">Promedio Final</th>
 							<th class="sf_admin_text sf_admin_list_th_idioma">Observaciones</th>
 						    </tr> </thead>
 						<tbody>
