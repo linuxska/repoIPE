@@ -21,16 +21,7 @@ class cursoActions extends autoCursoActions
             $this->redirect('@curso');
         }
 
-	if ($this->getUser()->hasCredential('profesor') && !($this->getUser()->hasCredential('coordinadora'))) {       
-        	$c = new Criteria;
-		$c->add(ProfesorPeer::RFC, $this->getUser()->getUsername(), Criteria::EQUAL);
-		$profesor = ProfesorPeer::doSelectOne($c);
-		
-		if ($profesor->getId() != $this->curso->getIdProfesor()) {
-			$this->forward(sfConfig::get('sf_secure_module'), sfConfig::get('sf_secure_action'));
-		}
-        }
-        
+
         $content = $this->getPartial('lista');
 
         $lista = new IPE_03($content);
@@ -42,6 +33,7 @@ class cursoActions extends autoCursoActions
     }
 
     public function executeImprimirListaCalificacion(sfWebRequest $request) {
+        
         try {
             $this->curso = $this->getRoute()->getObject();
         } catch (sfError404Exception $e) {

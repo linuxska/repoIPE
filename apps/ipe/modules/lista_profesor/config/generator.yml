@@ -25,6 +25,11 @@ generator:
         curso: {label: Curso asignado}
       list:
         title: false
+        object_actions:
+          ImprimirListaCalificacion:
+            label: Imprimir Calificaciones
+          ImprimirLista:
+            label: Imprimir Lista
         batch_actions: {}
         actions: {}
         display: [Materia, Periodo, anno]

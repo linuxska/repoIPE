@@ -11,10 +11,10 @@
       <th class="sf_admin_text sf_admin_list_th_idioma">Nombre del Curso</th>
       <th class="sf_admin_text sf_admin_list_th_idioma">Nombre del Profesor</th>
       <th class="sf_admin_text sf_admin_list_th_idioma">Inasistencias</th>
-      <th class="sf_admin_text sf_admin_list_th_idioma">1er examen</th>
-      <th class="sf_admin_text sf_admin_list_th_idioma">Primer parcial</th>
-      <th class="sf_admin_text sf_admin_list_th_idioma">2do examen</th>
-      <th class="sf_admin_text sf_admin_list_th_idioma">Calificaion Final </th>
+      <th class="sf_admin_text sf_admin_list_th_idioma">Examen bimestral</th>
+      <th class="sf_admin_text sf_admin_list_th_idioma">Promedio bimestral</th>
+      <th class="sf_admin_text sf_admin_list_th_idioma">Examen final</th>
+      <th class="sf_admin_text sf_admin_list_th_idioma">Promedio Final </th>
       <th class="sf_admin_text sf_admin_list_th_idioma">Aprobado</th>
     </tr>
   </thead>
