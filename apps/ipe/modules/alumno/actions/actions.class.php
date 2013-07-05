@@ -58,16 +58,7 @@ class alumnoActions extends autoAlumnoActions
         $this->redirect('@alumno');
     }
     public function executeImprimirKardex(sfWebRequest $request) {
-
-
-        try {
-            $this->Alumno = $this->getRoute()->getObject();
-
-        } catch (sfError404Exception $e) {
-            $this->getUser()->setFlash('error', "El salon solicitado no existe.");
-            $this->redirect('@alumno');
-        }
-
+        
         $content = $this->getPartial('horario');
 
         $lista = new IPE_05($content);

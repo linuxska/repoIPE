@@ -212,10 +212,10 @@ propel:
     id_alumno: { phpName: IdAlumno, type: INTEGER, required: true, foreignTable: alumno, foreignReference: id, onDelete: RESTRICT, onUpdate: CASCADE }
     id_curso: { phpName: IdCurso, type: INTEGER, required: true, foreignTable: curso, foreignReference: id, onDelete: RESTRICT, onUpdate: CASCADE }
     fecha_inscripcion: { phpName: FechaInscripcion, type: DATE, required: true }
-    primera_calificacion_examen: { phpName: PrimeraCalificacionExamen, type: INTEGER, required: false }
-    calificacion_parcial: { phpName: CalificacionParcial, type: INTEGER, required: false }
-    segunda_calificacion_examen: { phpName: SegundaCalificacionExamen, type: INTEGER, required: false }
-    calificacion_final: { phpName: CalificacionFinal, type: INTEGER, required: false }
+    primera_calificacion_examen: { phpName: PrimeraCalificacionExamen, type: VARCHAR, size: '16', required: false }
+    calificacion_parcial: { phpName: CalificacionParcial, type: VARCHAR, size: '16', required: false }
+    segunda_calificacion_examen: { phpName: SegundaCalificacionExamen, type: VARCHAR, size: '16', required: false }
+    calificacion_final: { phpName: CalificacionFinal, type: VARCHAR, size: '16', required: false }
     aprobado: { phpName: Aprobado, type: BOOLEAN, required: true, defaultValue: false }
     observaciones: { phpName: Observaciones, type: LONGVARCHAR, required: false }
     inasistencia: { phpName: Inasistencia, type: INTEGER, required: false }

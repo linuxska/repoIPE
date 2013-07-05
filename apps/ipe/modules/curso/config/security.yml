@@ -7,3 +7,7 @@ ImprimirLista:
   
 ImprimirCalificacionLista:
   credentials: [[academico, secretaria, profesor]] 
+
+ImprimirListaCalificacion:
+  credentials: [[academico, secretaria, profesor]] 
+  

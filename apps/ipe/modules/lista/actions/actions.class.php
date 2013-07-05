@@ -38,7 +38,7 @@ class listaActions extends autoListaActions
                 $this->forward(sfConfig::get('sf_secure_module'), sfConfig::get('sf_secure_action'));
             }
             if (!$this->curso->getEstado()) :
-                $this->getUser()->setFlash('error', 'No es posible editar las calificaciones, si necesita alguna corrección acuda al aréa de atención.');
+                $this->getUser()->setFlash('error', 'No es posible editar las calificaciones, si necesita alguna corrección acuda al aréa de atención, parece ser que esta cerrado el curso.');
                 $this->redirect($home);
             endif;
         }

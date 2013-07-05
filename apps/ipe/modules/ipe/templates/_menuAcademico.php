@@ -41,6 +41,6 @@
                 <li class="app <?php echo in_array('profesor', explode('/', $sf_request->getUri())) ? "selected" : "" ?>"><a href="<?php echo url_for('@profesor') ?>" class="alternate">Profesores</a></li>
                 <li class="app <?php echo in_array('periodo', explode('/', $sf_request->getUri())) ? "selected" : "" ?>"><a href="<?php echo url_for('@periodo') ?>" class="alternate">Periodo</a></li>
                 <li class="app <?php echo in_array('mes', explode('/', $sf_request->getUri())) ? "selected" : "" ?>"><a href="<?php echo url_for('@mes') ?>" class="alternate">Meses</a></li>
-                <li class="app <?php echo in_array('salon', explode('/', $sf_request->getUri())) ? "selected" : "" ?>"><a href="<?php echo url_for('@salon') ?>" class="alternate">Salones</a></li>
+                <li class="app last <?php echo in_array('salon', explode('/', $sf_request->getUri())) ? "selected" : "" ?>"><a href="<?php echo url_for('@salon') ?>" class="alternate">Salones</a></li>
             </ul>
     </li>

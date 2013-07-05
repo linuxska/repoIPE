@@ -32,7 +32,7 @@
     <ul class="menu_sub">
         <li class="menu_header"><a class="alternate" href="<?php echo url_for('@homepage') ?>">Alumno</a></li>
         <li class="app <?php echo in_array('alumno_alumno', explode('/', $sf_request->getUri())) ? "selected" : "" ?>"><a href="<?php echo url_for('@alumno_alumno_alumno') ?>" class="alternate">Modificar Datos</a></li>
-        
+        <li class="app <?php echo in_array('oracion', explode('/', $sf_request->getUri())) ? "selected" : "" ?>"><a href="<?php echo url_for('@oracion_alumno') ?>" class="alternate">Peticiones de Oracion</a></li>
         <li class="app <?php echo in_array('calificaciones', explode('/', $sf_request->getUri())) ? "selected" : "" ?>"><a href="<?php echo url_for('@alumno_alumno_lista') ?>" class="alternate">Calificaciones</a></li>
     </ul>
 </li>

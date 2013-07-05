@@ -17,13 +17,14 @@ class lista_profesorGeneratorHelper extends BaseLista_profesorGeneratorHelper
 	public function linkToCapturarCalificaciones($object, $params) {
 		return sprintf('<a href="%s">Capturar Calificaciones</a>', url_for('@lista_capturar?id=' . $object->getId()));
 	}
+
+	public function linkToImprimirListaCalificacion($object, $params) {
+        return sprintf('<a href="%s">Imprimir Calificaciones</a>', url_for('@curso_imprimir_lista_calificacion?id=' . $object->getId()));
+    }
 	public function linkToImprimirLista($object, $params) {
-		return sprintf('<a href="%s">Imprimir lista</a>', url_for('@lista_capturar?id=' . $object->getId()));
-	}
-	public function linkToImprimirCalificaciones($object, $params) {
-		return sprintf('<a href="%s">Imprimir Calificaciones</a>', url_for('@lista_capturar?id=' . $object->getId()));
-	}
-	
+        return sprintf('<a href="%s">Imprimir Lista </a>', url_for('@curso_imprimir_lista?id=' . $object->getId()));
+    }
+
     public function linkToCerrarLista($object, $params) {
 		return sprintf('<a href="%s">Cerrar</a>', url_for('@lista_cerrar?id=' . $object->getId()));
 	}

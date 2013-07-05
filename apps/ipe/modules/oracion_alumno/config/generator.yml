@@ -1,0 +1,29 @@
+generator:
+  class: sfPropelGenerator
+  param:
+    model_class:           Alumno
+    theme:                 admin
+    non_verbose_templates: true
+    with_show:             false
+    singular:              Alumno
+    plural:                Alumnos
+    route_prefix:          alumno_oracion_alumno
+    with_propel_route:     1
+    actions_base_class:    sfActions
+
+    config:
+      actions:
+        fields:
+          informacion: { label: Información}
+      fields:  ~
+      list:    ~
+      filter:  ~
+      form:
+           class:
+              AlumnoOracionForm
+           actions:
+             _save:
+               label: Guardar
+      edit:
+        title: Peticion de oración
+      new:     ~

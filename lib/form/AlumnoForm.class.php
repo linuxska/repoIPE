@@ -1,6 +1,6 @@
 <?php
 
-/**
+/**  Revisar que pasen todos los documentos en true
  * Alumno form.
  *
  * @package    ipe
@@ -24,7 +24,7 @@ class AlumnoForm extends BaseAlumnoForm
 
     public function configure() {
         parent::configure();
-        unset($this['numero_control'], $this['inscrito'],$this['foto']);
+        unset($this['numero_control'], $this['inscrito'],$this['foto'], $this['preparatoria_pastor']);
 
         $this->setWidget('sexo', new sfWidgetFormChoice(array('choices' => $this->genero)));
         $this->setWidget('estado', new sfWidgetFormChoice(array('choices' => $this->estado)));
@@ -83,10 +83,18 @@ class AlumnoForm extends BaseAlumnoForm
         $this->validatorSchema['secundaria_final']->setMessage('required', 'Requerido');
         $this->validatorSchema['otra_fecha']->setMessage('required', 'Requerido');
         $this->validatorSchema['e_mail']->setMessage('required', 'Requerido');
-        $this->validatorSchema['testimonio_salvacion']->setMessage('required', 'Requerido');
-        $this->validatorSchema['testimonio_llamado']->setMessage('required', 'Requerido');
-        $this->validatorSchema['actividades_iglesia']->setMessage('required', 'Requerido');
+        //$this->validatorSchema['testimonio_salvacion']->setMessage('required', 'Requerido');
+        //$this->validatorSchema['testimonio_llamado']->setMessage('required', 'Requerido');
+        //$this->validatorSchema['actividades_iglesia']->setMessage('required', 'Requerido');
         $this->validatorSchema['situacion_medica']->setMessage('required', 'Requerido');
+
+        // Documentos necesarios [ Pendiente de hacer que funcione ]
+        $this->validatorSchema['recomendacion_pastor']->setMessage('required', 'Requerido');
+        $this->validatorSchema['carta_recomedacion_hermano']->setMessage('required', 'Requerido');
+        $this->validatorSchema['certificado_medico']->setMessage('required', 'Requerido');
+        $this->validatorSchema['acta_nacimiento']->setMessage('required', 'Requerido');
+        $this->validatorSchema['fotografias']->setMessage('required', 'Requerido');
+
 
 
         $this->validatorSchema['nombre']->setMessage('max_length', '"%value%" es muy grande (máximo %max_length% caracteres).');
@@ -131,7 +139,7 @@ class AlumnoForm extends BaseAlumnoForm
         $this->setValidator('iglesia_email', new sfValidatorEmail(array('max_length' => 128, 'required' => false), array('required' => 'Requerido.', 'invalid' => 'Inválido. me@example.com')));
         $this->setValidator('emergencia_email', new sfValidatorEmail(array('max_length' => 128, 'required' => false), array('required' => 'Requerido.', 'invalid' => 'Inválido. me@example.com')));
 
-
+        $this->mergePostValidator(new ValidatorDocumentosAlumnos());
         $this->widgetSchema->setLabels(array(
             'nombre' => 'Nombre(s)',
             'a_paterno' => 'Apellido Paterno',

@@ -1,6 +1,6 @@
 <br /><br /><br />
-        
-        
+
+
 <table  cellpadding="20" border="1">
     <tr>
         <th  style="background-color:#8989bb;color:#ffffff;text-align: center;font-weight: bold;" colspan="6">Instituto Práctico Ebenezer<br /></th>
@@ -57,7 +57,7 @@
                     break;
             }
         ?>
-        <?php $obj->__setCurso($cursomartes); ?>
+        <?php $obj->__setCurso($cursolunes); ?>
         <?php $materiaslunes[] =  $obj;?>
         <?php endforeach; ?>
 

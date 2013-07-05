@@ -1,3 +1,12 @@
+alumno_oracion_alumno:
+  class: sfPropelRouteCollection
+  options:
+    model:                Alumno
+    module:               oracion_alumno
+    prefix_path:          /oracion_alumno
+    column:               id
+    with_wildcard_routes: true
+
 lista_horario_alumnado:
   class: sfPropelRouteCollection
   options:
@@ -528,13 +537,17 @@ alumno_alumno_alumno:
     column:               id
     with_wildcard_routes: true
 
+oracion_alumno:
+  class: sfPropelRouteCollection
+  options:
+    model:                Alumno
+    module:               oracion_alumno
+    prefix_path:          /oracion_alumno
+    column:               id
+    with_wildcard_routes: true
+
 alumno_alumno_lista:
   url:              /si/alumno/calificaciones.:sf_format
   param:            { module: lista_alumno, action: index, sf_format: html }
   requirements:
    sf_method:       [get]
-
-
-
-
-
