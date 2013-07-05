@@ -4,14 +4,14 @@
     <?php include_http_metas() ?>
     <?php include_metas() ?>
     <title><?php include_slot('title', 'IPE')?></title>
-    <link rel="shortcut icon" href="/favicon.ico" />
+    <link rel="shortcut icon" href="/web/favicon.ico" />
     <?php include_stylesheets() ?>
     <?php include_javascripts() ?>
   </head>
   <body>
       <div id="header">
           <div id="logos">
-              <img alt="" src="/images/logos/banner.jpg" />
+              <img alt="" src="/web/images/logos/banner.jpg" />
           </div>
       </div>
       <div id="content" class="ipe_admin_content">

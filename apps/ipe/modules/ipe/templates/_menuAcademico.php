@@ -8,7 +8,7 @@
  */
 ?>
 
-    <li class="menu_role">
+  <!--  <li class="menu_role">
             <ul class="menu_sub">
                 <li class ="menu_sub_header"><a class="alternate" href="<?php echo url_for('@homepage') ?>"></a>Biblioteca Ebenener [ingles]</a></li>
                 <li class="app <?php echo in_array('book', explode('/', $sf_request->getUri())) ? "selected" : "" ?>"><a href="<?php echo url_for('@book') ?>" class="alternate">Catálogo de libros (ingles)</a></li>
@@ -32,7 +32,7 @@
                 <li class="app last <?php echo in_array('decimal', explode('/', $sf_request->getUri())) ? "selected" : "" ?>"><a href="<?php echo url_for('@decimal') ?>" class="alternate">Subcategorias</a></li>
             </ul>
     </li>
-
+-->
     <li class="menu_role">
             <ul class="menu_sub">
                 <li class ="menu_sub_header"><a class="alternate" href="<?php echo url_for('@homepage') ?>"></a>Catálogo Academico</a></li>

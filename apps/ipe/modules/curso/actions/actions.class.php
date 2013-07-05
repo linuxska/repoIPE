@@ -21,7 +21,7 @@ class cursoActions extends autoCursoActions
             $this->redirect('@curso');
         }
 
-	if ($this->getUser()->hasCredential('profesor') && !($this->getUser()->hasCredential('coordinadora'))) {       
+	/*if ($this->getUser()->hasCredential('profesor') && !($this->getUser()->hasCredential('coordinadora'))) {       
         	$c = new Criteria;
 		$c->add(ProfesorPeer::RFC, $this->getUser()->getUsername(), Criteria::EQUAL);
 		$profesor = ProfesorPeer::doSelectOne($c);
@@ -30,7 +30,8 @@ class cursoActions extends autoCursoActions
 			$this->forward(sfConfig::get('sf_secure_module'), sfConfig::get('sf_secure_action'));
 		}
         }
-        
+        Ã
+	*/
         $content = $this->getPartial('lista');
 
         $lista = new IPE_03($content);

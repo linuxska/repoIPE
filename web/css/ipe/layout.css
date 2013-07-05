@@ -33,7 +33,7 @@ div#menu li.menu_header, div#menu ul.menu_list li.app{
  cursor:pointer;
 }
 div#menu li.menu_header{
- background-image: url(/images/logos/header_menu.png);
+ background-image: url(/web/images/logos/header_menu.png);
  text-align:center;
  color:white;
  font-weight: bold;
@@ -41,7 +41,7 @@ div#menu li.menu_header{
 div#menu li.menu_sub_header{
  font-style:italic;
  text-align:center;
- background-image: url(/images/logos/header_menu.png);
+ background-image: url(/web/images/logos/header_menu.png);
  color:white;
  font-weight: bold;
 }

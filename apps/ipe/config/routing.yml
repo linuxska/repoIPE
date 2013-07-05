@@ -357,7 +357,7 @@ alumno_imprimir_kardex:
   param:            { module: lista_alumno, action: ImprimirKardex, sf_format: pdf }
 
 imprimir_alumno_kardex:
-  url:              /alumno/imprimir_kardex/:numero_control.:sf_format
+  url:              /alumno/imprimir_kardex/:id.:sf_format
   class:            sfPropelRoute
   options:          { model: Alumno, type: object, method: getAlumno }
   requirements:
