@@ -1,5 +1,7 @@
 cache/*
 log/*
+apps/ipe/templates/default.php
+apps/ipe/templates/layout.php
 web/uploads/*
 config/databases.yml
 config/ProjectConfiguration.class.php
