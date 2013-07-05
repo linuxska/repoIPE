@@ -71,7 +71,7 @@ class lista_profesorActions extends autoLista_profesorActions
 		$c = new Criteria;
 		$c->add(ProfesorPeer::RFC, $this->getUser()->getUsername(), Criteria::EQUAL);
 		$profesor = ProfesorPeer::doSelectOne($c);
-		
+	
 		$criteria->add(CursoPeer::ID_PROFESOR, $profesor->getId(), Criteria::EQUAL);
 		$criteria->add(CursoPeer::ESTADO, true);
 		

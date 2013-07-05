@@ -45,7 +45,7 @@ class cursoActions extends autoCursoActions
     }
 
     public function executeImprimirListaCalificacion(sfWebRequest $request) {
-        
+
         try {
             $this->curso = $this->getRoute()->getObject();
         } catch (sfError404Exception $e) {
@@ -57,12 +57,12 @@ class cursoActions extends autoCursoActions
             $c = new Criteria;
         $c->add(ProfesorPeer::RFC, $this->getUser()->getUsername(), Criteria::EQUAL);
         $profesor = ProfesorPeer::doSelectOne($c);
-        
+
         if ($profesor->getId() != $this->curso->getIdProfesor()) {
             $this->forward(sfConfig::get('sf_secure_module'), sfConfig::get('sf_secure_action'));
         }
         }
-        
+
         $content = $this->getPartial('listacalificacion');
 
         $lista = new IPE_04($content);

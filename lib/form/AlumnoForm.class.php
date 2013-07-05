@@ -10,7 +10,7 @@
 class AlumnoForm extends BaseAlumnoForm
 {
 
-  	const ID_GRUPO_ALUMNO = 5;
+  	const ID_GRUPO_ALUMNO = 49;
 
     protected $estado_civil = array('Soltero' => 'Soltero(a)','Divorciado' => 'Divorciado(a)', 'Casado' => 'Casado(a)','Viudo' => 'Viudo(a)');
 
