@@ -21,7 +21,7 @@ class cursoActions extends autoCursoActions
             $this->redirect('@curso');
         }
 
-<<<<<<< HEAD
+
 	/*if ($this->getUser()->hasCredential('profesor') && !($this->getUser()->hasCredential('coordinadora'))) {       
         	$c = new Criteria;
 		$c->add(ProfesorPeer::RFC, $this->getUser()->getUsername(), Criteria::EQUAL);
@@ -33,9 +33,7 @@ class cursoActions extends autoCursoActions
         }
         Ã
 	*/
-=======
 
->>>>>>> 416e4d38de38edcf0be991f68c73c948e59e2c8a
         $content = $this->getPartial('lista');
 
         $lista = new IPE_03($content);
