@@ -17,7 +17,7 @@
  * @package    lib.model
  */
 class Alumno extends BaseAlumno {
-const ID_GRUPO_ALUMNO=5;
+const ID_GRUPO_ALUMNO=49;
     
     private $__lista;
     
